@@ -1,17 +1,14 @@
 # ioBroker.life360
 
-![Logo](admin/life360.png)
+![Logo](admin/Life360_xl.svg)
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.life360.svg)](https://www.npmjs.com/package/iobroker.life360)
+
+
+![Number of Installations](https://iobroker.live/badges/iobroker.life360.svg) ![Current version in stable repository](https://iobroker.live/badges/life360-stable.svg)
+[![NPM Version](https://nodei.co/npm/iobroker.autodarts.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360.svg)](https://www.npmjs.com/package/iobroker.life360)
-![Number of Installations (latest)](https://iobroker.live/badges/life360-installed.svg)
-![Number of Installations (stable)](https://iobroker.live/badges/life360-stable.svg)
-[![Dependency Status](https://img.shields.io/david/MiGoller/iobroker.life360.svg)](https://david-dm.org/MiGoller/iobroker.life360)
-[![Known Vulnerabilities](https://snyk.io/test/github/MiGoller/ioBroker.life360/badge.svg)](https://snyk.io/test/github/MiGoller/ioBroker.life360)
 
-[![NPM](https://nodei.co/npm/iobroker.life360.png?downloads=true)](https://nodei.co/npm/iobroker.life360/)
-
-**Tests:** ![Test and Release](https://github.com/MiGoller/ioBroker.life360/workflows/Test%20and%20Release/badge.svg)
+[![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
 
 ## Life360 adapter for ioBroker
 
@@ -23,7 +20,7 @@ This adapter connects to the [Life360](https://www.life360.com) cloud services t
 
 ## Installation
 
-Right now you'll have to add the adapter to your ioBroker using a custom URL pointing to the corresponding [GitHub](https://github.com/) repository at https://github.com/MiGoller/ioBroker.life360/tree/master .
+Right now you'll have to add the adapter to your ioBroker using a custom URL pointing to the corresponding [GitHub](https://github.com/) repository at https://github.com/inventwo/ioBroker.life360/tree/master .
 
 ### Install the Node JS package on the command line
 
@@ -34,7 +31,7 @@ If you don't want to install the adapter using the web UI or if you want to inst
 3. Run the following commands
 
     ``` bash
-    iobroker npm install migoller/iobroker.life360 --loglevel error --prefix "/opt/iobroker"
+    iobroker npm install inventwo/iobroker.life360 --loglevel error --prefix "/opt/iobroker"
     ```
 
 4. Add an instance using the web UI
@@ -42,7 +39,7 @@ If you don't want to install the adapter using the web UI or if you want to inst
 If you want to install the development version just type ...
 
 ``` bash
-iobroker npm install migoller/iobroker.life360#develop --loglevel error --prefix "/opt/iobroker"
+iobroker npm install inventwo/iobroker.life360#develop --loglevel error --prefix "/opt/iobroker"
 ```
 
 ## Configuration
@@ -125,117 +122,18 @@ Feel free to modify the default timespan of 60 seconds for the polling interval.
   Placeholder for the next version (at the beginning of the line):
   ### **WORK IN PROGRESS**
 -->
-### 0.2.22 (2023-12-21)
+### 1.0.0 (2026-04-10)
 
-- (MiGoller) Fix for issue [#83 Verbindungsproblem 20.12.23 Check your credentials!](https://github.com/MiGoller/ioBroker.life360/issues/83) .
+- (skvarel) Transfer to inventwo organization
+- (skvarel) Updated dependencies to current versions
 
-### 0.2.21 (2023-08-01)
-
-- (MiGoller) Fix for issue [#76: Die Verbindung wurde hergestellt, die Authentifizierung konnte jedoch nicht durchgeführt werden. Überprüfen Sie Ihre Anmeldedaten!](https://github.com/MiGoller/ioBroker.life360/issues/76)
-- (MiGoller) Adopted Life360 API headers for Life360 API changes
-- (MiGoller) Bumped dependencies
-
-### 0.2.20 (2023-04-04)
-
-- (MiGoller) Fix for issue #73: Uncaught exception
-
-### 0.2.19 (2022-11-09)
-
-- (MiGoller) Fix for issue #64: Adapter v.0.2.18 fails to login
-
-### 0.2.18 (2022-06-10)
-
-- (MiGoller) Fix for issue #59: Adapter fails to authenticate after Life360 API changed.
-
-### 0.2.17 (2021-11-21)
-
-- (PeterVoronov) Fix for issue [#41: Fix for error in publishCirclePlaces "Cannot read property 'val' of null](https://github.com/MiGoller/ioBroker.life360/pull/41)
-- (MiGoller) Fix for issue [#44: V 0.2.16 warnung no places found](https://github.com/MiGoller/ioBroker.life360/issues/44)
-- (MiGoller) Fix for issue [#47: Keine Sonderzeichen möglich](https://github.com/MiGoller/ioBroker.life360/issues/47)
-
-### 0.2.16 (2021-07-12)
-
-- (MiGoller) Fix for issue #39: Don't let the adapter crash if the Life360 API returns a server error.
-- (MiGoller) Fix for issue #35: ioBroker complains about writing to a read-only state on adapter startup.
-
-### 0.2.15 (2021-05-07)
-
-- (MiGoller) Fix for issue #25: Sanitize strings for ioBroker object IDs
-- (MiGoller) Fix for issue #21: Adjust object type for gps-coordinates
-- (MiGoller) Enhancement issue #32: Add a new format for gps-coordinates for easier integration in Jarvis
-- (MiGoller) Enhancement issue #29: Think about to fix the issues found by adapter checker
-
-### 0.2.14
-
-- (MiGoller) Fix for issue #27: Adapter looses places (connection)
-- (MiGoller) Enhanced code to prevent warnings on setting state value for new objects / datapoints.
-
-### 0.2.13
-
-- (PeterVoronov) Pull request #24: Allow to create states with "write": false, to make value.gps.* compatible with ioBroker.type-detector.
-
-### 0.2.12
-
-- (MiGoller) Bug fix for issue #22: MyPlaces feature does not show all members
-
-### 0.2.11
-
-- (MiGoller) Added verbose logging on demand
-
-### 0.2.10
-
-- (MiGoller) Fix for Issue #18: Error TypeError: Cannot read property 'sourceId' of null since update to 0.2.8
-
-### 0.2.9
-
-- (MiGoller) Removed node v8 from Travis config to fix build process.
-
-### 0.2.8
-
-- (MiGoller) Upgraded several packages to wanted versions.
-
-### 0.2.7
-
-- (MiGoller) Upgraded lodash from 4.17.15 to 4.17.19
-
-### 0.2.6
-
-- (MiGoller) Bugfix for issue #12: Uncaught exception: Cannot read property 'timestamp' of null
-
-### 0.2.5
-
-- (MiGoller) Bug fix for issue #9: check Adapter with js-controller 3.0.x.
-- (MiGoller) Updated packages and dependencies.
-
-### 0.2.4
-
-- (MiGoller) Clean up stale datapoints after 30 days to prevent removing datapoints when Life360 is not available.
-
-### 0.2.3
-
-- (MiGoller) Added simple integrity checks for Life360 data.
-
-### 0.2.2
-
-- (MiGoller) The adapter will remove stale datapoints.
-
-### 0.2.1
-
-- (MiGoller) MyPlaces: Add additional places apart from the Life360 ones.
-
-### 0.1.1
-
-- (MiGoller) First alpha release
-
-### 0.0.1
-
-- (MiGoller) initial release
+## Older changes
+- [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
 ## License
-
 MIT License
 
-Copyright (c) 2019-2021 Michael Goller <goller.michael@gmail.com>
+Copyright (c) 2026 skvarel <sk@inventwo.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
