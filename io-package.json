@@ -17,19 +17,18 @@
                    "zh-cn": "已迁移至 inventwo 组织，并将依赖项更新至最新版本"
             }
         },
-
-        "title": "Life360",
         "titleLang": {
-            "en": "Life360",
-            "de": "Life360",
-            "ru": "Life360",
-            "pt": "Life360",
-            "nl": "Life360",
-            "fr": "Life360",
-            "it": "Life360",
-            "es": "Life360",
-            "pl": "Life360",
-            "zh-cn": "Life360"
+            "en": "Life360 Integration",
+            "de": "Life360-Integration",
+            "ru": "Интеграция Life360",
+            "pt": "Integração Life360",
+            "nl": "Life360-integratie",
+            "fr": "Intégration de Life360",
+            "it": "Integrazione Life360",
+            "es": "Integración de Life360",
+            "pl": "Integracja Life360",
+            "uk": "Інтеграція Life360",
+            "zh-cn": "Life360 集成"
         },
         "desc": {
             "en": "An ioBroker adapter for Life360.",
@@ -74,8 +73,9 @@
         "dataSource": "poll"
     },
     "native": {
-        "life360_username": "me@me.local",
-        "life360_password": "MySecretPassword",
+        "life360_username": "",
+        "life360_password": "",
+        "life360_token": "",
         "life360_phone": "",
         "life360_countryCode": "",
         "life360_polling_interval": "60",
