@@ -55,7 +55,7 @@
         "license": "MIT",
         "platform": "Javascript/Node.js",
         "main": "main.js",
-        "icon": "life360.png",
+        "icon": "Life360_s.svg",
         "enabled": false,
         "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360/master/admin/Life360_s.svg",
         "readme": "https://github.com/inventwo/ioBroker.life360/blob/master/README.md",
