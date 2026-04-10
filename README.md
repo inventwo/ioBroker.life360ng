@@ -5,7 +5,7 @@
 
 
 ![Number of Installations](https://iobroker.live/badges/iobroker.life360.svg) ![Current version in stable repository](https://iobroker.live/badges/life360-stable.svg)
-[![NPM Version](https://nodei.co/npm/iobroker.autodarts.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360)
+[![NPM Version](https://nodei.co/npm/iobroker.life36.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360.svg)](https://www.npmjs.com/package/iobroker.life360)
 
 [![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
