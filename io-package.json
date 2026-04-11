@@ -1,21 +1,8 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "news": {
-      "1.0.2": {
-        "en": "Migrated HTTP requests from deprecated request package to native node:https\nRemoved bluebird, request, retry-request and uuid dependencies\nAdded Ukrainian translation\nFixed io-package.json schema errors and updated minimum dependencies\nAdded Dependabot configuration and auto-merge rules\nModernized GitHub workflows",
-        "de": "Migrated HTTP Requests von deprecated Request Paket zu nativem Knoten:https\nEntzogener Bluebird, Anfrage, Retry-Request und uuid Abhängigkeiten\nUkrainische Übersetzung\nFixed io-package.json Schemafehler und aktualisierte Mindestabhängigkeiten\nDependabot-Konfiguration und Auto-Merge-Regeln hinzugefügt\nModernisierte GitHub Workflows",
-        "ru": "Миграция HTTP-запросов из устаревшего пакета запросов в нативный узел:https\nУдаленная голубая птица, запрос, повторный запрос и зависимость от uuid\nДобавлен украинский перевод\nИсправлены ошибки схемы io-package.json и обновлены минимальные зависимости\nДобавлена конфигурация Dependabot и правила автоматического слияния\nМодернизированные рабочие процессы GitHub",
-        "pt": "Requisições HTTP modificadas do pacote de requisição desactualizada para o nó nativo:https\nBluebird removido, request, retry- request e dependências uuid\nAdicionado tradução ucraniana\nErros fixos do esquema io-package.json e dependências mínimas atualizadas\nAdicionado as regras de configuração e fusão automática do Dependabot\nFluxos de trabalho do GitHub modernizados",
-        "nl": "Gemigreerde HTTP-verzoeken van verouderde aanvraagpakket naar native node:https\nVerwijderde bluebird, verzoek, retry-request en uuid afhankelijkheden\nToegevoegd Oekraïense vertaling\nVaste io-package.json schema fouten en bijgewerkte minimale afhankelijkheden\nToegevoegd Dependabot configuratie en automatisch samenvoegen regels\nGemoderniseerde GitHub workflows",
-        "fr": "Migration des requêtes HTTP du paquet de requêtes obsolète vers le nœud natif:https\nRetiré Bluebird, requête, demande de réessayer et dépendances uuidiques\nTraduction ukrainienne ajoutée\nCorrection des erreurs de schéma io-package.json et des dépendances minimales actualisées\nAjout des règles de configuration et de fusion automatique de Dependabot\nProcesseurs GitHub modernisés",
-        "it": "Richieste HTTP migrate dal pacchetto di richiesta deprecata al nodo nativo:https\nRimossa bluebird, richiesta, retry-request e dipendenze uuid\nAggiunto la traduzione ucraina\nRisolto io-package.json errori di schema e dipendenze minime aggiornate\nAggiunta configurazione Dependabot e regole auto-merge\nFlussi di lavoro modernizzati GitHub",
-        "es": "Migrated HTTP requests from deprecated request package to native node:https\nBluebird eliminado, solicitud, retry-request y dependencias uuid\nTraducción de Ucrania\nErrores de io-package.json schema y dependencias mínimas actualizadas\nConfiguración de Dependabot y reglas de autonomía\nFlujos de trabajo GitHub modernizados",
-        "pl": "Migrowane żądania HTTP z zdepregowanego pakietu prośby do rodzimego węzła: https\nUsunięty niebieski ptak, prośba, retry- żądanie i uuid zależności\nDodano tłumaczenie ukraińskie\nNaprawiono błędy schematu jo- package.json i zaktualizowano minimalne zależności\nDodano konfigurację Dependabot i zasady autołączenia\nModernizowane przepływy pracy GitHub",
-        "uk": "Migrated HTTP запитів від депресованого пакету запиту на рідну вершину:https\nВилучені синіми, запитом, рецептурою та відповідними залежностями\nУкраїнський переклад\nВиправлені помилки io-package.json schema і оновлені мінімальні залежності\nДодано Конфігурацію та правила автоматичного занурення залежностей\nСучаснізовані робочі процеси GitHub",
-        "zh-cn": "将 HTTP 请求从已贬值的请求包移到本地节点: https\n删除蓝鸟、请求、重试请求和uuid依赖\n添加乌克兰语翻译\n固定 io- package.json 计划错误和更新的最低依赖性\n添加依赖配置和自动合并规则\n现代化的 GitHub 工作流程"
-      },
       "1.0.1": {
         "en": "Fixed some repo-checker errors",
         "de": "Einige Repo-Checker-Fehler behoben",
