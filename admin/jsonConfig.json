@@ -5,6 +5,7 @@
         "_general": {
             "type": "panel",
             "label": "tab_general",
+            "icon": "mdi:cog",
             "items": {
                 "tokenHint": {
                     "type": "staticText",
@@ -64,6 +65,7 @@
         "_myplaces": {
             "type": "panel",
             "label": "tab_myplaces",
+            "icon": "mdi:map-marker",
             "items": {
                 "places": {
                     "type": "table",
@@ -111,6 +113,7 @@
         "_integration": {
             "type": "panel",
             "label": "tab_integration",
+            "icon": "mdi:puzzle-outline",
             "items": {
                 "_life360Data": {
                     "type": "panel",
@@ -200,6 +203,7 @@
         "_advanced": {
             "type": "panel",
             "label": "tab_advanced",
+            "icon": "mdi:bug",
             "items": {
                 "debugging_verbose": {
                     "type": "checkbox",

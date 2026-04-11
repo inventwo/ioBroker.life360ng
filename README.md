@@ -73,11 +73,22 @@ Enable location-tracking to add geo-positioning details (latitude, longitude, `l
 | `people.<name>.location` | Geo-position object |
 | `info.connection` | `true` when connected to Life360 cloud |
 
+## Support
+
+If you like our work and would like to support us, we appreciate any donation.
+(This link leads to our PayPal account and is not affiliated with ioBroker.)
+
+[![Spende](img/support.png)](https://www.paypal.com/donate?hosted_button_id=7W6M3TFZ4W9LW)
+
+
 ## Changelog
 
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added icons to config
+
 ### 1.0.2 (2026-04-11)
 - (skvarel) Migrated HTTP requests from deprecated request package to native node:https
 - (skvarel) Removed bluebird, request, retry-request and uuid dependencies
