@@ -86,7 +86,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.3 (2026-04-11)
 - (skvarel) Added icons to config
 
 ### 1.0.2 (2026-04-11)

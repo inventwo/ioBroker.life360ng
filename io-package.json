@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "news": {
+      "1.0.3": {
+        "en": "Added icons to config",
+        "de": "Hinzufügen von Icons zu config",
+        "ru": "Добавлены иконки в конфигурацию",
+        "pt": "Ícones adicionados à configuração",
+        "nl": "Pictogrammen aan configuratie toegevoegd",
+        "fr": "Ajout d'icônes à la configuration",
+        "it": "Aggiunte icone per configurare",
+        "es": "Iconos añadidos a config",
+        "pl": "Dodano ikony do konfiguracji",
+        "uk": "Додано іконки для налаштування",
+        "zh-cn": "在配置中添加图标"
+      },
       "1.0.2": {
         "en": "Migrated HTTP requests from deprecated request package to native node:https\nRemoved bluebird, request, retry-request and uuid dependencies\nAdded Ukrainian translation\nFixed io-package.json schema errors and updated minimum dependencies\nAdded Dependabot configuration and auto-merge rules\nModernized GitHub workflows",
         "de": "Migrated HTTP Requests von deprecated Request Paket zu nativem Knoten:https\nEntzogener Bluebird, Anfrage, Retry-Request und uuid Abhängigkeiten\nUkrainische Übersetzung\nFixed io-package.json Schemafehler und aktualisierte Mindestabhängigkeiten\nDependabot-Konfiguration und Auto-Merge-Regeln hinzugefügt\nModernisierte GitHub Workflows",
