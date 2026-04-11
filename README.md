@@ -78,6 +78,14 @@ Enable location-tracking to add geo-positioning details (latitude, longitude, `l
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Migrated HTTP requests from deprecated request package to native node:https
+- (skvarel) Removed bluebird, request, retry-request and uuid dependencies
+- (skvarel) Added Ukrainian translation
+- (skvarel) Fixed io-package.json schema errors and updated minimum dependencies
+- (skvarel) Added Dependabot configuration and auto-merge rules
+- (skvarel) Modernized GitHub workflows
+
 ### 1.0.1 (2026-04-11)
 - (skvarel) Fixed some repo-checker errors
 

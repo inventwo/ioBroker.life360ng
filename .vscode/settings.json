@@ -7,5 +7,15 @@
 		"latex",
 		"plaintext",
 		"markdown"
+	],
+	"json.schemas": [
+		{
+			"fileMatch": ["io-package.json"],
+			"url": "https://json.schemastore.org/io-package.json"
+		},
+		{
+			"fileMatch": ["admin/jsonConfig.json"],
+			"url": "https://json.schemastore.org/jsonConfig.json"
+		}
 	]
 }
