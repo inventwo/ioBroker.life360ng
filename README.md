@@ -3,7 +3,8 @@
 ![Logo](admin/Life360_xl.svg)
 
 
-![Number of Installations](https://iobroker.live/badges/life360ng-installed.svg) ![Current version in stable repository](https://iobroker.live/badges/life360ng-stable.svg)
+![Number of Installations](https://iobroker.live/badges/life360ng-installed.svg)
+![Current version in stable repository](https://iobroker.live/badges/life360ng-stable.svg)
 [![NPM Version](https://nodei.co/npm/iobroker.life360ng.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360ng)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
 
@@ -86,6 +87,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Removed old not needed images
+
 ### 1.0.4 (2026-04-11)
 - (skvarel) Changed icons from mdi to base64
 
