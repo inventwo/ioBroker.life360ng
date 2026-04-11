@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "news": {
+      "1.0.6": {
+        "en": "Adapter cleanup",
+        "de": "Adapterreinigung",
+        "ru": "Очистка адаптера",
+        "pt": "Limpeza do adaptador",
+        "nl": "Adapter opruimen",
+        "fr": "Nettoyage de l'adaptateur",
+        "it": "Pulizia dell'adattatore",
+        "es": "Limpieza del adaptador",
+        "pl": "Czyszczenie adaptera",
+        "uk": "Очищення адаптера",
+        "zh-cn": "适应器清理"
+      },
       "1.0.5": {
         "en": "Removed old not needed images",
         "de": "Alte nicht benötigte Bilder entfernt",
