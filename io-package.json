@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "news": {
+      "1.0.12": {
+        "en": "Fixed invalid JSON in zh-cn translation",
+        "de": "Ungültige JSON in zh-cn Übersetzung",
+        "ru": "Фиксированный недействительный JSON в переводе zh-cn",
+        "pt": "Corrigido o JSON inválido na tradução do zh- cn",
+        "nl": "Vaste ongeldige JSON in zh-cn vertaling",
+        "fr": "Correction JSON invalide dans la traduction zh-cn",
+        "it": "Risolto JSON non valido nella traduzione zh-cn",
+        "es": "Inválido fijo JSON en traducción zh-cn",
+        "pl": "Naprawiono niepoprawny JSON w tłumaczeniu zh- cn",
+        "uk": "Виправлено недійсний JSON у перекладі zh-cn",
+        "zh-cn": "Zh-cn翻译中的固定无效 JSON"
+      },
       "1.0.11": {
         "en": "Added configurable fallback text for `locationName` when a person is not at a known place",
         "de": "Konfigurierbarer Rückfalltext für `locationName` hinzugefügt, wenn eine Person nicht an einem bekannten Ort ist",

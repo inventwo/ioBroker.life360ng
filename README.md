@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.12 (2026-04-11)
 - (skvarel) Fixed invalid JSON in zh-cn translation
 
 ### 1.0.11 (2026-04-11)
@@ -103,12 +103,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.8 (2026-04-11)
 - (skvarel) Added notes regarding the token
-
-### 1.0.7 (2026-04-11)
-- (skvarel) Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services
-
-### 1.0.6 (2026-04-11)
-- (skvarel) Adapter cleanup
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
