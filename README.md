@@ -87,6 +87,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services
+
 ### 1.0.6 (2026-04-11)
 - (skvarel) Adapter cleanup
 
