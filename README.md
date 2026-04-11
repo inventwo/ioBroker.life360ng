@@ -78,7 +78,7 @@ Enable location-tracking to add geo-positioning details (latitude, longitude, `l
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.1 (2026-04-11)
 - (skvarel) Fixed some repo-checker errors
 
 ### 1.0.0 (2026-04-10)

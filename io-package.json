@@ -1,168 +1,181 @@
 {
-    "common": {
-        "name": "life360ng",
-        "version": "1.0.0",
-        "news": {
-            "1.0.0": {
-                  "en": "Transfer to inventwo organization, updated dependencies to current versions",
-                   "de": "Übertragung an die Inventwo-Organisation, Aktualisierung der Abhängigkeiten auf aktuelle Versionen",
-                   "ru": "Перенесено в организацию Inventtwo, зависимости обновлены до текущих версий.",
-                   "pt": "Transferência para a organização Inventwo, dependências atualizadas para as versões atuais.",
-                   "nl": "Overdracht naar de Inventwo-organisatie, afhankelijkheden bijgewerkt naar de huidige versies.",
-                   "fr": "Transfert vers l'organisation inventwo, dépendances mises à jour vers les versions actuelles",
-                   "it": "Trasferimento all'organizzazione inventwo, dipendenze aggiornate alle versioni correnti",
-                   "es": "Transferencia a la organización Inventwo, dependencias actualizadas a las versiones actuales.",
-                   "pl": "Przeniesienie do organizacji inventwo, zaktualizowano zależności do bieżących wersji",
-                   "uk": "Перенесення до організації inventwo, оновлення залежностей до поточних версій",
-                   "zh-cn": "已迁移至 inventwo 组织，并将依赖项更新至最新版本"
-            }
-        },
-        "titleLang": {
-            "en": "Life360 Integration",
-            "de": "Life360-Integration",
-            "ru": "Интеграция Life360",
-            "pt": "Integração Life360",
-            "nl": "Life360-integratie",
-            "fr": "Intégration de Life360",
-            "it": "Integrazione Life360",
-            "es": "Integración de Life360",
-            "pl": "Integracja Life360",
-            "uk": "Інтеграція Life360",
-            "zh-cn": "Life360 集成"
-        },
-        "desc": {
-            "en": "An ioBroker adapter for Life360.",
-            "de": "Ein ioBroker-Adapter für Life360.",
-            "ru": "Адаптер ioBroker для Life360.",
-            "pt": "Um adaptador ioBroker para Life360.",
-            "nl": "Een ioBroker-adapter voor Life360.",
-            "fr": "Un adaptateur ioBroker pour Life360.",
-            "it": "Un adattatore ioBroker per Life360.",
-            "es": "Un adaptador ioBroker para Life360.",
-            "pl": "Adapter ioBroker dla Life360.",
-            "uk": "Адаптер ioBroker для Life360.",
-            "zh-cn": "Life360 的 ioBroker 适配器。"
-        },
-        "authors": [
-            "skvarel <skvarel@inventwo.com>"
-        ],
-        "keywords": [
-            "Life360",
-            "location",
-            "geoposition",
-            "tracking"
-        ],
-        "licenseInformation": {
-            "type": "free",
-            "license": "MIT",
-            "link": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/LICENSE"
-        },
-        "tier": 3,
-        "platform": "Javascript/Node.js",
-        "icon": "Life360_s.svg",
-        "enabled": false,
-        "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/admin/Life360_s.svg",
-        "readme": "https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "geoposition",
-        "compact": true,
-        "adminUI": {
-            "config": "json"
-        },
-        "stopTimeout": 3000,
-        "dependencies": [
-            {
-                "js-controller": ">=6.0.11"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=7.6.20"
-            }
-        ],
-        "connectionType": "cloud",
-        "dataSource": "poll"
+  "common": {
+    "name": "life360ng",
+    "version": "1.0.1",
+    "news": {
+      "1.0.1": {
+        "en": "Fixed some repo-checker errors",
+        "de": "Einige Repo-Checker-Fehler behoben",
+        "ru": "Исправлены некоторые ошибки перепроверки",
+        "pt": "Corrigido alguns erros de repo-checker",
+        "nl": "Enkele repo-checker fouten hersteld",
+        "fr": "Correction de certaines erreurs de repo-checker",
+        "it": "Risolto alcuni errori repo-checker",
+        "es": "Arreglado algunos errores de re-checker",
+        "pl": "Naprawiono błędy repo- checker",
+        "uk": "Виправлено деякі помилки повторного копіювання",
+        "zh-cn": "修正一些复检错误"
+      },
+      "1.0.0": {
+        "en": "Transfer to inventwo organization, updated dependencies to current versions",
+        "de": "Übertragung an die Inventwo-Organisation, Aktualisierung der Abhängigkeiten auf aktuelle Versionen",
+        "ru": "Перенесено в организацию Inventtwo, зависимости обновлены до текущих версий.",
+        "pt": "Transferência para a organização Inventwo, dependências atualizadas para as versões atuais.",
+        "nl": "Overdracht naar de Inventwo-organisatie, afhankelijkheden bijgewerkt naar de huidige versies.",
+        "fr": "Transfert vers l'organisation inventwo, dépendances mises à jour vers les versions actuelles",
+        "it": "Trasferimento all'organizzazione inventwo, dipendenze aggiornate alle versioni correnti",
+        "es": "Transferencia a la organización Inventwo, dependencias actualizadas a las versiones actuales.",
+        "pl": "Przeniesienie do organizacji inventwo, zaktualizowano zależności do bieżących wersji",
+        "uk": "Перенесення до організації inventwo, оновлення залежностей до поточних версій",
+        "zh-cn": "已迁移至 inventwo 组织，并将依赖项更新至最新版本"
+      }
     },
-    "protectedNative": [
-        "life360_token"
-    ],
-    "encryptedNative": [
-        "life360_token"
-    ],
-    "native": {
-        "life360_username": "",
-        "life360_token": "",
-        "life360_polling_interval": "60",
-        "places": [],
-        "sendto_places_adapter_instance": -1,
-        "sendto_places_adapter_regexp": "",
-        "track_location_people": true,
-        "location_object_type": "LatLng",
-        "process_life360_circles": true,
-        "process_life360_places": true,
-        "process_life360_people": true,
-        "debugging_verbose": false
+    "titleLang": {
+      "en": "Life360 Integration",
+      "de": "Life360-Integration",
+      "ru": "Интеграция Life360",
+      "pt": "Integração Life360",
+      "nl": "Life360-integratie",
+      "fr": "Intégration de Life360",
+      "it": "Integrazione Life360",
+      "es": "Integración de Life360",
+      "pl": "Integracja Life360",
+      "uk": "Інтеграція Life360",
+      "zh-cn": "Life360 集成"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "name": "connected",
-                "desc": "Connected to Life360 cloud services?",
-                "type": "boolean",
-                "def": false,
-                "read": true,
-                "role": "value.info",
-                "write": false
-            },
-            "native": {}
-        },
-        {
-            "_id": "circles",
-            "type": "device",
-            "common": {
-                "name": "Circles",
-                "desc": "Life360 circles."
-            },
-            "native": {}
-        },
-        {
-            "_id": "places",
-            "type": "device",
-            "common": {
-                "name": "Places",
-                "desc": "Life360 places."
-            },
-            "native": {}
-        },
-        {
-            "_id": "people",
-            "type": "device",
-            "common": {
-                "name": "People",
-                "desc": "Life360 people."
-            },
-            "native": {}
-        },
-        {
-            "_id": "myplaces",
-            "type": "device",
-            "common": {
-                "name": "My Places",
-                "desc": "Custom places apart from Life360."
-            },
-            "native": {}
-        }
-    ]
+    "desc": {
+      "en": "An ioBroker adapter for Life360.",
+      "de": "Ein ioBroker-Adapter für Life360.",
+      "ru": "Адаптер ioBroker для Life360.",
+      "pt": "Um adaptador ioBroker para Life360.",
+      "nl": "Een ioBroker-adapter voor Life360.",
+      "fr": "Un adaptateur ioBroker pour Life360.",
+      "it": "Un adattatore ioBroker per Life360.",
+      "es": "Un adaptador ioBroker para Life360.",
+      "pl": "Adapter ioBroker dla Life360.",
+      "uk": "Адаптер ioBroker для Life360.",
+      "zh-cn": "Life360 的 ioBroker 适配器。"
+    },
+    "authors": [
+      "skvarel <skvarel@inventwo.com>"
+    ],
+    "keywords": [
+      "Life360",
+      "location",
+      "geoposition",
+      "tracking"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT",
+      "link": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/LICENSE"
+    },
+    "tier": 3,
+    "platform": "Javascript/Node.js",
+    "icon": "Life360_s.svg",
+    "enabled": false,
+    "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/admin/Life360_s.svg",
+    "readme": "https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "geoposition",
+    "compact": true,
+    "adminUI": {
+      "config": "json"
+    },
+    "stopTimeout": 3000,
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.20"
+      }
+    ],
+    "connectionType": "cloud",
+    "dataSource": "poll"
+  },
+  "protectedNative": [
+    "life360_token"
+  ],
+  "encryptedNative": [
+    "life360_token"
+  ],
+  "native": {
+    "life360_username": "",
+    "life360_token": "",
+    "life360_polling_interval": "60",
+    "places": [],
+    "sendto_places_adapter_instance": -1,
+    "sendto_places_adapter_regexp": "",
+    "track_location_people": true,
+    "location_object_type": "LatLng",
+    "process_life360_circles": true,
+    "process_life360_places": true,
+    "process_life360_people": true,
+    "debugging_verbose": false
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "connected",
+        "desc": "Connected to Life360 cloud services?",
+        "type": "boolean",
+        "def": false,
+        "read": true,
+        "role": "value.info",
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "circles",
+      "type": "device",
+      "common": {
+        "name": "Circles",
+        "desc": "Life360 circles."
+      },
+      "native": {}
+    },
+    {
+      "_id": "places",
+      "type": "device",
+      "common": {
+        "name": "Places",
+        "desc": "Life360 places."
+      },
+      "native": {}
+    },
+    {
+      "_id": "people",
+      "type": "device",
+      "common": {
+        "name": "People",
+        "desc": "Life360 people."
+      },
+      "native": {}
+    },
+    {
+      "_id": "myplaces",
+      "type": "device",
+      "common": {
+        "name": "My Places",
+        "desc": "Custom places apart from Life360."
+      },
+      "native": {}
+    }
+  ]
 }
