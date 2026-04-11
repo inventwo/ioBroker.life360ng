@@ -1,38 +1,30 @@
 {
-    "tab_general": "Life360",
-    "tab_myplaces": "Moje miejsca",
-    "tab_integration": "Integracja",
-    "tab_advanced": "Zaawansowane",
-
-    "token_hint": "Użytkownicy UE – jak uzyskać Bearer token:\n1. Otwórz https://life360.com/login\n2. Wpisz adres e-mail → kliknij Dalej\n3. Wpisz jednorazowy kod wysłany na e-mail\n4. Otwórz narzędzia deweloperskie przeglądarki (F12) → zakładka Sieć\n5. Znajdź żądanie POST o nazwie 'token' (nie OPTIONS)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość 'access_token' i wklej poniżej\n\nTokeny są ważne przez kilka miesięcy.",
-
-    "life360_token": "Bearer token",
-    "life360_username": "Adres e-mail (opcjonalny, alternatywa dla uwierzytelniania hasłem)",
-    "life360_username_help": "Potrzebne tylko, jeśli chcesz używać logowania hasłem zamiast tokena",
-
+    "debugging_verbose": "Włącz pełne rejestrowanie",
     "life360_polling_interval": "Interwał odpytywania (sekundy)",
-    "life360_polling_interval_help": "Minimum 15 sekund, maksimum 1440 sekund",
-
-    "place_name": "Nazwa",
-    "place_latitude": "Szerokość geograficzna",
+    "life360_polling_interval_help": "Minimum 15 sekund, maksymalnie 1440 sekund",
+    "life360_token": "Token okaziciela",
+    "life360_username": "Adres e-mail (opcjonalnie, zastępczy do autoryzacji hasłem)",
+    "life360_username_help": "Potrzebne tylko wtedy, gdy chcesz używać logowania opartego na haśle zamiast tokena",
+    "location_object_type": "Typ obiektu geolokalizacji",
+    "place_circle": "Okrąg (opcjonalnie)",
+    "place_latitude": "Szerokość",
     "place_longitude": "Długość geograficzna",
+    "place_name": "Nazwa",
     "place_radius": "Promień (m)",
-    "place_circle": "Krąg (opcjonalny)",
-
+    "process_life360_circles": "Proces Life360 kręgów",
+    "process_life360_people": "Życie Procesowe 360 ​​osób",
+    "process_life360_places": "Proces Życia360 miejsc",
     "section_life360_data": "Dane Life360",
-    "process_life360_circles": "Przetwarzaj kręgi Life360",
-    "process_life360_places": "Przetwarzaj miejsca Life360",
-    "process_life360_people": "Przetwarzaj osoby Life360",
-
-    "section_places_adapter": "Adapter Places",
-    "sendto_places_adapter_instance": "Instancja adaptera Places (-1 = wyłączony)",
-    "sendto_places_adapter_instance_help": "Wpisz numer instancji adaptera Places (np. 0). Ustaw -1, aby wyłączyć przekazywanie.",
-    "sendto_places_adapter_regexp": "Filtr regex dla osób (puste = wyślij wszystko)",
-    "sendto_places_adapter_regexp_help": "Wyrażenie regularne dopasowywane do '[Imię] [Nazwisko]'. Pozostaw puste, aby wysyłać wszystko.",
-
     "section_location_tracking": "Śledzenie lokalizacji",
-    "track_location_people": "Włącz śledzenie lokalizacji dla osób",
-    "location_object_type": "Typ obiektu geo-lokalizacji",
-
-    "debugging_verbose": "Włącz szczegółowe logowanie"
+    "section_places_adapter": "Adapter miejsc",
+    "sendto_places_adapter_instance": "Instancja adaptera miejsc (-1 = wyłączona)",
+    "sendto_places_adapter_instance_help": "Wprowadź numer instancji adaptera Places (np. 0). Ustaw na -1, aby wyłączyć przekazywanie.",
+    "sendto_places_adapter_regexp": "Filtr Regex dla osób (pusty = wyślij wszystko)",
+    "sendto_places_adapter_regexp_help": "Wyrażenie regularne dopasowane do „[Imię] [Nazwisko]”. Pozostaw puste, aby wysłać wszystko.",
+    "tab_advanced": "Zaawansowany",
+    "tab_general": "Życie360",
+    "tab_integration": "Integracja",
+    "tab_myplaces": "Moje miejsca",
+    "token_hint": "Użytkownicy z UE – jak zdobyć token okaziciela:\n1. Otwórz https://life360.com/login\n2. Wpisz swój adres e-mail → kliknij Kontynuuj\n3. Wpisz jednorazowy kod przesłany na Twój adres e-mail\n4. Otwórz przeglądarkę DevTools (F12) → zakładka Sieć\n5. Znajdź żądanie POST o nazwie „token” (nie OPCJE)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość „access_token” i wklej ją poniżej\n\nWprowadź token BEZ słowa „Nosiciel” i BEZ spacji!\n\nTokeny są ważne przez kilka miesięcy.",
+    "track_location_people": "Włącz śledzenie lokalizacji dla ludzi"
 }

@@ -3,36 +3,28 @@
     "tab_myplaces": "My Places",
     "tab_integration": "Integration",
     "tab_advanced": "Advanced",
-
-    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nTokens are valid for several months.",
-
+    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nEnter the token WITHOUT the word 'Bearer' and WITHOUT spaces!\n\nTokens are valid for several months.",
     "life360_token": "Bearer token",
     "life360_username": "Email address (optional, fallback for password auth)",
     "life360_username_help": "Only needed if you want to use password-based login instead of token",
-
     "life360_polling_interval": "Polling interval (seconds)",
     "life360_polling_interval_help": "Minimum 15 seconds, maximum 1440 seconds",
-
     "place_name": "Name",
     "place_latitude": "Latitude",
     "place_longitude": "Longitude",
     "place_radius": "Radius (m)",
     "place_circle": "Circle (optional)",
-
     "section_life360_data": "Life360 data",
     "process_life360_circles": "Process Life360 circles",
     "process_life360_places": "Process Life360 places",
     "process_life360_people": "Process Life360 people",
-
     "section_places_adapter": "Places-adapter",
     "sendto_places_adapter_instance": "Places-adapter instance (-1 = disabled)",
     "sendto_places_adapter_instance_help": "Enter the instance number of the Places-adapter (e.g. 0). Set to -1 to disable forwarding.",
     "sendto_places_adapter_regexp": "Regex filter for people (empty = send all)",
     "sendto_places_adapter_regexp_help": "Regular expression matched against '[Firstname] [Lastname]'. Leave empty to send all.",
-
     "section_location_tracking": "Location-tracking",
     "track_location_people": "Enable location-tracking for people",
     "location_object_type": "Geo-location object type",
-
     "debugging_verbose": "Enable verbose logging"
 }

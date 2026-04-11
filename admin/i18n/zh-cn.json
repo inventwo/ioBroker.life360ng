@@ -1,38 +1,30 @@
 {
-    "tab_general": "Life360",
-    "tab_myplaces": "我的地点",
-    "tab_integration": "集成",
-    "tab_advanced": "高级",
-
-    "token_hint": "欧盟用户 – 如何获取 Bearer 令牌：\n1. 打开 https://life360.com/login\n2. 输入电子邮件地址 → 点击继续\n3. 输入发送到邮箱的一次性验证码\n4. 打开浏览器开发者工具（F12）→ 网络选项卡\n5. 找到名为 'token' 的 POST 请求（非 OPTIONS）\n6. 打开预览 / 响应选项卡 → 复制 'access_token' 的值并粘贴到下方\n\n令牌有效期为数月。",
-
-    "life360_token": "Bearer 令牌",
-    "life360_username": "电子邮件地址（可选，密码认证的备用方案）",
-    "life360_username_help": "仅在希望使用密码登录而非令牌时才需要",
-
+    "debugging_verbose": "启用详细日志记录",
     "life360_polling_interval": "轮询间隔（秒）",
-    "life360_polling_interval_help": "最少 15 秒，最多 1440 秒",
-
-    "place_name": "名称",
+    "life360_polling_interval_help": "最短 15 秒，最长 1440 秒",
+    "life360_token": "不记名令牌",
+    "life360_username": "电子邮件地址（可选，密码验证的后备）",
+    "life360_username_help": "仅当您想使用基于密码的登录而不是令牌时才需要",
+    "location_object_type": "地理位置对象类型",
+    "place_circle": "圆圈（可选）",
     "place_latitude": "纬度",
     "place_longitude": "经度",
+    "place_name": "姓名",
     "place_radius": "半径（米）",
-    "place_circle": "圈子（可选）",
-
-    "section_life360_data": "Life360 数据",
-    "process_life360_circles": "处理 Life360 圈子",
-    "process_life360_places": "处理 Life360 地点",
-    "process_life360_people": "处理 Life360 成员",
-
-    "section_places_adapter": "Places 适配器",
-    "sendto_places_adapter_instance": "Places 适配器实例（-1 = 已禁用）",
-    "sendto_places_adapter_instance_help": "输入 Places 适配器的实例编号（例如 0）。设为 -1 可禁用转发。",
-    "sendto_places_adapter_regexp": "人员的正则表达式过滤器（空 = 发送所有）",
-    "sendto_places_adapter_regexp_help": "与 '[名字] [姓氏]' 匹配的正则表达式。留空则发送所有人。",
-
-    "section_location_tracking": "位置跟踪",
-    "track_location_people": "为人员启用位置跟踪",
-    "location_object_type": "地理位置对象类型",
-
-    "debugging_verbose": "启用详细日志记录"
+    "process_life360_circles": "工艺寿命360 圈",
+    "process_life360_people": "流程生活360人",
+    "process_life360_places": "工艺寿命360 处",
+    "section_life360_data": "Life360数据",
+    "section_location_tracking": "位置追踪",
+    "section_places_adapter": "地方适配器",
+    "sendto_places_adapter_instance": "Places-adapter 实例（-1 = 禁用）",
+    "sendto_places_adapter_instance_help": "输入 Places-adapter 的实例编号（例如 0）。设置为 -1 以禁用转发。",
+    "sendto_places_adapter_regexp": "人员的正则表达式过滤器（空=发送全部）",
+    "sendto_places_adapter_regexp_help": "正则表达式与“[名字] [姓氏]”匹配。留空即可发送全部。",
+    "tab_advanced": "先进的",
+    "tab_general": "生活360",
+    "tab_integration": "一体化",
+    "tab_myplaces": "我的地点",
+    "token_hint": "欧盟用户 – 如何获取您的不记名代币：\n1.打开https://life360.com/login\n2. 输入您的电子邮件地址 → 单击继续\n3. 输入发送到您的电子邮件的一次性代码\n4. 打开浏览器 DevTools (F12) → Network 选项卡\n5.找到名为“token”的POST请求（不是OPTIONS）\n6. 打开预览/响应选项卡 → 复制“access_token”的值并将其粘贴到下面\n\n输入令牌时不要包含“Bearer”一词，也不要包含空格！\n\n令牌的有效期为几个月。",
+    "track_location_people": "启用人员位置跟踪"
 }

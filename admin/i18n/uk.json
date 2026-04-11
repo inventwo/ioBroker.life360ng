@@ -1,38 +1,30 @@
 {
-    "tab_general": "Life360",
-    "tab_myplaces": "Мої місця",
-    "tab_integration": "Інтеграція",
-    "tab_advanced": "Розширені",
-
-    "token_hint": "Користувачі ЄС – як отримати Bearer-токен:\n1. Відкрийте https://life360.com/login\n2. Введіть адресу електронної пошти → натисніть «Продовжити»\n3. Введіть одноразовий код, надісланий на вашу пошту\n4. Відкрийте DevTools браузера (F12) → вкладка «Мережа»\n5. Знайдіть POST-запит з назвою 'token' (не OPTIONS)\n6. Відкрийте вкладку «Попередній перегляд / Відповідь» → скопіюйте значення 'access_token' та вставте нижче\n\nТокени дійсні кілька місяців.",
-
-    "life360_token": "Bearer-токен",
-    "life360_username": "Адреса електронної пошти (необов'язково, резерв для автентифікації паролем)",
-    "life360_username_help": "Потрібно лише якщо ви хочете використовувати вхід на основі пароля замість токена",
-
+    "debugging_verbose": "Увімкнути детальне журналювання",
     "life360_polling_interval": "Інтервал опитування (секунди)",
     "life360_polling_interval_help": "Мінімум 15 секунд, максимум 1440 секунд",
-
-    "place_name": "Назва",
+    "life360_token": "Токен на пред'явника",
+    "life360_username": "Адреса електронної пошти (необов’язково, резервний варіант для авторизації пароля)",
+    "life360_username_help": "Потрібен, лише якщо ви хочете використовувати вхід на основі пароля замість маркера",
+    "location_object_type": "Тип об'єкта геолокації",
+    "place_circle": "Коло (необов'язково)",
     "place_latitude": "Широта",
     "place_longitude": "Довгота",
+    "place_name": "Ім'я",
     "place_radius": "Радіус (м)",
-    "place_circle": "Коло (необов'язково)",
-
+    "process_life360_circles": "Круги Process Life360",
+    "process_life360_people": "Процес Life360 людей",
+    "process_life360_places": "Процес Life360 місць",
     "section_life360_data": "Дані Life360",
-    "process_life360_circles": "Обробляти кола Life360",
-    "process_life360_places": "Обробляти місця Life360",
-    "process_life360_people": "Обробляти людей Life360",
-
-    "section_places_adapter": "Адаптер Places",
-    "sendto_places_adapter_instance": "Екземпляр адаптера Places (-1 = вимкнено)",
-    "sendto_places_adapter_instance_help": "Введіть номер екземпляра адаптера Places (наприклад, 0). Встановіть -1, щоб вимкнути пересилання.",
-    "sendto_places_adapter_regexp": "Фільтр регулярних виразів для людей (порожньо = надсилати всіх)",
-    "sendto_places_adapter_regexp_help": "Регулярний вираз, що зіставляється з '[Ім'я] [Прізвище]'. Залиште порожнім, щоб надсилати всіх.",
-
     "section_location_tracking": "Відстеження місцезнаходження",
-    "track_location_people": "Увімкнути відстеження місцезнаходження людей",
-    "location_object_type": "Тип об'єкта геолокації",
-
-    "debugging_verbose": "Увімкнути розширене журналювання"
+    "section_places_adapter": "Місця-адаптер",
+    "sendto_places_adapter_instance": "Примірник Places-adapter (-1 = вимкнено)",
+    "sendto_places_adapter_instance_help": "Введіть номер екземпляра адаптера Places (наприклад, 0). Встановіть -1, щоб вимкнути пересилання.",
+    "sendto_places_adapter_regexp": "Фільтр регулярних виразів для людей (порожній = надіслати всім)",
+    "sendto_places_adapter_regexp_help": "Регулярний вираз відповідає \"[Ім'я] [Прізвище]\". Залиште пустим, щоб надіслати все.",
+    "tab_advanced": "Просунутий",
+    "tab_general": "Life360",
+    "tab_integration": "Інтеграція",
+    "tab_myplaces": "Мої місця",
+    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Знайдіть запит POST під назвою «токен» (не OPTIONS)\n6. Відкрийте вкладку Preview / Response → скопіюйте значення 'access_token' і вставте його нижче\n\nВведіть жетон БЕЗ слова «Пред'явник» і БЕЗ пробілів!\n\nTokens are valid for several months.",
+    "track_location_people": "Увімкніть відстеження місцезнаходження людей"
 }

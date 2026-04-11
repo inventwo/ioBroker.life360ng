@@ -1,38 +1,30 @@
 {
-    "tab_general": "Life360",
-    "tab_myplaces": "Mijn plaatsen",
-    "tab_integration": "Integratie",
-    "tab_advanced": "Geavanceerd",
-
-    "token_hint": "EU-gebruikers – hoe de Bearer token te verkrijgen:\n1. Open https://life360.com/login\n2. Voer uw e-mailadres in → klik op Doorgaan\n3. Voer de eenmalige code in die naar uw e-mail is verzonden\n4. Open de browserontwikkelaarstools (F12) → tabblad Netwerk\n5. Zoek het POST-verzoek genaamd 'token' (niet OPTIONS)\n6. Open het tabblad Voorbeeld / Antwoord → kopieer de waarde van 'access_token' en plak deze hieronder\n\nTokens zijn meerdere maanden geldig.",
-
-    "life360_token": "Bearer token",
-    "life360_username": "E-mailadres (optioneel, alternatief voor wachtwoordauthenticatie)",
-    "life360_username_help": "Alleen nodig als u wachtwoordgebaseerde login wilt gebruiken in plaats van token",
-
-    "life360_polling_interval": "Polling interval (seconden)",
-    "life360_polling_interval_help": "Minimum 15 seconden, maximum 1440 seconden",
-
-    "place_name": "Naam",
-    "place_latitude": "Breedtegraad",
-    "place_longitude": "Lengtegraad",
-    "place_radius": "Straal (m)",
+    "debugging_verbose": "Schakel uitgebreide logboekregistratie in",
+    "life360_polling_interval": "Polling-interval (seconden)",
+    "life360_polling_interval_help": "Minimaal 15 seconden, maximaal 1440 seconden",
+    "life360_token": "Token aan toonder",
+    "life360_username": "E-mailadres (optioneel, reserve voor wachtwoordauthenticatie)",
+    "life360_username_help": "Alleen nodig als u op wachtwoord gebaseerde login wilt gebruiken in plaats van een token",
+    "location_object_type": "Objecttype geolocatie",
     "place_circle": "Cirkel (optioneel)",
-
-    "section_life360_data": "Life360 gegevens",
-    "process_life360_circles": "Life360 cirkels verwerken",
-    "process_life360_places": "Life360 plaatsen verwerken",
-    "process_life360_people": "Life360 personen verwerken",
-
-    "section_places_adapter": "Places-adapter",
-    "sendto_places_adapter_instance": "Places-adapter instantie (-1 = uitgeschakeld)",
-    "sendto_places_adapter_instance_help": "Voer het instantienummer van de Places-adapter in (bijv. 0). Stel -1 in om doorsturen uit te schakelen.",
-    "sendto_places_adapter_regexp": "Regex-filter voor personen (leeg = alles verzenden)",
-    "sendto_places_adapter_regexp_help": "Reguliere expressie vergeleken met '[Voornaam] [Achternaam]'. Leeg laten om alles te verzenden.",
-
+    "place_latitude": "Breedte",
+    "place_longitude": "Lengte",
+    "place_name": "Naam",
+    "place_radius": "Straal (m)",
+    "process_life360_circles": "Verwerk Life360-cirkels",
+    "process_life360_people": "Verwerk Life360 mensen",
+    "process_life360_places": "Verwerk Life360-plaatsen",
+    "section_life360_data": "Life360-gegevens",
     "section_location_tracking": "Locatie-tracking",
-    "track_location_people": "Locatie-tracking inschakelen voor personen",
-    "location_object_type": "Geo-locatie object type",
-
-    "debugging_verbose": "Uitgebreide logging inschakelen"
+    "section_places_adapter": "Plaatsen-adapter",
+    "sendto_places_adapter_instance": "Plaatsen-adapterinstantie (-1 = uitgeschakeld)",
+    "sendto_places_adapter_instance_help": "Voer het instancenummer van de Places-adapter in (bijvoorbeeld 0). Stel in op -1 om het doorsturen uit te schakelen.",
+    "sendto_places_adapter_regexp": "Regex-filter voor mensen (leeg = alles verzenden)",
+    "sendto_places_adapter_regexp_help": "Reguliere expressie komt overeen met '[Voornaam] [Achternaam]'. Laat leeg om alles te verzenden.",
+    "tab_advanced": "Geavanceerd",
+    "tab_general": "Leven360",
+    "tab_integration": "Integratie",
+    "tab_myplaces": "Mijn plaatsen",
+    "token_hint": "EU-gebruikers – hoe u uw Bearer-token kunt verkrijgen:\n1. Open https://life360.com/login\n2. Voer uw e-mailadres in → klik op Doorgaan\n3. Voer de eenmalige code in die naar uw e-mail is verzonden\n4. Open browser DevTools (F12) → tabblad Netwerk\n5. Zoek het POST-verzoek met de naam 'token' (niet OPTIONS)\n6. Open het tabblad Preview / Response → kopieer de waarde van 'access_token' en plak deze hieronder\n\nVoer het token in ZONDER het woord 'Bearer' en ZONDER spaties!\n\nTokens zijn meerdere maanden geldig.",
+    "track_location_people": "Schakel locatietracking voor mensen in"
 }

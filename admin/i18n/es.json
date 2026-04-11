@@ -1,38 +1,30 @@
 {
-    "tab_general": "Life360",
-    "tab_myplaces": "Mis lugares",
-    "tab_integration": "Integración",
-    "tab_advanced": "Avanzado",
-
-    "token_hint": "Usuarios de la UE – cómo obtener el Bearer token:\n1. Abrir https://life360.com/login\n2. Introducir la dirección de correo electrónico → hacer clic en Continuar\n3. Introducir el código de un solo uso enviado por correo electrónico\n4. Abrir las herramientas de desarrollo del navegador (F12) → pestaña Red\n5. Buscar la solicitud POST llamada 'token' (no OPTIONS)\n6. Abrir la pestaña Vista previa / Respuesta → copiar el valor de 'access_token' y pegarlo abajo\n\nLos tokens son válidos durante varios meses.",
-
-    "life360_token": "Bearer token",
-    "life360_username": "Dirección de correo electrónico (opcional, alternativa para autenticación por contraseña)",
-    "life360_username_help": "Solo se necesita si se desea usar el inicio de sesión con contraseña en lugar del token",
-
-    "life360_polling_interval": "Intervalo de consulta (segundos)",
+    "debugging_verbose": "Habilitar el registro detallado",
+    "life360_polling_interval": "Intervalo de sondeo (segundos)",
     "life360_polling_interval_help": "Mínimo 15 segundos, máximo 1440 segundos",
-
-    "place_name": "Nombre",
+    "life360_token": "ficha al portador",
+    "life360_username": "Dirección de correo electrónico (opcional, alternativa para la autenticación de contraseña)",
+    "life360_username_help": "Solo es necesario si desea utilizar un inicio de sesión basado en contraseña en lugar de un token",
+    "location_object_type": "Tipo de objeto de ubicación geográfica",
+    "place_circle": "Círculo (opcional)",
     "place_latitude": "Latitud",
     "place_longitude": "Longitud",
+    "place_name": "Nombre",
     "place_radius": "Radio (m)",
-    "place_circle": "Círculo (opcional)",
-
-    "section_life360_data": "Datos de Life360",
-    "process_life360_circles": "Procesar círculos de Life360",
-    "process_life360_places": "Procesar lugares de Life360",
-    "process_life360_people": "Procesar personas de Life360",
-
-    "section_places_adapter": "Adaptador de lugares",
-    "sendto_places_adapter_instance": "Instancia del adaptador de lugares (-1 = desactivado)",
-    "sendto_places_adapter_instance_help": "Introduce el número de instancia del adaptador de lugares (p. ej. 0). Establece -1 para desactivar el reenvío.",
-    "sendto_places_adapter_regexp": "Filtro regex para personas (vacío = enviar todo)",
-    "sendto_places_adapter_regexp_help": "Expresión regular comparada con '[Nombre] [Apellido]'. Dejar vacío para enviar todo.",
-
+    "process_life360_circles": "Vida del proceso360 círculos",
+    "process_life360_people": "Vida del Proceso360 personas",
+    "process_life360_places": "Proceso de vida360 lugares",
+    "section_life360_data": "Datos de vida 360",
     "section_location_tracking": "Seguimiento de ubicación",
-    "track_location_people": "Activar seguimiento de ubicación para personas",
-    "location_object_type": "Tipo de objeto de geo-localización",
-
-    "debugging_verbose": "Activar registro detallado"
+    "section_places_adapter": "Adaptador de lugares",
+    "sendto_places_adapter_instance": "Instancia de adaptador de lugares (-1 = deshabilitado)",
+    "sendto_places_adapter_instance_help": "Introduzca el número de instancia del adaptador de lugares (por ejemplo, 0). Establezca en -1 para deshabilitar el reenvío.",
+    "sendto_places_adapter_regexp": "Filtro Regex para personas (vacío = enviar todo)",
+    "sendto_places_adapter_regexp_help": "Expresión regular comparada con '[Nombre] [Apellido]'. Déjelo vacío para enviarlo todo.",
+    "tab_advanced": "Avanzado",
+    "tab_general": "vida360",
+    "tab_integration": "Integración",
+    "tab_myplaces": "Mis lugares",
+    "token_hint": "Usuarios de la UE: cómo obtener su token de portador:\n1. Abra https://life360.com/login\n2. Ingrese su dirección de correo electrónico → haga clic en Continuar\n3. Ingrese el código de un solo uso enviado a su correo electrónico\n4. Abra el navegador DevTools (F12) → pestaña Red\n5. Busque la solicitud POST denominada 'token' (no OPCIONES)\n6. Abra la pestaña Vista previa/Respuesta → copie el valor de 'access_token' y péguelo debajo\n\n¡Ingrese el token SIN la palabra 'Portador' y SIN espacios!\n\nLos tokens son válidos por varios meses.",
+    "track_location_people": "Habilitar el seguimiento de ubicación de personas"
 }

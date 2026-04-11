@@ -48,6 +48,8 @@ Life360 has disabled password-based login for EU users. Obtain a Bearer token ma
 6. In **Preview** / **Response**, copy the value of `access_token`.
 7. Paste it into the **Bearer token** field in the adapter configuration.
 
+**Note:** Enter the token WITHOUT the word 'Bearer' and WITHOUT spaces!
+
 **Note:** Tokens are long-lived (typically months). When expired, the adapter log will show a connection error — repeat the steps above to get a new token.
 
 ### My Places
@@ -87,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added notes regarding the token
+
 ### 1.0.7 (2026-04-11)
 - (skvarel) Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services
 
