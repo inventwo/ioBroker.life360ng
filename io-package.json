@@ -84,7 +84,7 @@
     },
     "titleLang": {
       "en": "Life360 Integration",
-      "de": "Life360-Integration",
+      "de": "Life360 Integration",
       "ru": "Интеграция Life360",
       "pt": "Integração Life360",
       "nl": "Life360-integratie",
@@ -96,17 +96,17 @@
       "zh-cn": "Life360 集成"
     },
     "desc": {
-      "en": "An ioBroker adapter for Life360.",
-      "de": "Ein ioBroker-Adapter für Life360.",
-      "ru": "Адаптер ioBroker для Life360.",
-      "pt": "Um adaptador ioBroker para Life360.",
-      "nl": "Een ioBroker-adapter voor Life360.",
-      "fr": "Un adaptateur ioBroker pour Life360.",
-      "it": "Un adattatore ioBroker per Life360.",
-      "es": "Un adaptador ioBroker para Life360.",
-      "pl": "Adapter ioBroker dla Life360.",
-      "uk": "Адаптер ioBroker для Life360.",
-      "zh-cn": "Life360 的 ioBroker 适配器。"
+      "en": "Reads the data from the Life360 app and provides the information as individual data points.",
+      "de": "Liest die Daten aus der Life360-App und stellt die Informationen als einzelne Datenpunkte bereit.",
+      "ru": "Считывает данные из приложения Life360 и предоставляет информацию в виде отдельных точек данных.",
+      "pt": "Lê os dados do aplicativo Life360 e fornece as informações como pontos de dados individuais.",
+      "nl": "Leest de gegevens uit de Life360-app en presenteert de informatie als afzonderlijke datapunten.",
+      "fr": "Lit les données de l'application Life360 et fournit les informations sous forme de points de données individuels.",
+      "it": "Legge i dati dall'app Life360 e fornisce le informazioni come singoli punti dati.",
+      "es": "Lee los datos de la aplicación Life360 y proporciona la información como puntos de datos individuales.",
+      "pl": "Odczytuje dane z aplikacji Life360 i dostarcza informacje jako pojedyncze punkty danych.",
+      "uk": "Зчитує дані з програми Life360 та надає інформацію у вигляді окремих точок даних.",
+      "zh-cn": "读取 Life360 应用中的数据，并将信息作为单独的数据点提供。"
     },
     "authors": [
       "skvarel <skvarel@inventwo.com>"

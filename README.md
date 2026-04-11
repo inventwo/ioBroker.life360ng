@@ -13,7 +13,7 @@
 
 ## Life360 adapter for ioBroker (next generation)
 
-An ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
+ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
 
 > **Disclaimer:** This is an unofficial, community-developed adapter. It is not affiliated with or endorsed by Life360, Inc. Provided free of charge for personal, non-commercial home automation use. Use at your own risk. Life360 may disable or change their API at any time without notice.
 
@@ -87,6 +87,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Adapter cleanup
+
 ### 1.0.5 (2026-04-11)
 - (skvarel) Removed old not needed images
 
@@ -106,6 +109,9 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.1 (2026-04-11)
 - (skvarel) Fixed some repo-checker errors
+
+## Older changes
+- [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
 ## License
 
