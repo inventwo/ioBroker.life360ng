@@ -87,7 +87,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.7 (2026-04-11)
 - (skvarel) Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services
 
 ### 1.0.6 (2026-04-11)
@@ -101,14 +101,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.3 (2026-04-11)
 - (skvarel) Added icons to config
-
-### 1.0.2 (2026-04-11)
-- (skvarel) Migrated HTTP requests from deprecated request package to native node:https
-- (skvarel) Removed bluebird, request, retry-request and uuid dependencies
-- (skvarel) Added Ukrainian translation
-- (skvarel) Fixed io-package.json schema errors and updated minimum dependencies
-- (skvarel) Added Dependabot configuration and auto-merge rules
-- (skvarel) Modernized GitHub workflows
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

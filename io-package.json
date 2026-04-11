@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "news": {
+      "1.0.7": {
+        "en": "Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services",
+        "de": "Fester Adapter, der auf ungültigem Token grün wird — etwa zeigt jetzt gelb, wenn keine Daten von Life360 Cloud Services empfangen werden",
+        "ru": "Фиксированный адаптер, включающий недействительный токен, теперь показывает желтый цвет, когда данные не принимаются из облачных сервисов Life360",
+        "pt": "Adaptador fixo virando verde no token inválido — instância agora mostra amarelo quando nenhum dado é recebido dos serviços de nuvem Life360",
+        "nl": "Vaste adapter draaien groen op ongeldige token instance toont nu geel wanneer geen gegevens worden ontvangen van Life360 cloud services",
+        "fr": "Adaptateur fixe tournant vert sur jeton invalide — l'instance affiche maintenant jaune quand aucune donnée n'est reçue des services Cloud Life360",
+        "it": "Adattatore fisso che gira verde su token non valido — istanza ora mostra giallo quando nessun dato viene ricevuto da servizi cloud Life360",
+        "es": "Adaptador fijo que se vuelve verde en token inválida - ejemplo ahora muestra amarillo cuando no se reciben datos de los servicios de nube Life360",
+        "pl": "Naprawiony adapter zmieniający kolor na zielony na nieprawidłowy token - instancja pokazuje żółty, gdy nie odbiera się danych z usług Life360 w chmurze",
+        "uk": "Фіксований адаптер, що обертається зеленим на недійсному токені, наприклад, тепер показує жовтий, коли дані не надходять від хмарних сервісів Life360",
+        "zh-cn": "固定适配器在无效符上变绿色——当没有收到来自life360云端服务的数据时,实例现在显示黄色"
+      },
       "1.0.6": {
         "en": "Adapter cleanup",
         "de": "Adapterreinigung",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono błędy repo- checker",
         "uk": "Виправлено деякі помилки повторного копіювання",
         "zh-cn": "修正一些复检错误"
-      },
-      "1.0.0": {
-        "en": "Transfer to inventwo organization, updated dependencies to current versions",
-        "de": "Übertragung an die Inventwo-Organisation, Aktualisierung der Abhängigkeiten auf aktuelle Versionen",
-        "ru": "Перенесено в организацию Inventtwo, зависимости обновлены до текущих версий.",
-        "pt": "Transferência para a organização Inventwo, dependências atualizadas para as versões atuais.",
-        "nl": "Overdracht naar de Inventwo-organisatie, afhankelijkheden bijgewerkt naar de huidige versies.",
-        "fr": "Transfert vers l'organisation inventwo, dépendances mises à jour vers les versions actuelles",
-        "it": "Trasferimento all'organizzazione inventwo, dipendenze aggiornate alle versioni correnti",
-        "es": "Transferencia a la organización Inventwo, dependencias actualizadas a las versiones actuales.",
-        "pl": "Przeniesienie do organizacji inventwo, zaktualizowano zależności do bieżących wersji",
-        "uk": "Перенесення до організації inventwo, оновлення залежностей до поточних версій",
-        "zh-cn": "已迁移至 inventwo 组织，并将依赖项更新至最新版本"
       }
     },
     "titleLang": {
