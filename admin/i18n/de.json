@@ -4,7 +4,7 @@
     "tab_integration": "Integration",
     "tab_advanced": "Erweitert",
 
-    "token_hint": "EU-Nutzer: Öffne https://life360.com/login, gib deine E-Mail-Adresse ein, klicke auf 'Weiter', gib dann den per E-Mail erhaltenen Code ein. Öffne die Browser-Entwicklertools (F12) → Tab 'Netzwerk' → POST-Request 'token' suchen (nicht OPTIONS) → Tab 'Vorschau/Antwort' → den Wert von 'access_token' kopieren und unten einfügen. Token sind mehrere Monate gültig.",
+    "token_hint": "EU-Nutzer – Bearer-Token ermitteln:\n1. Öffne https://life360.com/login\n2. E-Mail-Adresse eingeben → 'Weiter' klicken\n3. Einmalcode aus der E-Mail eingeben\n4. Browser-Entwicklertools öffnen (F12) → Tab 'Netzwerk'\n5. POST-Request 'token' suchen (nicht OPTIONS)\n6. Tab 'Vorschau/Antwort' → Wert von 'access_token' kopieren und unten einfügen\n\nToken sind mehrere Monate gültig.",
 
     "life360_token": "Bearer-Token",
     "life360_username": "E-Mail-Adresse (optional, Fallback für Passwort-Auth)",

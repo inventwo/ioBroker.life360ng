@@ -13,7 +13,8 @@
                     "xs": 12,
                     "style": {
                         "marginBottom": "16px",
-                        "fontSize": "0.875rem"
+                        "fontSize": "0.875rem",
+                        "whiteSpace": "pre-wrap"
                     }
                 },
                 "life360_token": {

@@ -1,15 +1,22 @@
 # ioBroker.life360ng
 
-![Logo](admin/Life360_s.svg)
+![Logo](admin/Life360_xl.svg)
 
-[![NPM Version](https://img.shields.io/npm/v/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
+
+![Number of Installations](https://iobroker.live/badges/life360ng-installed.svg) ![Current version in stable repository](https://iobroker.live/badges/life360ng-stable.svg)
+[![NPM Version](https://nodei.co/npm/iobroker.life360ng.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360ng)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
+
+[![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
+
 
 ## Life360 adapter for ioBroker (next generation)
 
-An unofficial ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
+An ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
 
 > **Disclaimer:** This is an unofficial, community-developed adapter. It is not affiliated with or endorsed by Life360, Inc. Provided free of charge for personal, non-commercial home automation use. Use at your own risk. Life360 may disable or change their API at any time without notice.
+
+> **Privacy:** All data retrieved from Life360 is stored exclusively on your local ioBroker system. This adapter does **not** transmit any data to third parties or external cloud services beyond the Life360 API itself.
 
 ## Description
 

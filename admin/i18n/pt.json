@@ -1,0 +1,38 @@
+{
+    "tab_general": "Life360",
+    "tab_myplaces": "Meus locais",
+    "tab_integration": "Integração",
+    "tab_advanced": "Avançado",
+
+    "token_hint": "Utilizadores da UE – como obter o Bearer token:\n1. Abrir https://life360.com/login\n2. Inserir o endereço de e-mail → clicar em Continuar\n3. Inserir o código único enviado para o e-mail\n4. Abrir as ferramentas de desenvolvimento do browser (F12) → separador Rede\n5. Encontrar o pedido POST denominado 'token' (não OPTIONS)\n6. Abrir o separador Pré-visualização / Resposta → copiar o valor de 'access_token' e colá-lo abaixo\n\nOs tokens são válidos durante vários meses.",
+
+    "life360_token": "Bearer token",
+    "life360_username": "Endereço de e-mail (opcional, alternativa para autenticação por palavra-passe)",
+    "life360_username_help": "Apenas necessário se pretender utilizar o início de sessão por palavra-passe em vez do token",
+
+    "life360_polling_interval": "Intervalo de consulta (segundos)",
+    "life360_polling_interval_help": "Mínimo 15 segundos, máximo 1440 segundos",
+
+    "place_name": "Nome",
+    "place_latitude": "Latitude",
+    "place_longitude": "Longitude",
+    "place_radius": "Raio (m)",
+    "place_circle": "Círculo (opcional)",
+
+    "section_life360_data": "Dados Life360",
+    "process_life360_circles": "Processar círculos Life360",
+    "process_life360_places": "Processar locais Life360",
+    "process_life360_people": "Processar pessoas Life360",
+
+    "section_places_adapter": "Adaptador Places",
+    "sendto_places_adapter_instance": "Instância do adaptador Places (-1 = desativado)",
+    "sendto_places_adapter_instance_help": "Inserir o número de instância do adaptador Places (ex.: 0). Definir -1 para desativar o encaminhamento.",
+    "sendto_places_adapter_regexp": "Filtro regex para pessoas (vazio = enviar tudo)",
+    "sendto_places_adapter_regexp_help": "Expressão regular comparada com '[Nome Próprio] [Apelido]'. Deixar vazio para enviar tudo.",
+
+    "section_location_tracking": "Rastreamento de localização",
+    "track_location_people": "Ativar rastreamento de localização para pessoas",
+    "location_object_type": "Tipo de objeto de geolocalização",
+
+    "debugging_verbose": "Ativar registo detalhado"
+}

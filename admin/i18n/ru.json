@@ -1,0 +1,38 @@
+{
+    "tab_general": "Life360",
+    "tab_myplaces": "Мои места",
+    "tab_integration": "Интеграция",
+    "tab_advanced": "Расширенные",
+
+    "token_hint": "Пользователи ЕС – как получить Bearer токен:\n1. Открыть https://life360.com/login\n2. Ввести адрес электронной почты → нажать Продолжить\n3. Ввести одноразовый код, отправленный на e-mail\n4. Открыть инструменты разработчика браузера (F12) → вкладка Сеть\n5. Найти POST-запрос с именем 'token' (не OPTIONS)\n6. Открыть вкладку Предварительный просмотр / Ответ → скопировать значение 'access_token' и вставить ниже\n\nТокены действительны несколько месяцев.",
+
+    "life360_token": "Bearer токен",
+    "life360_username": "Адрес электронной почты (необязательно, альтернатива для аутентификации по паролю)",
+    "life360_username_help": "Требуется только если вы хотите использовать вход по паролю вместо токена",
+
+    "life360_polling_interval": "Интервал опроса (секунды)",
+    "life360_polling_interval_help": "Минимум 15 секунд, максимум 1440 секунд",
+
+    "place_name": "Название",
+    "place_latitude": "Широта",
+    "place_longitude": "Долгота",
+    "place_radius": "Радиус (м)",
+    "place_circle": "Круг (необязательно)",
+
+    "section_life360_data": "Данные Life360",
+    "process_life360_circles": "Обрабатывать круги Life360",
+    "process_life360_places": "Обрабатывать места Life360",
+    "process_life360_people": "Обрабатывать людей Life360",
+
+    "section_places_adapter": "Адаптер Places",
+    "sendto_places_adapter_instance": "Экземпляр адаптера Places (-1 = отключено)",
+    "sendto_places_adapter_instance_help": "Введите номер экземпляра адаптера Places (напр. 0). Установите -1 для отключения пересылки.",
+    "sendto_places_adapter_regexp": "Regex-фильтр для людей (пусто = отправить всё)",
+    "sendto_places_adapter_regexp_help": "Регулярное выражение, сопоставляемое с '[Имя] [Фамилия]'. Оставьте пустым для отправки всех.",
+
+    "section_location_tracking": "Отслеживание местоположения",
+    "track_location_people": "Включить отслеживание местоположения для людей",
+    "location_object_type": "Тип объекта геолокации",
+
+    "debugging_verbose": "Включить подробное протоколирование"
+}

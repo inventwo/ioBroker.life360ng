@@ -1,0 +1,38 @@
+{
+    "tab_general": "Life360",
+    "tab_myplaces": "I miei luoghi",
+    "tab_integration": "Integrazione",
+    "tab_advanced": "Avanzato",
+
+    "token_hint": "Utenti UE – come ottenere il Bearer token:\n1. Aprire https://life360.com/login\n2. Inserire l'indirizzo e-mail → fare clic su Continua\n3. Inserire il codice monouso ricevuto via e-mail\n4. Aprire gli strumenti sviluppatore del browser (F12) → scheda Rete\n5. Trovare la richiesta POST denominata 'token' (non OPTIONS)\n6. Aprire la scheda Anteprima / Risposta → copiare il valore di 'access_token' e incollarlo qui sotto\n\nI token sono validi per diversi mesi.",
+
+    "life360_token": "Bearer token",
+    "life360_username": "Indirizzo e-mail (opzionale, alternativa per l'autenticazione con password)",
+    "life360_username_help": "Necessario solo se si desidera utilizzare l'accesso con password invece del token",
+
+    "life360_polling_interval": "Intervallo di interrogazione (secondi)",
+    "life360_polling_interval_help": "Minimo 15 secondi, massimo 1440 secondi",
+
+    "place_name": "Nome",
+    "place_latitude": "Latitudine",
+    "place_longitude": "Longitudine",
+    "place_radius": "Raggio (m)",
+    "place_circle": "Cerchio (opzionale)",
+
+    "section_life360_data": "Dati Life360",
+    "process_life360_circles": "Elabora cerchi Life360",
+    "process_life360_places": "Elabora luoghi Life360",
+    "process_life360_people": "Elabora persone Life360",
+
+    "section_places_adapter": "Adattatore Places",
+    "sendto_places_adapter_instance": "Istanza adattatore Places (-1 = disabilitato)",
+    "sendto_places_adapter_instance_help": "Inserire il numero di istanza dell'adattatore Places (es. 0). Impostare -1 per disabilitare l'inoltro.",
+    "sendto_places_adapter_regexp": "Filtro regex per persone (vuoto = invia tutto)",
+    "sendto_places_adapter_regexp_help": "Espressione regolare confrontata con '[Nome] [Cognome]'. Lasciare vuoto per inviare tutto.",
+
+    "section_location_tracking": "Tracciamento della posizione",
+    "track_location_people": "Abilita tracciamento della posizione per le persone",
+    "location_object_type": "Tipo di oggetto di geo-localizzazione",
+
+    "debugging_verbose": "Abilita registrazione dettagliata"
+}
