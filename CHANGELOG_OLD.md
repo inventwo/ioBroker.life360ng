@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.4 (2026-04-11)
+- (skvarel) Changed icons from mdi to base64
+
 ## 1.0.3 (2026-04-11)
 - (skvarel) Added icons to config
 
