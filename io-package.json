@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "news": {
+      "1.0.10": {
+        "en": "Added configurable fallback text for `locationName` when a person is not at a known place",
+        "de": "Konfigurierbarer Rückfalltext für `locationName` hinzugefügt, wenn eine Person nicht an einem bekannten Ort ist",
+        "ru": "Добавлен настраиваемый резервный текст для «locationName», когда человек не находится в известном месте",
+        "pt": "Adicionado texto de retorno configurável para `localizationName` quando uma pessoa não está em um lugar conhecido",
+        "nl": "Toegevoegd configureerbare fallback tekst voor de locatienaam wanneer een persoon niet op een bekende plaats is",
+        "fr": "Ajout de texte de retour configurable pour `locationName` lorsqu'une personne n'est pas à un endroit connu",
+        "it": "Aggiunto testo di fallback configurabile per `locationName` quando una persona non è in un luogo noto",
+        "es": "Añadido texto configurable de retroceso para `localizaciónName` cuando una persona no está en un lugar conocido",
+        "pl": "Dodano konfigurowalny tekst zwrotny dla 'locationName', gdy osoba nie znajduje się w znanym miejscu",
+        "uk": "Додати текст для `locationName`, коли людина не перебуває у відомому місці",
+        "zh-cn": "在某人不在已知地点时添加“ 位置” 可配置反向文字Name"
+      },
       "1.0.9": {
         "en": "Revised translation",
         "de": "Überarbeitete Übersetzung",
@@ -80,19 +93,6 @@
         "pl": "Zmienione ikony z mdi na base64",
         "uk": "Змінені іконки від mdi до base64",
         "zh-cn": "从 mdi 更改为 base64 的图标"
-      },
-      "1.0.3": {
-        "en": "Added icons to config",
-        "de": "Hinzufügen von Icons zu config",
-        "ru": "Добавлены иконки в конфигурацию",
-        "pt": "Ícones adicionados à configuração",
-        "nl": "Pictogrammen aan configuratie toegevoegd",
-        "fr": "Ajout d'icônes à la configuration",
-        "it": "Aggiunte icone per configurare",
-        "es": "Iconos añadidos a config",
-        "pl": "Dodano ikony do konfiguracji",
-        "uk": "Додано іконки для налаштування",
-        "zh-cn": "在配置中添加图标"
       }
     },
     "titleLang": {

@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.5 (2026-04-11)
+- (skvarel) Removed old not needed images
+
 ## 1.0.4 (2026-04-11)
 - (skvarel) Changed icons from mdi to base64
 

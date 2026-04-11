@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.10 (2026-04-11)
 - (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place
 
 ### 1.0.9 (2026-04-11)
@@ -103,9 +103,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.6 (2026-04-11)
 - (skvarel) Adapter cleanup
-
-### 1.0.5 (2026-04-11)
-- (skvarel) Removed old not needed images
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
