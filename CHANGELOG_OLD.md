@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.8 (2026-04-11)
+- (skvarel) Added notes regarding the token
+
 ## 1.0.7 (2026-04-11)
 - (skvarel) Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services
 

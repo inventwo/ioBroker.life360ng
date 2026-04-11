@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "news": {
+      "1.0.13": {
+        "en": "Modernized config",
+        "de": "Moderne config",
+        "ru": "Модернизированная конфигурация",
+        "pt": "Configuração modernizada",
+        "nl": "Gemoderniseerde configuratie",
+        "fr": "Config modernisé",
+        "it": "Configurazione moderna",
+        "es": "Configuración modernizada",
+        "pl": "Zmodernizowana konfiguracja",
+        "uk": "Модернізоване налаштування",
+        "zh-cn": "现代化配置"
+      },
       "1.0.12": {
         "en": "Fixed invalid JSON in zh-cn translation",
         "de": "Ungültige JSON in zh-cn Übersetzung",

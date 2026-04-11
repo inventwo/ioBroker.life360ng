@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.13 (2026-04-11)
 - (skvarel) Modernized config
 
 ### 1.0.12 (2026-04-11)
@@ -103,9 +103,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.9 (2026-04-11)
 - (skvarel) Revised translation
-
-### 1.0.8 (2026-04-11)
-- (skvarel) Added notes regarding the token
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
