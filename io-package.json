@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "news": {
+      "1.0.14": {
+        "en": "Modernized config",
+        "de": "Moderne config",
+        "ru": "Модернизированная конфигурация",
+        "pt": "Configuração modernizada",
+        "nl": "Gemoderniseerde configuratie",
+        "fr": "Config modernisé",
+        "it": "Configurazione moderna",
+        "es": "Configuración modernizada",
+        "pl": "Zmodernizowana konfiguracja",
+        "uk": "Модернізоване налаштування",
+        "zh-cn": "现代化配置"
+      },
       "1.0.13": {
         "en": "Modernized config",
         "de": "Moderne config",
@@ -80,19 +93,6 @@
         "pl": "Czyszczenie adaptera",
         "uk": "Очищення адаптера",
         "zh-cn": "适应器清理"
-      },
-      "1.0.5": {
-        "en": "Removed old not needed images",
-        "de": "Alte nicht benötigte Bilder entfernt",
-        "ru": "Удалены старые не нужные изображения",
-        "pt": "Removeu imagens antigas não necessárias",
-        "nl": "Oude niet-nodige afbeeldingen verwijderd",
-        "fr": "Supprimé les anciennes images non nécessaires",
-        "it": "Rimuovi vecchie immagini non necessarie",
-        "es": "Imágenes antiguas no necesarias",
-        "pl": "Usunięto stare nie potrzebne obrazy",
-        "uk": "Видалити старі не потрібні зображення",
-        "zh-cn": "删除旧的不需要的图像"
       }
     },
     "titleLang": {

@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.9 (2026-04-11)
+- (skvarel) Revised translation
+
 ## 1.0.8 (2026-04-11)
 - (skvarel) Added notes regarding the token
 
