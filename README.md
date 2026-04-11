@@ -78,8 +78,22 @@ Enable location-tracking to add geo-positioning details (latitude, longitude, `l
 <!--
   ### **WORK IN PROGRESS**
 -->
-### 1.0.0 (2026-04-10)
+### **WORK IN PROGRESS**
+- (skvarel) Added Ukrainian (uk) translation
+- (skvarel) Added `tier`, `licenseInformation`, `protectedNative`, `encryptedNative` to io-package.json
+- (skvarel) Fixed typo `stopTimeout ` → `stopTimeout` in io-package.json
+- (skvarel) Updated minimum js-controller to 6.0.11 and admin to 7.6.20
+- (skvarel) Fixed keywords in io-package.json (removed generic iobroker/smart home terms)
+- (skvarel) Fixed responsive size attributes in jsonConfig.json
+- (skvarel) Replaced `require("https")` and `require("util")` with `node:` prefixed imports
+- (skvarel) Added Dependabot configuration
+- (skvarel) Removed unused `lib/tools.js` and outdated `admin/style.css`
+- (skvarel) Modernized GitHub workflows (testing-action-check/adapter/deploy, Node 20–24)
+- (skvarel) Added `automerge-dependabot.yml` and `check-copilot-template.yml` workflows
+- (skvarel) Migrated i18n to flat file structure
+- (skvarel) Modernized toolchain (ESLint, Prettier, release script)
 
+### 1.0.0 (2026-04-10)
 - (skvarel) Fork from ioBroker.life360, renamed to life360ng
 - (skvarel) Switched to token-only authentication (removed password/phone login)
 - (skvarel) Fixed EU API connectivity (TLS cipher fix, v3 endpoints for members and places)

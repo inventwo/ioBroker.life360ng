@@ -40,20 +40,25 @@
             "it": "Un adattatore ioBroker per Life360.",
             "es": "Un adaptador ioBroker para Life360.",
             "pl": "Adapter ioBroker dla Life360.",
+            "uk": "Адаптер ioBroker для Life360.",
             "zh-cn": "Life360 的 ioBroker 适配器。"
         },
         "authors": [
             "skvarel <skvarel@inventwo.com>"
         ],
         "keywords": [
-            "ioBroker",
             "Life360",
-            "Smart Home",
-            "home automation"
+            "location",
+            "geoposition",
+            "tracking"
         ],
-        "license": "MIT",
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT",
+            "link": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/LICENSE"
+        },
+        "tier": 3,
         "platform": "Javascript/Node.js",
-        "main": "main.js",
         "icon": "Life360_s.svg",
         "enabled": false,
         "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/admin/Life360_s.svg",
@@ -65,20 +70,26 @@
         "adminUI": {
             "config": "json"
         },
-        "stopTimeout ": 3000,
+        "stopTimeout": 3000,
         "dependencies": [
             {
-                "js-controller": ">=1.4.2"
+                "js-controller": ">=6.0.11"
             }
         ],
         "globalDependencies": [
             {
-                "admin": ">=6.0.0"
+                "admin": ">=7.6.20"
             }
         ],
         "connectionType": "cloud",
         "dataSource": "poll"
     },
+    "protectedNative": [
+        "life360_token"
+    ],
+    "encryptedNative": [
+        "life360_token"
+    ],
     "native": {
         "life360_username": "",
         "life360_token": "",

@@ -11,6 +11,10 @@
                     "text": "token_hint",
                     "newLine": true,
                     "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
                     "style": {
                         "marginBottom": "16px",
                         "fontSize": "0.875rem",
@@ -24,7 +28,8 @@
                     "xs": 12,
                     "sm": 12,
                     "md": 8,
-                    "lg": 6
+                    "lg": 6,
+                    "xl": 6
                 },
                 "life360_username": {
                     "type": "text",
@@ -34,7 +39,8 @@
                     "xs": 12,
                     "sm": 12,
                     "md": 8,
-                    "lg": 6
+                    "lg": 6,
+                    "xl": 6
                 },
                 "life360_polling_interval": {
                     "type": "number",
@@ -48,6 +54,7 @@
                     "sm": 6,
                     "md": 4,
                     "lg": 3,
+                    "xl": 3,
                     "style": {
                         "marginTop": "8px"
                     }
@@ -62,6 +69,10 @@
                     "type": "table",
                     "newLine": true,
                     "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
                     "items": [
                         {
                             "title": "place_name",
