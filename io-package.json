@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "news": {
+      "1.0.4": {
+        "en": "Changed icons from mdi to base64",
+        "de": "Änderte Icons von mdi zu base64",
+        "ru": "Изменены значки с mdi на base64",
+        "pt": "Ícones alterados de mdi para base64",
+        "nl": "Pictogrammen van mdi naar base64",
+        "fr": "Les icônes modifiées de mdi à base64",
+        "it": "Le icone cambiate da mdi a base64",
+        "es": "Iconos cambiados de mdi a base64",
+        "pl": "Zmienione ikony z mdi na base64",
+        "uk": "Змінені іконки від mdi до base64",
+        "zh-cn": "从 mdi 更改为 base64 的图标"
+      },
       "1.0.3": {
         "en": "Added icons to config",
         "de": "Hinzufügen von Icons zu config",

@@ -86,7 +86,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.4 (2026-04-11)
 - (skvarel) Changed icons from mdi to base64
 
 ### 1.0.3 (2026-04-11)
