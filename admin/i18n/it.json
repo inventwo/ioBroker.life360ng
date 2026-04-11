@@ -5,6 +5,8 @@
     "life360_token": "Gettone al portatore",
     "life360_username": "Indirizzo email (facoltativo, fallback per l'autenticazione della password)",
     "life360_username_help": "Necessario solo se desideri utilizzare l'accesso basato su password anziché su token",
+    "location_unknown_name": "Nome alternativo per posizione sconosciuta",
+    "location_unknown_name_help": "Testo mostrato in locationName quando la persona non è in nessun luogo noto (es. 'in giro'). Lasciare vuoto per non mostrare nulla.",
     "location_object_type": "Tipo di oggetto di geolocalizzazione",
     "place_circle": "Cerchio (facoltativo)",
     "place_latitude": "Latitudine",

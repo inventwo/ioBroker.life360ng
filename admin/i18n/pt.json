@@ -5,6 +5,8 @@
     "life360_token": "Token do portador",
     "life360_username": "Endereço de e-mail (opcional, substituto para autenticação de senha)",
     "life360_username_help": "Necessário apenas se você quiser usar login baseado em senha em vez de token",
+    "location_unknown_name": "Nome alternativo para localização desconhecida",
+    "location_unknown_name_help": "Texto mostrado em locationName quando a pessoa não está em nenhum lugar conhecido (ex. 'a caminho'). Deixe vazio para não mostrar nada.",
     "location_object_type": "Tipo de objeto de geolocalização",
     "place_circle": "Círculo (opcional)",
     "place_latitude": "Latitude",

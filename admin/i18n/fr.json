@@ -5,6 +5,8 @@
     "life360_token": "Jeton du porteur",
     "life360_username": "Adresse e-mail (facultatif, solution de secours pour l'authentification par mot de passe)",
     "life360_username_help": "Nécessaire uniquement si vous souhaitez utiliser une connexion par mot de passe au lieu d'un jeton",
+    "location_unknown_name": "Nom de remplacement pour emplacement inconnu",
+    "location_unknown_name_help": "Texte affiché dans locationName quand la personne n'est dans aucun lieu connu (ex. 'en route'). Laisser vide pour ne rien afficher.",
     "location_object_type": "Type d'objet de géolocalisation",
     "place_circle": "Cercle (facultatif)",
     "place_latitude": "Latitude",

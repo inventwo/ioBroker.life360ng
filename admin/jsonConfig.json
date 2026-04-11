@@ -181,6 +181,14 @@
                             "sm": 6,
                             "md": 4
                         },
+                        "location_unknown_name": {
+                            "type": "text",
+                            "label": "location_unknown_name",
+                            "help": "location_unknown_name_help",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        },
                         "location_object_type": {
                             "type": "select",
                             "label": "location_object_type",

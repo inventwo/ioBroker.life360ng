@@ -5,6 +5,8 @@
     "life360_token": "Token okaziciela",
     "life360_username": "Adres e-mail (opcjonalnie, zastępczy do autoryzacji hasłem)",
     "life360_username_help": "Potrzebne tylko wtedy, gdy chcesz używać logowania opartego na haśle zamiast tokena",
+    "location_unknown_name": "Nazwa zastępcza dla nieznanej lokalizacji",
+    "location_unknown_name_help": "Tekst wyświetlany w locationName gdy osoba nie jest w żadnym znanym miejscu (np. 'w trasie'). Pozostaw puste, aby nic nie wyświetlać.",
     "location_object_type": "Typ obiektu geolokalizacji",
     "place_circle": "Okrąg (opcjonalnie)",
     "place_latitude": "Szerokość",

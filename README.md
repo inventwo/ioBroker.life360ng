@@ -89,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place
+
 ### 1.0.9 (2026-04-11)
 - (skvarel) Revised translation
 

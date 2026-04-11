@@ -25,6 +25,8 @@
     "sendto_places_adapter_regexp_help": "Regular expression matched against '[Firstname] [Lastname]'. Leave empty to send all.",
     "section_location_tracking": "Location-tracking",
     "track_location_people": "Enable location-tracking for people",
+    "location_unknown_name": "Fallback name for unknown location",
+    "location_unknown_name_help": "Text shown in locationName when the person is at no known place (e.g. 'on tour'). Leave empty to keep blank.",
     "location_object_type": "Geo-location object type",
     "debugging_verbose": "Enable verbose logging"
 }

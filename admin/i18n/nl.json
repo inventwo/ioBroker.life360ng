@@ -5,6 +5,8 @@
     "life360_token": "Token aan toonder",
     "life360_username": "E-mailadres (optioneel, reserve voor wachtwoordauthenticatie)",
     "life360_username_help": "Alleen nodig als u op wachtwoord gebaseerde login wilt gebruiken in plaats van een token",
+    "location_unknown_name": "Terugvalnaam voor onbekende locatie",
+    "location_unknown_name_help": "Tekst in locationName als de persoon op geen bekende plek is (bijv. 'onderweg'). Leeg laten om niets te tonen.",
     "location_object_type": "Objecttype geolocatie",
     "place_circle": "Cirkel (optioneel)",
     "place_latitude": "Breedte",
