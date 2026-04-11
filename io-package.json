@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "news": {
+      "1.0.8": {
+        "en": "Added notes regarding the token",
+        "de": "Anmerkungen zum Token hinzugefügt",
+        "ru": "Добавлены примечания относительно токена",
+        "pt": "Notas adicionadas sobre o token",
+        "nl": "Opmerkingen over het token toegevoegd",
+        "fr": "Ajout de notes concernant le jeton",
+        "it": "Osservazioni aggiunte per quanto riguarda il token",
+        "es": "Notas adicionales sobre la ficha",
+        "pl": "Dodano notatki dotyczące tokena",
+        "uk": "Додано ноти про токени",
+        "zh-cn": "添加有关符号的注释"
+      },
       "1.0.7": {
         "en": "Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services",
         "de": "Fester Adapter, der auf ungültigem Token grün wird — etwa zeigt jetzt gelb, wenn keine Daten von Life360 Cloud Services empfangen werden",
@@ -80,19 +93,6 @@
         "pl": "Migrowane żądania HTTP z zdepregowanego pakietu prośby do rodzimego węzła: https\nUsunięty niebieski ptak, prośba, retry- żądanie i uuid zależności\nDodano tłumaczenie ukraińskie\nNaprawiono błędy schematu jo- package.json i zaktualizowano minimalne zależności\nDodano konfigurację Dependabot i zasady autołączenia\nModernizowane przepływy pracy GitHub",
         "uk": "Migrated HTTP запитів від депресованого пакету запиту на рідну вершину:https\nВилучені синіми, запитом, рецептурою та відповідними залежностями\nУкраїнський переклад\nВиправлені помилки io-package.json schema і оновлені мінімальні залежності\nДодано Конфігурацію та правила автоматичного занурення залежностей\nСучаснізовані робочі процеси GitHub",
         "zh-cn": "将 HTTP 请求从已贬值的请求包移到本地节点: https\n删除蓝鸟、请求、重试请求和uuid依赖\n添加乌克兰语翻译\n固定 io- package.json 计划错误和更新的最低依赖性\n添加依赖配置和自动合并规则\n现代化的 GitHub 工作流程"
-      },
-      "1.0.1": {
-        "en": "Fixed some repo-checker errors",
-        "de": "Einige Repo-Checker-Fehler behoben",
-        "ru": "Исправлены некоторые ошибки перепроверки",
-        "pt": "Corrigido alguns erros de repo-checker",
-        "nl": "Enkele repo-checker fouten hersteld",
-        "fr": "Correction de certaines erreurs de repo-checker",
-        "it": "Risolto alcuni errori repo-checker",
-        "es": "Arreglado algunos errores de re-checker",
-        "pl": "Naprawiono błędy repo- checker",
-        "uk": "Виправлено деякі помилки повторного копіювання",
-        "zh-cn": "修正一些复检错误"
       }
     },
     "titleLang": {

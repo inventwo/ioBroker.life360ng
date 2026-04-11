@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.8 (2026-04-11)
 - (skvarel) Added notes regarding the token
 
 ### 1.0.7 (2026-04-11)
@@ -103,9 +103,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.4 (2026-04-11)
 - (skvarel) Changed icons from mdi to base64
-
-### 1.0.3 (2026-04-11)
-- (skvarel) Added icons to config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

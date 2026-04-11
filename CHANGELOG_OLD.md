@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.3 (2026-04-11)
+- (skvarel) Added icons to config
+
 ## 1.0.2 (2026-04-11)
 - (skvarel) Migrated HTTP requests from deprecated request package to native node:https
 - (skvarel) Removed bluebird, request, retry-request and uuid dependencies
