@@ -89,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Revised translation
+
 ### 1.0.8 (2026-04-11)
 - (skvarel) Added notes regarding the token
 
