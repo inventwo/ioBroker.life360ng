@@ -62,11 +62,18 @@
         "mode": "daemon",
         "type": "geoposition",
         "compact": true,
-        "materialize": true,
+        "adminUI": {
+            "config": "json"
+        },
         "stopTimeout ": 3000,
         "dependencies": [
             {
                 "js-controller": ">=1.4.2"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=6.0.0"
             }
         ],
         "connectionType": "cloud",
@@ -76,6 +83,7 @@
         "life360_username": "",
         "life360_token": "",
         "life360_polling_interval": "60",
+        "places": [],
         "sendto_places_adapter_instance": -1,
         "sendto_places_adapter_regexp": "",
         "track_location_people": true,

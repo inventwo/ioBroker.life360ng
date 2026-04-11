@@ -1,0 +1,203 @@
+{
+    "i18n": true,
+    "type": "tabs",
+    "items": {
+        "_general": {
+            "type": "panel",
+            "label": "tab_general",
+            "items": {
+                "tokenHint": {
+                    "type": "staticText",
+                    "text": "token_hint",
+                    "newLine": true,
+                    "xs": 12,
+                    "style": {
+                        "marginBottom": "16px",
+                        "fontSize": "0.875rem"
+                    }
+                },
+                "life360_token": {
+                    "type": "text",
+                    "label": "life360_token",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 8,
+                    "lg": 6
+                },
+                "life360_username": {
+                    "type": "text",
+                    "label": "life360_username",
+                    "help": "life360_username_help",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 8,
+                    "lg": 6
+                },
+                "life360_polling_interval": {
+                    "type": "number",
+                    "label": "life360_polling_interval",
+                    "help": "life360_polling_interval_help",
+                    "min": 15,
+                    "max": 1440,
+                    "step": 1,
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 6,
+                    "md": 4,
+                    "lg": 3,
+                    "style": {
+                        "marginTop": "8px"
+                    }
+                }
+            }
+        },
+        "_myplaces": {
+            "type": "panel",
+            "label": "tab_myplaces",
+            "items": {
+                "places": {
+                    "type": "table",
+                    "newLine": true,
+                    "xs": 12,
+                    "items": [
+                        {
+                            "title": "place_name",
+                            "attr": "name",
+                            "type": "text",
+                            "width": "25%"
+                        },
+                        {
+                            "title": "place_latitude",
+                            "attr": "latitude",
+                            "type": "text",
+                            "width": "20%"
+                        },
+                        {
+                            "title": "place_longitude",
+                            "attr": "longitude",
+                            "type": "text",
+                            "width": "20%"
+                        },
+                        {
+                            "title": "place_radius",
+                            "attr": "radius",
+                            "type": "number",
+                            "width": "15%"
+                        },
+                        {
+                            "title": "place_circle",
+                            "attr": "circle",
+                            "type": "text",
+                            "width": "20%"
+                        }
+                    ]
+                }
+            }
+        },
+        "_integration": {
+            "type": "panel",
+            "label": "tab_integration",
+            "items": {
+                "_life360Data": {
+                    "type": "panel",
+                    "label": "section_life360_data",
+                    "xs": 12,
+                    "items": {
+                        "process_life360_circles": {
+                            "type": "checkbox",
+                            "label": "process_life360_circles",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        },
+                        "process_life360_places": {
+                            "type": "checkbox",
+                            "label": "process_life360_places",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        },
+                        "process_life360_people": {
+                            "type": "checkbox",
+                            "label": "process_life360_people",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        }
+                    }
+                },
+                "_placesAdapter": {
+                    "type": "panel",
+                    "label": "section_places_adapter",
+                    "xs": 12,
+                    "items": {
+                        "sendto_places_adapter_instance": {
+                            "type": "number",
+                            "label": "sendto_places_adapter_instance",
+                            "help": "sendto_places_adapter_instance_help",
+                            "min": -1,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 3
+                        },
+                        "sendto_places_adapter_regexp": {
+                            "type": "text",
+                            "label": "sendto_places_adapter_regexp",
+                            "help": "sendto_places_adapter_regexp_help",
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 8,
+                            "lg": 6
+                        }
+                    }
+                },
+                "_locationTracking": {
+                    "type": "panel",
+                    "label": "section_location_tracking",
+                    "xs": 12,
+                    "items": {
+                        "track_location_people": {
+                            "type": "checkbox",
+                            "label": "track_location_people",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        },
+                        "location_object_type": {
+                            "type": "select",
+                            "label": "location_object_type",
+                            "options": [
+                                { "label": "LonLat tuple",                   "value": "LonLatTuple" },
+                                { "label": "LatLon object",                  "value": "LatLon" },
+                                { "label": "LatLng object",                  "value": "LatLng" },
+                                { "label": "LatitudeLongitude object",       "value": "LatitudeLongitude" },
+                                { "label": "Latitude,Longitude (comma)",     "value": "CUSTOM_LatCommaLon" },
+                                { "label": "Latitude;Longitude (semicolon)", "value": "CUSTOM_LatSemicolonLon" }
+                            ],
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4
+                        }
+                    }
+                }
+            }
+        },
+        "_advanced": {
+            "type": "panel",
+            "label": "tab_advanced",
+            "items": {
+                "debugging_verbose": {
+                    "type": "checkbox",
+                    "label": "debugging_verbose",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 6,
+                    "md": 4
+                }
+            }
+        }
+    }
+}

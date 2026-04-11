@@ -1,0 +1,38 @@
+{
+    "tab_general": "Life360",
+    "tab_myplaces": "Meine Orte",
+    "tab_integration": "Integration",
+    "tab_advanced": "Erweitert",
+
+    "token_hint": "EU-Nutzer: Öffne https://life360.com/login, gib deine E-Mail-Adresse ein, klicke auf 'Weiter', gib dann den per E-Mail erhaltenen Code ein. Öffne die Browser-Entwicklertools (F12) → Tab 'Netzwerk' → POST-Request 'token' suchen (nicht OPTIONS) → Tab 'Vorschau/Antwort' → den Wert von 'access_token' kopieren und unten einfügen. Token sind mehrere Monate gültig.",
+
+    "life360_token": "Bearer-Token",
+    "life360_username": "E-Mail-Adresse (optional, Fallback für Passwort-Auth)",
+    "life360_username_help": "Nur benötigt wenn Passwort-Login statt Token verwendet werden soll",
+
+    "life360_polling_interval": "Abfrageintervall (Sekunden)",
+    "life360_polling_interval_help": "Minimum 15 Sekunden, Maximum 1440 Sekunden",
+
+    "place_name": "Name",
+    "place_latitude": "Breitengrad",
+    "place_longitude": "Längengrad",
+    "place_radius": "Radius (m)",
+    "place_circle": "Kreis (optional)",
+
+    "section_life360_data": "Life360-Daten",
+    "process_life360_circles": "Life360-Kreise verarbeiten",
+    "process_life360_places": "Life360-Orte verarbeiten",
+    "process_life360_people": "Life360-Personen verarbeiten",
+
+    "section_places_adapter": "Places-Adapter",
+    "sendto_places_adapter_instance": "Places-Adapter-Instanz (-1 = deaktiviert)",
+    "sendto_places_adapter_instance_help": "Instanznummer des Places-Adapters eingeben (z. B. 0). -1 deaktiviert die Weiterleitung.",
+    "sendto_places_adapter_regexp": "Regex-Filter für Personen (leer = alle senden)",
+    "sendto_places_adapter_regexp_help": "Regulärer Ausdruck, abgeglichen gegen '[Vorname] [Nachname]'. Leer lassen um alle zu senden.",
+
+    "section_location_tracking": "Standortverfolgung",
+    "track_location_people": "Standortverfolgung für Personen aktivieren",
+    "location_object_type": "Geo-Positionsobjekt-Typ",
+
+    "debugging_verbose": "Ausführliche Protokollierung aktivieren"
+}
