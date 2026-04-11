@@ -28,7 +28,7 @@
                     "newLine": true,
                     "xs": 12,
                     "sm": 12,
-                    "md": 8,
+                    "md": 6,
                     "lg": 6,
                     "xl": 6
                 },
@@ -39,7 +39,7 @@
                     "newLine": true,
                     "xs": 12,
                     "sm": 12,
-                    "md": 8,
+                    "md": 6,
                     "lg": 6,
                     "xl": 6
                 },
@@ -53,9 +53,9 @@
                     "newLine": true,
                     "xs": 12,
                     "sm": 6,
-                    "md": 4,
-                    "lg": 3,
-                    "xl": 3,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
                     "style": {
                         "marginTop": "8px"
                     }
@@ -123,23 +123,29 @@
                         "process_life360_circles": {
                             "type": "checkbox",
                             "label": "process_life360_circles",
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 4
+                             "xs": 12,
+                             "sm": 12,
+                             "md": 4,
+                             "lg": 4,
+                             "xl": 4
                         },
                         "process_life360_places": {
                             "type": "checkbox",
                             "label": "process_life360_places",
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 4
+                             "xs": 12,
+                             "sm": 12,
+                             "md": 4,
+                             "lg": 4,
+                             "xl": 4
                         },
                         "process_life360_people": {
                             "type": "checkbox",
                             "label": "process_life360_people",
                             "xs": 12,
-                            "sm": 6,
-                            "md": 4
+                            "sm": 12,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4
                         }
                     }
                 },
@@ -155,8 +161,9 @@
                             "min": -1,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 3
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
                         },
                         "sendto_places_adapter_regexp": {
                             "type": "text",
@@ -164,8 +171,9 @@
                             "help": "sendto_places_adapter_regexp_help",
                             "xs": 12,
                             "sm": 12,
-                            "md": 8,
-                            "lg": 6
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
                         }
                     }
                 },
@@ -179,7 +187,9 @@
                             "label": "track_location_people",
                             "xs": 12,
                             "sm": 6,
-                            "md": 4
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
                         },
                         "location_object_type": {
                             "type": "select",
@@ -194,7 +204,9 @@
                             ],
                             "xs": 12,
                             "sm": 6,
-                            "md": 4
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
                         },
                         "location_unknown_name": {
                             "type": "text",
@@ -203,7 +215,9 @@
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
                         }
                     }
                 }
@@ -220,7 +234,9 @@
                     "newLine": true,
                     "xs": 12,
                     "sm": 6,
-                    "md": 4
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6
                 }
             }
         }
