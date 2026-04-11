@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.10",
+    "version": "1.0.9",
     "news": {
       "1.0.10": {
         "en": "Added configurable fallback text for `locationName` when a person is not at a known place",
@@ -175,6 +175,7 @@
     "places": [],
     "sendto_places_adapter_instance": -1,
     "sendto_places_adapter_regexp": "",
+    "location_unknown_name": "",
     "track_location_people": true,
     "location_object_type": "LatLng",
     "process_life360_circles": true,
