@@ -5,7 +5,7 @@
         "_general": {
             "type": "panel",
             "label": "tab_general",
-            "icon": "mdi:cog",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTUuNUEzLjUsMy41IDAgMCwxIDguNSwxMkEzLjUsMy41IDAgMCwxIDEyLDguNUEzLjUsMy41IDAgMCwxIDE1LjUsMTJBMy41LDMuNSAwIDAsMSAxMiwxNS41TTE5LjQzLDEyLjk3QzE5LjQ3LDEyLjY1IDE5LjUsMTIuMzMgMTkuNSwxMkMxOS41LDExLjY3IDE5LjQ3LDExLjM0IDE5LjQzLDExTDIxLjU0LDkuMzdDMjEuNzMsOS4yMiAyMS43OCw4Ljk1IDIxLjY2LDguNzNMMTkuNjYsNS4yN0MxOS41NCw1LjA1IDE5LjI3LDQuOTYgMTkuMDUsNS4wNUwxNi41Niw2LjA1QzE2LjA0LDUuNjYgMTUuNSw1LjMyIDE0Ljg3LDUuMDdMMTQuNSwyLjQyQzE0LjQ2LDIuMTggMTQuMjUsMiAxNCwySDEwQzkuNzUsMiA5LjU0LDIuMTggOS41LDIuNDJMOS4xMyw1LjA3QzguNSw1LjMyIDcuOTYsNS42NiA3LjQ0LDYuMDVMNC45NSw1LjA1QzQuNzMsNC45NiA0LjQ2LDUuMDUgNC4zNCw1LjI3TDIuMzQsOC43M0MyLjIxLDguOTUgMi4yNyw5LjIyIDIuNDYsOS4zN0w0LjU3LDExQzQuNTMsMTEuMzQgNC41LDExLjY3IDQuNSwxMkM0LjUsMTIuMzMgNC41MywxMi42NSA0LjU3LDEyLjk3TDIuNDYsMTQuNjNDMi4yNywxNC43OCAyLjIxLDE1LjA1IDIuMzQsMTUuMjdMNC4zNCwxOC43M0M0LjQ2LDE4Ljk1IDQuNzMsMTkuMDMgNC45NSwxOC45NUw3LjQ0LDE3Ljk0QzcuOTYsMTguMzQgOC41LDE4LjY4IDkuMTMsMTguOTNMOS41LDIxLjU4QzkuNTQsMjEuODIgOS43NSwyMiAxMCwyMkgxNEMxNC4yNSwyMiAxNC40NiwyMS44MiAxNC41LDIxLjU4TDE0Ljg3LDE4LjkzQzE1LjUsMTguNjcgMTYuMDQsMTguMzQgMTYuNTYsMTcuOTRMMTkuMDUsMTguOTVDMTkuMjcsMTkuMDMgMTkuNTQsMTguOTUgMTkuNjYsMTguNzNMMjEuNjYsMTUuMjdDMjEuNzgsMTUuMDUgMjEuNzMsMTQuNzggMjEuNTQsMTQuNjNMMTkuNDMsMTIuOTdaIi8+PC9zdmc+",
             "items": {
                 "tokenHint": {
                     "type": "staticText",
@@ -65,7 +65,7 @@
         "_myplaces": {
             "type": "panel",
             "label": "tab_myplaces",
-            "icon": "mdi:map-marker",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTEuNUEyLjUsMi41IDAgMCwxIDkuNSw5QTIuNSwyLjUgMCAwLDEgMTIsNi41QTIuNSwyLjUgMCAwLDEgMTQuNSw5QTIuNSwyLjUgMCAwLDEgMTIsMTEuNU0xMiwyQTcsNyAwIDAsMCA1LDlDNSwxNC4yNSAxMiwyMiAxMiwyMkMxMiwyMiAxOSwxNC4yNSAxOSw5QTcsNyAwIDAsMCAxMiwyWiIvPjwvc3ZnPg==",
             "items": {
                 "places": {
                     "type": "table",
@@ -113,7 +113,7 @@
         "_integration": {
             "type": "panel",
             "label": "tab_integration",
-            "icon": "mdi:puzzle-outline",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjAuNSwxMUgxOVY3QzE5LDUuODkgMTguMSw1IDE3LDVIMTNWMy41QTIuNSwyLjUgMCAwLDAgMTAuNSwxQTIuNSwyLjUgMCAwLDAgOCwzLjVWNUg0QTIsMiAwIDAsMCAyLDdWMTAuOEgzLjVDNSwxMC44IDYuMiwxMiA2LjIsMTMuNUM2LjIsMTUgNSwxNi4yIDMuNSwxNi4ySDJWMjBBMiwyIDAgMCwwIDQsMjJINy44VjIwLjVDNy44LDE5IDksMTcuOCAxMC41LDE3LjhDMTIsMTcuOCAxMy4yLDE5IDEzLjIsMjAuNVYyMkgxN0EyLDIgMCAwLDAgMTksMjBWMTZIMjAuNUEyLjUsMi41IDAgMCwwIDIzLDEzLjVBMi41LDIuNSAwIDAsMCAyMC41LDExWiIvPjwvc3ZnPg==",
             "items": {
                 "_life360Data": {
                     "type": "panel",
@@ -203,7 +203,7 @@
         "_advanced": {
             "type": "panel",
             "label": "tab_advanced",
-            "icon": "mdi:bug",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjAsOEgxNy4xOUMxNi43NCw3LjIyIDE2LjEyLDYuNTUgMTUuMzcsNi4wNEwxNyw0LjQxTDE1LjU5LDNMMTMuNDIsNS4xN0MxMi45Niw1LjA2IDEyLjQ5LDUgMTIsNUMxMS41MSw1IDExLjA0LDUuMDYgMTAuNTksNS4xN0w4LjQxLDNMNyw0LjQxTDguNjIsNi4wNEM3Ljg4LDYuNTUgNy4yNiw3LjIyIDYuODEsOEg0VjEwSDYuMDlDNi4wNCwxMC4zMyA2LDEwLjY2IDYsMTFWMTJINFYxNEg2VjE1QzYsMTUuMzQgNi4wNCwxNS42NyA2LjA5LDE2SDRWMThINi44MUM3Ljg1LDE5Ljc5IDkuNzgsMjEgMTIsMjFDMTQuMjIsMjEgMTYuMTUsMTkuNzkgMTcuMTksMThIMjBWMTZIMTcuOTFDMTcuOTYsMTUuNjcgMTgsMTUuMzQgMTgsMTVWMTRIMjBWMTJIMThWMTFDMTgsMTAuNjYgMTcuOTYsMTAuMzMgMTcuOTEsMTBIMjBWOE0xNiwxNUE0LDQgMCAwLDEgMTIsMTlBNCw0IDAgMCwxIDgsMTVWMTFBNCw0IDAgMCwxIDEyLDdBNCw0IDAgMCwxIDE2LDExVjE1WiIvPjwvc3ZnPg==",
             "items": {
                 "debugging_verbose": {
                     "type": "checkbox",
