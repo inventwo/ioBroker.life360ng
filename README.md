@@ -1,120 +1,70 @@
-# ioBroker.life360
+# ioBroker.life360ng
 
-![Logo](admin/Life360_xl.svg)
+![Logo](admin/Life360_s.svg)
 
+[![NPM Version](https://img.shields.io/npm/v/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
 
+## Life360 adapter for ioBroker (next generation)
 
-![Number of Installations](https://iobroker.live/badges/iobroker.life360.svg) ![Current version in stable repository](https://iobroker.live/badges/life360-stable.svg)
-[![NPM Version](https://nodei.co/npm/iobroker.life36.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.life360.svg)](https://www.npmjs.com/package/iobroker.life360)
+An unofficial ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
 
-[![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
-
-## Life360 adapter for ioBroker
-
-An ioBroker adapter for [Life360](https://www.life360.com).
+> **Disclaimer:** This is an unofficial, community-developed adapter. It is not affiliated with or endorsed by Life360, Inc. Provided free of charge for personal, non-commercial home automation use. Use at your own risk. Life360 may disable or change their API at any time without notice.
 
 ## Description
 
-This adapter connects to the [Life360](https://www.life360.com) cloud services to allow you to track people and to detect their presence at defined places. It retrieves information about the user's circles, the circles' members and the circles' places. These information persists the adapter in ioBroker states. Any states will get updated in a given interval.
+This adapter connects to the [Life360](https://www.life360.com) cloud services to track people and detect presence at defined places. It retrieves circles, members and places data and persists it as ioBroker states, updated at a configurable interval.
 
 ## Installation
 
-Right now you'll have to add the adapter to your ioBroker using a custom URL pointing to the corresponding [GitHub](https://github.com/) repository at https://github.com/inventwo/ioBroker.life360/tree/master .
+Install the adapter in ioBroker Admin via a custom URL:
+`https://github.com/inventwo/ioBroker.life360ng`
 
-### Install the Node JS package on the command line
+Or on the command line:
 
-If you don't want to install the adapter using the web UI or if you want to install a special version, including development version, you can do so on the command line.
-
-1. Login to your ioBroker host
-2. Switch to ioBroker's installation directory (defaults to `/opt/iobroker`)
-3. Run the following commands
-
-    ``` bash
-    iobroker npm install inventwo/iobroker.life360 --loglevel error --prefix "/opt/iobroker"
-    ```
-
-4. Add an instance using the web UI
-
-If you want to install the development version just type ...
-
-``` bash
-iobroker npm install inventwo/iobroker.life360#develop --loglevel error --prefix "/opt/iobroker"
+```bash
+iobroker npm install inventwo/iobroker.life360ng --loglevel error --prefix "/opt/iobroker"
 ```
 
 ## Configuration
 
-### Life360 cloud services
+### Bearer Token (required for EU users)
 
-You'll have to setup the adapter with your personal [Life360](https://www.life360.com) credentials to let the adapter poll the information from the cloud services. You can login with your mobile phone number or your email-address (recommended) for Life360, but in any case you'll have to set the password to your personal Life360 password.
+Life360 has disabled password-based login for EU users. Obtain a Bearer token manually:
 
-![Logo](admin/ioBroker.life360.settings.life360.png)
+1. Open [https://life360.com/login](https://life360.com/login) in your browser.
+2. Enter your email address and click **Continue**.
+3. Enter the one-time code sent to your email.
+4. Open browser DevTools (**F12**) and switch to the **Network** tab.
+5. Find the **POST** request named `token` (ignore OPTIONS).
+6. In **Preview** / **Response**, copy the value of `access_token`.
+7. Paste it into the **Bearer token** field in the adapter configuration.
 
-- Either enter your email address **OR** your country code and mobile phone number. **Do NOT enter email address and mobile phone information !**
-
-- Feel free to modify the default timespan of 60 seconds for the polling interval. The polling interval must be 15 seconds or more.
+**Note:** Tokens are long-lived (typically months). When expired, the adapter log will show a connection error — repeat the steps above to get a new token.
 
 ### My Places
 
-You can add your own places apart from the Life360 places to your adapter instance. "My Places" let you define private places that are not public to the Life360 cloud services. The adapter checks which persons are present at your private places on every Life360 data poll.
+Add private places not visible to Life360 cloud services. The adapter checks presence at your custom places on every poll.
 
-![Logo](admin/ioBroker.life360.settings.myplaces.png)
-
-The places' setup happens the same way as with the Places-adapter:
-
-- Define a ```Name``` for the place.
-
-- Set the geo-position data for the place (latitude and longitude).
-
-- Set the place's radius in meters.
-
-#### Why should I use My Places apart from Life360 places?
-
-- My Places are private! Life360 will not know about them.
-
-- People can be present at more than one place at the same point of time. For example you can be present at your "home" place and your "neighborhood" place at the same time.
-
-- You can set the place's radius without any limitations (minimum value).
+- Define a **Name** for the place.
+- Set the geo-position (latitude and longitude).
+- Set the radius in meters.
 
 ### Integration
 
-The Life360 cloud services provide a lot of information about the circles, places and people. You have the freedom of choice. You device which data will be available to your ioBroker installation.
+Choose which Life360 data to process: circles, places, people. Optionally forward location data to the ioBroker [Places-adapter](https://github.com/ioBroker/ioBroker.places).
 
-![Logo](admin/ioBroker.life360.settings.integration.png)
+### Location-Tracking
 
-#### Life360 data
+Enable location-tracking to add geo-positioning details (latitude, longitude, `locationName`) to the people data points.
 
-Select the Life360 data you want the adapter to push to ioBroker data points.
+## States
 
-- Enable processing of ```Life360 circles``` for information regarding the circles, the circles' places and the circles' members. You will get a lot of information regarding the circles, but only essential information about places and people.
-
-- Enable processing of ```Life360 places``` for detailed information regarding any Life360 circle, you are a member of.
-
-- Enable processing of ```Life360 people``` for detailed information about any Life360 person, who are members of the circles you are a member of.
-
-#### Send location data to Places-adapter
-
-The ioBroker.life360 adapter let you send location data for known Life360 people to an instance of the Places-adapter.
-
-- Select an instance of the Places-adapter as a receiver for the location data. Select ```None``` to disable sending of location data.
-
-- You can include or exclude people using regular expression patterns. The adapter will check if the string ```[Firstname] [Lastname]``` matches your pattern. Set pattern to empty string to disable regex filtering.
-
-#### Location-Tracking
-
-You can activate location-tracking for all people. Location-tracking will add geo-positioning details to the people information.
-
-- Check to activate location-tracking.
-
-- Set the geo-location object-type to push combined latitude and longitude values.
-
-## Disclaimer
-
-I did not find any official documentation for the [Life360](https://www.life360.com) REST APIs. Apparently [Life360](https://www.life360.com) does not support the use of the REST API for other applications than its own ones.
-
-My REST API integration is based on reverse engineering done by the open source community and an API token discovered on [Life360](https://www.life360.com) code which is public available. [Life360](https://www.life360.com) could disable or modify this API token or change its REST API in a way that this adapter will not work as expected anymore.
-
-Feel free to modify the default timespan of 60 seconds for the polling interval. The adapter does not allow modifying the interval to less than 15 seconds to prevent gaining any rate limits and to prevent ioBroker Admin getting slower and slower.
+| State | Description |
+|---|---|
+| `people.<name>.locationName` | Current Life360 place name (e.g. Home) |
+| `people.<name>.location` | Geo-position object |
+| `info.connection` | `true` when connected to Life360 cloud |
 
 ## Changelog
 
@@ -124,13 +74,14 @@ Feel free to modify the default timespan of 60 seconds for the polling interval.
 -->
 ### 1.0.0 (2026-04-10)
 
-- (skvarel) Transfer to inventwo organization
-- (skvarel) Updated dependencies to current versions
-
-## Older changes
-- [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
+- (skvarel) Fork from ioBroker.life360, renamed to life360ng
+- (skvarel) Switched to token-only authentication (removed password/phone login)
+- (skvarel) Fixed EU API connectivity (TLS cipher fix, v3 endpoints for members and places)
+- (skvarel) Added `locationName` state
+- (skvarel) Removed unused phone/password/countryCode config fields
 
 ## License
+
 MIT License
 
 Copyright (c) 2026 skvarel <sk@inventwo.com>

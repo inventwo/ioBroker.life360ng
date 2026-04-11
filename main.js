@@ -22,7 +22,7 @@ class Life360 extends utils.Adapter {
     constructor(options) {
         super({
             ...options,
-            name: "life360",
+            name: "life360ng",
         });
         this.on("ready", this.onReady.bind(this));
         this.on("objectChange", this.onObjectChange.bind(this));

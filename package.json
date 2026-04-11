@@ -1,9 +1,9 @@
 {
-  "name": "iobroker.life360",
+  "name": "iobroker.life360ng",
   "version": "1.0.0",
   "description": "An ioBroker adapter for Life360.",
   "author": "skvarel <skvarel@inventwo.com>",
-  "homepage": "https://github.com/inventwo/ioBroker.life360",
+  "homepage": "https://github.com/inventwo/ioBroker.life360ng",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/inventwo/ioBroker.life360.git"
+    "url": "https://github.com/inventwo/ioBroker.life360ng.git"
   },
   "engines": {
     "node": ">= 20"
@@ -71,7 +71,7 @@
     "dev-server": "dev-server"
   },
   "bugs": {
-    "url": "https://github.com/inventwo/ioBroker.life360/issues"
+    "url": "https://github.com/inventwo/ioBroker.life360ng/issues"
   },
   "readmeFilename": "README.md"
 }

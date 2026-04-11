@@ -1,6 +1,6 @@
 ﻿{
     "common": {
-        "name": "life360",
+        "name": "life360ng",
         "version": "1.0.0",
         "news": {
             "1.0.0": {
@@ -56,8 +56,8 @@
         "main": "main.js",
         "icon": "Life360_s.svg",
         "enabled": false,
-        "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360/main/admin/Life360_s.svg",
-        "readme": "https://github.com/inventwo/ioBroker.life360/blob/main/README.md",
+        "extIcon": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/admin/Life360_s.svg",
+        "readme": "https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md",
         "loglevel": "info",
         "mode": "daemon",
         "type": "geoposition",
@@ -74,10 +74,7 @@
     },
     "native": {
         "life360_username": "",
-        "life360_password": "",
         "life360_token": "",
-        "life360_phone": "",
-        "life360_countryCode": "",
         "life360_polling_interval": "60",
         "sendto_places_adapter_instance": -1,
         "sendto_places_adapter_regexp": "",
