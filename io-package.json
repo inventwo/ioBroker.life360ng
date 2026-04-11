@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "news": {
+      "1.0.5": {
+        "en": "Removed old not needed images",
+        "de": "Alte nicht benötigte Bilder entfernt",
+        "ru": "Удалены старые не нужные изображения",
+        "pt": "Removeu imagens antigas não necessárias",
+        "nl": "Oude niet-nodige afbeeldingen verwijderd",
+        "fr": "Supprimé les anciennes images non nécessaires",
+        "it": "Rimuovi vecchie immagini non necessarie",
+        "es": "Imágenes antiguas no necesarias",
+        "pl": "Usunięto stare nie potrzebne obrazy",
+        "uk": "Видалити старі не потрібні зображення",
+        "zh-cn": "删除旧的不需要的图像"
+      },
       "1.0.4": {
         "en": "Changed icons from mdi to base64",
         "de": "Änderte Icons von mdi zu base64",
