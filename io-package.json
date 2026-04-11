@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "news": {
       "1.0.10": {
         "en": "Added configurable fallback text for `locationName` when a person is not at a known place",
