@@ -1,3 +1,0 @@
-chore: release v1.0.10
-
-- (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place

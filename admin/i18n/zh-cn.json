@@ -6,7 +6,7 @@
     "life360_username": "电子邮件地址（可选，密码验证的后备）",
     "life360_username_help": "仅当您想使用基于密码的登录而不是令牌时才需要",
     "location_unknown_name": "未知位置的备用名称",
-    "location_unknown_name_help": "当人员不在任何已知地点时显示在 locationName 中的文字（例如"途中"）。留空则不显示任何内容。",
+    "location_unknown_name_help": "当人员不在任何已知地点时显示在 locationName 中的文字（例如\u201c途中\u201d）。留空则不显示任何内容。",
     "location_object_type": "地理位置对象类型",
     "place_circle": "圆圈（可选）",
     "place_latitude": "纬度",

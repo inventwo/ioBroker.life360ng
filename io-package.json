@@ -16,19 +16,6 @@
         "uk": "Додати текст для `locationName`, коли людина не перебуває у відомому місці",
         "zh-cn": "在某人不在已知地点时添加“ 位置” 可配置反向文字Name"
       },
-      "1.0.10": {
-        "en": "Added configurable fallback text for `locationName` when a person is not at a known place",
-        "de": "Konfigurierbarer Rückfalltext für `locationName` hinzugefügt, wenn eine Person nicht an einem bekannten Ort ist",
-        "ru": "Добавлен настраиваемый резервный текст для «locationName», когда человек не находится в известном месте",
-        "pt": "Adicionado texto de retorno configurável para `localizationName` quando uma pessoa não está em um lugar conhecido",
-        "nl": "Toegevoegd configureerbare fallback tekst voor de locatienaam wanneer een persoon niet op een bekende plaats is",
-        "fr": "Ajout de texte de retour configurable pour `locationName` lorsqu'une personne n'est pas à un endroit connu",
-        "it": "Aggiunto testo di fallback configurabile per `locationName` quando una persona non è in un luogo noto",
-        "es": "Añadido texto configurable de retroceso para `localizaciónName` cuando una persona no está en un lugar conocido",
-        "pl": "Dodano konfigurowalny tekst zwrotny dla 'locationName', gdy osoba nie znajduje się w znanym miejscu",
-        "uk": "Додати текст для `locationName`, коли людина не перебуває у відомому місці",
-        "zh-cn": "在某人不在已知地点时添加“ 位置” 可配置反向文字Name"
-      },
       "1.0.9": {
         "en": "Revised translation",
         "de": "Überarbeitete Übersetzung",
