@@ -89,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Modernized config
+
 ### 1.0.12 (2026-04-11)
 - (skvarel) Fixed invalid JSON in zh-cn translation
 
