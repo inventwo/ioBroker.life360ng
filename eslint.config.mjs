@@ -19,7 +19,10 @@ export default [
 			'admin/blockly.js',
 			'**/adapter-config.d.ts',
 			'widgets/**/*.js',
-			'admin/build'
+			'admin/build',
+			// Legacy files from original fork - complex JS not compatible with strict type checks
+			'lib/life360CloudConnector.js',
+			'lib/life360DbConnector.js',
 		],
 	},
 	{

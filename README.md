@@ -76,7 +76,6 @@ Enable location-tracking to add geo-positioning details (latitude, longitude, `l
 ## Changelog
 
 <!--
-  Placeholder for the next version (at the beginning of the line):
   ### **WORK IN PROGRESS**
 -->
 ### 1.0.0 (2026-04-10)

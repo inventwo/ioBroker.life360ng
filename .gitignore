@@ -17,13 +17,8 @@ Thumbs.db
 admin/i18n/flat.txt
 admin/i18n/*/flat.txt
 
-# i18n intermediate files
-admin/i18n/flat.txt
-admin/i18n/*/flat.txt
-
 # iobroker dev files
 iob_npm.done
-
 
 # ioBroker dev-server
 .dev-server/

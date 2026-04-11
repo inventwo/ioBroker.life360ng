@@ -9,6 +9,9 @@
 	"exclude": [
 		"**/build",
 		"node_modules/",
-		"widgets/"
+		"widgets/",
+		// Legacy files from original fork - excluded from strict type checking
+		"lib/life360CloudConnector.js",
+		"lib/life360DbConnector.js"
 	]
 }
