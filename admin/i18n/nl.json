@@ -10,6 +10,7 @@
     "location_object_type": "Objecttype geolocatie",
     "location_unknown_name": "Reservenaam voor onbekende locatie",
     "location_unknown_name_help": "Tekst getoond in locationName wanneer de persoon zich op een onbekende plaats bevindt (bijvoorbeeld 'op tournee'). Laat leeg om leeg te blijven.",
+    "paypal_donate": "Doneer met PayPal",
     "place_circle": "Cirkel (optioneel)",
     "place_latitude": "Breedte",
     "place_longitude": "Lengte",

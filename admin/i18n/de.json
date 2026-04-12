@@ -10,6 +10,7 @@
     "location_object_type": "Geolokalisierungsobjekttyp",
     "location_unknown_name": "Ersatzname für unbekannten Standort",
     "location_unknown_name_help": "Text für locationName wenn die Person an keinem bekannten Ort ist (z.B. 'unterwegs'). Leer lassen, um den Wert leer zu belassen.",
+    "paypal_donate": "Falls du uns unterstützen möchtest.",
     "place_circle": "Kreis (optional)",
     "place_latitude": "Breite",
     "place_longitude": "Länge",

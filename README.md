@@ -89,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Modernized config
+
 ### 1.0.15 (2026-04-12)
 - (skvarel) Added FAQ tab at config
 

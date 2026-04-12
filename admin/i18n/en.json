@@ -31,5 +31,6 @@
     "debugging_verbose": "Enable verbose logging",
     "helps": "Help & FAQ",
     "intro_txt": "Help & FAQ.",
-    "txt_one": "... more information coming soon!"
+    "txt_one": "... more information coming soon!",
+    "paypal_donate": "Donate with PayPal"
 }

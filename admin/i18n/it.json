@@ -10,6 +10,7 @@
     "location_object_type": "Tipo di oggetto di geolocalizzazione",
     "location_unknown_name": "Nome di fallback per posizione sconosciuta",
     "location_unknown_name_help": "Testo mostrato in locationName quando la persona si trova in un luogo sconosciuto (ad esempio \"in tour\"). Lascia vuoto per mantenere vuoto.",
+    "paypal_donate": "Dona con PayPal",
     "place_circle": "Cerchio (facoltativo)",
     "place_latitude": "Latitudine",
     "place_longitude": "Longitudine",

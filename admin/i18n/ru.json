@@ -10,6 +10,7 @@
     "location_object_type": "Тип объекта геолокации",
     "location_unknown_name": "Резервное имя для неизвестного местоположения",
     "location_unknown_name_help": "Текст, отображаемый в locationName, когда человек находится в неизвестном месте (например, «в туре»). Оставьте пустым, чтобы оставить пустым.",
+    "paypal_donate": "Пожертвовать через PayPal",
     "place_circle": "Круг (необязательно)",
     "place_latitude": "Широта",
     "place_longitude": "Долгота",

@@ -10,6 +10,7 @@
     "location_object_type": "Typ obiektu geolokalizacji",
     "location_unknown_name": "Nazwa zastępcza dla nieznanej lokalizacji",
     "location_unknown_name_help": "Tekst wyświetlany w nazwie lokalizacji, gdy dana osoba przebywa w nieznanym miejscu (np. „w trasie”). Pozostaw puste, aby pozostawić puste.",
+    "paypal_donate": "Przekaż darowiznę za pomocą PayPal",
     "place_circle": "Okrąg (opcjonalnie)",
     "place_latitude": "Szerokość",
     "place_longitude": "Długość geograficzna",

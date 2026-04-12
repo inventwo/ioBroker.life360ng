@@ -10,6 +10,7 @@
     "location_object_type": "地理位置对象类型",
     "location_unknown_name": "未知位置的后备名称",
     "location_unknown_name_help": "当此人不在已知地点（例如“在旅行中”）时，位置名称中显示的文本。留空以保持空白。",
+    "paypal_donate": "通过 PayPal 捐赠",
     "place_circle": "圆圈（可选）",
     "place_latitude": "纬度",
     "place_longitude": "经度",
