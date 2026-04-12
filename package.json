@@ -1,6 +1,6 @@
 {
   "name": "iobroker.life360ng",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "An ioBroker adapter for Life360.",
   "author": "skvarel <skvarel@inventwo.com>",
   "homepage": "https://github.com/inventwo/ioBroker.life360ng",

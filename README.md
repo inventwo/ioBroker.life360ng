@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.19 (2026-04-12)
 - (skvarel) Translations adjusted
 
 ### 1.0.18 (2026-04-12)
@@ -106,9 +106,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.15 (2026-04-12)
 - (skvarel) Added FAQ tab at config
-
-### 1.0.14 (2026-04-11)
-- (skvarel) Modernized config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

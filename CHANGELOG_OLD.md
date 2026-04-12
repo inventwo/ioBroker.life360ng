@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.14 (2026-04-11)
+- (skvarel) Modernized config
+
 ## 1.0.13 (2026-04-11)
 - (skvarel) Modernized config
 
