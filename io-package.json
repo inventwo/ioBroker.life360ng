@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.17",
+    "version": "1.0.18",
     "news": {
+      "1.0.18": {
+        "en": "Fixed info.connection role in io-package.json\nRemoved @ts-nocheck and unused variable from lib files; fixed CRLF line endings\nESLint now covers all lib files with strict no-warnings enforcement\nAdded Copilot instructions for guided development",
+        "de": "Fixed info.connection Rolle in io-package.json\nEntfernt @ts-nocheck und ungenutzte Variable aus lib-Dateien; Feste CRLF-Linie endet\nESLint deckt jetzt alle lib-Dateien mit strengen No-Warnings Durchsetzung\nZusätzlich Copilot Anleitung für geführte Entwicklung",
+        "ru": "Фиксированная роль info.connection в io-package.json\nУдаленный @ts-nocheck и неиспользуемая переменная из файлов lib; фиксированные окончания строк CRLF\nESLint теперь охватывает все файлы lib со строгим соблюдением без предупреждения\nДобавлены инструкции Copilot для управляемой разработки",
+        "pt": "Fixado info.connection role in io-package.json\nRemovido @ ts- nocheck e variável não utilizada dos arquivos lib; finalizações de linha CRLF corrigidas\nESLint agora cobre todos os arquivos de lib com aplicação estrita sem avisos\nAdicionado instruções Copilot para desenvolvimento guiado",
+        "nl": "Vaste info.connectie rol in io-package.json\nVerwijderde @ts-nocheck en ongebruikte variabele uit lib-bestanden; vaste CRLF regeleinden\nESLint behandelt nu alle lib-bestanden met strikte no-warnings handhaving\nToegevoegd Copilot instructies voor geleide ontwikkeling",
+        "fr": "Fixed info.connection role in io-package.json\nSupprimé @ts-nocheck et variable inutilisée des fichiers lib; ligne CRLF corrigée se termine\nESLint couvre désormais tous les fichiers lib avec une stricte application sans avertissement\nAjout des instructions de copilote pour le développement guidé",
+        "it": "Risolto ruolo di info.connection in io-package.json\nRimuoveto @ts-nocheck e variabile inutilizzata da file lib; fisse terminazioni linea CRLF\nESLint ora copre tutti i file lib con rigorose esecuzioni no-warnings\nAggiunta istruzioni Copilota per lo sviluppo guidato",
+        "es": "Función de conexión en io-package.json\nEliminado @ts-nocheck y la variable no utilizada de los archivos lib; terminaciones de línea fija CRLF\nESLint ahora cubre todos los archivos de lib con estricta aplicación de no alerta\nInstrucciones de Copiloto adicionales para el desarrollo guiado",
+        "pl": "Naprawiono funkcję info.connection w jo- package.json\nUsunięto @ ts- nocheck i nieużywaną zmienną z plików lib; stałe zakończenia linii CRLF\nESLINT teraz obejmuje wszystkie pliki lib ze ścisłym zero-ostrzeżeń egzekwowania\nDodano instrukcje kopiowania dla rozwoju z przewodnikiem",
+        "uk": "Виправлено info.connection роль в io-package.json\nВилучено @ts-nocheck і невикористана змінна з файлів lib; виправлено закінчення лінії CRLF\nESLint тепер охоплює всі файли з суворим захистом від викривлення\nДодано інструкції Copilot для керованого розвитку",
+        "zh-cn": "固定信息. 连接角色在io-package.json\n从 lib 文件中删除了 @ ts- nocheck 和未使用的变量; 固定的 CRLF 行结束\nESLint现在以严格的不警告执行覆盖所有 lib 文件\n为指导性开发添加的副驾驶指令"
+      },
       "1.0.17": {
         "en": "Configuration revised, translations adjusted and repo cleaned up",
         "de": "Konfiguration überarbeitet, Übersetzungen angepasst und repo aufgeräumt",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono niepoprawny JSON w tłumaczeniu zh- cn",
         "uk": "Виправлено недійсний JSON у перекладі zh-cn",
         "zh-cn": "Zh-cn翻译中的固定无效 JSON"
-      },
-      "1.0.9": {
-        "en": "Revised translation",
-        "de": "Überarbeitete Übersetzung",
-        "ru": "Пересмотренный перевод",
-        "pt": "Tradução revista",
-        "nl": "Herziene vertaling",
-        "fr": "Traduction révisée",
-        "it": "Traduzione riveduta",
-        "es": "Traducción revisada",
-        "pl": "Tłumaczenie poprawione",
-        "uk": "Редагування перекладу",
-        "zh-cn": "订正翻译"
       }
     },
     "titleLang": {

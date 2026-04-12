@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.18 (2026-04-12)
 - (skvarel) Fixed info.connection role in io-package.json
 - (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings
 - (skvarel) ESLint now covers all lib files with strict no-warnings enforcement
@@ -105,9 +105,6 @@ If you like our work and would like to support us, we appreciate any donation.
 - (skvarel) Added FAQ tab at config
 
 ### 1.0.14 (2026-04-11)
-- (skvarel) Modernized config
-
-### 1.0.13 (2026-04-11)
 - (skvarel) Modernized config
 
 ## Older changes

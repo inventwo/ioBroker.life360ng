@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.13 (2026-04-11)
+- (skvarel) Modernized config
+
 ## 1.0.12 (2026-04-11)
 - (skvarel) Fixed invalid JSON in zh-cn translation
 
