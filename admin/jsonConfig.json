@@ -292,6 +292,19 @@
                         "whiteSpace": "pre-wrap"
                     }
                 },
+                "token_screen": {
+                    "type": "staticImage",
+                    "src": "token_anonym.png",
+                    "newLine": true,
+                    "sm": 0.5,
+                    "xs": 0.5,
+                    "md": 0.5,
+                    "lg": 0.5,
+                    "xl": 0.5,
+                    "style": {
+                        "marginTop": "25px"
+                    }
+                },
                 "txtTwo": {
                     "type": "staticText",
                     "text": {
@@ -305,8 +318,8 @@
                     "lg": 6,
                     "xl": 6,
                     "style": {
-                        "marginTop": "50px",
-                        "fontSize": "16px"
+                        "marginTop": "20px",
+                        "fontSize": "14px"
                     }
                 },
                 "logo": {
@@ -319,7 +332,7 @@
                     "lg": 0.5,
                     "xl": 0.5,
                     "style": {
-                        "marginTop": "50px"
+                        "marginTop": "25px"
                     }
                 },
                 "outro": {

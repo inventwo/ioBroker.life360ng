@@ -89,6 +89,8 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+
 ### 1.0.16 (2026-04-12)
 - (skvarel) Modernized config
 
