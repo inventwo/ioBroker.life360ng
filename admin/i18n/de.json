@@ -28,11 +28,11 @@
     "sendto_places_adapter_instance_help": "Geben Sie die Instanznummer des Places-Adapters ein (z. B. 0). Auf -1 setzen, um die Weiterleitung zu deaktivieren.",
     "sendto_places_adapter_regexp": "Regex-Filter für Personen (leer = alle senden)",
     "sendto_places_adapter_regexp_help": "Regulärer Ausdruck abgeglichen mit „[Vorname] [Nachname]“. Lassen Sie das Feld leer, um alle zu senden.",
-    "tab_advanced": "Protokolle",
+    "tab_advanced": "Protokolle/Logging",
     "tab_general": "Life360-LogIn",
     "tab_integration": "Integration",
     "tab_myplaces": "Meine Orte",
-    "token_hint": "EU-Benutzer – So erhältst du deinen Bearer-Token:\n\n1. Öffne https://life360.com/login\n2. Gib deine E-Mail-Adresse ein → klicke auf Weiter\n3. Gib den an deine E-Mail-Adresse gesendeten Einmalcode ein\n4. Öffne die Browser-DevTools (F12) → Registerkarte „Netzwerk“.\n5. Suche die POST-Anfrage mit dem Namen „token“ (nicht OPTIONS).\n6. Öffne die Registerkarte „Vorschau/Antwort“ → kopiere den Wert von „access_token“ und füge ihn unten ein\n\nAchtung: Gib den Token OHNE das Wort „Bearer“ und OHNE Leerzeichen ein!\n\nTokens sind mehrere Monate gültig.",
+    "token_hint": "EU-Benutzer – So erhältst du deinen Bearer-Token:\n\n1. Öffne https://life360.com/login\n2. Gib deine E-Mail-Adresse ein → klicke auf Weiter\n3. Gib den an deine E-Mail-Adresse gesendeten Einmalcode ein\n4. Öffne die Browser-DevTools (F12) → Registerkarte „Netzwerk“.\n5. Suche die POST-Anfrage mit dem Namen „token“ (nicht OPTIONS).\n6. Öffne die Registerkarte „Vorschau/Antwort“ → kopiere den Wert von „access_token“ und füge ihn unten ein\n\nAchtung: Gib den Token OHNE das Wort „Bearer“ und OHNE Leerzeichen ein!\n\nDer Token ist mehrere Monate gültig.",
     "track_location_people": "Aktiviere die Standortverfolgung für Personen",
     "txt_one": "... weitere Informationen folgen in Kürze!"
 }

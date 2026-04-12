@@ -17,14 +17,14 @@
                     "lg": 12,
                     "xl": 12,
                     "style": {
-                        "marginBottom": "16px",
+                        "marginBottom": "5px",
                         "fontSize": "0.875rem",
                         "whiteSpace": "pre-wrap"
                     }
                 },
                 "txtHelp": {
                     "type": "staticText",
-                    "text": "help_txt",
+                    "label": "help_txt",
                     "newLine": true,
                     "xs": 12,
                     "sm": 12,
@@ -32,8 +32,8 @@
                     "lg": 12,
                     "xl": 12,
                     "style": {
-                        "fontSize": "0.875rem",
-                        "textDecoration": "underline"
+                        "fontSize": "1rem",
+                        "color": "rgb(77, 171, 245)"
                     }
                 },
                 "life360_token": {
@@ -321,7 +321,7 @@
                 },
                 "token_screen": {
                     "type": "staticImage",
-                    "src": "token_anonym.png",
+                    "src": "img/token_anonym.png",
                     "newLine": true,
                     "sm": 9,
                     "xs": 9,
@@ -334,7 +334,7 @@
                 },
                 "logo": {
                     "type": "staticImage",
-                    "src": "inventwo.svg",
+                    "src": "img/inventwo.svg",
                     "newLine": true,
                     "sm": 0.5,
                     "xs": 0.5,

@@ -3,7 +3,7 @@
     "tab_myplaces": "My Places",
     "tab_integration": "Integration",
     "tab_advanced": "Advanced",
-    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nEnter the token WITHOUT the word 'Bearer' and WITHOUT spaces!\n\nTokens are valid for several months.",
+    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nEnter the token WITHOUT the word 'Bearer' and WITHOUT spaces!\n\nThe token is valid for several months.",
     "life360_token": "Bearer token",
     "life360_username": "Email address (optional, fallback for password auth)",
     "life360_username_help": "Only needed if you want to use password-based login instead of token",
