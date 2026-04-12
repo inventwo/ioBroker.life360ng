@@ -1,13 +1,15 @@
 {
     "debugging_verbose": "Włącz pełne rejestrowanie",
+    "helps": "Pomoc i często zadawane pytania",
+    "intro_txt": "Pomoc i często zadawane pytania.",
     "life360_polling_interval": "Interwał odpytywania (sekundy)",
     "life360_polling_interval_help": "Minimum 15 sekund, maksymalnie 1440 sekund",
     "life360_token": "Token okaziciela",
     "life360_username": "Adres e-mail (opcjonalnie, zastępczy do autoryzacji hasłem)",
     "life360_username_help": "Potrzebne tylko wtedy, gdy chcesz używać logowania opartego na haśle zamiast tokena",
-    "location_unknown_name": "Nazwa zastępcza dla nieznanej lokalizacji",
-    "location_unknown_name_help": "Tekst wyświetlany w locationName gdy osoba nie jest w żadnym znanym miejscu (np. 'w trasie'). Pozostaw puste, aby nic nie wyświetlać.",
     "location_object_type": "Typ obiektu geolokalizacji",
+    "location_unknown_name": "Nazwa zastępcza dla nieznanej lokalizacji",
+    "location_unknown_name_help": "Tekst wyświetlany w nazwie lokalizacji, gdy dana osoba przebywa w nieznanym miejscu (np. „w trasie”). Pozostaw puste, aby pozostawić puste.",
     "place_circle": "Okrąg (opcjonalnie)",
     "place_latitude": "Szerokość",
     "place_longitude": "Długość geograficzna",
@@ -28,5 +30,6 @@
     "tab_integration": "Integracja",
     "tab_myplaces": "Moje miejsca",
     "token_hint": "Użytkownicy z UE – jak zdobyć token okaziciela:\n1. Otwórz https://life360.com/login\n2. Wpisz swój adres e-mail → kliknij Kontynuuj\n3. Wpisz jednorazowy kod przesłany na Twój adres e-mail\n4. Otwórz przeglądarkę DevTools (F12) → zakładka Sieć\n5. Znajdź żądanie POST o nazwie „token” (nie OPCJE)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość „access_token” i wklej ją poniżej\n\nWprowadź token BEZ słowa „Nosiciel” i BEZ spacji!\n\nTokeny są ważne przez kilka miesięcy.",
-    "track_location_people": "Włącz śledzenie lokalizacji dla ludzi"
+    "track_location_people": "Włącz śledzenie lokalizacji dla ludzi",
+    "txt_one": "...więcej informacji już wkrótce!"
 }

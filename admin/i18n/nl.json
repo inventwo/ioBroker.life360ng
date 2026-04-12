@@ -1,13 +1,15 @@
 {
     "debugging_verbose": "Schakel uitgebreide logboekregistratie in",
+    "helps": "Hulp en veelgestelde vragen",
+    "intro_txt": "Hulp en veelgestelde vragen.",
     "life360_polling_interval": "Polling-interval (seconden)",
     "life360_polling_interval_help": "Minimaal 15 seconden, maximaal 1440 seconden",
     "life360_token": "Token aan toonder",
     "life360_username": "E-mailadres (optioneel, reserve voor wachtwoordauthenticatie)",
     "life360_username_help": "Alleen nodig als u op wachtwoord gebaseerde login wilt gebruiken in plaats van een token",
-    "location_unknown_name": "Terugvalnaam voor onbekende locatie",
-    "location_unknown_name_help": "Tekst in locationName als de persoon op geen bekende plek is (bijv. 'onderweg'). Leeg laten om niets te tonen.",
     "location_object_type": "Objecttype geolocatie",
+    "location_unknown_name": "Reservenaam voor onbekende locatie",
+    "location_unknown_name_help": "Tekst getoond in locationName wanneer de persoon zich op een onbekende plaats bevindt (bijvoorbeeld 'op tournee'). Laat leeg om leeg te blijven.",
     "place_circle": "Cirkel (optioneel)",
     "place_latitude": "Breedte",
     "place_longitude": "Lengte",
@@ -28,5 +30,6 @@
     "tab_integration": "Integratie",
     "tab_myplaces": "Mijn plaatsen",
     "token_hint": "EU-gebruikers – hoe u uw Bearer-token kunt verkrijgen:\n1. Open https://life360.com/login\n2. Voer uw e-mailadres in → klik op Doorgaan\n3. Voer de eenmalige code in die naar uw e-mail is verzonden\n4. Open browser DevTools (F12) → tabblad Netwerk\n5. Zoek het POST-verzoek met de naam 'token' (niet OPTIONS)\n6. Open het tabblad Preview / Response → kopieer de waarde van 'access_token' en plak deze hieronder\n\nVoer het token in ZONDER het woord 'Bearer' en ZONDER spaties!\n\nTokens zijn meerdere maanden geldig.",
-    "track_location_people": "Schakel locatietracking voor mensen in"
+    "track_location_people": "Schakel locatietracking voor mensen in",
+    "txt_one": "... binnenkort meer informatie!"
 }

@@ -1,13 +1,15 @@
 {
     "debugging_verbose": "Увімкнути детальне журналювання",
+    "helps": "Довідка та поширені запитання",
+    "intro_txt": "Довідка та поширені запитання.",
     "life360_polling_interval": "Інтервал опитування (секунди)",
     "life360_polling_interval_help": "Мінімум 15 секунд, максимум 1440 секунд",
     "life360_token": "Токен на пред'явника",
     "life360_username": "Адреса електронної пошти (необов’язково, резервний варіант для авторизації пароля)",
     "life360_username_help": "Потрібен, лише якщо ви хочете використовувати вхід на основі пароля замість маркера",
-    "location_unknown_name": "Запасна назва для невідомого місцезнаходження",
-    "location_unknown_name_help": "Текст у locationName коли людина не перебуває у відомому місці (напр. 'у дорозі'). Залиште порожнім, щоб не відображати нічого.",
     "location_object_type": "Тип об'єкта геолокації",
+    "location_unknown_name": "Запасна назва для невідомого місця",
+    "location_unknown_name_help": "Текст, який відображається в LocationName, коли особа перебуває у невідомому місці (наприклад, «у турі»). Залиште порожнім, щоб залишити порожнім.",
     "place_circle": "Коло (необов'язково)",
     "place_latitude": "Широта",
     "place_longitude": "Довгота",
@@ -27,6 +29,7 @@
     "tab_general": "Life360",
     "tab_integration": "Інтеграція",
     "tab_myplaces": "Мої місця",
-    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Знайдіть запит POST під назвою «токен» (не OPTIONS)\n6. Відкрийте вкладку Preview / Response → скопіюйте значення 'access_token' і вставте його нижче\n\nВведіть жетон БЕЗ слова «Пред'явник» і БЕЗ пробілів!\n\nTokens are valid for several months.",
-    "track_location_people": "Увімкніть відстеження місцезнаходження людей"
+    "token_hint": "Користувачі ЄС – як отримати токен Bearer:\n1. Відкрийте https://life360.com/login\n2. Введіть адресу електронної пошти → натисніть Продовжити\n3. Введіть одноразовий код, надісланий на вашу електронну пошту\n4. Відкрийте браузер DevTools (F12) → вкладка Мережа\n5. Знайдіть запит POST під назвою «токен» (не OPTIONS)\n6. Відкрийте вкладку Preview / Response → скопіюйте значення 'access_token' і вставте його нижче\n\nВведіть жетон БЕЗ слова «Пред'явник» і БЕЗ пробілів!\n\nТокени дійсні кілька місяців.",
+    "track_location_people": "Увімкніть відстеження місцезнаходження людей",
+    "txt_one": "... більше інформації буде незабаром!"
 }

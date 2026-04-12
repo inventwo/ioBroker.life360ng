@@ -1,13 +1,15 @@
 {
     "debugging_verbose": "Habilitar registro detalhado",
+    "helps": "Ajuda e perguntas frequentes",
+    "intro_txt": "Ajuda e perguntas frequentes.",
     "life360_polling_interval": "Intervalo de pesquisa (segundos)",
     "life360_polling_interval_help": "Mínimo 15 segundos, máximo 1440 segundos",
     "life360_token": "Token do portador",
     "life360_username": "Endereço de e-mail (opcional, substituto para autenticação de senha)",
     "life360_username_help": "Necessário apenas se você quiser usar login baseado em senha em vez de token",
-    "location_unknown_name": "Nome alternativo para localização desconhecida",
-    "location_unknown_name_help": "Texto mostrado em locationName quando a pessoa não está em nenhum lugar conhecido (ex. 'a caminho'). Deixe vazio para não mostrar nada.",
     "location_object_type": "Tipo de objeto de geolocalização",
+    "location_unknown_name": "Nome substituto para local desconhecido",
+    "location_unknown_name_help": "Texto mostrado em locationName quando a pessoa não está em um local conhecido (por exemplo, 'em passeio'). Deixe em branco para manter em branco.",
     "place_circle": "Círculo (opcional)",
     "place_latitude": "Latitude",
     "place_longitude": "Longitude",
@@ -27,6 +29,7 @@
     "tab_general": "Vida360",
     "tab_integration": "Integração",
     "tab_myplaces": "Meus lugares",
-    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Encontre a solicitação POST chamada 'token' (não OPTIONS)\n6. Abra a guia Visualização/Resposta → copie o valor de 'access_token' e cole-o abaixo\n\nInsira o token SEM a palavra 'Bearer' e SEM espaços!\n\nTokens are valid for several months.",
-    "track_location_people": "Habilite o rastreamento de localização para pessoas"
+    "token_hint": "Usuários da UE – como obter seu token ao portador:\n1. Abra https://life360.com/login\n2. Digite seu endereço de e-mail → clique em Continuar\n3. Digite o código único enviado para seu e-mail\n4. Abra o navegador DevTools (F12) → guia Rede\n5. Encontre a solicitação POST chamada 'token' (não OPTIONS)\n6. Abra a guia Visualização/Resposta → copie o valor de 'access_token' e cole-o abaixo\n\nInsira o token SEM a palavra 'Bearer' e SEM espaços!\n\nOs tokens são válidos por vários meses.",
+    "track_location_people": "Habilite o rastreamento de localização para pessoas",
+    "txt_one": "... mais informações em breve!"
 }

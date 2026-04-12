@@ -123,20 +123,20 @@
                         "process_life360_circles": {
                             "type": "checkbox",
                             "label": "process_life360_circles",
-                             "xs": 12,
-                             "sm": 12,
-                             "md": 4,
-                             "lg": 4,
-                             "xl": 4
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4
                         },
                         "process_life360_places": {
                             "type": "checkbox",
                             "label": "process_life360_places",
-                             "xs": 12,
-                             "sm": 12,
-                             "md": 4,
-                             "lg": 4,
-                             "xl": 4
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4
                         },
                         "process_life360_people": {
                             "type": "checkbox",
@@ -195,12 +195,30 @@
                             "type": "select",
                             "label": "location_object_type",
                             "options": [
-                                { "label": "LonLat tuple",                   "value": "LonLatTuple" },
-                                { "label": "LatLon object",                  "value": "LatLon" },
-                                { "label": "LatLng object",                  "value": "LatLng" },
-                                { "label": "LatitudeLongitude object",       "value": "LatitudeLongitude" },
-                                { "label": "Latitude,Longitude (comma)",     "value": "CUSTOM_LatCommaLon" },
-                                { "label": "Latitude;Longitude (semicolon)", "value": "CUSTOM_LatSemicolonLon" }
+                                {
+                                    "label": "LonLat tuple",
+                                    "value": "LonLatTuple"
+                                },
+                                {
+                                    "label": "LatLon object",
+                                    "value": "LatLon"
+                                },
+                                {
+                                    "label": "LatLng object",
+                                    "value": "LatLng"
+                                },
+                                {
+                                    "label": "LatitudeLongitude object",
+                                    "value": "LatitudeLongitude"
+                                },
+                                {
+                                    "label": "Latitude,Longitude (comma)",
+                                    "value": "CUSTOM_LatCommaLon"
+                                },
+                                {
+                                    "label": "Latitude;Longitude (semicolon)",
+                                    "value": "CUSTOM_LatSemicolonLon"
+                                }
                             ],
                             "xs": 12,
                             "sm": 6,
@@ -237,6 +255,107 @@
                     "md": 6,
                     "lg": 6,
                     "xl": 6
+                }
+            }
+        },
+        "_help": {
+            "type": "panel",
+            "label": "helps",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTUuMDcsMTEuMjVMMTQuMTcsMTIuMTdDMTMuNDUsMTIuODkgMTMsMTMuNSAxMywxNUgxMVYxNC41QzExLDEzLjM5IDExLjQ1LDEyLjM5IDEyLjE3LDExLjY3TDEzLjQxLDEwLjQxQzEzLjc4LDEwLjA1IDE0LDkuNTUgMTQsOUMxNCw3Ljg5IDEzLjEsNyAxMiw3QTIsMiAwIDAsMCAxMCw5SDhBNCw0IDAgMCwxIDEyLDVBNCw0IDAgMCwxIDE2LDlDMTYsOS44OCAxNS42NCwxMC42NyAxNS4wNywxMS4yNU0xMywxOUgxMVYxN0gxM00xMiwyQTEwLDEwIDAgMCwwIDIsMTJBMTAsMTAgMCAwLDAgMTIsMjJBMTAsMTAgMCAwLDAgMjIsMTJDMjIsNi40NyAxNy41LDIgMTIsMloiIC8+PC9zdmc+",
+            "items": {
+                "intro": {
+                    "type": "staticText",
+                    "text": "intro_txt",
+                    "newLine": true,
+                    "sm": 12,
+                    "xs": 12,
+                    "md": 10,
+                    "lg": 10,
+                    "xl": 10,
+                    "style": {
+                        "marginBottom": "10px",
+                        "fontSize": "24px"
+                    }
+                },
+                "txtOne": {
+                    "type": "staticText",
+                    "text": "txt_one",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "style": {
+                        "marginTop": "50px",
+                        "fontSize": "14px"
+                    }
+                },
+                "txtTwo": {
+                    "type": "staticText",
+                    "text": {
+                        "en": "For complete documentation, click here below:<br><br>• <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md\">Adapter documentation</a>",
+                        "de": "Für eine vollständige Dokumentation klicke hier unten:<br><br>• <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md\">Adapter-Dokumentation</a>"
+                    },
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6,
+                    "style": {
+                        "marginTop": "50px",
+                        "fontSize": "16px"
+                    }
+                },
+                "logo": {
+                    "type": "staticImage",
+                    "src": "inventwo.svg",
+                    "newLine": true,
+                    "sm": 0.5,
+                    "xs": 0.5,
+                    "md": 0.5,
+                    "lg": 0.5,
+                    "xl": 0.5,
+                    "style": {
+                        "marginTop": "50px"
+                    }
+                },
+                "outro": {
+                    "type": "staticText",
+                    "text": "Team inventwo •  <a href=\"https://github.com/inventwo\">https://github.com/inventwo</a> • by skvarel",
+                    "newLine": true,
+                    "sm": 12,
+                    "xs": 12,
+                    "md": 3,
+                    "lg": 3,
+                    "xl": 3,
+                    "style": {
+                        "borderTop": "1px solid",
+                        "borderColor": "",
+                        "marginTop": "0px",
+                        "paddingTop": "5px",
+                        "fontSize": "14px",
+                        "textAlign": "left"
+                    }
+                },
+                "payPal": {
+                    "type": "staticLink",
+                    "href": "https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW",
+                    "target": "_blank",
+                    "label": "paypal_donate",
+                    "variant": "outlined",
+                    "button": true,
+                    "icon": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+                    "newLine": true,
+                    "sm": 12,
+                    "xs": 12,
+                    "md": 3,
+                    "lg": 3,
+                    "xl": 3,
+                    "style": {
+                        "marginTop": "0px"
+                    }
                 }
             }
         }

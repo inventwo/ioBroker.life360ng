@@ -28,5 +28,8 @@
     "location_unknown_name": "Fallback name for unknown location",
     "location_unknown_name_help": "Text shown in locationName when the person is at no known place (e.g. 'on tour'). Leave empty to keep blank.",
     "location_object_type": "Geo-location object type",
-    "debugging_verbose": "Enable verbose logging"
+    "debugging_verbose": "Enable verbose logging",
+    "helps": "Help & FAQ",
+    "intro_txt": "Help & FAQ.",
+    "txt_one": "... more information coming soon!"
 }

@@ -1,13 +1,15 @@
 {
     "debugging_verbose": "Activer la journalisation détaillée",
+    "helps": "Aide et FAQ",
+    "intro_txt": "Aide et FAQ.",
     "life360_polling_interval": "Intervalle d'interrogation (secondes)",
     "life360_polling_interval_help": "Minimum 15 secondes, maximum 1440 secondes",
     "life360_token": "Jeton du porteur",
     "life360_username": "Adresse e-mail (facultatif, solution de secours pour l'authentification par mot de passe)",
     "life360_username_help": "Nécessaire uniquement si vous souhaitez utiliser une connexion par mot de passe au lieu d'un jeton",
-    "location_unknown_name": "Nom de remplacement pour emplacement inconnu",
-    "location_unknown_name_help": "Texte affiché dans locationName quand la personne n'est dans aucun lieu connu (ex. 'en route'). Laisser vide pour ne rien afficher.",
     "location_object_type": "Type d'objet de géolocalisation",
+    "location_unknown_name": "Nom de secours pour un emplacement inconnu",
+    "location_unknown_name_help": "Texte affiché dans locationName lorsque la personne ne se trouve dans aucun endroit connu (par exemple « en tournée »). Laissez vide pour rester vide.",
     "place_circle": "Cercle (facultatif)",
     "place_latitude": "Latitude",
     "place_longitude": "Longitude",
@@ -28,5 +30,6 @@
     "tab_integration": "Intégration",
     "tab_myplaces": "Mes adresses",
     "token_hint": "Utilisateurs de l'UE – comment obtenir votre jeton Bearer :\n1. Ouvrez https://life360.com/login\n2. Entrez votre adresse e-mail → cliquez sur Continuer\n3. Entrez le code à usage unique envoyé à votre email\n4. Ouvrez le navigateur DevTools (F12) → onglet Réseau\n5. Recherchez la requête POST nommée « jeton » (pas OPTIONS)\n6. Ouvrez l'onglet Aperçu / Réponse → copiez la valeur de 'access_token' et collez-la ci-dessous\n\nEntrez le jeton SANS le mot 'Porteur' et SANS espaces !\n\nLes jetons sont valables plusieurs mois.",
-    "track_location_people": "Activer le suivi de localisation des personnes"
+    "track_location_people": "Activer le suivi de localisation des personnes",
+    "txt_one": "... plus d'informations à venir !"
 }
