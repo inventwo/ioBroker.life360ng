@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "Aktivieren Sie die ausführliche Protokollierung",
+    "help_txt": "Weitere Informationen findest du im „Hilfe“-Tab!",
     "helps": "Hilfe & FAQ",
     "intro_txt": "Hilfe & FAQ",
     "life360_polling_interval": "Abfrageintervall (Sekunden)",
@@ -19,6 +20,7 @@
     "process_life360_circles": "Life360-Kreise verarbeiten",
     "process_life360_people": "Life360-Personen verarbeiten",
     "process_life360_places": "Life360-Orte verarbeiten",
+    "screenshot_txt": "Screenshot der Browser-DevTools (F12) mit hervorgehobenem Token-Wert • (die Verwendung von DevTools in einem neuen Fenster wird empfohlen):",
     "section_life360_data": "Life360-Daten",
     "section_location_tracking": "Standortverfolgung",
     "section_places_adapter": "Orte-Adapter",

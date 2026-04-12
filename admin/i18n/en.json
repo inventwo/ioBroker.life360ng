@@ -32,5 +32,7 @@
     "helps": "Help & FAQ",
     "intro_txt": "Help & FAQ.",
     "txt_one": "... more information coming soon!",
-    "paypal_donate": "Donate with PayPal"
+    "paypal_donate": "Donate with PayPal",
+    "screenshot_txt": "Screenshot of the browser DevTools (F12) with the token value highlighted • (using DevTools in a new window is recommended):",
+    "help_txt": "You can find more information in the 'Help' tab!"
 }

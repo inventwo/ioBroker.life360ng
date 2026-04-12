@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "启用详细日志记录",
+    "help_txt": "您可以在“帮助”选项卡中找到更多信息！",
     "helps": "帮助和常见问题解答",
     "intro_txt": "帮助和常见问题解答。",
     "life360_polling_interval": "轮询间隔（秒）",
@@ -19,6 +20,7 @@
     "process_life360_circles": "工艺寿命360 圈",
     "process_life360_people": "流程生活360人",
     "process_life360_places": "工艺寿命360 处",
+    "screenshot_txt": "• 突出显示令牌值的浏览器 DevTools (F12) 屏幕截图（建议在新窗口中使用 DevTools）：",
     "section_life360_data": "Life360数据",
     "section_location_tracking": "位置追踪",
     "section_places_adapter": "地方适配器",

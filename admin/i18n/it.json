@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "Abilita la registrazione dettagliata",
+    "help_txt": "Puoi trovare maggiori informazioni nella scheda \"Aiuto\"!",
     "helps": "Aiuto e domande frequenti",
     "intro_txt": "Aiuto e domande frequenti.",
     "life360_polling_interval": "Intervallo di polling (secondi)",
@@ -19,6 +20,7 @@
     "process_life360_circles": "Cerchi Process Life360",
     "process_life360_people": "Process Life360 persone",
     "process_life360_places": "Process Life360 posti",
+    "screenshot_txt": "Screenshot del browser DevTools (F12) con il valore del token evidenziato • (si consiglia di utilizzare DevTools in una nuova finestra):",
     "section_life360_data": "Dati Life360",
     "section_location_tracking": "Tracciamento della posizione",
     "section_places_adapter": "Adattatore di luoghi",

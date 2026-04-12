@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "Activer la journalisation détaillée",
+    "help_txt": "Vous pouvez trouver plus d'informations dans l'onglet 'Aide' !",
     "helps": "Aide et FAQ",
     "intro_txt": "Aide et FAQ.",
     "life360_polling_interval": "Intervalle d'interrogation (secondes)",
@@ -19,6 +20,7 @@
     "process_life360_circles": "Traiter les cercles Life360",
     "process_life360_people": "Processus de vie360 personnes",
     "process_life360_places": "Processus Life360 lieux",
+    "screenshot_txt": "Capture d'écran du navigateur DevTools (F12) avec la valeur du jeton en surbrillance • (il est recommandé d'utiliser DevTools dans une nouvelle fenêtre) :",
     "section_life360_data": "Données Life360",
     "section_location_tracking": "Suivi de localisation",
     "section_places_adapter": "Adaptateur de lieux",

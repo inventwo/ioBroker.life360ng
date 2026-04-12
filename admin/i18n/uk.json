@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "Увімкнути детальне журналювання",
+    "help_txt": "Ви можете знайти більше інформації у вкладці «Допомога»!",
     "helps": "Довідка та поширені запитання",
     "intro_txt": "Довідка та поширені запитання.",
     "life360_polling_interval": "Інтервал опитування (секунди)",
@@ -19,6 +20,7 @@
     "process_life360_circles": "Круги Process Life360",
     "process_life360_people": "Процес Life360 людей",
     "process_life360_places": "Процес Life360 місць",
+    "screenshot_txt": "Знімок екрана браузера DevTools (F12) із виділеним значенням маркера • (рекомендується використовувати DevTools у новому вікні):",
     "section_life360_data": "Дані Life360",
     "section_location_tracking": "Відстеження місцезнаходження",
     "section_places_adapter": "Місця-адаптер",

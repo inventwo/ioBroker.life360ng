@@ -1,5 +1,6 @@
 {
     "debugging_verbose": "Schakel uitgebreide logboekregistratie in",
+    "help_txt": "Meer informatie vindt u onder het tabblad 'Help'!",
     "helps": "Hulp en veelgestelde vragen",
     "intro_txt": "Hulp en veelgestelde vragen.",
     "life360_polling_interval": "Polling-interval (seconden)",
@@ -19,6 +20,7 @@
     "process_life360_circles": "Verwerk Life360-cirkels",
     "process_life360_people": "Verwerk Life360 mensen",
     "process_life360_places": "Verwerk Life360-plaatsen",
+    "screenshot_txt": "Schermafbeelding van de browser DevTools (F12) met de tokenwaarde gemarkeerd • (het gebruik van DevTools in een nieuw venster wordt aanbevolen):",
     "section_life360_data": "Life360-gegevens",
     "section_location_tracking": "Locatie-tracking",
     "section_places_adapter": "Plaatsen-adapter",

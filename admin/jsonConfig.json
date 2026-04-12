@@ -22,6 +22,20 @@
                         "whiteSpace": "pre-wrap"
                     }
                 },
+                "txtHelp": {
+                    "type": "staticText",
+                    "text": "help_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem",
+                        "textDecoration": "underline"
+                    }
+                },
                 "life360_token": {
                     "type": "text",
                     "label": "life360_token",
@@ -292,34 +306,30 @@
                         "whiteSpace": "pre-wrap"
                     }
                 },
+                "txtScreen": {
+                    "type": "staticText",
+                    "text": "screenshot_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem"
+                    }
+                },
                 "token_screen": {
                     "type": "staticImage",
                     "src": "token_anonym.png",
                     "newLine": true,
-                    "sm": 0.5,
-                    "xs": 0.5,
-                    "md": 0.5,
-                    "lg": 0.5,
-                    "xl": 0.5,
+                    "sm": 9,
+                    "xs": 9,
+                    "md": 9,
+                    "lg": 9,
+                    "xl": 9,
                     "style": {
-                        "marginTop": "25px"
-                    }
-                },
-                "txtTwo": {
-                    "type": "staticText",
-                    "text": {
-                        "en": "For complete documentation, click here below:<br><br>• <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md\">Adapter documentation</a>",
-                        "de": "Für eine vollständige Dokumentation klicke hier unten:<br><br>• <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/README.md\">Adapter-Dokumentation</a>"
-                    },
-                    "newLine": true,
-                    "xs": 12,
-                    "sm": 12,
-                    "md": 6,
-                    "lg": 6,
-                    "xl": 6,
-                    "style": {
-                        "marginTop": "20px",
-                        "fontSize": "14px"
+                        "marginTop": "2px"
                     }
                 },
                 "logo": {
@@ -345,7 +355,7 @@
                     "lg": 3,
                     "xl": 3,
                     "style": {
-                        "borderTop": "1px solid",
+                        "borderTop": "0px solid",
                         "borderColor": "",
                         "marginTop": "0px",
                         "paddingTop": "5px",
