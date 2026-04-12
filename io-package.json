@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "news": {
+      "1.0.15": {
+        "en": "Added FAQ tab at config",
+        "de": "FAQ Tab hinzugefügt bei config",
+        "ru": "Добавлена вкладка FAQ в config",
+        "pt": "Página de FAQ adicionada na configuração",
+        "nl": "FAQ-tabblad toegevoegd bij config",
+        "fr": "Ajouté l'onglet FAQ à config",
+        "it": "Aggiunto FAQ scheda a config",
+        "es": "Añadido pestaña de preguntas frecuentes en config",
+        "pl": "Dodano zakładkę FAQ na konfigu",
+        "uk": "Додано вкладку FAQ в config",
+        "zh-cn": "在配置时添加 FAQ 标签"
+      },
       "1.0.14": {
         "en": "Modernized config",
         "de": "Moderne config",
@@ -80,19 +93,6 @@
         "pl": "Naprawiony adapter zmieniający kolor na zielony na nieprawidłowy token - instancja pokazuje żółty, gdy nie odbiera się danych z usług Life360 w chmurze",
         "uk": "Фіксований адаптер, що обертається зеленим на недійсному токені, наприклад, тепер показує жовтий, коли дані не надходять від хмарних сервісів Life360",
         "zh-cn": "固定适配器在无效符上变绿色——当没有收到来自life360云端服务的数据时,实例现在显示黄色"
-      },
-      "1.0.6": {
-        "en": "Adapter cleanup",
-        "de": "Adapterreinigung",
-        "ru": "Очистка адаптера",
-        "pt": "Limpeza do adaptador",
-        "nl": "Adapter opruimen",
-        "fr": "Nettoyage de l'adaptateur",
-        "it": "Pulizia dell'adattatore",
-        "es": "Limpieza del adaptador",
-        "pl": "Czyszczenie adaptera",
-        "uk": "Очищення адаптера",
-        "zh-cn": "适应器清理"
       }
     },
     "titleLang": {

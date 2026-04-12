@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.10 (2026-04-11)
+- (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place
+
 ## 1.0.9 (2026-04-11)
 - (skvarel) Revised translation
 
