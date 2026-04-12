@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.12 (2026-04-11)
+- (skvarel) Fixed invalid JSON in zh-cn translation
+
 ## 1.0.11 (2026-04-11)
 - (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place
 

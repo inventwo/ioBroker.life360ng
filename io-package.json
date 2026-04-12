@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "news": {
+      "1.0.17": {
+        "en": "Configuration revised, translations adjusted and repo cleaned up",
+        "de": "Konfiguration überarbeitet, Übersetzungen angepasst und repo aufgeräumt",
+        "ru": "Конфигурация пересмотрена, переводы скорректированы и репо очищены",
+        "pt": "Configuração revista, traduções ajustadas e recuperação limpas",
+        "nl": "Configuratie herzien, vertalingen aangepast en repo opgeschoond",
+        "fr": "Configuration révisée, traduction ajustée et repo nettoyée",
+        "it": "Configurazione revisionata, traduzioni regolate e ripulite",
+        "es": "Configuración revisada, traducciones ajustadas y recuperadas",
+        "pl": "Konfiguracja poprawiona, poprawiona i poprawiona wersja tłumaczenia",
+        "uk": "Конфігурація переглянуті, переклади регульовані і перепо очищають",
+        "zh-cn": "配置修改、翻译调整和重新整理"
+      },
       "1.0.16": {
         "en": "Modernized config",
         "de": "Moderne config",
@@ -80,19 +93,6 @@
         "pl": "Tłumaczenie poprawione",
         "uk": "Редагування перекладу",
         "zh-cn": "订正翻译"
-      },
-      "1.0.8": {
-        "en": "Added notes regarding the token",
-        "de": "Anmerkungen zum Token hinzugefügt",
-        "ru": "Добавлены примечания относительно токена",
-        "pt": "Notas adicionadas sobre o token",
-        "nl": "Opmerkingen over het token toegevoegd",
-        "fr": "Ajout de notes concernant le jeton",
-        "it": "Osservazioni aggiunte per quanto riguarda il token",
-        "es": "Notas adicionales sobre la ficha",
-        "pl": "Dodano notatki dotyczące tokena",
-        "uk": "Додано ноти про токени",
-        "zh-cn": "添加有关符号的注释"
       }
     },
     "titleLang": {
