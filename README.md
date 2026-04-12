@@ -89,7 +89,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.16 (2026-04-12)
 - (skvarel) Modernized config
 
 ### 1.0.15 (2026-04-12)
@@ -103,9 +103,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.12 (2026-04-11)
 - (skvarel) Fixed invalid JSON in zh-cn translation
-
-### 1.0.11 (2026-04-11)
-- (skvarel) Added configurable fallback text for `locationName` when a person is not at a known place
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

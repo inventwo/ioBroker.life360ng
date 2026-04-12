@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "news": {
+      "1.0.16": {
+        "en": "Modernized config",
+        "de": "Moderne config",
+        "ru": "Модернизированная конфигурация",
+        "pt": "Configuração modernizada",
+        "nl": "Gemoderniseerde configuratie",
+        "fr": "Config modernisé",
+        "it": "Configurazione moderna",
+        "es": "Configuración modernizada",
+        "pl": "Zmodernizowana konfiguracja",
+        "uk": "Модернізоване налаштування",
+        "zh-cn": "现代化配置"
+      },
       "1.0.15": {
         "en": "Added FAQ tab at config",
         "de": "FAQ Tab hinzugefügt bei config",
@@ -80,19 +93,6 @@
         "pl": "Dodano notatki dotyczące tokena",
         "uk": "Додано ноти про токени",
         "zh-cn": "添加有关符号的注释"
-      },
-      "1.0.7": {
-        "en": "Fixed adapter turning green on invalid token — instance now shows yellow when no data is received from Life360 cloud services",
-        "de": "Fester Adapter, der auf ungültigem Token grün wird — etwa zeigt jetzt gelb, wenn keine Daten von Life360 Cloud Services empfangen werden",
-        "ru": "Фиксированный адаптер, включающий недействительный токен, теперь показывает желтый цвет, когда данные не принимаются из облачных сервисов Life360",
-        "pt": "Adaptador fixo virando verde no token inválido — instância agora mostra amarelo quando nenhum dado é recebido dos serviços de nuvem Life360",
-        "nl": "Vaste adapter draaien groen op ongeldige token instance toont nu geel wanneer geen gegevens worden ontvangen van Life360 cloud services",
-        "fr": "Adaptateur fixe tournant vert sur jeton invalide — l'instance affiche maintenant jaune quand aucune donnée n'est reçue des services Cloud Life360",
-        "it": "Adattatore fisso che gira verde su token non valido — istanza ora mostra giallo quando nessun dato viene ricevuto da servizi cloud Life360",
-        "es": "Adaptador fijo que se vuelve verde en token inválida - ejemplo ahora muestra amarillo cuando no se reciben datos de los servicios de nube Life360",
-        "pl": "Naprawiony adapter zmieniający kolor na zielony na nieprawidłowy token - instancja pokazuje żółty, gdy nie odbiera się danych z usług Life360 w chmurze",
-        "uk": "Фіксований адаптер, що обертається зеленим на недійсному токені, наприклад, тепер показує жовтий, коли дані не надходять від хмарних сервісів Life360",
-        "zh-cn": "固定适配器在无效符上变绿色——当没有收到来自life360云端服务的数据时,实例现在显示黄色"
       }
     },
     "titleLang": {
