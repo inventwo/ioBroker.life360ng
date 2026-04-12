@@ -17,6 +17,7 @@
     "place_longitude": "Długość geograficzna",
     "place_name": "Nazwa",
     "place_radius": "Promień (m)",
+    "places_txt": "Tutaj możesz dodawać własne lokalizacje (niezależnie od aplikacji Life360), aby na przykład obliczać odległości lub otrzymywać powiadomienia, gdy ludzie dotrą do danej lokalizacji lub ją opuszczą.\n (W przypadku szerokości i długości geograficznej użyj kropki zamiast przecinka)",
     "process_life360_circles": "Proces Life360 kręgów",
     "process_life360_people": "Życie Procesowe 360 ​​osób",
     "process_life360_places": "Proces Życia360 miejsc",

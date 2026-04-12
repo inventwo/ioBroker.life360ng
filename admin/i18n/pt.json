@@ -17,6 +17,7 @@
     "place_longitude": "Longitude",
     "place_name": "Nome",
     "place_radius": "Raio (m)",
+    "places_txt": "Aqui você pode adicionar seus próprios locais (independentes do app Life360) para, por exemplo, calcular distâncias ou receber notificações quando pessoas chegam ou saem de um local.\n (Use um ponto final em vez de uma vírgula para latitude e longitude)",
     "process_life360_circles": "Processar círculos Life360",
     "process_life360_people": "Processo Life360 pessoas",
     "process_life360_places": "Processar Life360 lugares",

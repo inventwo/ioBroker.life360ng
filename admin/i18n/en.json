@@ -34,5 +34,6 @@
     "txt_one": "... more information coming soon!",
     "paypal_donate": "Donate with PayPal",
     "screenshot_txt": "Screenshot of the browser DevTools (F12) with the token value highlighted • (using DevTools in a new window is recommended):",
-    "help_txt": "You can find more information in the 'Help' tab!"
+    "help_txt": "You can find more information in the 'Help' tab!",
+    "places_txt": "Here you can add your own locations (independent of the Life360 app) to, for example, calculate distances or receive notifications when people arrive at or leave a location.\n (Use a period instead of a comma for latitude and longitude)"
 }

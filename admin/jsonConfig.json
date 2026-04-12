@@ -81,6 +81,19 @@
             "label": "tab_myplaces",
             "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTEuNUEyLjUsMi41IDAgMCwxIDkuNSw5QTIuNSwyLjUgMCAwLDEgMTIsNi41QTIuNSwyLjUgMCAwLDEgMTQuNSw5QTIuNSwyLjUgMCAwLDEgMTIsMTEuNU0xMiwyQTcsNyAwIDAsMCA1LDlDNSwxNC4yNSAxMiwyMiAxMiwyMkMxMiwyMiAxOSwxNC4yNSAxOSw5QTcsNyAwIDAsMCAxMiwyWiIvPjwvc3ZnPg==",
             "items": {
+                "txtPlaces": {
+                    "type": "staticText",
+                    "label": "places_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem"
+                    }
+                },
                 "places": {
                     "type": "table",
                     "newLine": true,

@@ -17,6 +17,7 @@
     "place_longitude": "Lengte",
     "place_name": "Naam",
     "place_radius": "Straal (m)",
+    "places_txt": "Hier kunt u uw eigen locaties toevoegen (onafhankelijk van de Life360 app) om bijvoorbeeld afstanden te berekenen of notificaties te ontvangen wanneer mensen op een locatie aankomen of vertrekken.\n (Gebruik een punt in plaats van een komma voor de breedte- en lengtegraad)",
     "process_life360_circles": "Verwerk Life360-cirkels",
     "process_life360_people": "Verwerk Life360 mensen",
     "process_life360_places": "Verwerk Life360-plaatsen",

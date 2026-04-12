@@ -89,6 +89,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Translations adjusted
+
 ### 1.0.18 (2026-04-12)
 - (skvarel) Fixed info.connection role in io-package.json
 - (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings

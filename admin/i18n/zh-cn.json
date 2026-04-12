@@ -17,6 +17,7 @@
     "place_longitude": "经度",
     "place_name": "姓名",
     "place_radius": "半径（米）",
+    "places_txt": "您可以在此处添加您自己的位置（独立于 Life360 应用程序），例如计算距离或在人们到达或离开某个位置时接收通知。\n （使用句号代替逗号来表示纬度和经度）",
     "process_life360_circles": "工艺寿命360 圈",
     "process_life360_people": "流程生活360人",
     "process_life360_places": "工艺寿命360 处",
