@@ -35,7 +35,7 @@
     "@iobroker/testing": "^5.2.2",
     "@material-ui/core": "^4.12.4",
     "@tsconfig/node20": "^20.1.9",
-    "@types/node": "^22.0.0",
+    "@types/node": "^20.0.0",
     "@types/react": "^17.0.90",
     "@types/react-dom": "^17.0.26",
     "react": "^17.0.2",
@@ -60,7 +60,7 @@
     "test:integration": "mocha test/integration --exit",
     "test": "npm run test:js && npm run test:package",
     "check": "tsc --noEmit -p tsconfig.check.json",
-    "lint": "eslint -c eslint.config.mjs .",
+    "lint": "eslint -c eslint.config.mjs . --max-warnings 0",
     "translate": "translate-adapter",
     "dev-server": "dev-server"
   },

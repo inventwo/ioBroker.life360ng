@@ -20,10 +20,8 @@ export default [
 			'**/adapter-config.d.ts',
 			'widgets/**/*.js',
 			'admin/build',
-			// Legacy files from original fork - complex JS not compatible with strict type checks
-			'lib/life360CloudConnector.js',
-			'lib/life360DbConnector.js',
 		],
+
 	},
 	{
 		// you may disable some 'jsdoc' warnings - but using jsdoc is highly recommended
@@ -31,7 +29,7 @@ export default [
 		rules: {
 			// 'jsdoc/require-jsdoc': 'off',
 			// 'jsdoc/require-param': 'off',
-			// 'jsdoc/require-param-description': 'off',
+			'jsdoc/require-param-description': 'off',
 			// 'jsdoc/require-returns-description': 'off',
 			// 'jsdoc/require-returns-check': 'off',
 		},

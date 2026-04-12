@@ -202,7 +202,7 @@
         "type": "boolean",
         "def": false,
         "read": true,
-        "role": "value.info",
+        "role": "indicator.connected",
         "write": false
       },
       "native": {}
