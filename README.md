@@ -78,7 +78,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.20 (2026-04-13)
 - (skvarel) Removed react and mui
 - (skvarel) Edit readme
 
@@ -96,9 +96,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.16 (2026-04-12)
 - (skvarel) Modernized config
-
-### 1.0.15 (2026-04-12)
-- (skvarel) Added FAQ tab at config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

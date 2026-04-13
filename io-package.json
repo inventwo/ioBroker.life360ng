@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "news": {
+      "1.0.20": {
+        "en": "Removed react and mui\nEdit readme",
+        "de": "Reakt und Mui entfernt\nLesen Sie mehr",
+        "ru": "Удаленная реакция и муи\nРедактировать readme",
+        "pt": "Reacção removida e mui\nEditar a leitura",
+        "nl": "Verwijderde reactie en mui\nLezen bewerken",
+        "fr": "Réaction et mui enlevés\nModifier la lecture",
+        "it": "Rimozione e mui\nModifica",
+        "es": "Reacción eliminada y mui\nEditar readme",
+        "pl": "Usunięta reakcja i mui\nEdytuj readme",
+        "uk": "Зняти реагацію і мус\nРедагувати читання",
+        "zh-cn": "删除反应和 mui\n编辑读取器"
+      },
       "1.0.19": {
         "en": "Translations adjusted",
         "de": "Übersetzungen bereinigt",
@@ -69,19 +82,6 @@
         "zh-cn": "在配置时添加 FAQ 标签"
       },
       "1.0.14": {
-        "en": "Modernized config",
-        "de": "Moderne config",
-        "ru": "Модернизированная конфигурация",
-        "pt": "Configuração modernizada",
-        "nl": "Gemoderniseerde configuratie",
-        "fr": "Config modernisé",
-        "it": "Configurazione moderna",
-        "es": "Configuración modernizada",
-        "pl": "Zmodernizowana konfiguracja",
-        "uk": "Модернізоване налаштування",
-        "zh-cn": "现代化配置"
-      },
-      "1.0.13": {
         "en": "Modernized config",
         "de": "Moderne config",
         "ru": "Модернизированная конфигурация",
