@@ -23,17 +23,6 @@ ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users
 
 This adapter connects to the [Life360](https://www.life360.com) cloud services to track people and detect presence at defined places. It retrieves circles, members and places data and persists it as ioBroker states, updated at a configurable interval.
 
-## Installation
-
-Install the adapter in ioBroker Admin via a custom URL:
-`https://github.com/inventwo/ioBroker.life360ng`
-
-Or on the command line:
-
-```bash
-iobroker npm install inventwo/iobroker.life360ng --loglevel error --prefix "/opt/iobroker"
-```
-
 ## Configuration
 
 ### Bearer Token (required for EU users)
@@ -89,6 +78,10 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Removed react and mui
+- (skvarel) Edit readme
+
 ### 1.0.19 (2026-04-12)
 - (skvarel) Translations adjusted
 
