@@ -33,6 +33,8 @@
     "tab_general": "Vie360",
     "tab_integration": "Intégration",
     "tab_myplaces": "Mes adresses",
+    "token1_txt": "Première variante :",
+    "token2_txt": "Deuxième variante :",
     "token_hint": "Utilisateurs de l'UE – comment obtenir votre jeton Bearer :\n1. Ouvrez https://life360.com/login\n2. Entrez votre adresse e-mail → cliquez sur Continuer\n3. Entrez le code à usage unique envoyé à votre email\n4. Ouvrez le navigateur DevTools (F12) → onglet Réseau\n5. Recherchez la requête POST nommée « jeton » (pas OPTIONS)\n6. Ouvrez l'onglet Aperçu / Réponse → copiez la valeur de 'access_token' et collez-la ci-dessous\n\nEntrez le jeton SANS le mot 'Porteur' et SANS espaces !\n\nLes jetons sont valables plusieurs mois.",
     "track_location_people": "Activer le suivi de localisation des personnes",
     "txt_one": "... plus d'informations à venir !"

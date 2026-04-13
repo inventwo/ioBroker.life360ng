@@ -33,6 +33,8 @@
     "tab_general": "Leven360",
     "tab_integration": "Integratie",
     "tab_myplaces": "Mijn plaatsen",
+    "token1_txt": "Eerste variant:",
+    "token2_txt": "Tweede variant:",
     "token_hint": "EU-gebruikers – hoe u uw Bearer-token kunt verkrijgen:\n1. Open https://life360.com/login\n2. Voer uw e-mailadres in → klik op Doorgaan\n3. Voer de eenmalige code in die naar uw e-mail is verzonden\n4. Open browser DevTools (F12) → tabblad Netwerk\n5. Zoek het POST-verzoek met de naam 'token' (niet OPTIONS)\n6. Open het tabblad Preview / Response → kopieer de waarde van 'access_token' en plak deze hieronder\n\nVoer het token in ZONDER het woord 'Bearer' en ZONDER spaties!\n\nTokens zijn meerdere maanden geldig.",
     "track_location_people": "Schakel locatietracking voor mensen in",
     "txt_one": "... binnenkort meer informatie!"

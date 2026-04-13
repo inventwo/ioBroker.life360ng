@@ -78,6 +78,10 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Improved help tab in the config
+- (skvarel) Added new screenshots of browser DevTools
+
 ### 1.0.20 (2026-04-13)
 - (skvarel) Removed react and mui
 - (skvarel) Edit readme

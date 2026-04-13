@@ -33,6 +33,8 @@
     "tab_general": "Vita360",
     "tab_integration": "Integrazione",
     "tab_myplaces": "I miei posti",
+    "token1_txt": "Prima variante:",
+    "token2_txt": "Seconda variante:",
     "token_hint": "Utenti UE: come ottenere il token al portatore:\n1. Apri https://life360.com/login\n2. Inserisci il tuo indirizzo email → fai clic su Continua\n3. Inserisci il codice monouso inviato alla tua email\n4. Aprire il browser DevTools (F12) → scheda Rete\n5. Trova la richiesta POST denominata \"token\" (non OPTIONS)\n6. Apri la scheda Anteprima/Risposta → copia il valore di \"access_token\" e incollalo di seguito\n\nInserisci il gettone SENZA la scritta 'Portatore' e SENZA spazi!\n\nI token sono validi per diversi mesi.",
     "track_location_people": "Abilita il rilevamento della posizione per le persone",
     "txt_one": "...maggiori informazioni in arrivo!"

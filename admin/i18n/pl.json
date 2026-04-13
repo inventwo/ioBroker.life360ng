@@ -33,6 +33,8 @@
     "tab_general": "Życie360",
     "tab_integration": "Integracja",
     "tab_myplaces": "Moje miejsca",
+    "token1_txt": "Pierwszy wariant:",
+    "token2_txt": "Drugi wariant:",
     "token_hint": "Użytkownicy z UE – jak zdobyć token okaziciela:\n1. Otwórz https://life360.com/login\n2. Wpisz swój adres e-mail → kliknij Kontynuuj\n3. Wpisz jednorazowy kod przesłany na Twój adres e-mail\n4. Otwórz przeglądarkę DevTools (F12) → zakładka Sieć\n5. Znajdź żądanie POST o nazwie „token” (nie OPCJE)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość „access_token” i wklej ją poniżej\n\nWprowadź token BEZ słowa „Nosiciel” i BEZ spacji!\n\nTokeny są ważne przez kilka miesięcy.",
     "track_location_people": "Włącz śledzenie lokalizacji dla ludzi",
     "txt_one": "...więcej informacji już wkrótce!"

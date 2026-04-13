@@ -33,6 +33,8 @@
     "tab_general": "vida360",
     "tab_integration": "Integración",
     "tab_myplaces": "Mis lugares",
+    "token1_txt": "Primera variante:",
+    "token2_txt": "Segunda variante:",
     "token_hint": "Usuarios de la UE: cómo obtener su token de portador:\n1. Abra https://life360.com/login\n2. Ingrese su dirección de correo electrónico → haga clic en Continuar\n3. Ingrese el código de un solo uso enviado a su correo electrónico\n4. Abra el navegador DevTools (F12) → pestaña Red\n5. Busque la solicitud POST denominada 'token' (no OPCIONES)\n6. Abra la pestaña Vista previa/Respuesta → copie el valor de 'access_token' y péguelo debajo\n\n¡Ingrese el token SIN la palabra 'Portador' y SIN espacios!\n\nLos tokens son válidos por varios meses.",
     "track_location_people": "Habilitar el seguimiento de ubicación de personas",
     "txt_one": "... ¡más información próximamente!"

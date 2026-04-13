@@ -332,9 +332,48 @@
                         "fontSize": "0.875rem"
                     }
                 },
-                "token_screen": {
+                "txtToken1": {
+                    "type": "staticText",
+                    "text": "token1_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem"
+                    }
+                },
+                "token1_screen": {
                     "type": "staticImage",
-                    "src": "img/token_anonym.png",
+                    "src": "img/token_001.png",
+                    "newLine": true,
+                    "sm": 9,
+                    "xs": 9,
+                    "md": 9,
+                    "lg": 9,
+                    "xl": 9,
+                    "style": {
+                        "marginTop": "2px"
+                    }
+                },
+                "txtToken2": {
+                    "type": "staticText",
+                    "text": "token2_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem"
+                    }
+                },
+                "token2_screen": {
+                    "type": "staticImage",
+                    "src": "img/token_002.png",
                     "newLine": true,
                     "sm": 9,
                     "xs": 9,

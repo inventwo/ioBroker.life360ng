@@ -3,7 +3,7 @@
     "tab_myplaces": "My Places",
     "tab_integration": "Integration",
     "tab_advanced": "Advanced",
-    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nEnter the token WITHOUT the word 'Bearer' and WITHOUT spaces!\n\nThe token is valid for several months.",
+    "token_hint": "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Enter your email address → click Continue\n3. Enter the one-time code sent to your email\n4. Open browser DevTools (F12) → Network tab\n5. Find the POST request named 'token' and/or 'bearer' (not OPTIONS)\n6. Open Preview / Response tab → copy the value of 'access_token' and paste it below\n\nEnter the token WITHOUT the word 'Bearer' and WITHOUT spaces!\n\nThe token is valid for several months.",
     "life360_token": "Bearer token",
     "life360_username": "Email address (optional, fallback for password auth)",
     "life360_username_help": "Only needed if you want to use password-based login instead of token",
@@ -33,7 +33,9 @@
     "intro_txt": "Help & FAQ.",
     "txt_one": "... more information coming soon!",
     "paypal_donate": "Donate with PayPal",
-    "screenshot_txt": "Screenshot of the browser DevTools (F12) with the token value highlighted • (using DevTools in a new window is recommended):",
+    "screenshot_txt": "Screenshots of the browser DevTools (F12) with the token value highlighted • (using DevTools in a new window is recommended):",
     "help_txt": "You can find more information in the 'Help' tab!",
-    "places_txt": "Here you can add your own locations (independent of the Life360 app) to, for example, calculate distances or receive notifications when people arrive at or leave a location.\n (Use a period instead of a comma for latitude and longitude)"
+    "places_txt": "Here you can add your own locations (independent of the Life360 app) to, for example, calculate distances or receive notifications when people arrive at or leave a location.\n (Use a period instead of a comma for latitude and longitude)",
+    "token1_txt": "First variant:",
+    "token2_txt": "Second variant:"
 }
