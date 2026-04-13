@@ -78,7 +78,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
   ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.0.21 (2026-04-13)
 - (skvarel) Improved help tab in the config
 - (skvarel) Added new screenshots of browser DevTools
 
@@ -97,9 +97,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 1.0.17 (2026-04-12)
 - (skvarel) Configuration revised, translations adjusted and repo cleaned up
-
-### 1.0.16 (2026-04-12)
-- (skvarel) Modernized config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

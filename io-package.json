@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "news": {
+      "1.0.21": {
+        "en": "Improved help tab in the config\nAdded new screenshots of browser DevTools",
+        "de": "Verbesserte Hilfe Tab in der config\nNeue Screenshots von Browser DevTools hinzugefügt",
+        "ru": "Улучшенная вкладка помощи в конфигурации\nДобавлены новые скриншоты браузера DevTools",
+        "pt": "Página de ajuda melhorada na configuração\nAdicionadas novas imagens do navegador DevTools",
+        "nl": "Verbeterd hulptabblad in de configuratie\nNieuwe screenshots van browser DevTools toegevoegd",
+        "fr": "Onglet d'aide amélioré dans la configuration\nAjout de nouvelles captures d'écran du navigateur DevTools",
+        "it": "Scheda di aiuto migliorata nella configurazione\nAggiunto nuovi screenshot del browser DevTools",
+        "es": "Pestaña de ayuda mejorada en el config\nAñadido nuevas capturas de pantalla del navegador DevTools",
+        "pl": "Ulepszona karta pomocy w konfiguracji\nDodano nowe zrzuty ekranu przeglądarki DevTools",
+        "uk": "Удосконалено вкладку допомоги в налаштуваннях\nДодано нові скріншоти до браузера DevTools",
+        "zh-cn": "配置中改进的帮助标签\n添加浏览器 DevTools 的新截图"
+      },
       "1.0.20": {
         "en": "Removed react and mui\nEdit readme",
         "de": "Reakt und Mui entfernt\nLesen Sie mehr",
@@ -80,19 +93,6 @@
         "pl": "Dodano zakładkę FAQ na konfigu",
         "uk": "Додано вкладку FAQ в config",
         "zh-cn": "在配置时添加 FAQ 标签"
-      },
-      "1.0.14": {
-        "en": "Modernized config",
-        "de": "Moderne config",
-        "ru": "Модернизированная конфигурация",
-        "pt": "Configuração modernizada",
-        "nl": "Gemoderniseerde configuratie",
-        "fr": "Config modernisé",
-        "it": "Configurazione moderna",
-        "es": "Configuración modernizada",
-        "pl": "Zmodernizowana konfiguracja",
-        "uk": "Модернізоване налаштування",
-        "zh-cn": "现代化配置"
       }
     },
     "titleLang": {

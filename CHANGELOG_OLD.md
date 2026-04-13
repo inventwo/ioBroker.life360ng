@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.16 (2026-04-12)
+- (skvarel) Modernized config
+
 ## 1.0.15 (2026-04-12)
 - (skvarel) Added FAQ tab at config
 
