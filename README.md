@@ -72,6 +72,12 @@ If you like our work and would like to support us, we appreciate any donation.
 
 [![Spende](img/support.png)](https://www.paypal.com/donate?hosted_button_id=7W6M3TFZ4W9LW)
 
+## Credits
+
+This adapter is based on the original work by [MiGoller](https://github.com/MiGoller).<br>
+Many thanks for the initial implementation and idea!
+This repository contains optimizations and further development.<br>
+Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is archived and no longer maintained.
 
 ## Changelog
 
