@@ -82,7 +82,7 @@ Life360 circles with their associated places and member presence.
 
 | State | Type | Description |
 |---|---|---|
-| `circles.<id>.name` | text | Circle name (e.g. `Familie Kammann`) |
+| `circles.<id>.name` | text | Circle name (e.g. `Family skvarel`) |
 | `circles.<id>.id` | text | Circle UUID |
 | `circles.<id>.memberCount` | value | Number of circle members *(may be null)* |
 | `circles.<id>.createdAt` | date | Circle creation date |
@@ -156,7 +156,7 @@ These are **read-only** and cannot be configured in the adapter.
 
 | State | Type | Description |
 |---|---|---|
-| `places.<id>.name` | text | Place name (e.g. `Refugium340a`) |
+| `places.<id>.name` | text | Place name (e.g. `Refugium`) |
 | `places.<id>.id` | text | Life360 place UUID |
 | `places.<id>.circleId` | text | UUID of the circle this place belongs to |
 | `places.<id>.ownerId` | text | UUID of the place owner |
