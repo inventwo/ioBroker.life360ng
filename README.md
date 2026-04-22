@@ -51,7 +51,7 @@ Add private places not visible to Life360 cloud services. The adapter checks pre
 
 ### Integration
 
-Choose which Life360 data to process: circles, places, people. Optionally forward location data to the ioBroker [Places-adapter](https://github.com/ioBroker/ioBroker.places).
+Choose which Life360 data to process: circles, places, people.
 
 ### Location-Tracking
 
@@ -84,6 +84,17 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
   ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Removed dead code / example code commented out
+- (Claude Sonnet) Removed places adapter
+- (Claude Sonnet) Removed process.env usage
+- (Claude Sonnet) Changed sleep to delay
+- (Claude Sonnet) Fixed invalid characters
+- (Claude Sonnet) Removed unused onStateChange handler
+- (Claude Sonnet) Removed unused onObjectChange handler
+- (Claude Sonnet) Fixed invalid object hierarchy
+- (Claude Sonnet) Fixed setTimeout
+
 ### 1.0.21 (2026-04-13)
 - (skvarel) Improved help tab in the config
 - (skvarel) Added new screenshots of browser DevTools

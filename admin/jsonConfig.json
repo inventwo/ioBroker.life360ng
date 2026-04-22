@@ -176,34 +176,6 @@
                         }
                     }
                 },
-                "_placesAdapter": {
-                    "type": "panel",
-                    "label": "section_places_adapter",
-                    "xs": 12,
-                    "items": {
-                        "sendto_places_adapter_instance": {
-                            "type": "number",
-                            "label": "sendto_places_adapter_instance",
-                            "help": "sendto_places_adapter_instance_help",
-                            "min": -1,
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
-                        },
-                        "sendto_places_adapter_regexp": {
-                            "type": "text",
-                            "label": "sendto_places_adapter_regexp",
-                            "help": "sendto_places_adapter_regexp_help",
-                            "xs": 12,
-                            "sm": 12,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
-                        }
-                    }
-                },
                 "_locationTracking": {
                     "type": "panel",
                     "label": "section_location_tracking",
@@ -216,42 +188,10 @@
                             "sm": 6,
                             "md": 6,
                             "lg": 6,
-                            "xl": 6
-                        },
-                        "location_object_type": {
-                            "type": "select",
-                            "label": "location_object_type",
-                            "options": [
-                                {
-                                    "label": "LonLat tuple",
-                                    "value": "LonLatTuple"
-                                },
-                                {
-                                    "label": "LatLon object",
-                                    "value": "LatLon"
-                                },
-                                {
-                                    "label": "LatLng object",
-                                    "value": "LatLng"
-                                },
-                                {
-                                    "label": "LatitudeLongitude object",
-                                    "value": "LatitudeLongitude"
-                                },
-                                {
-                                    "label": "Latitude,Longitude (comma)",
-                                    "value": "CUSTOM_LatCommaLon"
-                                },
-                                {
-                                    "label": "Latitude;Longitude (semicolon)",
-                                    "value": "CUSTOM_LatSemicolonLon"
-                                }
-                            ],
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
+                            "xl": 6,
+                            "style": {
+                                "marginTop": "20px"
+                            }
                         },
                         "location_unknown_name": {
                             "type": "text",

@@ -55,6 +55,7 @@
     "test": "npm run test:js && npm run test:package",
     "check": "tsc --noEmit -p tsconfig.check.json",
     "lint": "eslint -c eslint.config.mjs . --max-warnings 0",
+    "lint-fix": "eslint -c eslint.config.mjs . --fix",
     "translate": "translate-adapter",
     "dev-server": "dev-server"
   },

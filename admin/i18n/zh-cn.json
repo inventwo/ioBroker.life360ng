@@ -8,7 +8,6 @@
     "life360_token": "不记名令牌",
     "life360_username": "电子邮件地址（可选，密码验证的后备）",
     "life360_username_help": "仅当您想使用基于密码的登录而不是令牌时才需要",
-    "location_object_type": "地理位置对象类型",
     "location_unknown_name": "未知位置的后备名称",
     "location_unknown_name_help": "当此人不在已知地点（例如“在旅行中”）时，位置名称中显示的文本。留空以保持空白。",
     "paypal_donate": "通过 PayPal 捐赠",
@@ -25,17 +24,13 @@
     "section_life360_data": "Life360数据",
     "section_location_tracking": "位置追踪",
     "section_places_adapter": "地方适配器",
-    "sendto_places_adapter_instance": "Places-adapter 实例（-1 = 禁用）",
-    "sendto_places_adapter_instance_help": "输入 Places-adapter 的实例编号（例如 0）。设置为 -1 以禁用转发。",
-    "sendto_places_adapter_regexp": "人员的正则表达式过滤器（空=发送全部）",
-    "sendto_places_adapter_regexp_help": "正则表达式与“[名字] [姓氏]”匹配。留空即可发送全部。",
     "tab_advanced": "先进的",
     "tab_general": "生活360",
     "tab_integration": "一体化",
     "tab_myplaces": "我的地点",
     "token1_txt": "第一个变体：",
     "token2_txt": "第二种变体：",
-    "token_hint": "欧盟用户 – 如何获取您的不记名代币：\n1.打开https://life360.com/login\n2. 输入您的电子邮件地址 → 单击继续\n3. 输入发送到您的电子邮件的一次性代码\n4. 打开浏览器 DevTools (F12) → Network 选项卡\n5.找到名为“token”的POST请求（不是OPTIONS）\n6. 打开预览/响应选项卡 → 复制“access_token”的值并将其粘贴到下面\n\n输入令牌时不要包含“Bearer”一词，也不要包含空格！\n\n令牌的有效期为几个月。",
+    "token_hint": "欧盟用户 – 如何获取您的不记名代币：\n1.打开https://life360.com/login\n2. 输入您的电子邮件地址 → 单击继续\n3. 输入发送到您的电子邮件的一次性代码\n4. 打开浏览器 DevTools (F12) → Network 选项卡\n5. 找到名为“token”和/或“bearer”的 POST 请求（不是 OPTIONS）\n6. 打开预览/响应选项卡 → 复制“access_token”的值并将其粘贴到下面\n\n输入令牌时不要包含“Bearer”一词，也不要包含空格！\n\n该令牌的有效期为几个月。",
     "track_location_people": "启用人员位置跟踪",
-    "txt_one": "更多信息即将发布"
+    "txt_one": "...更多信息即将推出！"
 }
