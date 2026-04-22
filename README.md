@@ -57,13 +57,119 @@ Choose which Life360 data to process: circles, places, people.
 
 Enable location-tracking to add geo-positioning details (latitude, longitude, `locationName`) to the people data points.
 
+## Migration / Upgrade Notes
+
+### Upgrading from 1.0.x to 1.1.0
+
+The internal object hierarchy has been restructured to comply with 
+ioBroker's object type rules.
+
+**Please perform the following steps after updating:**
+1. Stop the adapter instance
+2. Delete all objects of the adapter (in ioBroker Admin: 
+   Objects → life360ng.0 → Delete all)
+3. Start the adapter instance again
+4. All datapoints will be recreated automatically
+
+> ⚠️ Your existing scripts and automations do **not** need to be changed – 
+> all datapoint IDs remain the same.
+
 ## States
 
-| State | Description |
-|---|---|
-| `people.<name>.locationName` | Current Life360 place name (e.g. Home) |
-| `people.<name>.location` | Geo-position object |
-| `info.connection` | `true` when connected to Life360 cloud |
+### circles
+
+Life360 circles with their associated places and member presence.
+
+| State | Type | Description |
+|---|---|---|
+| `circles.<id>.name` | text | Circle name (e.g. `Familie Kammann`) |
+| `circles.<id>.id` | text | Circle UUID |
+| `circles.<id>.memberCount` | value | Number of circle members *(may be null)* |
+| `circles.<id>.createdAt` | date | Circle creation date |
+| `circles.<id>.timestamp` | date | Last data update |
+| `circles.<id>.places.<placeId>.<memberId>.isPresent` | indicator | Member is present at this place |
+| `circles.<id>.places.<placeId>.membersPresent` | value | Number of members currently at this place |
+
+### info
+
+| State | Type | Description |
+|---|---|---|
+| `info.connection` | boolean | `true` when connected to Life360 cloud |
+
+### myplaces
+
+Custom places defined in the adapter configuration (not synced to Life360 cloud).
+Structure: `myplaces.<placeName>.<memberName>.*`
+
+| State | Type | Description |
+|---|---|---|
+| `myplaces.<place>.<member>.distance` | value.distance | Distance to place center in meters |
+| `myplaces.<place>.<member>.isPresent` | indicator | Member is within the place radius |
+| `myplaces.<place>.<member>.startTimestamp` | date | Timestamp when member entered the place |
+| `myplaces.<place>.<member>.timestamp` | date | Last check timestamp |
+| `myplaces.<place>.gps-coordinates` | value.gps | Place center as JSON `{"lat":..,"lng":..}` |
+| `myplaces.<place>.latitude` | value.gps.latitude | Place center latitude |
+| `myplaces.<place>.longitude` | value.gps.longitude | Place center longitude |
+| `myplaces.<place>.members` | list | All members checked against this place |
+| `myplaces.<place>.membersCount` | value | Total number of tracked members |
+| `myplaces.<place>.membersPresent` | list | Names of members currently present |
+| `myplaces.<place>.membersPresentCount` | value | Number of members currently present |
+| `myplaces.<place>.radius` | value | Configured radius in meters |
+| `myplaces.<place>.timestamp` | date | Last data update |
+| `myplaces.<place>.urlMap` | text.url | OpenStreetMap link to place |
+| `myplaces.<place>.urlMapIframe` | text.url | Google Maps embeddable URL |
+
+### people
+
+Each Life360 circle member gets their own channel under `people.<id>`,
+where `<id>` is the member's Life360 UUID.
+
+| State | Type | Description |
+|---|---|---|
+| `people.<id>.avatar` | text.url | Profile picture URL |
+| `people.<id>.battery` | value.battery | Battery level in % |
+| `people.<id>.createdAt` | date | Account creation date |
+| `people.<id>.disconnected` | indicator | App is explicitly disconnected |
+| `people.<id>.firstName` | text | First name |
+| `people.<id>.gps-coordinates` | value.gps | GPS position as JSON `{"lat":..,"lng":..}` |
+| `people.<id>.id` | text | Life360 member UUID |
+| `people.<id>.isConnected` | indicator.reachable | App is connected and reachable |
+| `people.<id>.isSharingLocation` | indicator | Location sharing is active |
+| `people.<id>.lastName` | text | Last name |
+| `people.<id>.lastPositionAt` | date | Timestamp of last position update |
+| `people.<id>.latitude` | value.gps.latitude | Current latitude |
+| `people.<id>.locationName` | text | Current place name (e.g. `Home`) |
+| `people.<id>.longitude` | value.gps.longitude | Current longitude |
+| `people.<id>.status` | text | Connection status (e.g. `Ok`) |
+| `people.<id>.timestamp` | date | Timestamp of last data update |
+| `people.<id>.urlMap` | text.url | OpenStreetMap link to current position |
+| `people.<id>.urlMapIframe` | text.url | Google Maps embeddable URL |
+
+> **Note:** `isConnected` reflects whether the Life360 app is reachable,
+> while `disconnected` indicates an explicit disconnect state.
+> Both can be `false` simultaneously during a connection loss.
+
+### places
+
+Life360 places synced directly from the Life360 cloud (defined in the Life360 app).
+These are **read-only** and cannot be configured in the adapter.
+
+| State | Type | Description |
+|---|---|---|
+| `places.<id>.name` | text | Place name (e.g. `Refugium340a`) |
+| `places.<id>.id` | text | Life360 place UUID |
+| `places.<id>.circleId` | text | UUID of the circle this place belongs to |
+| `places.<id>.ownerId` | text | UUID of the place owner |
+| `places.<id>.gps-coordinates` | value.gps | Place center as JSON `{"lat":..,"lng":..}` |
+| `places.<id>.latitude` | value.gps.latitude | Place center latitude |
+| `places.<id>.longitude` | value.gps.longitude | Place center longitude |
+| `places.<id>.radius` | value | Radius in meters |
+| `places.<id>.timestamp` | date | Last data update |
+| `places.<id>.urlMap` | text.url | OpenStreetMap link to place |
+| `places.<id>.urlMapIframe` | text.url | Google Maps embeddable URL |
+
+> **Note:** For custom places with presence detection, see [myplaces](#myplaces).
+
 
 ## Support
 
@@ -82,9 +188,11 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ## Changelog
 
 <!--
-  ### **WORK IN PROGRESS**
+    ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+
+<!--
+### Intermediate (temporary - will be removed before release)
 - (skvarel) Removed dead code / example code commented out
 - (Claude Sonnet) Removed places adapter
 - (Claude Sonnet) Removed process.env usage
@@ -94,6 +202,13 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (Claude Sonnet) Removed unused onObjectChange handler
 - (Claude Sonnet) Fixed invalid object hierarchy
 - (Claude Sonnet) Fixed setTimeout
+-->
+
+### **WORK IN PROGRESS**
+- (skvarel) Fixed invalid object hierarchy (device under channel)
+- (skvarel) Removed dependency on Places adapter
+- (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
+
 
 ### 1.0.21 (2026-04-13)
 - (skvarel) Improved help tab in the config
