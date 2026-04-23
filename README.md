@@ -191,19 +191,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 
-<!--
-### Intermediate (temporary - will be removed before release)
-- (skvarel) Removed dead code / example code commented out
-- (Claude Sonnet) Removed places adapter
-- (Claude Sonnet) Removed process.env usage
-- (Claude Sonnet) Changed sleep to delay
-- (Claude Sonnet) Fixed invalid characters
-- (Claude Sonnet) Removed unused onStateChange handler
-- (Claude Sonnet) Removed unused onObjectChange handler
-- (Claude Sonnet) Fixed invalid object hierarchy
-- (Claude Sonnet) Fixed setTimeout
--->
-
 ### **WORK IN PROGRESS**
 - (skvarel) Fixed invalid object hierarchy (device under channel)
 - (skvarel) Removed dependency on Places adapter
