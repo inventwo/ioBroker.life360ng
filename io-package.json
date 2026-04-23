@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.0.21",
+    "version": "1.1.0",
     "news": {
+      "1.1.0": {
+        "en": "Fixed invalid object hierarchy (device under channel)\nRemoved dependency on Places adapter\nNOTE: Delete all adapter objects after updating (see Migration Notes)",
+        "de": "Behobene ungültige Objekthierarchie (Gerät unter Kanal)\nEntfernte Abhängigkeit vom Platzadapter\nHINWEIS: Löschen Sie alle Adapterobjekte nach der Aktualisierung (siehe Migrationshinweise)",
+        "ru": "Иерархия фиксированных недействительных объектов (устройство под каналом)\nСнята зависимость от адаптера Places\nПРИМЕЧАНИЕ: Удалить все объекты адаптера после обновления (см. Миграционные примечания)",
+        "pt": "Corrigido hierarquia de objetos inválida (dispositivo sob canal)\nA dependência removida do adaptador Places\nNOTA: Excluir todos os objetos do adaptador após atualização (ver Notas de migração)",
+        "nl": "Vaste ongeldige objecthiërarchie (apparaat onder kanaal)\nVerwijderde afhankelijkheid van Plaatsen adapter\nOPMERKING: Verwijder alle adapter objecten na het bijwerken (zie Migratie Notes)",
+        "fr": "Correction de la hiérarchie des objets invalides (dispositif sous canal)\nDépendance supprimée de l'adaptateur Places\nREMARQUE: Supprimer tous les objets adaptateurs après mise à jour (voir Notes de migration)",
+        "it": "Gerarchia non valida fissa (dispositivo sotto canale)\nRimozione della dipendenza dall'adattatore Luoghi\nNOTA: Elimina tutti gli oggetti dell'adattatore dopo l'aggiornamento (vedere Note di migrazione)",
+        "es": "Jerarquía fija de objetos inválidos (dispositivo bajo canal)\nRetirada dependencia del adaptador de Lugares\nNOTA: Eliminar todos los objetos del adaptador después de actualizar (ver notas de migración)",
+        "pl": "Naprawiono nieprawidłową hierarchię obiektu (urządzenie pod kanałem)\nUsunięto zależność od adaptera Places\nUWAGA: Usuń wszystkie obiekty adaptera po aktualizacji (patrz Noty migracyjne)",
+        "uk": "Виправлена недійсна ієрархія об'єкта (розробка під каналом)\nВилучена залежність від адаптера місць\nНЕ: Видалити всі об'єкти адаптера після оновлення (див. Міграційні Нотатки)",
+        "zh-cn": "固定无效对象等级( 频道下的设备)\n删除对位置适配器的依赖\n注:更新后删除所有适配对象(见迁移说明)"
+      },
       "1.0.21": {
         "en": "Improved help tab in the config\nAdded new screenshots of browser DevTools",
         "de": "Verbesserte Hilfe Tab in der config\nNeue Screenshots von Browser DevTools hinzugefügt",
@@ -80,19 +93,6 @@
         "pl": "Zmodernizowana konfiguracja",
         "uk": "Модернізоване налаштування",
         "zh-cn": "现代化配置"
-      },
-      "1.0.15": {
-        "en": "Added FAQ tab at config",
-        "de": "FAQ Tab hinzugefügt bei config",
-        "ru": "Добавлена вкладка FAQ в config",
-        "pt": "Página de FAQ adicionada na configuração",
-        "nl": "FAQ-tabblad toegevoegd bij config",
-        "fr": "Ajouté l'onglet FAQ à config",
-        "it": "Aggiunto FAQ scheda a config",
-        "es": "Añadido pestaña de preguntas frecuentes en config",
-        "pl": "Dodano zakładkę FAQ na konfigu",
-        "uk": "Додано вкладку FAQ в config",
-        "zh-cn": "在配置时添加 FAQ 标签"
       }
     },
     "titleLang": {

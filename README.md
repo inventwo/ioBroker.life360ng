@@ -190,8 +190,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)
 - (skvarel) Removed dependency on Places adapter
 - (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
@@ -212,9 +211,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings
 - (skvarel) ESLint now covers all lib files with strict no-warnings enforcement
 - (skvarel) Added Copilot instructions for guided development
-
-### 1.0.17 (2026-04-12)
-- (skvarel) Configuration revised, translations adjusted and repo cleaned up
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
