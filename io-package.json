@@ -178,7 +178,17 @@
     "process_life360_circles": true,
     "process_life360_places": true,
     "process_life360_people": true,
-    "debugging_verbose": false
+    "debugging_verbose": false,
+    "tracker_enabled": false,
+    "tracker_min_distance": 20,
+    "tracker_color_page_bg": "#1a1a2e",
+    "tracker_color_header_bg": "#16213e",
+    "tracker_color_header_border": "#0f3460",
+    "tracker_color_header_text": "#aaaaaa",
+    "tracker_color_person": "#e94560",
+    "tracker_color_start": "#4caf50",
+    "tracker_route_weight": 4,
+    "tracker_route_opacity": 0.85
   },
   "objects": [],
   "instanceObjects": [
