@@ -54,6 +54,8 @@
     "tracker_person_family_map": "Сімейна карта",
     "tracker_person_name": "Ім'я",
     "tracker_person_own_map": "Власна карта",
+    "tracker_retention_days": "Зберігання (днів)",
+    "tracker_retention_days_help": "Кількість днів для зберігання даних маршруту. Старі дні видаляються під час запуску адаптера. 0 = зберігати назавжди.",
     "tracker_route_opacity": "Непрозорість маршруту",
     "tracker_route_opacity_help": "Непрозорість лінії маршруту (0,0 - 1,0)",
     "tracker_route_weight": "Ширина лінії (px)",

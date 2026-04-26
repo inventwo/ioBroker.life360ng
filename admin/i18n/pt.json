@@ -54,6 +54,8 @@
     "tracker_person_family_map": "Mapa familiar",
     "tracker_person_name": "Nome",
     "tracker_person_own_map": "Mapa próprio",
+    "tracker_retention_days": "Retenção (dias)",
+    "tracker_retention_days_help": "Número de dias para manter os dados da rota. Os dias mais antigos são removidos na inicialização do adaptador. 0 = manter para sempre.",
     "tracker_route_opacity": "Opacidade da rota",
     "tracker_route_opacity_help": "Opacidade da linha de rota (0,0 - 1,0)",
     "tracker_route_weight": "Largura da linha (px)",

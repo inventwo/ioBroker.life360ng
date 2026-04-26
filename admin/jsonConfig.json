@@ -245,6 +245,23 @@
                             "style": {
                                 "marginTop": "8px"
                             }
+                        },
+                        "tracker_retention_days": {
+                            "type": "number",
+                            "label": "tracker_retention_days",
+                            "help": "tracker_retention_days_help",
+                            "min": 0,
+                            "max": 3650,
+                            "step": 1,
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4,
+                            "style": {
+                                "marginTop": "8px"
+                            }
                         }
                     }
                 },
@@ -341,45 +358,44 @@
                     }
                 },
                 "tracker_people": {
-    "type": "table",
-    "newLine": true,
-    "xs": 12,
-    "noDelete": true,
-    "noAdd": true,
-    "items": [
-        {
-            "title": "tracker_person_name",
-            "attr": "name",
-            "type": "text",
-            "readOnly": true,
-            "width": "20%"
-        },
-        {
-            "title": "tracker_person_enabled",
-            "attr": "enabled",
-            "type": "checkbox",
-            "width": "15%"
-        },
-        {
-            "title": "tracker_person_color",
-            "attr": "color",
-            "type": "color",
-            "width": "20%"
-        },
-        {
-            "title": "tracker_person_own_map",
-            "attr": "ownMap",
-            "type": "checkbox",
-            "width": "22%"
-        },
-        {
-            "title": "tracker_person_family_map",
-            "attr": "familyMap",
-            "type": "checkbox",
-            "width": "23%"
-        }
-    ]
-}
+                    "type": "table",
+                    "newLine": true,
+                    "xs": 12,
+                    "noDelete": true,
+                    "items": [
+                        {
+                            "title": "tracker_person_name",
+                            "attr": "name",
+                            "type": "text",
+                            "readOnly": true,
+                            "width": "20%"
+                        },
+                        {
+                            "title": "tracker_person_enabled",
+                            "attr": "enabled",
+                            "type": "checkbox",
+                            "width": "15%"
+                        },
+                        {
+                            "title": "tracker_person_color",
+                            "attr": "color",
+                            "type": "color",
+                            "width": "20%"
+                        },
+                        {
+                            "title": "tracker_person_own_map",
+                            "attr": "ownMap",
+                            "type": "checkbox",
+                            "width": "22%"
+                        },
+                        {
+                            "title": "tracker_person_family_map",
+                            "attr": "familyMap",
+                            "type": "checkbox",
+                            "width": "23%"
+                        }
+                    ]
+                }
             }
         },
         "_advanced": {

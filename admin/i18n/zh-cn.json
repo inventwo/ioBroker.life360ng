@@ -54,6 +54,8 @@
     "tracker_person_family_map": "家庭地图",
     "tracker_person_name": "姓名",
     "tracker_person_own_map": "自己的地图",
+    "tracker_retention_days": "保留（天）",
+    "tracker_retention_days_help": "保留路线数据的天数。旧的日子在适配器启动时被删除。 0 = 永久保留。",
     "tracker_route_opacity": "路线不透明度",
     "tracker_route_opacity_help": "路线的不透明度 (0.0 - 1.0)",
     "tracker_route_weight": "线宽（像素）",

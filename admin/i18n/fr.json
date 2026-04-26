@@ -54,6 +54,8 @@
     "tracker_person_family_map": "Carte familiale",
     "tracker_person_name": "Nom",
     "tracker_person_own_map": "Propre carte",
+    "tracker_retention_days": "Rétention (jours)",
+    "tracker_retention_days_help": "Nombre de jours pendant lesquels conserver les données d'itinéraire. Les jours les plus anciens sont supprimés au démarrage de l’adaptateur. 0 = conserver pour toujours.",
     "tracker_route_opacity": "Opacité de l'itinéraire",
     "tracker_route_opacity_help": "Opacité de la ligne de routage (0,0 - 1,0)",
     "tracker_route_weight": "Largeur de ligne (px)",

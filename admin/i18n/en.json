@@ -58,5 +58,7 @@
     "tracker_person_enabled": "Active",
     "tracker_person_color": "Color",
     "tracker_person_own_map": "Own map",
-    "tracker_person_family_map": "Family map"
+    "tracker_person_family_map": "Family map",
+    "tracker_retention_days": "Retention (days)",
+    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed on adapter start. 0 = keep forever."
 }

@@ -54,6 +54,8 @@
     "tracker_person_family_map": "Familienkarte",
     "tracker_person_name": "Name",
     "tracker_person_own_map": "Eigene Karte",
+    "tracker_retention_days": "Aufbewahrung (Tage)",
+    "tracker_retention_days_help": "Anzahl der Tage, die Routendaten aufbewahrt werden. Ältere Tage werden beim Adapterstart gelöscht. 0 = unbegrenzt.",
     "tracker_route_opacity": "Deckkraft Route",
     "tracker_route_opacity_help": "Deckkraft der Route (0.0 - 1.0)",
     "tracker_route_weight": "Linienbreite (px)",

@@ -54,6 +54,8 @@
     "tracker_person_family_map": "Familie kaart",
     "tracker_person_name": "Naam",
     "tracker_person_own_map": "Eigen kaart",
+    "tracker_retention_days": "Retentie (dagen)",
+    "tracker_retention_days_help": "Aantal dagen dat routegegevens worden bewaard. Oudere dagen worden verwijderd bij het starten van de adapter. 0 = voor altijd behouden.",
     "tracker_route_opacity": "Route-ondoorzichtigheid",
     "tracker_route_opacity_help": "Dekking van de routelijn (0,0 - 1,0)",
     "tracker_route_weight": "Lijnbreedte (px)",
