@@ -170,6 +170,95 @@ These are **read-only** and cannot be configured in the adapter.
 
 > **Note:** For custom places with presence detection, see [myplaces](#myplaces).
 
+### tracker
+
+The adapter includes an optional GPS route logger that records the movements of each Life360 member and generates interactive Leaflet maps — accessible directly via URL in any browser, ioBroker Vis, or Jarvis dashboard.
+
+#### How it works
+
+On every GPS position update, the tracker checks whether the new position is at least **minDistance** meters away from the last recorded point. If so, the point is appended to a GeoJSON LineString for the current day. The full history is stored in `allTime.geojson` and monthly backups are written to `currentYear.MM.geojson`.
+
+An HTML map is automatically (re-)generated after each update and written to the ioBroker file system. It is immediately accessible via HTTP.
+
+#### Enabling the Tracker
+
+1. Open the adapter configuration.
+2. Under **Tracker / Route logger**, enable tracking for each person.
+3. Optionally enable **Family map** for each person to include them in the combined family view.
+4. Set the **minimum distance** (default: 20 m) to filter out GPS noise.
+5. Save and restart the adapter.
+
+#### Map URLs
+
+Each person and the family group gets a dedicated map URL, stored as an ioBroker state:
+
+| State | Description |
+|---|---|
+| `tracker.<Name>.url` | HTTP URL of the person's individual map |
+| `tracker.family.url` | HTTP URL of the combined family map |
+
+The URL format is:
+```
+http://<ioBroker-IP>:8082/<namespace>/tracker/<name>.html
+```
+
+Open this URL in any browser. The map auto-refreshes at the configured polling interval.
+
+#### Map Features
+
+- **Interactive Leaflet map** — pan and zoom, based on OpenStreetMap
+- **Date picker** — navigate between all recorded days (full history, no limit)
+- **Color-coded routes** — each person has their own configurable route color
+- **Start / end markers** — clearly marks the first and last position of the day
+- **Auto-refresh** — the page reloads automatically (polling interval + 10 s)
+- **Family map** — all enabled persons on one combined map with legend
+
+#### Tracker States
+
+##### Configuration (`tracker.config.*`)
+
+All color and behavior settings can be changed at runtime — the maps are re-rendered immediately without restarting the adapter.
+
+| State | Type | Description |
+|---|---|---|
+| `tracker.config.enabled` | boolean | Enable / disable the route logger |
+| `tracker.config.minDistance` | number | Minimum distance in meters between two recorded points (5–500 m) |
+| `tracker.config.color.pageBg` | string | Map page background color (hex, e.g. `#1a1a2e`) |
+| `tracker.config.color.headerBg` | string | Header background color |
+| `tracker.config.color.headerBorder` | string | Header border color |
+| `tracker.config.color.headerText` | string | Header text / info color |
+| `tracker.config.color.routeWeight` | number | Route line width in pixels (1–10) |
+| `tracker.config.color.routeOpacity` | number | Route line opacity (0–1) |
+
+##### Per-Person Data (`tracker.<Name>.*`)
+
+| State | Type | Description |
+|---|---|---|
+| `tracker.<Name>.url` | text.url | HTTP URL of the person's map |
+| `tracker.<Name>.allTime.geojson` | string (JSON) | Full GeoJSON history (all days) |
+| `tracker.<Name>.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
+
+##### Family Map (`tracker.family.*`)
+
+| State | Type | Description |
+|---|---|---|
+| `tracker.family.url` | text.url | HTTP URL of the combined family map |
+| `tracker.family.allTime.geojson` | string (JSON) | Merged GeoJSON of all family members |
+
+#### Embedding in Vis / Jarvis
+
+Use the map URL in an **iFrame widget** (Vis) or a **URL tile** (Jarvis):
+
+```
+http://<ioBroker-IP>:8082/life360ng.0/tracker/<name>.html
+```
+
+The map refreshes itself — no additional configuration needed.
+
+> **Note:**
+>- The full route history (`allTime.geojson`) grows continuously. At a 60 s poll interval and 20 m minimum distance, expect roughly **1 MB per person per year** — well within ioBroker's file storage limits.
+>- Route colors per person are configured in the adapter settings (Tracker tab), not via the `tracker.config.color.*` states (those control the map appearance only).
+>- Changing any `tracker.config.color.*` state triggers an **immediate re-render** of all maps — no adapter restart required.
 
 ## Support
 
@@ -190,6 +279,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added tracking maps for each person and the family
+
 ### 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)
 - (skvarel) Removed dependency on Places adapter
