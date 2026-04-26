@@ -260,7 +260,7 @@ The map refreshes itself — no additional configuration needed.
 >- The full route history (`allTime.geojson`) grows continuously. At a 60 s poll interval and 20 m minimum distance, expect roughly **1 MB per person per year** — well within ioBroker's file storage limits.
 >- Route colors per person are configured in the adapter settings (Tracker tab), not via the `tracker.config.color.*` states (those control the map appearance only).
 >- Changing any `tracker.config.color.*` state triggers an **immediate re-render** of all maps — no adapter restart required.
-> - Route data older than **`tracker.config.retentionDays`** days is automatically removed on adapter start. Set to `0` (default) to keep all data forever.
+
 
 ## Support
 
