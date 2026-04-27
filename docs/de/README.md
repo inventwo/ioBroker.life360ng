@@ -20,4 +20,5 @@ Jeder Punkt verweist auf eine eigene Unterseite mit detaillierten Erklärungen z
 
 1. nodejs 20.0 (oder neuer)
 2. js-controller 6.0.11 (oder neuer)
-3. Admin adapter 7.6.17 (oder neuer)
+3. Admin Adapter 7.6.20 (oder neuer)
+4. Web Adapter (nur bei der Verwendung vom Fahrtenbuch)

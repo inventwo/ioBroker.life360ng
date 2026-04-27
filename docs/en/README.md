@@ -19,4 +19,5 @@ Each entry links to a dedicated subpage with detailed explanations for the corre
 
 1. nodejs 20.0 or newer  
 2. js-controller 6.0.11 (or newer)
-3. Admin-Adapter 7.6.17 (or newer)
+3. Admin-Adapter 7.6.20 (or newer)
+4. Web-Adapter (only when using the logbook)
