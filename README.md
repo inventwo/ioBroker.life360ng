@@ -204,7 +204,7 @@ Each person and the family group gets a dedicated map URL, stored as an ioBroker
 
 The URL format is:
 ```
-http://<ioBroker-IP>:8082/<namespace>/tracker/<name>.html
+/<namespace>/tracker/<name>.html
 ```
 
 Open this URL in any browser. The map auto-refreshes at the configured polling interval.
@@ -258,7 +258,7 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 Use the map URL in an **iFrame widget** (Vis) or a **URL tile** (Jarvis):
 
 ```
-http://<ioBroker-IP>:8082/life360ng.0/tracker/<name>.html
+/life360ng.0/tracker/<name>.html
 ```
 
 The map refreshes itself — no additional configuration needed.
