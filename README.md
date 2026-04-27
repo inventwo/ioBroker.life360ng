@@ -23,6 +23,11 @@ ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users
 
 This adapter connects to the [Life360](https://www.life360.com) cloud services to track people and detect presence at defined places. It retrieves circles, members and places data and persists it as ioBroker states, updated at a configurable interval.
 
+## Documentation
+
+- 🇺🇸 [Documentation](./docs/en/README.md)
+- 🇩🇪 [Dokumentation](./docs/de/README.md)
+
 ## Configuration
 
 ### Bearer Token (required for EU users)
