@@ -1,5 +1,4 @@
-
-![Logo](../../admin/Life360_xl.svg)
+![Logo](../../admin/Life360ng.svg)
 ### The Next Generation
 
 

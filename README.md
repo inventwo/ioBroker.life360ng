@@ -1,6 +1,6 @@
 # ioBroker.life360ng
 
-![Logo](admin/Life360_xl.svg)
+![Logo](admin/Life360ng.svg)
 
 
 ![Number of Installations](https://iobroker.live/badges/life360ng-installed.svg)
@@ -288,6 +288,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 ### **WORK IN PROGRESS**
 - (skvarel) Added tracking maps for each person and the family
+- (skvarel) Added adapter documentation
 
 ### 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)
