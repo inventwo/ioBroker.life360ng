@@ -2,6 +2,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
+# Tab: Logbook
 
 ## Using the Person Map and Family Map
 

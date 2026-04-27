@@ -8,8 +8,8 @@
 - [Allgemein](../de/general.md)
 - [Meine Orte](../de/myplaces.md)
 - [Integration](../de/integration.md)
-- [Tracker](../de/tracker.md)
-- [Erweitert](../de/advanced.md)
+- [Fahrtenbuch](../de/tracker.md)
+- [Protokolle/Logging](../de/advanced.md)
 - [Hilfe](../de/help.md)
 
 Jeder Punkt verweist auf eine eigene Unterseite mit detaillierten Erklärungen zum jeweiligen Tab in der Adapter-Konfiguration.

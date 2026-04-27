@@ -3,7 +3,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
-# Tab: Erweitert
+# Tab: Protokolle/Logging
 
 Im Tab **Erweitert** findest du spezielle Einstellungen für Diagnose und Debugging.
 

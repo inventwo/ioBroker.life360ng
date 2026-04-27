@@ -7,7 +7,7 @@
 - [General](../en/general.md)
 - [My Places](../en/myplaces.md)
 - [Integration](../en/integration.md)
-- [Tracker](../en/tracker.md)
+- [Logbook](../en/tracker.md)
 - [Advanced](../en/advanced.md)
 - [Help](../en/help.md)
 
