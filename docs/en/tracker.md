@@ -4,6 +4,19 @@
 
 # Tab: Logbook
 
+
+## Logbook and Map Features
+
+The ioBroker life360ng adapter provides comprehensive logbook and map features for each tracked person:
+
+- **Individual maps for each person:** For every person with tracking enabled, a dedicated map is available showing traveled routes (GeoJSON-based) and the current position.
+- **Family map:** In addition, a family map displays the routes of all enabled persons together.
+- **Color customization:** Map colors and appearance (e.g., background, line width, opacity) can be individually adjusted via the `tracker.config.color.*` objects.
+- **Integrated datepicker:** The map HTML includes a calendar to select a specific day and display the route for that day.
+- **Flexible integration:** Maps can be opened directly in the browser or embedded as an iframe in visualizations (e.g., ioBroker VIS).
+
+All details on configuration and usage can be found below and in the adapter configuration.
+
 ## Using the Person Map and Family Map
 
 The ioBroker life360ng adapter provides two map types for visualizing movement data:

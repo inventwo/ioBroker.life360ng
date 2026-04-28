@@ -4,6 +4,19 @@
 
 # Tab: Fahrtenbuch
 
+
+## Fahrtenbuch- und Kartenfunktionen
+
+Der ioBroker life360ng Adapter bietet umfassende Fahrtenbuch- und Kartenfunktionen für jede getrackte Person:
+
+- **Individuelle Karten für jede Person:** Für jede Person mit aktiviertem Tracking steht eine eigene Karte zur Verfügung, die die gefahrenen Routen (GeoJSON-basiert) und die aktuelle Position anzeigt.
+- **Familienkarte:** Zusätzlich gibt es eine Familienkarte, die die Routen aller aktivierten Personen gemeinsam darstellt.
+- **Farbanpassung:** Farben und Aussehen der Karten (z.B. Hintergrund, Linienbreite, Deckkraft) können über die Objekte `tracker.config.color.*` individuell angepasst werden.
+- **Integrierter Datepicker:** Im Karten-HTML ist ein Kalender integriert, mit dem gezielt ein Tag ausgewählt werden kann, um die Route dieses Tages anzuzeigen.
+- **Flexible Einbindung:** Die Karten können direkt im Browser geöffnet oder als iframe in Visualisierungen (z.B. ioBroker VIS) eingebunden werden.
+
+Alle Details zur Konfiguration und Nutzung findest du weiter unten und in der Adapter-Konfiguration.
+
 ## Nutzung der Personenkarte und Familienkarte
 
 Der ioBroker life360ng Adapter bietet zwei Kartentypen zur Visualisierung von Bewegungsdaten:
