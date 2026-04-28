@@ -7,6 +7,9 @@
 node_modules
 nbproject
 
+# Local backup folder
+backup/
+
 # npm package files
 iobroker.*.tgz
 
