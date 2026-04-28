@@ -149,6 +149,7 @@ where `<id>` is the member's Life360 UUID.
 | `people.<id>.timestamp` | date | Timestamp of last data update |
 | `people.<id>.urlMap` | text.url | OpenStreetMap link to current position |
 | `people.<id>.urlMapIframe` | text.url | Google Maps embeddable URL |
+| `people.<id>.urlMapOsmIframe` | text.url | OpenStreetMap embeddable URL (iFrame) |
 
 > **Note:** `isConnected` reflects whether the Life360 app is reachable,
 > while `disconnected` indicates an explicit disconnect state.
@@ -291,6 +292,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### **WORK IN PROGRESS**
 - (skvarel) Added tracking maps for each person and the family
 - (skvarel) Added adapter documentation
+- (skvarel) Added OpenStreetMap embeddable URL each person
 
 ### 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)
