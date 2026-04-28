@@ -210,6 +210,7 @@ The URL format is:
 
 Open this URL in any browser. The map auto-refreshes at the configured polling interval.
 
+
 #### Map Features
 
 - **Interactive Leaflet map** — pan and zoom, based on OpenStreetMap
@@ -218,6 +219,13 @@ Open this URL in any browser. The map auto-refreshes at the configured polling i
 - **Start / end markers** — clearly marks the first and last position of the day
 - **Auto-refresh** — the page reloads automatically (polling interval + 10 s)
 - **Family map** — all enabled persons on one combined map with legend
+
+#### Single Map Features
+
+- **Route-Checkbox:** Each single-person map has a "Route" checkbox to toggle route display for the selected period. The state is saved per person in the browser and persists across reloads.
+- **Dynamic Datepicker:** The date range pickers are only shown when the route is enabled. If the route is disabled, only the last known point is displayed.
+- **Personalized Colors:** The checkbox color matches the person's color.
+- **Consistent Header:** The header height remains consistent regardless of the checkbox state.
 
 #### Tracker States
 
@@ -289,6 +297,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+
 ### **WORK IN PROGRESS**
 - (skvarel) Added tracking maps for each person and the family
 - (skvarel) Added adapter documentation
