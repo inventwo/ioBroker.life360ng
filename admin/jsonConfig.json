@@ -253,7 +253,7 @@
                             "min": 0,
                             "max": 3650,
                             "step": 1,
-                            "newLine": true,
+                            "newLine": false,
                             "xs": 12,
                             "sm": 6,
                             "md": 4,
@@ -357,6 +357,17 @@
                         }
                     }
                 },
+                "family_map_header_name": {
+                            "type": "text",
+                            "label": "family_map_header_name",
+                            "help": "family_map_header_name_help",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
                 "tracker_people": {
                     "type": "table",
                     "newLine": true,

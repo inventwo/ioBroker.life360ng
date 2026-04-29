@@ -1,3 +1,5 @@
+    "family_map_header_name": "Name im Family-Map-Header (optional)",
+    "family_map_header_name_help": "Falls gesetzt, wird dieser Name als Überschrift in der Family-Map angezeigt. Leer lassen, um den Circle-Namen oder den Standard 'Family' zu verwenden.",
 {
     "debugging_verbose": "Aktiviere hier die ausführliche Protokollierung",
     "help_txt": "Weitere Informationen findest du im „Hilfe“-Tab!",

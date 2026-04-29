@@ -1,3 +1,5 @@
+    "family_map_header_name": "Family map header name (optional)",
+    "family_map_header_name_help": "If set, this name will be shown as the header in the Family Map. Leave empty to use the circle name or default 'Family'.",
 {
     "tab_general": "Life360",
     "tab_myplaces": "My Places",
