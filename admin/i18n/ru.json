@@ -43,7 +43,7 @@
     "tracker_color_page_bg": "Фон страницы",
     "tracker_color_person": "Человек/маршрут",
     "tracker_color_start": "Начальная точка",
-    "tracker_enabled": "Журнал активен",
+    "tracker_enabled": "Журнал активен — глобальный контроль",
     "tracker_enabled_help": "Также можно контролировать состояние tracker.config.enabled (например, с помощью CRON).",
     "tracker_info_txt": "Изменения цвета вступят в силу автоматически при следующем обновлении GPS.\nURL-адрес карты можно найти в разделе tracker.<Person>.url в дереве объектов.",
     "tracker_min_distance": "Минимальное расстояние (метры)",

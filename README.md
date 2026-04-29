@@ -299,9 +299,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 
 ### **WORK IN PROGRESS**
-- (skvarel) Added tracking maps for each person and the family
-- (skvarel) Added adapter documentation
+- (skvarel) Added tracking maps for each person and for complete family
 - (skvarel) Added OpenStreetMap embeddable URL each person
+- (skvarel) Added adapter documentation
 
 ### 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)

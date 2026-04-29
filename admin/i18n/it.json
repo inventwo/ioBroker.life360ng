@@ -43,7 +43,7 @@
     "tracker_color_page_bg": "Sfondo della pagina",
     "tracker_color_person": "Persona/percorso",
     "tracker_color_start": "Punto di partenza",
-    "tracker_enabled": "Registro attivo",
+    "tracker_enabled": "Diario di bordo attivo - Controllo globale",
     "tracker_enabled_help": "Può anche essere controllato tramite state tracker.config.enabled (ad esempio da CRON)",
     "tracker_info_txt": "Le modifiche al colore diventano effettive automaticamente al successivo aggiornamento GPS.\nL'URL della mappa può essere trovato sotto tracker.<Person>.url nell'albero degli oggetti.",
     "tracker_min_distance": "Distanza minima (metri)",
