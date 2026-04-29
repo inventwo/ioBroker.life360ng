@@ -1,7 +1,7 @@
-    "family_map_header_name": "Name im Family-Map-Header (optional)",
-    "family_map_header_name_help": "Falls gesetzt, wird dieser Name als Überschrift in der Family-Map angezeigt. Leer lassen, um den Circle-Namen oder den Standard 'Family' zu verwenden.",
 {
     "debugging_verbose": "Aktiviere hier die ausführliche Protokollierung",
+    "family_map_header_name": "Name der Familienkarten-Kopfzeile (optional)",
+    "family_map_header_name_help": "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Familienkarte angezeigt. Lassen das Feld leer, um den Kreisnamen oder die Standardeinstellung „Family“ zu verwenden.",
     "help_txt": "Weitere Informationen findest du im „Hilfe“-Tab!",
     "helps": "Hilfe & FAQ",
     "intro_txt": "Hilfe & FAQ",

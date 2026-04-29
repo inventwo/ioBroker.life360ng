@@ -1,5 +1,7 @@
 {
     "debugging_verbose": "Habilitar registro detalhado",
+    "family_map_header_name": "Nome do cabeçalho do mapa familiar (opcional)",
+    "family_map_header_name_help": "Se definido, esse nome será mostrado como cabeçalho no Mapa da Família. Deixe em branco para usar o nome do círculo ou 'Família' padrão.",
     "help_txt": "Você pode encontrar mais informações na aba 'Ajuda'!",
     "helps": "Ajuda e perguntas frequentes",
     "intro_txt": "Ajuda e perguntas frequentes.",

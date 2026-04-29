@@ -1,5 +1,3 @@
-    "family_map_header_name": "Family map header name (optional)",
-    "family_map_header_name_help": "If set, this name will be shown as the header in the Family Map. Leave empty to use the circle name or default 'Family'.",
 {
     "tab_general": "Life360",
     "tab_myplaces": "My Places",
@@ -62,5 +60,7 @@
     "tracker_person_own_map": "Own map",
     "tracker_person_family_map": "Family map",
     "tracker_retention_days": "Retention (days)",
-    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed on adapter start. 0 = keep forever."
+    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed on adapter start. 0 = keep forever.",
+    "family_map_header_name": "Family map header name (optional)",
+    "family_map_header_name_help": "If set, this name will be shown as the header in the Family Map. Leave empty to use the circle name or default 'Family'."
 }

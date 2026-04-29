@@ -1,5 +1,7 @@
 {
     "debugging_verbose": "Włącz pełne rejestrowanie",
+    "family_map_header_name": "Nazwa nagłówka mapy rodziny (opcjonalnie)",
+    "family_map_header_name_help": "Jeśli jest ustawione, ta nazwa będzie wyświetlana jako nagłówek na Mapie Rodziny. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Rodzina”.",
     "help_txt": "Więcej informacji znajdziesz w zakładce „Pomoc”!",
     "helps": "Pomoc i często zadawane pytania",
     "intro_txt": "Pomoc i często zadawane pytania.",

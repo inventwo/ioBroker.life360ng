@@ -1,5 +1,7 @@
 {
     "debugging_verbose": "Abilita la registrazione dettagliata",
+    "family_map_header_name": "Nome dell'intestazione della mappa familiare (facoltativo)",
+    "family_map_header_name_help": "Se impostato, questo nome verrà mostrato come intestazione nella mappa familiare. Lascia vuoto per utilizzare il nome della cerchia o la \"Famiglia\" predefinita.",
     "help_txt": "Puoi trovare maggiori informazioni nella scheda \"Aiuto\"!",
     "helps": "Aiuto e domande frequenti",
     "intro_txt": "Aiuto e domande frequenti.",
