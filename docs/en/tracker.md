@@ -11,7 +11,7 @@ The ioBroker life360ng adapter provides comprehensive logbook and map features f
 
 - **Individual maps for each person:** For every person with tracking enabled, a dedicated map is available showing traveled routes (GeoJSON-based) and the current position.
 - **Family map:** In addition, a family map displays the routes of all enabled persons together.
-- **Color customization:** Map colors and appearance (e.g., background, line width, opacity) can be individually adjusted via the `tracker.config.color.*` objects.
+- **Color customization:** Map colors and appearance (e.g., background, line width, opacity) can be individually adjusted via Config.
 - **Integrated datepicker:** The map HTML includes a calendar to select a specific day and display the route for that day.
 - **Flexible integration:** Maps can be opened directly in the browser or embedded as an iframe in visualizations (e.g., ioBroker VIS).
 
@@ -35,14 +35,14 @@ The family map shows the routes of all enabled persons together on one map.
 - **Access:** The URL for the family map is available at `life360ng.<instance>.tracker.<familyname>.url`.
 
 ### 3. Color Settings
-You can customize the map colors and route appearance. The settings are available as writable objects under `life360ng.<instance>.tracker.config.color.*`:
+You can customize the map colors and route appearance. The settings are available at the adapter config:
 
-- `pageBg`: Background color of the map
-- `headerBg`: Background color of the map header
-- `headerBorder`: Border color of the map header
-- `headerText`: Text color in the map header
-- `routeWeight`: Route line width (pixels)
-- `routeOpacity`: Route opacity (0–1)
+- Background color of the map
+- Background color of the map header
+- Border color of the map header
+- Text color in the map header
+- Route line width (pixels)
+- Route opacity (0–1)
 
 **Note:** Changes to these values ​​will be applied to all cards after the set interval.
 

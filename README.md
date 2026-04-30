@@ -236,14 +236,6 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 | State | Type | Description |
 |---|---|---|
 | `tracker.config.enabled` | boolean | Enable / disable the route logger |
-| `tracker.config.minDistance` | number | Minimum distance in meters between two recorded points (5–500 m) |
-| `tracker.config.retentionDays` | number | Days to keep route data. Older days are removed on adapter start. 0 = keep forever (0–3650) |
-| `tracker.config.color.pageBg` | string | Map page background color (hex, e.g. `#1a1a2e`) |
-| `tracker.config.color.headerBg` | string | Header background color |
-| `tracker.config.color.headerBorder` | string | Header border color |
-| `tracker.config.color.headerText` | string | Header text / info color |
-| `tracker.config.color.routeWeight` | number | Route line width in pixels (1–10) |
-| `tracker.config.color.routeOpacity` | number | Route line opacity (0–1) |
 
 ##### Per-Person Data (`tracker.<Name>.*`)
 

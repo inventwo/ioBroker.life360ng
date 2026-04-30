@@ -11,7 +11,7 @@ Der ioBroker life360ng Adapter bietet umfassende Fahrtenbuch- und Kartenfunktion
 
 - **Individuelle Karten für jede Person:** Für jede Person mit aktiviertem Tracking steht eine eigene Karte zur Verfügung, die die gefahrenen Routen (GeoJSON-basiert) und die aktuelle Position anzeigt.
 - **Familienkarte:** Zusätzlich gibt es eine Familienkarte, die die Routen aller aktivierten Personen gemeinsam darstellt.
-- **Farbanpassung:** Farben und Aussehen der Karten (z.B. Hintergrund, Linienbreite, Deckkraft) können über die Objekte `tracker.config.color.*` individuell angepasst werden.
+- **Farbanpassung:** Farben und Aussehen der Karten (z.B. Hintergrund, Linienbreite, Deckkraft) können über die Config individuell angepasst werden.
 - **Integrierter Datepicker:** Im Karten-HTML ist ein Kalender integriert, mit dem gezielt ein Tag ausgewählt werden kann, um die Route dieses Tages anzuzeigen.
 - **Flexible Einbindung:** Die Karten können direkt im Browser geöffnet oder als iframe in Visualisierungen (z.B. ioBroker VIS) eingebunden werden.
 
@@ -35,14 +35,14 @@ Die Familienkarte zeigt die Routen aller aktivierten Personen gemeinsam auf eine
 - **Zugriff:** Die URL zur Familienkarte findest du unter `life360ng.<instanz>.tracker.<familienname>.url`.
 
 ### 3. Farbeinstellungen
-Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. Die Einstellungen findest du als beschreibbare Objekte unter `life360ng.<instanz>.tracker.config.color.*`:
+Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. Die Einstellungen findest du in der Adapter Config:
 
-- `pageBg`: Hintergrundfarbe der Karte
-- `headerBg`: Hintergrundfarbe des Kartenkopfs
-- `headerBorder`: Rahmenfarbe des Kartenkopfs
-- `headerText`: Textfarbe im Kartenkopf
-- `routeWeight`: Linienbreite der Route (Pixel)
-- `routeOpacity`: Deckkraft der Route (0–1)
+- Hintergrundfarbe der Karte
+- Hintergrundfarbe des Kartenkopfs
+- Rahmenfarbe des Kartenkopfs
+- Textfarbe im Kartenkopf
+- Linienbreite der Route (Pixel)
+- Deckkraft der Route (0–1)
 
 **Hinweis:** Änderungen an diesen Werten werden nach dem eingestelltem auf alle Karten angewendet.
 
