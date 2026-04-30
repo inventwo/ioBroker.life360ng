@@ -235,7 +235,7 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 
 | State | Type | Description |
 |---|---|---|
-| `tracker.config.enabled` | boolean | Enable / disable the route logger |
+| `tracker.config.enabled` | boolean | Enable / disable the route logger |as ghst
 
 ##### Per-Person Data (`tracker.<Name>.*`)
 
