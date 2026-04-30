@@ -358,16 +358,16 @@
                     }
                 },
                 "family_map_header_name": {
-                            "type": "text",
-                            "label": "family_map_header_name",
-                            "help": "family_map_header_name_help",
-                            "newLine": true,
-                            "xs": 12,
-                            "sm": 12,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
-                        },
+                    "type": "text",
+                    "label": "family_map_header_name",
+                    "help": "family_map_header_name_help",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "xl": 6
+                },
                 "tracker_people": {
                     "type": "table",
                     "newLine": true,
@@ -410,6 +410,40 @@
                             "width": "23%"
                         }
                     ]
+                },
+                "_trackerDangerZone": {
+                    "type": "panel",
+                    "label": "section_tracker_danger",
+                    "xs": 12,
+                    "innerStyle": {
+                        "border": "2px solid #c62828",
+                        "borderRadius": "8px",
+                        "backgroundColor": "rgba(183, 28, 28, 0.16)",
+                        "padding": "14px 16px",
+                        "marginTop": "20px"
+                    },
+                    "items": {
+                        "tracker_danger_info": {
+                            "type": "staticText",
+                            "text": "tracker_danger_info",
+                            "newLine": true,
+                            "xs": 12,
+                            "style": {
+                                "color": "#c62828",
+                                "fontWeight": "600",
+                                "fontSize": "1rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginBottom": "10px"
+                            }
+                        },
+                        "tracker_delete_family_html_now": {
+                            "type": "checkbox",
+                            "label": "tracker_delete_family_html_now",
+                            "help": "tracker_delete_family_html_now_help",
+                            "newLine": true,
+                            "xs": 12
+                        }
+                    }
                 }
             }
         },
