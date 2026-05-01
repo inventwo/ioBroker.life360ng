@@ -59,12 +59,10 @@
     "tracker_person_color": "Color",
     "tracker_person_own_map": "Own map",
     "tracker_person_family_map": "Family map",
+    "tracker_clear_recordings_info": "⚠ Note: Clearing a person's recordings also affects the family map, as it is built from the individual person data. The monthly GeoJSON files (currentYear) are not changed.",
+    "tracker_person_clear_recordings": "Clear rec.",
     "tracker_retention_days": "Retention (days)",
-    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed on adapter start. 0 = keep forever.",
+    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
     "family_map_header_name": "Family map header name (optional)",
-    "family_map_header_name_help": "If set, this name will be shown as the header in the Family Map. Leave empty to use the circle name or default 'Family'.",
-    "section_tracker_danger": "Danger zone",
-    "tracker_danger_info": "⚠ Warning\n\nThis section contains maintenance actions for the logbook maps. If the checkbox below is enabled and the settings are saved, the current Family HTML map will be deleted.\nThe file will be recreated automatically on the next map update.",
-    "tracker_delete_family_html_now": "Delete Family HTML on save",
-    "tracker_delete_family_html_now_help": "Enable this checkbox and save the adapter settings to delete the current Family HTML map.\nThe checkbox will be reset automatically after the action has been executed."
+    "family_map_header_name_help": "If set, this name will be shown as the header in the Family Map. Leave empty to use the circle name or default 'Family'."
 }

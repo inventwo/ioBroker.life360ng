@@ -52,3 +52,20 @@ The map HTML includes a datepicker. You can use it to select a specific day and 
 ---
 **Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).
 
+---
+
+## Data Management
+
+Route data (`allTime.geojson`) grows over time. The adapter offers two ways to keep file sizes under control:
+
+### Automatic Cleanup (Retention Period)
+
+Under **General → Retention (days)** you can define how many days of route data should be kept. Older days are automatically removed on every adapter start and once per day. A value of `0` means unlimited retention.
+
+### Manual Cleanup for Individual Persons
+
+The **persons table** has a **"Clear rec."** column. Enable the checkbox for a person and save the configuration. That person's `allTime.geojson` is reduced to the last known position.
+
+> ⚠️ Since the family map is built from the individual person data, clearing a person's recordings automatically updates the family map as well.
+> The monthly GeoJSON files (`currentYear.MM`) are never affected.
+

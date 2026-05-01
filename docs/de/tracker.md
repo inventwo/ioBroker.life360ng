@@ -52,3 +52,20 @@ Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag 
 ---
 **Tipp:** Die Karten können direkt im Browser geöffnet oder in Visualisierungen (z.B. ioBroker VIS als iframe) eingebunden werden.
 
+---
+
+## Datenverwaltung
+
+Die Routendaten (`allTime.geojson`) wachsen mit der Zeit an. Der Adapter bietet zwei Wege, die Dateigrößen im Griff zu behalten:
+
+### Automatische Bereinigung (Aufbewahrungsdauer)
+
+Unter **Allgemein → Aufbewahrung (Tage)** kannst du festlegen, wie viele Tage Routendaten gespeichert bleiben sollen. Ältere Tage werden automatisch beim Adapterstart und einmal täglich entfernt. Der Wert `0` bedeutet unbegrenzte Aufbewahrung.
+
+### Manuelle Bereinigung einzelner Personen
+
+In der **Personen-Tabelle** gibt es die Spalte **„Aufz. leeren"**. Aktiviere den Haken bei einer Person und speichere die Konfiguration. Die `allTime.geojson` dieser Person wird auf den letzten bekannten Standpunkt reduziert.
+
+> ⚠️ Da die Familienkarte aus den Personen-Daten aufgebaut wird, wirkt sich das Leeren einer Person automatisch auch auf die Familienkarte aus.
+> Die monatlichen GeoJSON-Dateien (`currentYear.MM`) werden dabei nicht verändert.
+

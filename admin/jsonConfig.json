@@ -401,48 +401,37 @@
                             "title": "tracker_person_own_map",
                             "attr": "ownMap",
                             "type": "checkbox",
-                            "width": "22%"
+                            "width": "17%"
                         },
                         {
                             "title": "tracker_person_family_map",
                             "attr": "familyMap",
                             "type": "checkbox",
-                            "width": "23%"
+                            "width": "17%"
+                        },
+                        {
+                            "title": "tracker_person_clear_recordings",
+                            "attr": "clearRecordings",
+                            "type": "checkbox",
+                            "width": "17%"
                         }
                     ]
                 },
-                "_trackerDangerZone": {
-                    "type": "panel",
-                    "label": "section_tracker_danger",
+                "_clearRecordingsInfo": {
+                    "type": "staticText",
+                    "text": "tracker_clear_recordings_info",
+                    "newLine": true,
                     "xs": 12,
-                    "innerStyle": {
-                        "border": "2px solid #c62828",
-                        "borderRadius": "8px",
-                        "backgroundColor": "rgba(183, 28, 28, 0.16)",
-                        "padding": "14px 16px",
-                        "marginTop": "20px"
-                    },
-                    "items": {
-                        "tracker_danger_info": {
-                            "type": "staticText",
-                            "text": "tracker_danger_info",
-                            "newLine": true,
-                            "xs": 12,
-                            "style": {
-                                "color": "#c62828",
-                                "fontWeight": "600",
-                                "fontSize": "1rem",
-                                "whiteSpace": "pre-wrap",
-                                "marginBottom": "10px"
-                            }
-                        },
-                        "tracker_delete_family_html_now": {
-                            "type": "checkbox",
-                            "label": "tracker_delete_family_html_now",
-                            "help": "tracker_delete_family_html_now_help",
-                            "newLine": true,
-                            "xs": 12
-                        }
+                    "style": {
+                        "color": "#c62828",
+                        "fontWeight": "500",
+                        "fontSize": "0.85rem",
+                        "whiteSpace": "pre-wrap",
+                        "marginTop": "8px",
+                        "padding": "10px 14px",
+                        "border": "1px solid #c62828",
+                        "borderRadius": "6px",
+                        "backgroundColor": "rgba(198, 40, 40, 0.08)"
                     }
                 }
             }
