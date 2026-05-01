@@ -435,6 +435,10 @@
                     "text": "tracker_clear_recordings_info",
                     "newLine": true,
                     "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
                     "style": {
                         "color": "#c62828",
                         "fontWeight": "500",
