@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "news": {
+      "1.2.0": {
+        "en": "Added GPS route tracking with per-person and family map (OpenStreetMap)\nAdded adapter documentation",
+        "de": "GPS-Tracking mit Per-Personen- und Familienkarte (OpenStreetMap) hinzugefügt\nZusätzliche Adapterdokumentation",
+        "ru": "Добавлено отслеживание маршрута GPS с картой на человека и семью (OpenStreetMap)\nДобавлена адаптерная документация",
+        "pt": "Seguimento de rota GPS adicionado com mapa por pessoa e família (OpenStreetMap)\nDocumentação do adaptador adicionada",
+        "nl": "Toegevoegd GPS route tracking met per-persoon en familie kaart (OpenStreetMap)\nToegevoegde adapter documentatie",
+        "fr": "Ajout du suivi de l'itinéraire GPS par personne et carte de famille (OpenStreetMap)\nAjout de la documentation de l'adaptateur",
+        "it": "Aggiunto GPS tracciamento percorso con per-persona e mappa della famiglia (OpenStreetMap)\nDocumentazione adattatore aggiunto",
+        "es": "Se agregó el seguimiento de la ruta GPS con mapa por persona y familia (OpenStreetMap)\nDocumentación de adaptador adicional",
+        "pl": "Dodano śledzenie trasy GPS z mapą osoby i rodziny (OpenStreetMap)\nDodano dokumentację adaptera",
+        "uk": "Додано відстеження маршруту GPS з пер-людією та сімейною картою (OpenStreetMap)\nДодано документацію адаптера",
+        "zh-cn": "添加了GPS 路径跟踪, 并附有人和家庭地图( OpenStreetMap)\n添加的适配文档"
+      },
       "1.1.0": {
         "en": "Fixed invalid object hierarchy (device under channel)\nRemoved dependency on Places adapter\nNOTE: Delete all adapter objects after updating (see Migration Notes)",
         "de": "Behobene ungültige Objekthierarchie (Gerät unter Kanal)\nEntfernte Abhängigkeit vom Platzadapter\nHINWEIS: Löschen Sie alle Adapterobjekte nach der Aktualisierung (siehe Migrationshinweise)",
