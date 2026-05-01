@@ -43,6 +43,7 @@ Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. D
 - Textfarbe im Kartenkopf
 - Linienbreite der Route (Pixel)
 - Deckkraft der Route (0–1)
+- Deckkraft des Markers (0–1): steuert die Transparenz des Positions-Pins auf der Karte
 
 **Hinweis:** Änderungen an diesen Werten werden nach dem eingestelltem auf alle Karten angewendet.
 

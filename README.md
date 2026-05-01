@@ -294,6 +294,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### **WORK IN PROGRESS**
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
+- (skvarel) Added configurable marker opacity for position pins on maps
 - (skvarel) Added retention purge and manual recording clear per person
 - (skvarel) Added adapter documentation
 

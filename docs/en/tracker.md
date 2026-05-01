@@ -43,6 +43,7 @@ You can customize the map colors and route appearance. The settings are availabl
 - Text color in the map header
 - Route line width (pixels)
 - Route opacity (0–1)
+- Marker opacity (0–1): controls the transparency of the position pin on the map
 
 **Note:** Changes to these values ​​will be applied to all cards after the set interval.
 
