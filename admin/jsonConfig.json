@@ -442,7 +442,7 @@
                     "style": {
                         "color": "#c62828",
                         "fontWeight": "500",
-                        "fontSize": "0.85rem",
+                        "fontSize": "1rem",
                         "whiteSpace": "pre-wrap",
                         "marginTop": "8px",
                         "padding": "10px 14px",

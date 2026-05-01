@@ -1,4 +1,7 @@
 {
+    "debugging_verbose": "Enable verbose logging",
+    "family_map_header_name": "Circle map header name (optional)",
+    "family_map_header_name_help": "If set, this name will be shown as the header in the Circle Map. Leave empty to use the circle name or default 'Circle'.",
     "tab_general": "Life360",
     "tab_myplaces": "My Places",
     "tab_integration": "Integration",
@@ -22,7 +25,6 @@
     "track_location_people": "Enable location-tracking for people",
     "location_unknown_name": "Fallback name for unknown location",
     "location_unknown_name_help": "Text shown in locationName when the person is at no known place (e.g. 'on tour'). Leave empty to keep blank.",
-    "debugging_verbose": "Enable verbose logging",
     "helps": "Help & FAQ",
     "intro_txt": "Help & FAQ.",
     "paypal_donate": "Donate with PayPal",
@@ -54,11 +56,9 @@
     "tracker_person_enabled": "Active",
     "tracker_person_color": "Color",
     "tracker_person_own_map": "Own map",
-    "tracker_person_family_map": "Circle map",
-    "tracker_clear_recordings_info": "⚠ Note: Clearing a person's recordings also affects the family map, as it is built from the individual person data. The monthly GeoJSON files (currentYear) are not changed.",
+    "tracker_person_circle_map": "Circle map",
+    "tracker_clear_recordings_info": "⚠ Note: Clearing a person's recordings also affects the circle map, as it is built from the individual person data. The monthly GeoJSON files (currentYear) are not changed.",
     "tracker_person_clear_recordings": "Clear rec.",
     "tracker_retention_days": "Retention (days)",
-    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
-    "family_map_header_name": "Circle map header name (optional)",
-    "family_map_header_name_help": "If set, this name will be shown as the header in the Circle Map. Leave empty to use the circle name or default 'Circle'."
+    "tracker_retention_days_help": "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever."
 }
