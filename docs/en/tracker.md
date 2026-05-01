@@ -32,7 +32,7 @@ Each person with tracking enabled gets their own map. This map displays traveled
 The family map shows the routes of all enabled persons together on one map.
 
 - **Activation:** At least one person must have the `familyMap` option enabled in the tracker.
-- **Access:** The URL for the family map is available at `life360ng.<instance>.tracker.<familyname>.url`.
+- **Access:** The URL for the circle map is available at `life360ng.<instance>.tracker.circle.url`.
 
 ### 3. Color Settings
 You can customize the map colors and route appearance. The settings are available at the adapter config:

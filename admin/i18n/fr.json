@@ -1,7 +1,7 @@
 {
     "debugging_verbose": "Activer la journalisation détaillée",
-    "family_map_header_name": "Nom de l'en-tête de la carte familiale (facultatif)",
-    "family_map_header_name_help": "S'il est défini, ce nom sera affiché comme en-tête dans la carte familiale. Laissez vide pour utiliser le nom du cercle ou la « Famille » par défaut.",
+    "family_map_header_name": "Nom de l'en-tête de la carte de cercle (facultatif)",
+    "family_map_header_name_help": "S'il est défini, ce nom sera affiché comme en-tête dans la carte de cercle. Laissez vide pour utiliser le nom du cercle ou «Circle» par défaut.",
     "help_txt": "Vous pouvez trouver plus d'informations dans l'onglet 'Aide' !",
     "helps": "Aide et FAQ",
     "intro_txt": "Aide et FAQ.",
@@ -48,7 +48,7 @@
     "tracker_min_distance_help": "Un nouveau point n'est enregistré qu'après avoir dépassé cette distance (5-500m)",
     "tracker_person_color": "Couleur",
     "tracker_person_enabled": "Actif",
-    "tracker_person_family_map": "Carte familiale",
+    "tracker_person_family_map": "Carte de cercle",
     "tracker_clear_recordings_info": "⚠ Remarque : Effacer les enregistrements d'une personne met également à jour la carte familiale, car elle est construite à partir des données individuelles. Les fichiers GeoJSON mensuels (currentYear) ne sont pas modifiés.",
     "tracker_person_clear_recordings": "Eff. enreg.",
     "tracker_person_name": "Nom",

@@ -1,7 +1,7 @@
 {
     "debugging_verbose": "Habilitar registro detalhado",
-    "family_map_header_name": "Nome do cabeçalho do mapa familiar (opcional)",
-    "family_map_header_name_help": "Se definido, esse nome será mostrado como cabeçalho no Mapa da Família. Deixe em branco para usar o nome do círculo ou 'Família' padrão.",
+    "family_map_header_name": "Nome do cabeçalho do mapa do círculo (opcional)",
+    "family_map_header_name_help": "Se definido, esse nome será mostrado como cabeçalho no Mapa do Círculo. Deixe em branco para usar o nome do círculo ou 'Circle' padrão.",
     "help_txt": "Você pode encontrar mais informações na aba 'Ajuda'!",
     "helps": "Ajuda e perguntas frequentes",
     "intro_txt": "Ajuda e perguntas frequentes.",
@@ -49,7 +49,7 @@
     "tracker_min_distance_help": "Um novo ponto é salvo somente após esta distância ter sido ultrapassada (5-500m)",
     "tracker_person_color": "Cor",
     "tracker_person_enabled": "Ativo",
-    "tracker_person_family_map": "Mapa familiar",
+    "tracker_person_family_map": "Mapa do círculo",
     "tracker_person_clear_recordings": "Limpar grav.",
     "tracker_person_name": "Nome",
     "tracker_person_own_map": "Mapa próprio",

@@ -201,7 +201,7 @@ Each person and the family group gets a dedicated map URL, stored as an ioBroker
 | State | Description |
 |---|---|
 | `tracker.<Name>.url` | HTTP URL of the person's individual map |
-| `tracker.family.url` | HTTP URL of the combined family map |
+| `tracker.circle.url` | HTTP URL of the combined circle map |
 
 The URL format is:
 ```
@@ -246,14 +246,14 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 | `tracker.<Name>.mapSize` | number (KB) | File size of the generated HTML map |
 | `tracker.<Name>.url` | text.url | HTTP URL of the person's map |
 
-##### Family Map (`tracker.family.*`)
+##### Circle Map (`tracker.circle.*`)
 
 | State | Type | Description |
 |---|---|---|
-| `tracker.family.allTime.geojson` | string (JSON) | Merged GeoJSON of all family members |
-| `tracker.family.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
-| `tracker.family.mapSize` | number (KB) | File size of the generated HTML map |
-| `tracker.family.url` | text.url | HTTP URL of the combined family map |
+| `tracker.circle.allTime.geojson` | string (JSON) | Merged GeoJSON of all circle members |
+| `tracker.circle.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
+| `tracker.circle.mapSize` | number (KB) | File size of the generated HTML map |
+| `tracker.circle.url` | text.url | HTTP URL of the combined circle map |
 
 #### Embedding in Vis / Jarvis
 
@@ -294,6 +294,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 
 ### **WORK IN PROGRESS**
+- (skvarel) Renamed tracker circle map state from `tracker.family` to `tracker.circle`
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
 - (skvarel) Added adapter documentation
 

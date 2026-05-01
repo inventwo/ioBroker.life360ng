@@ -1,7 +1,7 @@
 {
     "debugging_verbose": "Włącz pełne rejestrowanie",
-    "family_map_header_name": "Nazwa nagłówka mapy rodziny (opcjonalnie)",
-    "family_map_header_name_help": "Jeśli jest ustawione, ta nazwa będzie wyświetlana jako nagłówek na Mapie Rodziny. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Rodzina”.",
+    "family_map_header_name": "Nazwa nagłówka mapy okręgu (opcjonalnie)",
+    "family_map_header_name_help": "Jeśli jest ustawione, ta nazwa będzie wyświetlana jako nagłówek na Mapie Okręgu. Pozostaw puste, aby użyć nazwy okręgu lub domyślnej nazwy „Circle”.",
     "help_txt": "Więcej informacji znajdziesz w zakładce „Pomoc”!",
     "helps": "Pomoc i często zadawane pytania",
     "intro_txt": "Pomoc i często zadawane pytania.",
@@ -49,7 +49,7 @@
     "tracker_min_distance_help": "Nowy punkt zostaje zapisany dopiero po przekroczeniu tej odległości (5-500m)",
     "tracker_person_color": "Kolor",
     "tracker_person_enabled": "Aktywny",
-    "tracker_person_family_map": "Mapa rodzinna",
+    "tracker_person_family_map": "Mapa okręgu",
     "tracker_person_clear_recordings": "Wyczyść zap.",
     "tracker_person_name": "Nazwa",
     "tracker_person_own_map": "Własna mapa",

@@ -1,7 +1,7 @@
 {
     "debugging_verbose": "启用详细日志记录",
-    "family_map_header_name": "家庭地图标题名称（可选）",
-    "family_map_header_name_help": "如果设置，该名称将显示为家庭地图中的标题。留空以使用圈子名称或默认“家庭”。",
+    "family_map_header_name": "圈子地图标题名称（可选）",
+    "family_map_header_name_help": "如果设置，该名称将显示为圈子地图中的标题。留空以使用圈子名称或默认“Circle”。",
     "help_txt": "您可以在“帮助”选项卡中找到更多信息！",
     "helps": "帮助和常见问题解答",
     "intro_txt": "帮助和常见问题解答。",
@@ -49,7 +49,7 @@
     "tracker_min_distance_help": "仅在超过此距离 (5-500m) 后才会保存新点",
     "tracker_person_color": "颜色",
     "tracker_person_enabled": "积极的",
-    "tracker_person_family_map": "家庭地图",
+    "tracker_person_family_map": "圈子地图",
     "tracker_person_clear_recordings": "清除记录",
     "tracker_person_name": "姓名",
     "tracker_person_own_map": "自己的地图",

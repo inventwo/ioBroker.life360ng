@@ -32,7 +32,7 @@ Jede Person, für die das Tracking aktiviert ist, erhält eine eigene Karte. Die
 Die Familienkarte zeigt die Routen aller aktivierten Personen gemeinsam auf einer Karte.
 
 - **Aktivierung:** Im Tracker muss bei mindestens einer Person die Option `familyMap` aktiviert sein.
-- **Zugriff:** Die URL zur Familienkarte findest du unter `life360ng.<instanz>.tracker.<familienname>.url`.
+- **Zugriff:** Die URL zur Kreiskarte findest du unter `life360ng.<instanz>.tracker.circle.url`.
 
 ### 3. Farbeinstellungen
 Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. Die Einstellungen findest du in der Adapter Config:

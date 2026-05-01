@@ -1,7 +1,7 @@
 {
     "debugging_verbose": "Aktiviere hier die ausführliche Protokollierung",
-    "family_map_header_name": "Name der Familienkarten-Kopfzeile (optional)",
-    "family_map_header_name_help": "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Familienkarte angezeigt. Lassen das Feld leer, um den Kreisnamen oder die Standardeinstellung „Family“ zu verwenden.",
+    "family_map_header_name": "Name der Kreiskarten-Kopfzeile (optional)",
+    "family_map_header_name_help": "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Kreiskarte angezeigt. Lassen das Feld leer, um den Kreisnamen oder die Standardeinstellung „Circle" zu verwenden.",
     "help_txt": "Weitere Informationen findest du im „Hilfe“-Tab!",
     "helps": "Hilfe & FAQ",
     "intro_txt": "Hilfe & FAQ",
@@ -48,7 +48,7 @@
     "tracker_min_distance_help": "Neuer Punkt wird erst ab diesem Abstand gespeichert (5-500m)",
     "tracker_person_color": "Farbe",
     "tracker_person_enabled": "Aktiv",
-    "tracker_person_family_map": "Familienkarte",
+    "tracker_person_family_map": "Kreiskarte",
     "tracker_clear_recordings_info": "⚠ Hinweis: Beim Leeren der Aufzeichnungen einer Person wird auch die Familienkarte aktualisiert, da sie aus den Personen-Daten aufgebaut wird. Die monatlichen GeoJSON-Dateien (currentYear) werden nicht verändert.",
     "tracker_person_clear_recordings": "Aufz. leeren",
     "tracker_person_name": "Name",
