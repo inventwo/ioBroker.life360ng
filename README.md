@@ -241,18 +241,19 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 
 | State | Type | Description |
 |---|---|---|
-| `tracker.<Name>.url` | text.url | HTTP URL of the person's map |
-| `tracker.<Name>.mapSize` | number (KB) | File size of the generated HTML map |
 | `tracker.<Name>.allTime.geojson` | string (JSON) | Full GeoJSON history (all days) |
 | `tracker.<Name>.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
+| `tracker.<Name>.mapSize` | number (KB) | File size of the generated HTML map |
+| `tracker.<Name>.url` | text.url | HTTP URL of the person's map |
 
 ##### Family Map (`tracker.family.*`)
 
 | State | Type | Description |
 |---|---|---|
-| `tracker.<Name>.mapSize` | number (KB) | File size of the generated HTML map |
-| `tracker.family.url` | text.url | HTTP URL of the combined family map |
 | `tracker.family.allTime.geojson` | string (JSON) | Merged GeoJSON of all family members |
+| `tracker.family.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
+| `tracker.family.mapSize` | number (KB) | File size of the generated HTML map |
+| `tracker.family.url` | text.url | HTTP URL of the combined family map |
 
 #### Embedding in Vis / Jarvis
 
