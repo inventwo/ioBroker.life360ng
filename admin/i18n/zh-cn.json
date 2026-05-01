@@ -62,6 +62,8 @@
     "tracker_retention_days_help": "保留路线数据的天数。较旧的天数每天以及适配器启动时自动删除。0 = 永久保留。",
     "tracker_route_opacity": "路线不透明度",
     "tracker_route_opacity_help": "路线的不透明度 (0.0 - 1.0)",
+    "tracker_marker_opacity": "标记不透明度",
+    "tracker_marker_opacity_help": "位置标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_route_weight": "线宽（像素）",
     "tracker_route_weight_help": "路线的宽度（以像素为单位）(1-10)",
     "txt_one": "...更多信息即将推出！"

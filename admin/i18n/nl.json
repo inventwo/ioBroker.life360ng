@@ -60,6 +60,8 @@
     "tracker_retention_days_help": "Aantal dagen dat routegegevens worden bewaard. Oudere dagen worden automatisch elke dag en bij het starten van de adapter verwijderd. 0 = voor altijd behouden.",
     "tracker_route_opacity": "Route-ondoorzichtigheid",
     "tracker_route_opacity_help": "Dekking van de routelijn (0,0 - 1,0)",
+    "tracker_marker_opacity": "Markerdekking",
+    "tracker_marker_opacity_help": "Dekking van de positiemarker (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_route_weight": "Lijnbreedte (px)",
     "tracker_route_weight_help": "Breedte van de routelijn in pixels (1-10)",
     "txt_one": "... binnenkort meer informatie!"

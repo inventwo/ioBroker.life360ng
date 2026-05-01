@@ -62,6 +62,8 @@
     "tracker_retention_days_help": "Número de días para conservar los datos de la ruta. Los días más antiguos se eliminan automáticamente cada día y al iniciar el adaptador. 0 = conservar para siempre.",
     "tracker_route_opacity": "Opacidad de ruta",
     "tracker_route_opacity_help": "Opacidad de la línea de ruta (0,0 - 1,0)",
+    "tracker_marker_opacity": "Opacidad del marcador",
+    "tracker_marker_opacity_help": "Opacidad del marcador de posición (0,0 = transparente, 1,0 = completamente visible)",
     "tracker_route_weight": "Ancho de línea (px)",
     "tracker_route_weight_help": "Ancho de la línea de ruta en píxeles (1-10)",
     "txt_one": "... ¡más información próximamente!"
