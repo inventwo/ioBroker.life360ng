@@ -292,7 +292,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-
 ### **WORK IN PROGRESS**
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
 - (skvarel) Added adapter documentation
@@ -312,12 +311,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.0.19 (2026-04-12)
 - (skvarel) Translations adjusted
-
-### 1.0.18 (2026-04-12)
-- (skvarel) Fixed info.connection role in io-package.json
-- (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings
-- (skvarel) ESLint now covers all lib files with strict no-warnings enforcement
-- (skvarel) Added Copilot instructions for guided development
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

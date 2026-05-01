@@ -80,19 +80,6 @@
         "pl": "Konfiguracja poprawiona, poprawiona i poprawiona wersja tłumaczenia",
         "uk": "Конфігурація переглянуті, переклади регульовані і перепо очищають",
         "zh-cn": "配置修改、翻译调整和重新整理"
-      },
-      "1.0.16": {
-        "en": "Modernized config",
-        "de": "Moderne config",
-        "ru": "Модернизированная конфигурация",
-        "pt": "Configuração modernizada",
-        "nl": "Gemoderniseerde configuratie",
-        "fr": "Config modernisé",
-        "it": "Configurazione moderna",
-        "es": "Configuración modernizada",
-        "pl": "Zmodernizowana konfiguracja",
-        "uk": "Модернізоване налаштування",
-        "zh-cn": "现代化配置"
       }
     },
     "titleLang": {

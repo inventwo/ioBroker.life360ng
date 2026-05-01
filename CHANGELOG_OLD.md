@@ -1,4 +1,10 @@
 # Older changes
+## 1.0.18 (2026-04-12)
+- (skvarel) Fixed info.connection role in io-package.json
+- (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings
+- (skvarel) ESLint now covers all lib files with strict no-warnings enforcement
+- (skvarel) Added Copilot instructions for guided development
+
 ## 1.0.17 (2026-04-12)
 - (skvarel) Configuration revised, translations adjusted and repo cleaned up
 
