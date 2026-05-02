@@ -1,4 +1,7 @@
 # Older changes
+## 1.0.19 (2026-04-12)
+- (skvarel) Translations adjusted
+
 ## 1.0.18 (2026-04-12)
 - (skvarel) Fixed info.connection role in io-package.json
 - (skvarel) Removed @ts-nocheck and unused variable from lib files; fixed CRLF line endings

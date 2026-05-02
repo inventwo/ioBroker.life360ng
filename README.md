@@ -292,7 +292,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.1 (2026-05-02)
 - (skvarel) Modified map pin with opacity and size
 
 ### 1.2.0 (2026-05-01)
@@ -311,9 +311,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### 1.0.20 (2026-04-13)
 - (skvarel) Removed react and mui
 - (skvarel) Edit readme
-
-### 1.0.19 (2026-04-12)
-- (skvarel) Translations adjusted
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

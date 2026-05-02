@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "news": {
+      "1.2.1": {
+        "en": "Modified map pin with opacity and size",
+        "de": "Geänderter Kartenstift mit Deckkraft und Größe",
+        "ru": "Модифицированный значок карты с непрозрачностью и размером",
+        "pt": "Pino de mapa modificado com opacidade e tamanho",
+        "nl": "Gewijzigde kaartspeld met dekking en grootte",
+        "fr": "Pin de carte modifié avec opacité et taille",
+        "it": "Perno mappa modificato con opacità e dimensione",
+        "es": "Pin de mapa modificado con opacidad y tamaño",
+        "pl": "Zmodyfikowany pin mapy z nieprzezroczystości i wielkości",
+        "uk": "Модифікований картковий шпилька з непрозорістю і розміром",
+        "zh-cn": "修改带有不透明度和大小的地图针"
+      },
       "1.2.0": {
         "en": "Added GPS route tracking with per-person and family map (OpenStreetMap)\nAdded adapter documentation",
         "de": "GPS-Tracking mit Per-Personen- und Familienkarte (OpenStreetMap) hinzugefügt\nZusätzliche Adapterdokumentation",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono funkcję info.connection w jo- package.json\nUsunięto @ ts- nocheck i nieużywaną zmienną z plików lib; stałe zakończenia linii CRLF\nESLINT teraz obejmuje wszystkie pliki lib ze ścisłym zero-ostrzeżeń egzekwowania\nDodano instrukcje kopiowania dla rozwoju z przewodnikiem",
         "uk": "Виправлено info.connection роль в io-package.json\nВилучено @ts-nocheck і невикористана змінна з файлів lib; виправлено закінчення лінії CRLF\nESLint тепер охоплює всі файли з суворим захистом від викривлення\nДодано інструкції Copilot для керованого розвитку",
         "zh-cn": "固定信息. 连接角色在io-package.json\n从 lib 文件中删除了 @ ts- nocheck 和未使用的变量; 固定的 CRLF 行结束\nESLint现在以严格的不警告执行覆盖所有 lib 文件\n为指导性开发添加的副驾驶指令"
-      },
-      "1.0.17": {
-        "en": "Configuration revised, translations adjusted and repo cleaned up",
-        "de": "Konfiguration überarbeitet, Übersetzungen angepasst und repo aufgeräumt",
-        "ru": "Конфигурация пересмотрена, переводы скорректированы и репо очищены",
-        "pt": "Configuração revista, traduções ajustadas e recuperação limpas",
-        "nl": "Configuratie herzien, vertalingen aangepast en repo opgeschoond",
-        "fr": "Configuration révisée, traduction ajustée et repo nettoyée",
-        "it": "Configurazione revisionata, traduzioni regolate e ripulite",
-        "es": "Configuración revisada, traducciones ajustadas y recuperadas",
-        "pl": "Konfiguracja poprawiona, poprawiona i poprawiona wersja tłumaczenia",
-        "uk": "Конфігурація переглянуті, переклади регульовані і перепо очищають",
-        "zh-cn": "配置修改、翻译调整和重新整理"
       }
     },
     "titleLang": {
