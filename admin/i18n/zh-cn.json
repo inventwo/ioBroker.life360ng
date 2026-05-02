@@ -47,6 +47,8 @@
     "tracker_info_txt": "颜色更改会在下次 GPS 更新时自动生效。\n地图 URL 可以在对象树中的 tracker.<Person>.url 下找到。",
     "tracker_marker_opacity": "标记不透明度",
     "tracker_marker_opacity_help": "位置标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
+    "tracker_marker_size": "标记大小",
+    "tracker_marker_size_help": "位置标记的大小因子（0.5 = 一半，1.0 = 默认，2.0 = 双倍）",
     "tracker_min_distance": "最小距离（米）",
     "tracker_min_distance_help": "仅在超过此距离 (5-500m) 后才会保存新点",
     "tracker_person_circle_map": "圆形地图",

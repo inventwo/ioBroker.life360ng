@@ -47,6 +47,8 @@
     "tracker_info_txt": "As alterações de cor entram em vigor automaticamente na próxima atualização do GPS.\nA URL do mapa pode ser encontrada em tracker.<Person>.url na árvore de objetos.",
     "tracker_marker_opacity": "Opacidade do marcador",
     "tracker_marker_opacity_help": "Opacidade do marcador de posição (0,0 = transparente, 1,0 = totalmente visível)",
+    "tracker_marker_size": "Tamanho do marcador",
+    "tracker_marker_size_help": "Fator de tamanho do marcador de posição (0,5 = metade, 1,0 = padrão, 2,0 = duplo)",
     "tracker_min_distance": "Distância mínima (metros)",
     "tracker_min_distance_help": "Um novo ponto é salvo somente após esta distância ter sido ultrapassada (5-500m)",
     "tracker_person_circle_map": "Mapa circular",

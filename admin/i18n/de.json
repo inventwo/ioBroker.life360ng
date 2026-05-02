@@ -47,6 +47,8 @@
     "tracker_info_txt": "Änderungen an den Farben werden beim nächsten GPS-Update automatisch übernommen.\nDie Karten-URL ist unter tracker.<Person>.url im Objektbaum zu finden.",
     "tracker_marker_opacity": "Deckkraft Marker",
     "tracker_marker_opacity_help": "Deckkraft des Positionsmarkers (0.0 = transparent, 1.0 = voll sichtbar)",
+    "tracker_marker_size": "Marker Größe",
+    "tracker_marker_size_help": "Größenfaktor des Positionsmarkers (0.5 = halb, 1.0 = Standard, 2.0 = doppelt)",
     "tracker_min_distance": "Mindestabstand (Meter)",
     "tracker_min_distance_help": "Neuer Punkt wird erst ab diesem Abstand gespeichert (5-500m)",
     "tracker_person_circle_map": "Kreiskarte",

@@ -47,6 +47,8 @@
     "tracker_info_txt": "Kleurveranderingen worden automatisch van kracht bij de volgende GPS-update.\nDe kaart-URL kunt u vinden onder tracker.<Persoon>.url in de objectboom.",
     "tracker_marker_opacity": "Dekking van de markering",
     "tracker_marker_opacity_help": "Dekking van de positiemarkering (0,0 = transparant, 1,0 = volledig zichtbaar)",
+    "tracker_marker_size": "Markergrootte",
+    "tracker_marker_size_help": "Grootte-factor van de positiemarkering (0,5 = half, 1,0 = standaard, 2,0 = dubbel)",
     "tracker_min_distance": "Minimale afstand (meter)",
     "tracker_min_distance_help": "Pas nadat deze afstand is overschreden (5-500m) wordt een nieuw punt opgeslagen",
     "tracker_person_circle_map": "Cirkel kaart",
