@@ -351,6 +351,7 @@
                             "type": "number",
                             "label": "tracker_marker_size",
                             "help": "tracker_marker_size_help",
+                            "default": 1,
                             "min": 0.5,
                             "max": 3,
                             "step": 0.1,
