@@ -293,7 +293,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Modernized map pin with opacity and size
+- (skvarel) Modified map pin with opacity and size
 
 ### 1.2.0 (2026-05-01)
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)

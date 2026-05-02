@@ -43,12 +43,15 @@ You can customize the map colors and route appearance. The settings are availabl
 - Text color in the map header
 - Route line width (pixels)
 - Route opacity (0–1)
-- Marker opacity (0–1): controls the transparency of the position pin on the map
+- End-marker opacity (0–1): controls the transparency of the position pin on the map
+- Size of the end-marker (0-2): controls the size of the position pin on the map (0.5 = half, 1.0 = standard, 2.0 = double)
 
-**Note:** Changes to these values ​​will be applied to all cards after the set interval.
+**Note:** Changes to these values ​​will be applied to all cards after the set query interval.
 
 ### 4. Datepicker
 The map HTML includes a datepicker. You can use it to select a specific day and display the route for that day. By default, the current route is shown. The datepicker is especially useful for reviewing movements on particular days.
+
+**Note:** The appearance may vary depending on the browser used.
 
 ---
 **Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).

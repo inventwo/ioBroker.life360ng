@@ -43,12 +43,15 @@ Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. D
 - Textfarbe im Kartenkopf
 - Linienbreite der Route (Pixel)
 - Deckkraft der Route (0–1)
-- Deckkraft des Markers (0–1): steuert die Transparenz des Positions-Pins auf der Karte
+- Deckkraft des End-Markers (0–1): steuert die Transparenz des Positions-Pins auf der Karte
+- Größe des End-Marker (0-2): steuert die Größe des Positions-Pins auf der Karte (0.5 = halb, 1.0 = Standard, 2.0 = doppelt)
 
-**Hinweis:** Änderungen an diesen Werten werden nach dem eingestelltem auf alle Karten angewendet.
+**Hinweis:** Änderungen an diesen Werten werden nach dem eingestelltem Abfrageintervall auf alle Karten angewendet.
 
 ### 4. Datepicker
 Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag auswählen, um die Route für diesen Tag anzuzeigen. Standardmäßig wird die aktuelle Route angezeigt. Der Datepicker ist besonders hilfreich, um Bewegungen an bestimmten Tagen nachzuvollziehen.
+
+**Hinweis:** Die Optik kann ja nach verwendeten Browser variieren.
 
 ---
 **Tipp:** Die Karten können direkt im Browser geöffnet oder in Visualisierungen (z.B. ioBroker VIS als iframe) eingebunden werden.
