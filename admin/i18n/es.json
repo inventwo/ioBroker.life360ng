@@ -45,6 +45,8 @@
     "tracker_enabled": "Libro de registro activo - Control global",
     "tracker_enabled_help": "También se puede controlar mediante state tracker.config.enabled (por ejemplo, mediante CRON)",
     "tracker_info_txt": "Los cambios de color entran en vigor automáticamente en la próxima actualización del GPS.\nLa URL del mapa se puede encontrar en tracker.<Persona>.url en el árbol de objetos.",
+    "tracker_map_legend": "Mostrar leyenda del mapa",
+    "tracker_map_legend_help": "Muestra una leyenda en la parte inferior del mapa.",
     "tracker_marker_opacity": "Opacidad del marcador",
     "tracker_marker_opacity_help": "Opacidad del marcador de posición (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_marker_size": "Tamaño del marcador",

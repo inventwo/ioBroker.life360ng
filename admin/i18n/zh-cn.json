@@ -45,6 +45,8 @@
     "tracker_enabled": "日志激活 - 全局控制",
     "tracker_enabled_help": "也可以通过状态 tracker.config.enabled 进行控制（例如通过 CRON）",
     "tracker_info_txt": "颜色更改会在下次 GPS 更新时自动生效。\n地图 URL 可以在对象树中的 tracker.<Person>.url 下找到。",
+    "tracker_map_legend": "显示地图图例",
+    "tracker_map_legend_help": "在地图底部显示图例",
     "tracker_marker_opacity": "标记不透明度",
     "tracker_marker_opacity_help": "位置标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_marker_size": "标记大小",

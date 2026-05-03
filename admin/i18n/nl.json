@@ -45,6 +45,8 @@
     "tracker_enabled": "Logboek actief - Globale controle",
     "tracker_enabled_help": "Kan ook worden bestuurd via state tracker.config.enabled (bijvoorbeeld door CRON)",
     "tracker_info_txt": "Kleurveranderingen worden automatisch van kracht bij de volgende GPS-update.\nDe kaart-URL kunt u vinden onder tracker.<Persoon>.url in de objectboom.",
+    "tracker_map_legend": "Toon kaartlegenda",
+    "tracker_map_legend_help": "Geeft een legenda weer onder aan de kaart",
     "tracker_marker_opacity": "Dekking van de markering",
     "tracker_marker_opacity_help": "Dekking van de positiemarkering (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_marker_size": "Markergrootte",

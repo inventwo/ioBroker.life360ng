@@ -45,6 +45,8 @@
     "tracker_enabled": "Journal de bord actif - Contrôle global",
     "tracker_enabled_help": "Peut également être contrôlé via state tracker.config.enabled (par exemple par CRON)",
     "tracker_info_txt": "Les changements de couleur prennent effet automatiquement lors de la prochaine mise à jour du GPS.\nL'URL de la carte se trouve sous tracker.<Person>.url dans l'arborescence des objets.",
+    "tracker_map_legend": "Afficher la légende de la carte",
+    "tracker_map_legend_help": "Affiche une légende au bas de la carte",
     "tracker_marker_opacity": "Opacité du marqueur",
     "tracker_marker_opacity_help": "Opacité du marqueur de position (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_marker_size": "Taille du marqueur",
