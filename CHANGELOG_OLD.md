@@ -1,4 +1,8 @@
 # Older changes
+## 1.0.21 (2026-04-13)
+- (skvarel) Improved help tab in the config
+- (skvarel) Added new screenshots of browser DevTools
+
 ## 1.0.20 (2026-04-13)
 - (skvarel) Removed react and mui
 - (skvarel) Edit readme

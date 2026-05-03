@@ -292,7 +292,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.3 (2026-05-03)
 - (skvarel) Fixed circle map header name
 
 ### 1.2.2 (2026-05-03)
@@ -309,10 +309,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Fixed invalid object hierarchy (device under channel)
 - (skvarel) Removed dependency on Places adapter
 - (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
-
-### 1.0.21 (2026-04-13)
-- (skvarel) Improved help tab in the config
-- (skvarel) Added new screenshots of browser DevTools
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

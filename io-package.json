@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "news": {
+      "1.2.3": {
+        "en": "Fixed circle map header name",
+        "de": "Feste Kreiskarten-Headername",
+        "ru": "Название заголовка карты фиксированного круга",
+        "pt": "Nome fixo do cabeçalho do mapa do círculo",
+        "nl": "Naam vaste cirkelkaartkop",
+        "fr": "Nom d'en-tête de la carte du cercle fixe",
+        "it": "Nome dell'intestazione della mappa del cerchio fisso",
+        "es": "Nombre del encabezado del mapa del círculo fijo",
+        "pl": "Poprawiona nazwa nagłówka mapy okręgu",
+        "uk": "Фіксоване коло ім'я заголовка",
+        "zh-cn": "固定圆形地图头名称"
+      },
       "1.2.2": {
         "en": "Modified map - Endpoint of the past days as a dot instead of a pin",
         "de": "Geänderte Karte - Endpunkt der letzten Tage als Punkt anstelle eines Stiftes",
@@ -80,19 +93,6 @@
         "pl": "Usunięta reakcja i mui\nEdytuj readme",
         "uk": "Зняти реагацію і мус\nРедагувати читання",
         "zh-cn": "删除反应和 mui\n编辑读取器"
-      },
-      "1.0.19": {
-        "en": "Translations adjusted",
-        "de": "Übersetzungen bereinigt",
-        "ru": "Переводы скорректированы",
-        "pt": "Traduções ajustadas",
-        "nl": "Vertalingen aangepast",
-        "fr": "Corrigé des traductions",
-        "it": "Traduzioni regolate",
-        "es": "Traducciones ajustadas",
-        "pl": "Korekta tłumaczeń",
-        "uk": "Переклади",
-        "zh-cn": "经调整的翻译"
       }
     },
     "titleLang": {
