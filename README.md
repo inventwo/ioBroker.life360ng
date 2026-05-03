@@ -292,8 +292,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
-- (skvarel) Added optional map legend footer to person and circle tracker maps showing start, waypoint and current position markers 
+### **WORK IN PROGRESS**Added optional map legend footer
+- (skvarel)  to person and circle tracker maps showing start, waypoint and current position markers 
 
 ### 1.2.3 (2026-05-03)
 - (skvarel) Fixed circle map header name
