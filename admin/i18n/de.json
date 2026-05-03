@@ -63,5 +63,7 @@
     "tracker_route_opacity": "Deckkraft Route",
     "tracker_route_opacity_help": "Deckkraft der Route (0.0 - 1.0)",
     "tracker_route_weight": "Linienbreite (px)",
-    "tracker_route_weight_help": "Breite der Route in Pixel (1-10)"
+    "tracker_route_weight_help": "Breite der Route in Pixel (1-10)",
+    "tracker_map_legend": "Karten-Legende anzeigen",
+    "tracker_map_legend_help": "Zeigt eine Legende am unteren Rand der Karte an"
 }
