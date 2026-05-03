@@ -44,7 +44,7 @@
     "tracker_color_page_bg": "Seitenhintergrund",
     "tracker_enabled": "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help": "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
-    "tracker_info_txt": "Änderungen an den Farben werden beim nächsten GPS-Update automatisch übernommen.\nDie Karten-URL ist unter tracker.<Person>.url im Objektbaum zu finden.",
+    "tracker_info_txt": "Änderungen an der Konfiguration werden beim nächsten GPS-Update automatisch übernommen.\nDie Karten-URL ist unter tracker.<Person>.url im Objektbaum zu finden.",
     "tracker_map_legend": "Karten-Legende anzeigen",
     "tracker_map_legend_help": "Zeigt eine Legende am unteren Rand der Karte an",
     "tracker_marker_opacity": "Deckkraft Marker",
