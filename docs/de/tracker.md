@@ -58,6 +58,16 @@ Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag 
 
 ---
 
+## Erklärungen zu dem Punkten und Pins auf den Karten
+
+| Art | Grund |
+|---|:---|
+|Dunkle Punkte: | Startpunkt des Tages|
+|Helle Punkte: | Endpunkt des Tages|
+|Pin/Marker: | Aktueller Standort|
+
+---
+
 ## Datenverwaltung
 
 Die Routendaten (`allTime.geojson`) wachsen mit der Zeit an. Der Adapter bietet zwei Wege, die Dateigrößen im Griff zu behalten:

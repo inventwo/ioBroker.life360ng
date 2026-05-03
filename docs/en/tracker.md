@@ -58,6 +58,16 @@ The map HTML includes a datepicker. You can use it to select a specific day and 
 
 ---
 
+## Explanations of the points and pins on the maps
+
+| Type | Reason |
+|---|:---|
+|Dark points: | Starting point of the day|
+|Light points: | Ending point of the day|
+|Pin/Marker: | Current location|
+
+---
+
 ## Data Management
 
 Route data (`allTime.geojson`) grows over time. The adapter offers two ways to keep file sizes under control:
