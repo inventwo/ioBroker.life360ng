@@ -44,7 +44,7 @@
     "tracker_color_page_bg": "Seitenhintergrund",
     "tracker_enabled": "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help": "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
-    "tracker_info_txt": "Änderungen an der Konfiguration werden beim nächsten GPS-Update automatisch übernommen.\nDie Karten-URL ist unter tracker.<Person>.url im Objektbaum zu finden.",
+    "tracker_info_txt": "Änderungen an der Konfiguration werden beim nächsten GPS-Update automatisch übernommen. Die Karten-URL ist unter tracker.<Person>.url im Objektbaum zu finden.",
     "tracker_map_language": "Header & Footer Sprache",
     "tracker_map_language_help": "Sprache des Header- und Footer-Textes (z.B. 'de' für Deutsch, 'en' für Englisch). Standard ist englisch ('en').",
     "tracker_map_legend": "Karten-Legende anzeigen",

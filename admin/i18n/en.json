@@ -53,7 +53,7 @@
     "tracker_marker_size": "Marker size",
     "tracker_marker_size_help": "Size factor for the position marker (0.5 = half, 1.0 = default, 2.0 = double)",
     "section_tracker_info": "Note",
-    "tracker_info_txt": "Color changes take effect automatically on the next GPS update.\nThe map URL can be found under tracker.<Person>.url in the object tree.",
+    "tracker_info_txt": "Color changes take effect automatically on the next GPS update. The map URL can be found under tracker.<Person>.url in the object tree.",
     "tracker_person_name": "Name",
     "tracker_person_enabled": "Active",
     "tracker_person_color": "Color",
