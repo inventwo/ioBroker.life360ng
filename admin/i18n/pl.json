@@ -45,6 +45,8 @@
     "tracker_enabled": "Dziennik pokładowy aktywny – Kontrola globalna",
     "tracker_enabled_help": "Może być również kontrolowany poprzez state tracker.config.enabled (np. przez CRON)",
     "tracker_info_txt": "Zmiany kolorów zaczną obowiązywać automatycznie przy następnej aktualizacji GPS.\nAdres URL mapy można znaleźć pod tracker.<Person>.url w drzewie obiektów.",
+    "tracker_map_language": "Język nagłówka i stopki",
+    "tracker_map_language_help": "Język tekstu nagłówka i stopki (np. „de” w przypadku języka niemieckiego, „en” w przypadku języka angielskiego). Domyślnym ustawieniem jest angielski („en”).",
     "tracker_map_legend": "Pokaż legendę mapy",
     "tracker_map_legend_help": "Wyświetla legendę na dole mapy",
     "tracker_marker_opacity": "Nieprzezroczystość znacznika",

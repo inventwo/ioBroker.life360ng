@@ -45,6 +45,8 @@
     "tracker_enabled": "Logbook ativo - Controle global",
     "tracker_enabled_help": "Também pode ser controlado via state tracker.config.enabled (por exemplo, por CRON)",
     "tracker_info_txt": "As alterações de cor entram em vigor automaticamente na próxima atualização do GPS.\nA URL do mapa pode ser encontrada em tracker.<Person>.url na árvore de objetos.",
+    "tracker_map_language": "Idioma do cabeçalho e rodapé",
+    "tracker_map_language_help": "Idioma do texto do cabeçalho e rodapé (por exemplo, 'de' para alemão, 'en' para inglês). O padrão é inglês ('en').",
     "tracker_map_legend": "Mostrar legenda do mapa",
     "tracker_map_legend_help": "Exibe uma legenda na parte inferior do mapa",
     "tracker_marker_opacity": "Opacidade do marcador",

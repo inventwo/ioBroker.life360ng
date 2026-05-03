@@ -45,6 +45,8 @@
     "tracker_enabled": "Journal de bord actif - Contrôle global",
     "tracker_enabled_help": "Peut également être contrôlé via state tracker.config.enabled (par exemple par CRON)",
     "tracker_info_txt": "Les changements de couleur prennent effet automatiquement lors de la prochaine mise à jour du GPS.\nL'URL de la carte se trouve sous tracker.<Person>.url dans l'arborescence des objets.",
+    "tracker_map_language": "Langue de l'en-tête et du pied de page",
+    "tracker_map_language_help": "Langue du texte d'en-tête et de pied de page (par exemple « de » pour l'allemand, « en » pour l'anglais). La valeur par défaut est l'anglais (« en »).",
     "tracker_map_legend": "Afficher la légende de la carte",
     "tracker_map_legend_help": "Affiche une légende au bas de la carte",
     "tracker_marker_opacity": "Opacité du marqueur",

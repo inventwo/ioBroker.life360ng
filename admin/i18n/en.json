@@ -64,5 +64,7 @@
     "tracker_retention_days": "Retention (days)",
     "tracker_retention_days_help": "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
     "tracker_map_legend": "Show map legend",
-    "tracker_map_legend_help": "Displays a legend at the bottom of the map"
+    "tracker_map_legend_help": "Displays a legend at the bottom of the map",
+    "tracker_map_language": "Header & footer language",
+    "tracker_map_language_help": "Language of the header and footer text (e.g. 'de' for German, 'en' for English). Default is English ('en')."
 }
