@@ -1,4 +1,8 @@
 # Older changes
+## 1.0.20 (2026-04-13)
+- (skvarel) Removed react and mui
+- (skvarel) Edit readme
+
 ## 1.0.19 (2026-04-12)
 - (skvarel) Translations adjusted
 
