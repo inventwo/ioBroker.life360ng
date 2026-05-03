@@ -310,6 +310,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Removed dependency on Places adapter
 - (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
