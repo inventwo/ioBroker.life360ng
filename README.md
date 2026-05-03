@@ -292,6 +292,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Fixed circle map header name
+
 ### 1.2.2 (2026-05-03)
 - (skvarel) Modified map - Endpoint of the past days as a dot instead of a pin
 
