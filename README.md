@@ -292,6 +292,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added option to deactivate/activate map size in the footer at config
+
 ### 1.3.0 (2026-05-04)
 - (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
 - (skvarel) Switched HTML maps to bilingual - english and german
