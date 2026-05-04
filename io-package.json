@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "news": {
+      "1.3.1": {
+        "en": "Added option to deactivate/activate map size in the footer at config",
+        "de": "Option zum Deaktivieren/Aktivieren der Kartengröße im Footer bei config",
+        "ru": "Добавлена опция для деактивации/активации размера карты в нижнем колонтитуле в конфигурации",
+        "pt": "Opção adicionada para desativar/ativar o tamanho do mapa no rodapé na configuração",
+        "nl": "Toegevoegde optie om kaartgrootte in de voettekst bij configuratie te deactiveren/activeren",
+        "fr": "Ajout d'une option pour désactiver/activer la taille de la carte dans le pied de page à config",
+        "it": "Aggiunta opzione per disattivare / attivare la dimensione della mappa nel footer a config",
+        "es": "Opción adicional para desactivar/activar el tamaño del mapa en el piercing en config",
+        "pl": "Dodano opcję dezaktywacji / aktywacji rozmiaru mapy w stopce przy konfigu",
+        "uk": "Додано варіант для деактивації / визначення розміру карти в нижній колонтитулці на конфігурації",
+        "zh-cn": "在配置时在页脚中添加禁用/激活地图大小的选项"
+      },
       "1.3.0": {
         "en": "Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size\nSwitched HTML maps to bilingual - english and german",
         "de": "Zusätzliche optionale Karten-Legende Footer zu Tracker-Karten zeigen Start, Wegpunkt, aktuelle Positionsmarker und Kartengröße\nGeschaltete HTML-Karten zu zweisprachig - englisch und deutsch",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono nieprawidłową hierarchię obiektu (urządzenie pod kanałem)\nUsunięto zależność od adaptera Places\nUWAGA: Usuń wszystkie obiekty adaptera po aktualizacji (patrz Noty migracyjne)",
         "uk": "Виправлена недійсна ієрархія об'єкта (розробка під каналом)\nВилучена залежність від адаптера місць\nНЕ: Видалити всі об'єкти адаптера після оновлення (див. Міграційні Нотатки)",
         "zh-cn": "固定无效对象等级( 频道下的设备)\n删除对位置适配器的依赖\n注:更新后删除所有适配对象(见迁移说明)"
-      },
-      "1.0.21": {
-        "en": "Improved help tab in the config\nAdded new screenshots of browser DevTools",
-        "de": "Verbesserte Hilfe Tab in der config\nNeue Screenshots von Browser DevTools hinzugefügt",
-        "ru": "Улучшенная вкладка помощи в конфигурации\nДобавлены новые скриншоты браузера DevTools",
-        "pt": "Página de ajuda melhorada na configuração\nAdicionadas novas imagens do navegador DevTools",
-        "nl": "Verbeterd hulptabblad in de configuratie\nNieuwe screenshots van browser DevTools toegevoegd",
-        "fr": "Onglet d'aide amélioré dans la configuration\nAjout de nouvelles captures d'écran du navigateur DevTools",
-        "it": "Scheda di aiuto migliorata nella configurazione\nAggiunto nuovi screenshot del browser DevTools",
-        "es": "Pestaña de ayuda mejorada en el config\nAñadido nuevas capturas de pantalla del navegador DevTools",
-        "pl": "Ulepszona karta pomocy w konfiguracji\nDodano nowe zrzuty ekranu przeglądarki DevTools",
-        "uk": "Удосконалено вкладку допомоги в налаштуваннях\nДодано нові скріншоти до браузера DevTools",
-        "zh-cn": "配置中改进的帮助标签\n添加浏览器 DevTools 的新截图"
       }
     },
     "titleLang": {

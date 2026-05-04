@@ -1,4 +1,8 @@
 # Older changes
+## 1.2.0 (2026-05-01)
+- (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
+- (skvarel) Added adapter documentation
+
 ## 1.1.0 (2026-04-23)
 - (skvarel) Fixed invalid object hierarchy (device under channel)
 - (skvarel) Removed dependency on Places adapter

@@ -292,7 +292,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.3.1 (2026-05-04)
 - (skvarel) Added option to deactivate/activate map size in the footer at config
 
 ### 1.3.0 (2026-05-04)
@@ -307,10 +307,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.2.1 (2026-05-02)
 - (skvarel) Modified map pin with opacity and size
-
-### 1.2.0 (2026-05-01)
-- (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
-- (skvarel) Added adapter documentation
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
