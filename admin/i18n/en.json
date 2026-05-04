@@ -52,5 +52,7 @@
 	"tracker_retention_days": "Retention (days)",
 	"tracker_retention_days_help": "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
 	"tracker_map_legend": "Show map legend",
-	"tracker_map_legend_help": "Displays a legend at the bottom of the map"
+	"tracker_map_legend_help": "Displays a legend at the bottom of the map",
+	"tracker_map_size": "Map size in legend",
+	"tracker_map_size_help": "Displays the map size in KB in the legend at the bottom of the map"
 }

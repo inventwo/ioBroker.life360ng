@@ -382,6 +382,20 @@
                         "marginTop": "5px"
                     }
                 },
+                "tracker_map_size": {
+                    "type": "checkbox",
+                    "label": "tracker_map_size",
+                    "help": "tracker_map_size_help",
+                    "newLine": false,
+                    "xs": 12,
+                    "sm": 6,
+                    "md": 4,
+                    "lg": 4,
+                    "xl": 4,
+                    "style": {
+                        "marginTop": "5px"
+                    }
+                },
                 "_trackerInfo": {
                     "type": "panel",
                     "label": "section_tracker_info",
