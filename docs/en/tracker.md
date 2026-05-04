@@ -40,7 +40,6 @@ You can customize the map colors and route appearance. The settings are availabl
 - Background color of the map
 - Background color of the map header
 - Border color of the map header
-- Text color in the map header
 - Route line width (pixels)
 - Route opacity (0–1)
 - End-marker opacity (0–1): controls the transparency of the position pin on the map
