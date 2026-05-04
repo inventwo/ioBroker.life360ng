@@ -1,4 +1,9 @@
 # Older changes
+## 1.1.0 (2026-04-23)
+- (skvarel) Fixed invalid object hierarchy (device under channel)
+- (skvarel) Removed dependency on Places adapter
+- (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
+
 ## 1.0.21 (2026-04-13)
 - (skvarel) Improved help tab in the config
 - (skvarel) Added new screenshots of browser DevTools

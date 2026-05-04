@@ -292,7 +292,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.3.0 (2026-05-04)
 - (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
 - (skvarel) Switched HTML maps to bilingual - english and german
 
@@ -308,11 +308,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### 1.2.0 (2026-05-01)
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
 - (skvarel) Added adapter documentation
-
-### 1.1.0 (2026-04-23)
-- (skvarel) Fixed invalid object hierarchy (device under channel)
-- (skvarel) Removed dependency on Places adapter
-- (skvarel) NOTE: Delete all adapter objects after updating (see Migration Notes)
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

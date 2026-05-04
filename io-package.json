@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "news": {
+      "1.3.0": {
+        "en": "Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size\nSwitched HTML maps to bilingual - english and german",
+        "de": "Zusätzliche optionale Karten-Legende Footer zu Tracker-Karten zeigen Start, Wegpunkt, aktuelle Positionsmarker und Kartengröße\nGeschaltete HTML-Karten zu zweisprachig - englisch und deutsch",
+        "ru": "Добавлен дополнительный футер легенды карты для карт трекера, показывающий старт, точку пути, маркеры текущей позиции и размер карты\nПереведены HTML-карты на двуязычные - английские и немецкие",
+        "pt": "Adicionado opcional map legend footer aos mapas do rastreador que mostram o início, o point, os marcadores de posição atuais e o tamanho do mapa\nMude os mapas HTML para bilíngue - inglês e alemão",
+        "nl": "Toegevoegd optionele kaart legende voettekst aan tracker kaarten met start, waypoint, huidige positie markers en kaartgrootte\nOmgeschakelde HTML-kaarten naar tweetalig - Engels en Duits",
+        "fr": "Ajout d'un pied de page optionnel de la légende de la carte aux cartes de suivi montrant le début, le point de cheminement, les marqueurs de position actuels et la taille de la carte\nCarte HTML commutée bilingue - anglais et allemand",
+        "it": "Aggiunta piantina facoltativa piè di pagina per le mappe tracker che mostrano inizio, waypoint, posizione attuale marcatori e dimensione della mappa\nMappe HTML commutate a bilingue - inglese e tedesco",
+        "es": "Añadido opcional map legend footer to tracker maps showing start, waypoint, current position markers and map size\nMapas HTML cambiados a bilingüe - inglés y alemán",
+        "pl": "Dodano opcjonalny znacznik legendy mapy do mapy trackera pokazującej start, punkt zwrotny, aktualne znaczniki pozycji i rozmiar mapy\nPrzełączanie map HTML na dwujęzyczne - angielski i niemiecki",
+        "uk": "Додано додаткові карти легенди нижнього колонтитула для карт трекера, що показують початок, точка шляху, поточні позначки позицій і розмір карти\nПеремкнено HTML-карти до білінгвального - англійська та німецька",
+        "zh-cn": "在跟踪地图中添加了可选的地图图案页脚,显示起始点、中途点、当前位置标记和地图大小\n将 HTML 地图切换为双语 - 英语和德国语"
+      },
       "1.2.3": {
         "en": "Fixed circle map header name",
         "de": "Feste Kreiskarten-Headername",
@@ -80,19 +93,6 @@
         "pl": "Ulepszona karta pomocy w konfiguracji\nDodano nowe zrzuty ekranu przeglądarki DevTools",
         "uk": "Удосконалено вкладку допомоги в налаштуваннях\nДодано нові скріншоти до браузера DevTools",
         "zh-cn": "配置中改进的帮助标签\n添加浏览器 DevTools 的新截图"
-      },
-      "1.0.20": {
-        "en": "Removed react and mui\nEdit readme",
-        "de": "Reakt und Mui entfernt\nLesen Sie mehr",
-        "ru": "Удаленная реакция и муи\nРедактировать readme",
-        "pt": "Reacção removida e mui\nEditar a leitura",
-        "nl": "Verwijderde reactie en mui\nLezen bewerken",
-        "fr": "Réaction et mui enlevés\nModifier la lecture",
-        "it": "Rimozione e mui\nModifica",
-        "es": "Reacción eliminada y mui\nEditar readme",
-        "pl": "Usunięta reakcja i mui\nEdytuj readme",
-        "uk": "Зняти реагацію і мус\nРедагувати читання",
-        "zh-cn": "删除反应和 mui\n编辑读取器"
       }
     },
     "titleLang": {
