@@ -292,6 +292,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added additional local map url with IP and port
+
 ### 1.3.1 (2026-05-04)
 - (skvarel) Added option to deactivate/activate map size in the footer at config
 

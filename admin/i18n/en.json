@@ -54,5 +54,10 @@
 	"tracker_map_legend": "Show map legend",
 	"tracker_map_legend_help": "Displays a legend at the bottom of the map",
 	"tracker_map_size": "Map size in legend",
-	"tracker_map_size_help": "Displays the map size in KB in the legend at the bottom of the map"
+	"tracker_map_size_help": "Displays the map size in KB in the legend at the bottom of the map",
+	"place_name": "Place name",
+	"place_latitude": "Place latitude",
+	"place_longitude": "Place longitude",
+	"place_radius": "Radius (meters) in which a person is considered 'present'",
+	"place_circle": "(optional) Assignment to a Life360 circle"
 }
