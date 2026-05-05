@@ -55,6 +55,7 @@ class Life360 extends utils.Adapter {
 			this.tracker?.stop(); // ← NEU
 			life360Connector.disablePolling();
 			life360Connector.disconnect();
+			life360DbConnector.clearTimers();
 			this.setState("info.connection", false, true);
 			this.log.info("cleaned everything up...");
 			callback();

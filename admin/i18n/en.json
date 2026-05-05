@@ -59,5 +59,6 @@
 	"place_latitude": "Place latitude",
 	"place_longitude": "Place longitude",
 	"place_radius": "Radius (meters) in which a person is considered 'present'",
-	"place_circle": "(optional) Assignment to a Life360 circle"
+	"place_circle": "Assignment to a Life360 circle (optional)",
+	"place_isPresent_delay": "Presence delay (s, 0 = immediately)"
 }

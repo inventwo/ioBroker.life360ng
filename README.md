@@ -245,6 +245,7 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 | `tracker.<Name>.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
 | `tracker.<Name>.mapSize` | number (KB) | File size of the generated HTML map |
 | `tracker.<Name>.url` | text.url | HTTP URL of the person's map |
+| `tracker.<Name>.urlLocal` | text.url | HTTP URL with the ioBroker server IP and web adapter port |
 
 ##### Circle Map (`tracker.circle.*`)
 
@@ -254,6 +255,7 @@ All color and behavior settings can be changed at runtime — the maps are re-re
 | `tracker.circle.currentYear.MM.geojson` | string (JSON) | Monthly GeoJSON backup |
 | `tracker.circle.mapSize` | number (KB) | File size of the generated HTML map |
 | `tracker.circle.url` | text.url | HTTP URL of the combined circle map |
+| `tracker.circle.urlLocal` | text.url | HTTP URL with the ioBroker server IP and web adapter port |
 
 #### Embedding in Vis / Jarvis
 
@@ -293,7 +295,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Added additional local map url with IP and port
+- (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
+- (skvarel) Added configurable arrival delay (seconds) per MyPlace – `isPresent` is only set to `true` after the person has been inside the radius for the configured time; leaving sets it to `false` immediately
 
 ### 1.3.1 (2026-05-04)
 - (skvarel) Added option to deactivate/activate map size in the footer at config

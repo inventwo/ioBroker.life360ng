@@ -107,19 +107,19 @@
                             "title": "place_name",
                             "attr": "name",
                             "type": "text",
-                            "width": "25%"
+                            "width": "20%"
                         },
                         {
                             "title": "place_latitude",
                             "attr": "latitude",
                             "type": "text",
-                            "width": "20%"
+                            "width": "15%"
                         },
                         {
                             "title": "place_longitude",
                             "attr": "longitude",
                             "type": "text",
-                            "width": "20%"
+                            "width": "15%"
                         },
                         {
                             "title": "place_radius",
@@ -132,6 +132,13 @@
                             "attr": "circle",
                             "type": "text",
                             "width": "20%"
+                        },
+                        {
+                            "title": "place_isPresent_delay",
+                            "attr": "isPresentDelay",
+                            "type": "number",
+                            "width": "15%",
+                            "default": 0
                         }
                     ]
                 }
