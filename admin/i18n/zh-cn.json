@@ -3,6 +3,7 @@
 	"family_map_header_name": "圆形地图标题名称（可选）",
 	"family_map_header_name_help": "如果设置，该名称将显示为圆形地图中的标题。留空以使用圈子名称或默认“圈子”。",
 	"help_txt": "您可以在“帮助”选项卡中找到更多信息！",
+	"help_doc_link": "📖 <a href=\"../adapter/life360ng/docs/en/README.md\" target=\"_blank\">打开完整文档</a>",
 	"helps": "帮助和常见问题解答",
 	"intro_txt": "帮助和常见问题解答。",
 	"life360_polling_interval": "轮询间隔（秒）",

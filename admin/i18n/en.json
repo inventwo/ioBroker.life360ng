@@ -21,6 +21,7 @@
 	"location_unknown_name": "Fallback name for unknown location",
 	"location_unknown_name_help": "Text shown in locationName when the person is at no known place (e.g. 'on tour'). Leave empty to keep blank.",
 	"helps": "Help & FAQ",
+	"help_doc_link": "📖 <a href=\"../adapter/life360ng/docs/en/README.md\" target=\"_blank\">Open full documentation</a>",
 	"intro_txt": "Help & FAQ.",
 	"paypal_donate": "Donate with PayPal",
 	"screenshot_txt": "Screenshots of the browser DevTools (F12) with the token value highlighted • (using DevTools in a new window is recommended):",

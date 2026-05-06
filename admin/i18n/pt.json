@@ -3,6 +3,7 @@
 	"family_map_header_name": "Nome do cabeçalho do mapa circular (opcional)",
 	"family_map_header_name_help": "Se definido, esse nome será mostrado como cabeçalho no Mapa Circular. Deixe em branco para usar o nome do círculo ou 'Círculo' padrão.",
 	"help_txt": "Você pode encontrar mais informações na aba 'Ajuda'!",
+	"help_doc_link": "📖 <a href=\"../adapter/life360ng/docs/en/README.md\" target=\"_blank\">Abrir documentação completa</a>",
 	"helps": "Ajuda e perguntas frequentes",
 	"intro_txt": "Ajuda e perguntas frequentes.",
 	"life360_polling_interval": "Intervalo de pesquisa (segundos)",

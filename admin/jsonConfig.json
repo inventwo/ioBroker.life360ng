@@ -547,6 +547,20 @@
                         "fontSize": "24px"
                     }
                 },
+                "docLink": {
+                    "type": "staticText",
+                    "text": "help_doc_link",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "marginBottom": "16px",
+                        "fontSize": "0.875rem"
+                    }
+                },
                 "txtOne": {
                     "type": "staticText",
                     "text": "token_hint",
