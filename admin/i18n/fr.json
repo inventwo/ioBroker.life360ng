@@ -14,6 +14,8 @@
 	"location_unknown_name_help": "Texte affiché dans locationName lorsque la personne ne se trouve dans aucun endroit connu (par exemple « en tournée »). Laissez vide pour rester vide.",
 	"paypal_donate": "Faites un don avec PayPal",
 	"place_isPresent_delay": "Délai de présence (s, 0 = immédiat)",
+	"prioritize_myplaces_locationname": "Prioriser Mes Lieux pour locationName",
+	"prioritize_myplaces_locationname_help": "Si activé, le locationName d'une personne est défini sur le nom du lieu personnel tant qu'elle y est présente. Sinon, le nom de lieu Life360 est utilisé.",
     "place_circle": "Affectation à un cercle Life360 (facultatif)",
 	"place_latitude": "Placer la latitude",
 	"place_longitude": "Lieu longitude",

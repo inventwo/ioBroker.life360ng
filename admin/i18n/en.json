@@ -66,5 +66,7 @@
 	"place_longitude": "Place longitude",
 	"place_radius": "Radius (meters) in which a person is considered 'present'",
 	"place_circle": "Assignment to a Life360 circle\n(optional)",
-	"place_isPresent_delay": "Presence delay\n(s, 0 = immediately)"
+	"place_isPresent_delay": "Presence delay\n(s, 0 = immediately)",
+	"prioritize_myplaces_locationname": "Prioritize My Places for locationName",
+	"prioritize_myplaces_locationname_help": "If enabled, a person's locationName is set to the My Place name while they are present. Otherwise the Life360 location name is used."
 }

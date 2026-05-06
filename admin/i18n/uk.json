@@ -14,6 +14,8 @@
 	"location_unknown_name_help": "Текст, який відображається в LocationName, коли особа перебуває у невідомому місці (наприклад, «у турі»). Залиште порожнім, щоб залишити порожнім.",
 	"paypal_donate": "Пожертвуйте за допомогою PayPal",
 	"place_isPresent_delay": "Затримка присутності (с, 0 = негайно)",
+	"prioritize_myplaces_locationname": "Пріоритет Моїх місць для locationName",
+	"prioritize_myplaces_locationname_help": "Якщо активно, locationName особи встановлюється на назву власного місця, поки особа там присутня. Інакше використовується назва місця Life360.",
     "place_circle": "Assignment to a Life360 circle (optional)",
 	"place_latitude": "Широта місця",
 	"place_longitude": "Довгота місця",

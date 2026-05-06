@@ -14,6 +14,8 @@
 	"location_unknown_name_help": "当此人不在已知地点（例如“在旅行中”）时，位置名称中显示的文本。留空以保持空白。",
 	"paypal_donate": "通过 PayPal 捐赠",
 	"place_isPresent_delay": "出现延迟（秒，0 = 立即）",
+	"prioritize_myplaces_locationname": "将我的地点用于 locationName的优先级",
+	"prioritize_myplaces_locationname_help": "如果启用，当人处于该位置时，其 locationName 将被设置为自定义地点名称。否则将使用 Life360 位置名称。",
     "place_circle": "分配到 Life360 圈子（可选）",
 	"place_latitude": "地点纬度",
 	"place_longitude": "地点经度",

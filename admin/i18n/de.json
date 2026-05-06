@@ -15,6 +15,8 @@
 	"paypal_donate": "Falls du uns unterstützen möchtest.",
 	"place_circle": "Zuordnung zu einem Life360-Kreis\n(optional)",
 	"place_isPresent_delay": "Anwesenheitsverzögerung\n(s, 0 = sofort)",
+	"prioritize_myplaces_locationname": "Eigene Orte bei locationName priorisieren",
+	"prioritize_myplaces_locationname_help": "Wenn aktiv, wird locationName einer Person auf den Namen des hier angelegten Ortes gesetzt, solange sie dort anwesend ist. Sonst wird der Life360-Ortsname verwendet.",
 	"place_latitude": "Breitengrad des Ortes",
 	"place_longitude": "Längengrad des Ortes",
 	"place_name": "Name des Ortes",
