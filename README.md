@@ -302,7 +302,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
 - (skvarel) Added configurable arrival delay (seconds) per MyPlace – `isPresent` is only set to `true` after the person has been inside the radius for the configured time; leaving sets it to `false` immediately
 - (skvarel) Added `locationName` delay for persons at MyPlaces: after the arrival delay `people.<id>.locationName` is set to the MyPlace name; on departure it is reset immediately to the Life360 location name
-- (skvarel) Fixed missing translations for tracker person table column headers in all 11 languages
 - (skvarel) Added option to prioritize My Places name for `locationName` over the Life360 location name (configurable checkbox in My Places tab)
 
 ### 1.3.1 (2026-05-04)
