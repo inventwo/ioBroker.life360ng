@@ -3,7 +3,7 @@
 	"family_map_header_name": "Nazwa nagłówka mapy okręgu (opcjonalnie)",
 	"family_map_header_name_help": "Jeśli jest ustawiona, ta nazwa będzie wyświetlana jako nagłówek na mapie okręgu. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Krąg”.",
 	"help_txt": "Więcej informacji znajdziesz w zakładce „Pomoc”!",
-	"help_doc_link": "📖 <a href=\"../adapter/life360ng/docs/en/README.md\" target=\"_blank\">Otwórz pełną dokumentację</a>",
+	"help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Otwórz pełną dokumentację</a>",
 	"helps": "Pomoc i często zadawane pytania",
 	"intro_txt": "Pomoc i często zadawane pytania.",
 	"life360_polling_interval": "Interwał odpytywania (sekundy)",

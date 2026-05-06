@@ -3,7 +3,7 @@
 	"family_map_header_name": "Nome dell'intestazione della mappa circolare (facoltativo)",
 	"family_map_header_name_help": "Se impostato, questo nome verrà mostrato come intestazione nella mappa circolare. Lascia vuoto per utilizzare il nome della cerchia o la \"Cerchia\" predefinita.",
 	"help_txt": "Puoi trovare maggiori informazioni nella scheda \"Aiuto\"!",
-	"help_doc_link": "📖 <a href=\"../adapter/life360ng/docs/en/README.md\" target=\"_blank\">Apri la documentazione completa</a>",
+	"help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Apri la documentazione completa</a>",
 	"helps": "Aiuto e domande frequenti",
 	"intro_txt": "Aiuto e domande frequenti.",
 	"life360_polling_interval": "Intervallo di polling (secondi)",
