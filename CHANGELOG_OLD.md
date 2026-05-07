@@ -1,4 +1,7 @@
 # Older changes
+## 1.2.1 (2026-05-02)
+- (skvarel) Modified map pin with opacity and size
+
 ## 1.2.0 (2026-05-01)
 - (skvarel) Added GPS route tracking with per-person and family map (OpenStreetMap)
 - (skvarel) Added adapter documentation

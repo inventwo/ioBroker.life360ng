@@ -298,7 +298,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.4.0 (2026-05-07)
 - (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
 - (skvarel) Added configurable arrival delay (seconds) per MyPlace – `isPresent` is only set to `true` after the person has been inside the radius for the configured time; leaving sets it to `false` immediately
 - (skvarel) Added `locationName` delay for persons at MyPlaces: after the arrival delay `people.<id>.locationName` is set to the MyPlace name; on departure it is reset immediately to the Life360 location name
@@ -317,9 +317,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.2.2 (2026-05-03)
 - (skvarel) Modified map - Endpoint of the past days as a dot instead of a pin
-
-### 1.2.1 (2026-05-02)
-- (skvarel) Modified map pin with opacity and size
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
