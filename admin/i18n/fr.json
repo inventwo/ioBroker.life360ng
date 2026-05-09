@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Opacité de l'itinéraire",
 	"tracker_route_opacity_help": "Opacité de la ligne de routage (0,0 - 1,0)",
 	"tracker_route_weight": "Largeur de ligne (px)",
-	"tracker_route_weight_help": "Largeur de la ligne de route en pixels (1-10)"
+	"tracker_route_weight_help": "Largeur de la ligne de route en pixels (1-10)",
+	"section_tracker_places": "Lieux sur la carte",
+	"tracker_show_places": "Afficher les lieux Life360 comme drapeaux",
+	"tracker_places_color": "Couleur des drapeaux (lieux Life360)",
+	"tracker_places_flag_size": "Taille des drapeaux (lieux Life360)",
+	"tracker_show_myplaces": "Afficher les lieux personnels comme drapeaux",
+	"tracker_myplaces_color": "Couleur des drapeaux (lieux personnels)",
+	"tracker_myplaces_flag_size": "Taille des drapeaux (lieux personnels)"
 }

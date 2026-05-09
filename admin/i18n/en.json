@@ -69,5 +69,12 @@
 	"place_circle": "Assignment to a Life360 circle\n(optional)",
 	"place_isPresent_delay": "Presence delay\n(s, 0 = immediately)",
 	"prioritize_myplaces_locationname": "Prioritize My Places for locationName",
-	"prioritize_myplaces_locationname_help": "If enabled, a person's locationName is set to the My Place name while they are present. Otherwise the Life360 location name is used."
+	"prioritize_myplaces_locationname_help": "If enabled, a person's locationName is set to the My Place name while they are present. Otherwise the Life360 location name is used.",
+	"section_tracker_places": "Places in map",
+	"tracker_show_places": "Show Life360 places as flags",
+	"tracker_places_color": "Flag color (Life360 places)",
+	"tracker_places_flag_size": "Flag size (Life360 places)",
+	"tracker_show_myplaces": "Show own places as flags",
+	"tracker_myplaces_color": "Flag color (own places)",
+	"tracker_myplaces_flag_size": "Flag size (own places)"
 }

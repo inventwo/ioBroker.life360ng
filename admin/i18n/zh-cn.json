@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "路线不透明度",
 	"tracker_route_opacity_help": "路线的不透明度 (0.0 - 1.0)",
 	"tracker_route_weight": "线宽（像素）",
-	"tracker_route_weight_help": "路线的宽度（以像素为单位）(1-10)"
+	"tracker_route_weight_help": "路线的宽度（以像素为单位）(1-10)",
+	"section_tracker_places": "地图中的地点",
+	"tracker_show_places": "将Life360地点显示为旗帜",
+	"tracker_places_color": "旗帜颜色（Life360地点）",
+	"tracker_places_flag_size": "旗帜大小（Life360地点）",
+	"tracker_show_myplaces": "将自定义地点显示为旗帜",
+	"tracker_myplaces_color": "旗帜颜色（自定义地点）",
+	"tracker_myplaces_flag_size": "旗帜大小（自定义地点）"
 }

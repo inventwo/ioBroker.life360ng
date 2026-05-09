@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Route-ondoorzichtigheid",
 	"tracker_route_opacity_help": "Dekking van de routelijn (0,0 - 1,0)",
 	"tracker_route_weight": "Lijnbreedte (px)",
-	"tracker_route_weight_help": "Breedte van de routelijn in pixels (1-10)"
+	"tracker_route_weight_help": "Breedte van de routelijn in pixels (1-10)",
+	"section_tracker_places": "Plaatsen op de kaart",
+	"tracker_show_places": "Life360-plaatsen als vlag tonen",
+	"tracker_places_color": "Vlagkleur (Life360-plaatsen)",
+	"tracker_places_flag_size": "Vlaggrootte (Life360-plaatsen)",
+	"tracker_show_myplaces": "Eigen plaatsen als vlag tonen",
+	"tracker_myplaces_color": "Vlagkleur (eigen plaatsen)",
+	"tracker_myplaces_flag_size": "Vlaggrootte (eigen plaatsen)"
 }

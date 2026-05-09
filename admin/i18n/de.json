@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Deckkraft Route",
 	"tracker_route_opacity_help": "Deckkraft der Route (0.0 - 1.0)",
 	"tracker_route_weight": "Linienbreite (px)",
-	"tracker_route_weight_help": "Breite der Route in Pixel (1-10)"
+	"tracker_route_weight_help": "Breite der Route in Pixel (1-10)",
+	"section_tracker_places": "Orte in der Karte",
+	"tracker_show_places": "Life360-Orte als Flagge anzeigen",
+	"tracker_places_color": "Flaggenfarbe (Life360-Orte)",
+	"tracker_places_flag_size": "Flaggengröße (Life360-Orte)",
+	"tracker_show_myplaces": "Eigene Orte als Flagge anzeigen",
+	"tracker_myplaces_color": "Flaggenfarbe (Eigene Orte)",
+	"tracker_myplaces_flag_size": "Flaggengröße (Eigene Orte)"
 }

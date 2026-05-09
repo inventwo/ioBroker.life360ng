@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Nieprzezroczystość trasy",
 	"tracker_route_opacity_help": "Nieprzezroczystość linii trasy (0,0 - 1,0)",
 	"tracker_route_weight": "Szerokość linii (px)",
-	"tracker_route_weight_help": "Szerokość linii trasy w pikselach (1-10)"
+	"tracker_route_weight_help": "Szerokość linii trasy w pikselach (1-10)",
+	"section_tracker_places": "Miejsca na mapie",
+	"tracker_show_places": "Pokaż miejsca Life360 jako flagi",
+	"tracker_places_color": "Kolor flagi (miejsca Life360)",
+	"tracker_places_flag_size": "Rozmiar flagi (miejsca Life360)",
+	"tracker_show_myplaces": "Pokaż własne miejsca jako flagi",
+	"tracker_myplaces_color": "Kolor flagi (własne miejsca)",
+	"tracker_myplaces_flag_size": "Rozmiar flagi (własne miejsca)"
 }

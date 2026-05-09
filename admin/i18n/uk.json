@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Непрозорість маршруту",
 	"tracker_route_opacity_help": "Непрозорість лінії маршруту (0,0 - 1,0)",
 	"tracker_route_weight": "Ширина лінії (px)",
-	"tracker_route_weight_help": "Ширина лінії маршруту в пікселях (1-10)"
+	"tracker_route_weight_help": "Ширина лінії маршруту в пікселях (1-10)",
+	"section_tracker_places": "Місця на карті",
+	"tracker_show_places": "Показувати місця Life360 як прапори",
+	"tracker_places_color": "Колір прапора (місця Life360)",
+	"tracker_places_flag_size": "Розмір прапора (місця Life360)",
+	"tracker_show_myplaces": "Показувати власні місця як прапори",
+	"tracker_myplaces_color": "Колір прапора (власні місця)",
+	"tracker_myplaces_flag_size": "Розмір прапора (власні місця)"
 }

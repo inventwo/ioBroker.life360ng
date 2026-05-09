@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Непрозрачность маршрута",
 	"tracker_route_opacity_help": "Непрозрачность линии маршрута (0,0 – 1,0)",
 	"tracker_route_weight": "Толщина линии (пикселей)",
-	"tracker_route_weight_help": "Ширина линии маршрута в пикселях (1-10)"
+	"tracker_route_weight_help": "Ширина линии маршрута в пикселях (1-10)",
+	"section_tracker_places": "Места на карте",
+	"tracker_show_places": "Показывать места Life360 как флаги",
+	"tracker_places_color": "Цвет флага (места Life360)",
+	"tracker_places_flag_size": "Размер флага (места Life360)",
+	"tracker_show_myplaces": "Показывать собственные места как флаги",
+	"tracker_myplaces_color": "Цвет флага (собственные места)",
+	"tracker_myplaces_flag_size": "Размер флага (собственные места)"
 }

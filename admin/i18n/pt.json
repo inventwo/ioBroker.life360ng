@@ -69,5 +69,12 @@
 	"tracker_route_opacity": "Opacidade da rota",
 	"tracker_route_opacity_help": "Opacidade da linha de rota (0,0 - 1,0)",
 	"tracker_route_weight": "Largura da linha (px)",
-	"tracker_route_weight_help": "Largura da linha da rota em pixels (1-10)"
+	"tracker_route_weight_help": "Largura da linha da rota em pixels (1-10)",
+	"section_tracker_places": "Lugares no mapa",
+	"tracker_show_places": "Mostrar lugares Life360 como bandeiras",
+	"tracker_places_color": "Cor da bandeira (lugares Life360)",
+	"tracker_places_flag_size": "Tamanho da bandeira (lugares Life360)",
+	"tracker_show_myplaces": "Mostrar lugares próprios como bandeiras",
+	"tracker_myplaces_color": "Cor da bandeira (lugares próprios)",
+	"tracker_myplaces_flag_size": "Tamanho da bandeira (lugares próprios)"
 }
