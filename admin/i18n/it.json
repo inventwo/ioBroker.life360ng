@@ -51,8 +51,6 @@
     "tracker_enabled":  "Diario di bordo attivo - Controllo globale",
     "tracker_enabled_help":  "Può anche essere controllato tramite state tracker.config.enabled (ad esempio da CRON)",
     "tracker_info_txt":  "Le modifiche al colore diventano effettive automaticamente al successivo aggiornamento GPS. L\u0027URL della mappa può essere trovato sotto tracker.\u003cPerson\u003e.url nell\u0027albero degli oggetti.",
-    "tracker_map_legend":  "Mostra la legenda della mappa",
-    "tracker_map_legend_help":  "Visualizza una legenda nella parte inferiore della mappa",
     "tracker_map_size":  "Dimensioni della mappa nella legenda",
     "tracker_map_size_help":  "Visualizza la dimensione della mappa in KB nella legenda nella parte inferiore della mappa",
     "tracker_marker_opacity":  "Opacità del marcatore",

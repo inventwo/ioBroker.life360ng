@@ -51,8 +51,6 @@
     "tracker_enabled":  "Dziennik pokładowy aktywny – Kontrola globalna",
     "tracker_enabled_help":  "Może być również kontrolowany poprzez state tracker.config.enabled (np. przez CRON)",
     "tracker_info_txt":  "Zmiany kolorów zaczną obowiązywać automatycznie przy następnej aktualizacji GPS. Adres URL mapy można znaleźć pod tracker.\u003cPerson\u003e.url w drzewie obiektów.",
-    "tracker_map_legend":  "Pokaż legendę mapy",
-    "tracker_map_legend_help":  "Wyświetla legendę na dole mapy",
     "tracker_map_size":  "Rozmiar mapy w legendzie",
     "tracker_map_size_help":  "Wyświetla rozmiar mapy w KB w legendzie na dole mapy",
     "tracker_marker_opacity":  "Nieprzezroczystość znacznika",

@@ -51,8 +51,6 @@
     "tracker_enabled":  "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help":  "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
     "tracker_info_txt":  "Änderungen an der Konfiguration werden beim nächsten GPS-Update automatisch übernommen. Die Karten-URL ist unter tracker.\u003cPerson\u003e.url im Objektbaum zu finden.",
-    "tracker_map_legend":  "Karten-Legende anzeigen",
-    "tracker_map_legend_help":  "Zeigt eine Legende am unteren Rand der Karte an",
     "tracker_map_size":  "Kartengröße in der Legende",
     "tracker_map_size_help":  "Zeigt die Kartengröße in KB in der Legende am unteren Rand der Karte an",
     "tracker_marker_opacity":  "Deckkraft Marker",

@@ -51,8 +51,6 @@
     "tracker_enabled":  "Logbook active - Global control",
     "tracker_enabled_help":  "Can also be controlled via state tracker.config.enabled (e.g. by CRON)",
     "tracker_info_txt":  "Color changes take effect automatically on the next GPS update. The map URL can be found under tracker.\u003cPerson\u003e.url in the object tree.",
-    "tracker_map_legend":  "Show map legend",
-    "tracker_map_legend_help":  "Displays a legend at the bottom of the map",
     "tracker_map_size":  "Map size in legend",
     "tracker_map_size_help":  "Displays the map size in KB in the legend at the bottom of the map",
     "tracker_marker_opacity":  "Marker opacity",

@@ -51,8 +51,6 @@
     "tracker_enabled":  "Бортовий журнал активний - Глобальний контроль",
     "tracker_enabled_help":  "Також можна керувати через state tracker.config.enabled (наприклад, CRON)",
     "tracker_info_txt":  "Зміни кольору набувають чинності автоматично під час наступного оновлення GPS. URL-адресу карти можна знайти в tracker.\u003cPerson\u003e.url у дереві об’єктів.",
-    "tracker_map_legend":  "Показати легенду карти",
-    "tracker_map_legend_help":  "Відображає легенду внизу карти",
     "tracker_map_size":  "Розмір карти в легенді",
     "tracker_map_size_help":  "Відображає розмір карти в КБ у легенді внизу карти",
     "tracker_marker_opacity":  "Непрозорість маркера",

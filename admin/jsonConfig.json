@@ -490,20 +490,6 @@
                         "marginTop": "5px"
                     }
                 },
-                "tracker_map_legend": {
-                    "type": "checkbox",
-                    "label": "tracker_map_legend",
-                    "help": "tracker_map_legend_help",
-                    "newLine": false,
-                    "xs": 12,
-                    "sm": 6,
-                    "md": 4,
-                    "lg": 4,
-                    "xl": 4,
-                    "style": {
-                        "marginTop": "5px"
-                    }
-                },
                 "tracker_map_size": {
                     "type": "checkbox",
                     "label": "tracker_map_size",
