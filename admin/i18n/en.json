@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Flag size (Life360 places)",
 	"tracker_show_myplaces": "Show own places as flags",
 	"tracker_myplaces_color": "Flag color (own places)",
-	"tracker_myplaces_flag_size": "Flag size (own places)"
-
+	"tracker_myplaces_flag_size": "Flag size (own places)",
 	"tracker_circle_footer": "Show footer in circle map",
 	"tracker_circle_footer_help": "Shows or hides the footer (including legend) in the circle map",
 	"tracker_person_footer": "Show footer in person maps",

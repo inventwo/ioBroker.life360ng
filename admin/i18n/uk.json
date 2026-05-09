@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Розмір прапора (місця Life360)",
 	"tracker_show_myplaces": "Показувати власні місця як прапори",
 	"tracker_myplaces_color": "Колір прапора (власні місця)",
-	"tracker_myplaces_flag_size": "Розмір прапора (власні місця)"
-
+	"tracker_myplaces_flag_size": "Розмір прапора (власні місця)",
 	"tracker_circle_footer": "Показати нижній колонтитул на карті кола",
 	"tracker_circle_footer_help": "Показує або приховує нижній колонтитул (включно з легендою) на карті кола",
 	"tracker_person_footer": "Показати нижній колонтитул на картах осіб",

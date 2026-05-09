@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Vlaggrootte (Life360-plaatsen)",
 	"tracker_show_myplaces": "Eigen plaatsen als vlag tonen",
 	"tracker_myplaces_color": "Vlagkleur (eigen plaatsen)",
-	"tracker_myplaces_flag_size": "Vlaggrootte (eigen plaatsen)"
-
+	"tracker_myplaces_flag_size": "Vlaggrootte (eigen plaatsen)",
 	"tracker_circle_footer": "Voettekst weergeven in cirkelkaart",
 	"tracker_circle_footer_help": "Toont of verbergt de voettekst (inclusief legenda) in de cirkelkaart",
 	"tracker_person_footer": "Voettekst weergeven in persoonskaarten",

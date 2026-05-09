@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "旗帜大小（Life360地点）",
 	"tracker_show_myplaces": "将自定义地点显示为旗帜",
 	"tracker_myplaces_color": "旗帜颜色（自定义地点）",
-	"tracker_myplaces_flag_size": "旗帜大小（自定义地点）"
-
+	"tracker_myplaces_flag_size": "旗帜大小（自定义地点）",
 	"tracker_circle_footer": "在圆圈地图中显示页脚",
 	"tracker_circle_footer_help": "显示或隐藏圆圈地图中的页脚（包括图例）",
 	"tracker_person_footer": "在个人地图中显示页脚",

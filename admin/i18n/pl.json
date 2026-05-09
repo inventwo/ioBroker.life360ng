@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Rozmiar flagi (miejsca Life360)",
 	"tracker_show_myplaces": "Pokaż własne miejsca jako flagi",
 	"tracker_myplaces_color": "Kolor flagi (własne miejsca)",
-	"tracker_myplaces_flag_size": "Rozmiar flagi (własne miejsca)"
-
+	"tracker_myplaces_flag_size": "Rozmiar flagi (własne miejsca)",
 	"tracker_circle_footer": "Pokaż stopkę na mapie okręgu",
 	"tracker_circle_footer_help": "Pokazuje lub ukrywa stopkę (w tym legendę) na mapie okręgu",
 	"tracker_person_footer": "Pokaż stopkę na mapach osobowych",

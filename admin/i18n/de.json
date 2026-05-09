@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Flaggengröße (Life360-Orte)",
 	"tracker_show_myplaces": "Eigene Orte als Flagge anzeigen",
 	"tracker_myplaces_color": "Flaggenfarbe (Eigene Orte)",
-	"tracker_myplaces_flag_size": "Flaggengröße (Eigene Orte)"
-
+	"tracker_myplaces_flag_size": "Flaggengröße (Eigene Orte)",
 	"tracker_circle_footer": "Footer der Kreiskarte anzeigen",
 	"tracker_circle_footer_help": "Blendet den Footer (inkl. Legende) in der Kreiskarte ein oder aus",
 	"tracker_person_footer": "Footer der Personenkarte anzeigen",

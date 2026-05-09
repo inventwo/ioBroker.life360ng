@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Taille des drapeaux (lieux Life360)",
 	"tracker_show_myplaces": "Afficher les lieux personnels comme drapeaux",
 	"tracker_myplaces_color": "Couleur des drapeaux (lieux personnels)",
-	"tracker_myplaces_flag_size": "Taille des drapeaux (lieux personnels)"
-
+	"tracker_myplaces_flag_size": "Taille des drapeaux (lieux personnels)",
 	"tracker_circle_footer": "Afficher le pied de page dans la carte cercle",
 	"tracker_circle_footer_help": "Affiche ou masque le pied de page (y compris la légende) dans la carte cercle",
 	"tracker_person_footer": "Afficher le pied de page dans les cartes personnelles",

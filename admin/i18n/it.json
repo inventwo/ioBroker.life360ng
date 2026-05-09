@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Dimensione bandiera (luoghi Life360)",
 	"tracker_show_myplaces": "Mostra luoghi personali come bandiere",
 	"tracker_myplaces_color": "Colore bandiera (luoghi personali)",
-	"tracker_myplaces_flag_size": "Dimensione bandiera (luoghi personali)"
-
+	"tracker_myplaces_flag_size": "Dimensione bandiera (luoghi personali)",
 	"tracker_circle_footer": "Mostra il piè di pagina nella mappa circolare",
 	"tracker_circle_footer_help": "Mostra o nasconde il piè di pagina (inclusa la legenda) nella mappa circolare",
 	"tracker_person_footer": "Mostra il piè di pagina nelle mappe personali",

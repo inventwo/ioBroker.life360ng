@@ -76,8 +76,7 @@
 	"tracker_places_flag_size": "Tamanho da bandeira (lugares Life360)",
 	"tracker_show_myplaces": "Mostrar lugares próprios como bandeiras",
 	"tracker_myplaces_color": "Cor da bandeira (lugares próprios)",
-	"tracker_myplaces_flag_size": "Tamanho da bandeira (lugares próprios)"
-
+	"tracker_myplaces_flag_size": "Tamanho da bandeira (lugares próprios)",
 	"tracker_circle_footer": "Mostrar rodapé no mapa circular",
 	"tracker_circle_footer_help": "Mostra ou oculta o rodapé (incluindo a legenda) no mapa circular",
 	"tracker_person_footer": "Mostrar rodapé nos mapas de pessoa",
