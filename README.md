@@ -299,7 +299,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source
+- (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source 
 
 ### 1.4.0 (2026-05-07)
 - (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
