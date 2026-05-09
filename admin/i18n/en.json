@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Enable verbose logging",
 	"family_map_header_name": "Circle map header name (optional)",
 	"family_map_header_name_help": "If set, this name will be shown as the header in the Circle Map. Leave empty to use the circle name or default 'Circle'.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Show own places as flags",
 	"tracker_myplaces_color": "Flag color (own places)",
 	"tracker_myplaces_flag_size": "Flag size (own places)"
+
+	"tracker_circle_footer": "Show footer in circle map",
+	"tracker_circle_footer_help": "Shows or hides the footer (including legend) in the circle map",
+	"tracker_person_footer": "Show footer in person maps",
+	"tracker_person_footer_help": "Shows or hides the footer (including legend) in individual person maps"
 }

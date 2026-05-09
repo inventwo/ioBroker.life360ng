@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Schakel uitgebreide logboekregistratie in",
 	"family_map_header_name": "Naam cirkelkaartkop (optioneel)",
 	"family_map_header_name_help": "Indien ingesteld, wordt deze naam weergegeven als koptekst in de Circle Map. Laat leeg om de kringnaam of standaard 'Cirkel' te gebruiken.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Eigen plaatsen als vlag tonen",
 	"tracker_myplaces_color": "Vlagkleur (eigen plaatsen)",
 	"tracker_myplaces_flag_size": "Vlaggrootte (eigen plaatsen)"
+
+	"tracker_circle_footer": "Voettekst weergeven in cirkelkaart",
+	"tracker_circle_footer_help": "Toont of verbergt de voettekst (inclusief legenda) in de cirkelkaart",
+	"tracker_person_footer": "Voettekst weergeven in persoonskaarten",
+	"tracker_person_footer_help": "Toont of verbergt de voettekst (inclusief legenda) in individuele persoonskaarten"
 }

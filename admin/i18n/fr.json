@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Activer la journalisation détaillée",
 	"family_map_header_name": "Nom de l'en-tête de la carte circulaire (facultatif)",
 	"family_map_header_name_help": "S'il est défini, ce nom sera affiché comme en-tête dans la carte du cercle. Laissez vide pour utiliser le nom du cercle ou « Cercle » par défaut.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Afficher les lieux personnels comme drapeaux",
 	"tracker_myplaces_color": "Couleur des drapeaux (lieux personnels)",
 	"tracker_myplaces_flag_size": "Taille des drapeaux (lieux personnels)"
+
+	"tracker_circle_footer": "Afficher le pied de page dans la carte cercle",
+	"tracker_circle_footer_help": "Affiche ou masque le pied de page (y compris la légende) dans la carte cercle",
+	"tracker_person_footer": "Afficher le pied de page dans les cartes personnelles",
+	"tracker_person_footer_help": "Affiche ou masque le pied de page (y compris la légende) dans les cartes individuelles"
 }

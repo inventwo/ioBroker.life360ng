@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Włącz pełne rejestrowanie",
 	"family_map_header_name": "Nazwa nagłówka mapy okręgu (opcjonalnie)",
 	"family_map_header_name_help": "Jeśli jest ustawiona, ta nazwa będzie wyświetlana jako nagłówek na mapie okręgu. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Krąg”.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Pokaż własne miejsca jako flagi",
 	"tracker_myplaces_color": "Kolor flagi (własne miejsca)",
 	"tracker_myplaces_flag_size": "Rozmiar flagi (własne miejsca)"
+
+	"tracker_circle_footer": "Pokaż stopkę na mapie okręgu",
+	"tracker_circle_footer_help": "Pokazuje lub ukrywa stopkę (w tym legendę) na mapie okręgu",
+	"tracker_person_footer": "Pokaż stopkę na mapach osobowych",
+	"tracker_person_footer_help": "Pokazuje lub ukrywa stopkę (w tym legendę) na mapach indywidualnych"
 }

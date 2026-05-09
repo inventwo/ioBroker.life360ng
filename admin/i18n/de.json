@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Aktiviere hier die ausführliche Protokollierung",
 	"family_map_header_name": "Name der Kreiskarten-Kopfzeile (optional)",
 	"family_map_header_name_help": "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Kreiskarte angezeigt. Lassen das Feld leer, um den Kreisnamen aus der App oder die Standardeinstellung 'Circle' zu verwenden.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Eigene Orte als Flagge anzeigen",
 	"tracker_myplaces_color": "Flaggenfarbe (Eigene Orte)",
 	"tracker_myplaces_flag_size": "Flaggengröße (Eigene Orte)"
+
+	"tracker_circle_footer": "Footer der Kreiskarte anzeigen",
+	"tracker_circle_footer_help": "Blendet den Footer (inkl. Legende) in der Kreiskarte ein oder aus",
+	"tracker_person_footer": "Footer der Personenkarte anzeigen",
+	"tracker_person_footer_help": "Blendet den Footer (inkl. Legende) in den einzelnen Personenkarten ein oder aus"
 }

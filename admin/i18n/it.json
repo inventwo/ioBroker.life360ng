@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Abilita la registrazione dettagliata",
 	"family_map_header_name": "Nome dell'intestazione della mappa circolare (facoltativo)",
 	"family_map_header_name_help": "Se impostato, questo nome verrà mostrato come intestazione nella mappa circolare. Lascia vuoto per utilizzare il nome della cerchia o la \"Cerchia\" predefinita.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Mostra luoghi personali come bandiere",
 	"tracker_myplaces_color": "Colore bandiera (luoghi personali)",
 	"tracker_myplaces_flag_size": "Dimensione bandiera (luoghi personali)"
+
+	"tracker_circle_footer": "Mostra il piè di pagina nella mappa circolare",
+	"tracker_circle_footer_help": "Mostra o nasconde il piè di pagina (inclusa la legenda) nella mappa circolare",
+	"tracker_person_footer": "Mostra il piè di pagina nelle mappe personali",
+	"tracker_person_footer_help": "Mostra o nasconde il piè di pagina (inclusa la legenda) nelle mappe personali"
 }

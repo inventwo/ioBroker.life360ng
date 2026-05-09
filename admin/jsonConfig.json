@@ -460,6 +460,36 @@
                         "marginTop": "5px"
                     }
                 },
+                "tracker_person_footer": {
+                    "type": "checkbox",
+                    "label": "tracker_person_footer",
+                    "help": "tracker_person_footer_help",
+                    "default": true,
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 6,
+                    "md": 4,
+                    "lg": 4,
+                    "xl": 4,
+                    "style": {
+                        "marginTop": "5px"
+                    }
+                },
+                "tracker_circle_footer": {
+                    "type": "checkbox",
+                    "label": "tracker_circle_footer",
+                    "help": "tracker_circle_footer_help",
+                    "default": true,
+                    "newLine": false,
+                    "xs": 12,
+                    "sm": 6,
+                    "md": 4,
+                    "lg": 4,
+                    "xl": 4,
+                    "style": {
+                        "marginTop": "5px"
+                    }
+                },
                 "tracker_map_legend": {
                     "type": "checkbox",
                     "label": "tracker_map_legend",

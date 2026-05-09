@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "Habilitar el registro detallado",
 	"family_map_header_name": "Nombre del encabezado del mapa circular (opcional)",
 	"family_map_header_name_help": "Si se establece, este nombre se mostrará como encabezado en el Mapa circular. Déjelo vacío para usar el nombre del círculo o el 'Círculo' predeterminado.",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "Mostrar lugares propios como banderas",
 	"tracker_myplaces_color": "Color de bandera (lugares propios)",
 	"tracker_myplaces_flag_size": "Tamaño de bandera (lugares propios)"
+
+	"tracker_circle_footer": "Mostrar pie de página en el mapa circular",
+	"tracker_circle_footer_help": "Muestra u oculta el pie de página (incluida la leyenda) en el mapa circular",
+	"tracker_person_footer": "Mostrar pie de página en mapas de persona",
+	"tracker_person_footer_help": "Muestra u oculta el pie de página (incluida la leyenda) en los mapas de persona"
 }

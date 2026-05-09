@@ -1,4 +1,4 @@
-{
+﻿{
 	"debugging_verbose": "启用详细日志记录",
 	"family_map_header_name": "圆形地图标题名称（可选）",
 	"family_map_header_name_help": "如果设置，该名称将显示为圆形地图中的标题。留空以使用圈子名称或默认“圈子”。",
@@ -77,4 +77,9 @@
 	"tracker_show_myplaces": "将自定义地点显示为旗帜",
 	"tracker_myplaces_color": "旗帜颜色（自定义地点）",
 	"tracker_myplaces_flag_size": "旗帜大小（自定义地点）"
+
+	"tracker_circle_footer": "在圆圈地图中显示页脚",
+	"tracker_circle_footer_help": "显示或隐藏圆圈地图中的页脚（包括图例）",
+	"tracker_person_footer": "在个人地图中显示页脚",
+	"tracker_person_footer_help": "显示或隐藏个人地图中的页脚（包括图例）"
 }
