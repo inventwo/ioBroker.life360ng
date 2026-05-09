@@ -304,6 +304,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Map legend now hides automatically when the route checkbox is unchecked, on both person and circle maps
 - (skvarel) Removed the separate "Show map legend" checkbox – legend visibility is now controlled via the route checkbox
 - (skvarel) Moved map appearance settings (colors, markers, flags, layout) to a dedicated "Map Display" tab in admin config
+- (skvarel) Replaced header checkboxes with a hamburger menu (☰) on all tracker maps; Route, Places, Footer and Map Size are now toggleable directly in the map; footer and map-size preferences are stored per map in the browser
 
 ### 1.4.0 (2026-05-07)
 - (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
