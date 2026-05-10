@@ -11,9 +11,9 @@ The ioBroker life360ng adapter provides comprehensive logbook and map features f
 
 - **Individual maps for each person:** For every person with tracking enabled, a dedicated map is available showing traveled routes (GeoJSON-based) and the current position.
 - **Family map:** In addition, a family map displays the routes of all enabled persons together.
-- **Color customization:** Map colors and appearance (e.g., background, line width, opacity) can be individually adjusted via Config.
 - **Integrated datepicker:** The map HTML includes a calendar to select a specific day and display the route for that day.
 - **Flexible integration:** Maps can be opened directly in the browser or embedded as an iframe in visualizations (e.g., ioBroker VIS).
+- **Map appearance:** Colors, route style, place flags and layout are configured in the [Map Display](../en/mapdisplay.md) tab.
 
 All details on configuration and usage can be found below and in the adapter configuration.
 
@@ -34,20 +34,9 @@ The family map shows the routes of all enabled persons together on one map.
 - **Activation:** At least one person must have the `familyMap` option enabled in the tracker.
 - **Access:** The URL for the circle map is available at `life360ng.<instance>.tracker.circle.url`.
 
-### 3. Color Settings
-You can customize the map colors and route appearance. The settings are available at the adapter config:
+> All map appearance settings (colors, route style, place flags, layout) are found in the **[Map Display](../en/mapdisplay.md)** tab.
 
-- Background color of the map
-- Background color of the map header
-- Border color of the map header
-- Route line width (pixels)
-- Route opacity (0–1)
-- End-marker opacity (0–1): controls the transparency of the position pin on the map
-- Size of the end-marker (0-2): controls the size of the position pin on the map (0.5 = half, 1.0 = standard, 2.0 = double)
-
-**Note:** Changes to these values ​​will be applied to all cards after the set query interval.
-
-### 4. Datepicker
+### 3. Datepicker
 The map HTML includes a datepicker. You can use it to select a specific day and display the route for that day. By default, the current route is shown. The datepicker is especially useful for reviewing movements on particular days.
 
 **Note:** The appearance may vary depending on the browser used.

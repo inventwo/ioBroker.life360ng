@@ -8,6 +8,7 @@
 - [Meine Orte](../de/myplaces.md)
 - [Integration](../de/integration.md)
 - [Fahrtenbuch](../de/tracker.md)
+- [Kartendarstellung](../de/mapdisplay.md)
 - [Protokolle/Logging](../de/advanced.md)
 - [Hilfe](../de/help.md)
 

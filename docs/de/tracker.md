@@ -11,9 +11,9 @@ Der ioBroker life360ng Adapter bietet umfassende Fahrtenbuch- und Kartenfunktion
 
 - **Individuelle Karten für jede Person:** Für jede Person mit aktiviertem Tracking steht eine eigene Karte zur Verfügung, die die gefahrenen Routen (GeoJSON-basiert) und die aktuelle Position anzeigt.
 - **Familienkarte:** Zusätzlich gibt es eine Familienkarte, die die Routen aller aktivierten Personen gemeinsam darstellt.
-- **Farbanpassung:** Farben und Aussehen der Karten (z.B. Hintergrund, Linienbreite, Deckkraft) können über die Config individuell angepasst werden.
 - **Integrierter Datepicker:** Im Karten-HTML ist ein Kalender integriert, mit dem gezielt ein Tag ausgewählt werden kann, um die Route dieses Tages anzuzeigen.
 - **Flexible Einbindung:** Die Karten können direkt im Browser geöffnet oder als iframe in Visualisierungen (z.B. ioBroker VIS) eingebunden werden.
+- **Kartenaussehen:** Farben, Routenstil, Ortsmarkierungen und Layout werden im Tab [Kartendarstellung](../de/mapdisplay.md) konfiguriert.
 
 Alle Details zur Konfiguration und Nutzung findest du weiter unten und in der Adapter-Konfiguration.
 
@@ -34,20 +34,9 @@ Die Familienkarte zeigt die Routen aller aktivierten Personen gemeinsam auf eine
 - **Aktivierung:** Im Tracker muss bei mindestens einer Person die Option `familyMap` aktiviert sein.
 - **Zugriff:** Die URL zur Kreiskarte findest du unter `life360ng.<instanz>.tracker.circle.url`.
 
-### 3. Farbeinstellungen
-Die Kartenfarben und das Aussehen der Linien lassen sich individuell anpassen. Die Einstellungen findest du in der Adapter Config:
+> Alle Einstellungen zum Kartenaussehen (Farben, Routenstil, Ortsmarkierungen, Layout) befinden sich im Tab **[Kartendarstellung](../de/mapdisplay.md)**.
 
-- Hintergrundfarbe der Karte
-- Hintergrundfarbe des Kartenkopfs
-- Rahmenfarbe des Kartenkopfs
-- Linienbreite der Route (Pixel)
-- Deckkraft der Route (0–1)
-- Deckkraft des End-Markers (0–1): steuert die Transparenz des Positions-Pins auf der Karte
-- Größe des End-Marker (0-2): steuert die Größe des Positions-Pins auf der Karte (0.5 = halb, 1.0 = Standard, 2.0 = doppelt)
-
-**Hinweis:** Änderungen an diesen Werten werden nach dem eingestelltem Abfrageintervall auf alle Karten angewendet.
-
-### 4. Datepicker
+### 3. Datepicker
 Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag auswählen, um die Route für diesen Tag anzuzeigen. Standardmäßig wird die aktuelle Route angezeigt. Der Datepicker ist besonders hilfreich, um Bewegungen an bestimmten Tagen nachzuvollziehen.
 
 **Hinweis:** Die Optik kann ja nach verwendeten Browser variieren.

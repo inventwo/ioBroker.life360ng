@@ -8,6 +8,7 @@
 - [My Places](../en/myplaces.md)
 - [Integration](../en/integration.md)
 - [Logbook](../en/tracker.md)
+- [Map Display](../en/mapdisplay.md)
 - [Advanced](../en/advanced.md)
 - [Help](../en/help.md)
 

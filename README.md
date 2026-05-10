@@ -277,8 +277,7 @@ The map refreshes itself — no additional configuration needed.
 >- The full route history (`allTime.geojson`) grows continuously. At a 60 s poll interval and 20 m minimum distance, expect roughly **1 MB per person per year** — well within ioBroker's file storage limits.
 >- Use **Retention (days)** in the adapter config to automatically remove data older than a given number of days (0 = keep forever). Purging runs on every adapter start and once per day.
 >- To manually clear a person's recorded route data, enable the **"Clear rec."** checkbox in the persons table and save the config. The person's `allTime.geojson` is reduced to the last known point. Since the family map is built from the individual person data, it is automatically updated as well. The monthly GeoJSON files (`currentYear.MM`) are never affected.
->- Route colors per person are configured in the adapter settings (Tracker tab), not via the `tracker.config.color.*` states (those control the map appearance only).
->- Changing any `tracker.config.color.*` state triggers an **immediate re-render** of all maps — no adapter restart required.
+>- Route colors per person are configured in the adapter settings (Tracker tab).
 
 
 ## Support
@@ -304,6 +303,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
 - (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
 - (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
+- (skvarel) Added separate docs page for the Map Display tab (colors, route style, place flags, layout) in English and German; moved map appearance content out of the Logbook docs page
 
 ### 1.5.0 (2026-05-10)
 - (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source
