@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Minimale afstand (meter)",
     "tracker_min_distance_help":  "Pas nadat deze afstand is overschreden (5-500m) wordt een nieuw punt opgeslagen",
     "tracker_myplaces_color":  "Vlagkleur (eigen plaatsen)",
+    "tracker_myplaces_color_help":  "Kleur van de vlagmarkeringen voor eigen plaatsen",
     "tracker_myplaces_flag_opacity":  "Vlagdekking (eigen plaatsen)",
     "tracker_myplaces_flag_opacity_help":  "Dekking van de vlagmarkeringen voor eigen plaatsen (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_myplaces_flag_size":  "Vlaggrootte (eigen plaatsen)",
+    "tracker_myplaces_flag_size_help":  "Groottefactor voor de vlagmarkeringen (0.5 = half, 1.0 = standaard, 3.0 = drievoudig)",
     "tracker_person_clear_recordings":  "Opn. wissen",
     "tracker_person_color":  "Kleur",
     "tracker_person_enabled":  "Actief",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Naam",
     "tracker_person_own_map":  "Eigen kaart",
     "tracker_places_color":  "Vlagkleur (Life360-plaatsen)",
+    "tracker_places_color_help":  "Kleur van de vlagmarkeringen voor Life360-plaatsen",
     "tracker_places_flag_opacity":  "Vlagdekking (Life360-plaatsen)",
     "tracker_places_flag_opacity_help":  "Dekking van de vlagmarkeringen voor Life360-plaatsen (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_places_flag_size":  "Vlaggrootte (Life360-plaatsen)",
+    "tracker_places_flag_size_help":  "Groottefactor voor de vlagmarkeringen (0.5 = half, 1.0 = standaard, 3.0 = drievoudig)",
     "tracker_retention_days":  "Retentie (dagen)",
     "tracker_retention_days_help":  "Aantal dagen dat routegegevens worden bewaard. Oudere dagen worden elke dag automatisch verwijderd en bij het starten van de adapter. 0 = voor altijd behouden.",
     "tracker_route_opacity":  "Route-ondoorzichtigheid",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Lijnbreedte (px)",
     "tracker_route_weight_help":  "Breedte van de routelijn in pixels (1-10)",
     "tracker_show_myplaces":  "Eigen plaatsen als vlag tonen",
-    "tracker_show_places":  "Life360-plaatsen als vlag tonen"
+    "tracker_show_myplaces_help":  "Eigen plaatsen (Mijn Plaatsen) als vlagmarkeringen op alle kaarten weergeven",
+    "tracker_show_places":  "Life360-plaatsen als vlag tonen",
+    "tracker_show_places_help":  "Life360-cloudplaatsen als vlagmarkeringen op alle kaarten weergeven"
 }

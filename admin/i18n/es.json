@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Distancia mínima (metros)",
     "tracker_min_distance_help":  "Un nuevo punto se guarda sólo después de superar esta distancia (5-500 m)",
     "tracker_myplaces_color":  "Color de bandera (lugares propios)",
+    "tracker_myplaces_color_help":  "Color de las banderas para lugares propios",
     "tracker_myplaces_flag_opacity":  "Opacidad de bandera (lugares propios)",
     "tracker_myplaces_flag_opacity_help":  "Opacidad de las banderas de lugares propios (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_myplaces_flag_size":  "Tamaño de bandera (lugares propios)",
+    "tracker_myplaces_flag_size_help":  "Factor de tamaño para las banderas (0.5 = mitad, 1.0 = predeterminado, 3.0 = triple)",
     "tracker_person_clear_recordings":  "Borrar grab.",
     "tracker_person_color":  "Color",
     "tracker_person_enabled":  "Activo",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Nombre",
     "tracker_person_own_map":  "Mapa propio",
     "tracker_places_color":  "Color de bandera (lugares Life360)",
+    "tracker_places_color_help":  "Color de las banderas para lugares Life360",
     "tracker_places_flag_opacity":  "Opacidad de bandera (lugares Life360)",
     "tracker_places_flag_opacity_help":  "Opacidad de las banderas de lugares Life360 (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_places_flag_size":  "Tamaño de bandera (lugares Life360)",
+    "tracker_places_flag_size_help":  "Factor de tamaño para las banderas (0.5 = mitad, 1.0 = predeterminado, 3.0 = triple)",
     "tracker_retention_days":  "Retención (días)",
     "tracker_retention_days_help":  "Número de días para conservar los datos de la ruta. Los días más antiguos se eliminan automáticamente todos los días y al iniciar el adaptador. 0 = conservar para siempre.",
     "tracker_route_opacity":  "Opacidad de ruta",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Ancho de línea (px)",
     "tracker_route_weight_help":  "Ancho de la línea de ruta en píxeles (1-10)",
     "tracker_show_myplaces":  "Mostrar lugares propios como banderas",
-    "tracker_show_places":  "Mostrar lugares Life360 como banderas"
+    "tracker_show_myplaces_help":  "Mostrar lugares propios (Mis Lugares) como marcadores de bandera en todos los mapas",
+    "tracker_show_places":  "Mostrar lugares Life360 como banderas",
+    "tracker_show_places_help":  "Mostrar lugares de la nube Life360 como marcadores de bandera en todos los mapas"
 }

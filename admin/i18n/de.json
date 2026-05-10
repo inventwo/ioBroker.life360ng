@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Mindestabstand (Meter)",
     "tracker_min_distance_help":  "Neuer Punkt wird erst ab diesem Abstand gespeichert (5-500m)",
     "tracker_myplaces_color":  "Flaggenfarbe (Eigene Orte)",
+    "tracker_myplaces_color_help":  "Farbe der Flaggen-Marker für eigene Orte",
     "tracker_myplaces_flag_opacity":  "Deckkraft Flagge (Eigene Orte)",
     "tracker_myplaces_flag_opacity_help":  "Deckkraft der Flaggen-Marker für eigene Orte (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_myplaces_flag_size":  "Flaggengröße (Eigene Orte)",
+    "tracker_myplaces_flag_size_help":  "Größenfaktor der Flaggen (0.5 = halb, 1.0 = Standard, 3.0 = dreifach)",
     "tracker_person_clear_recordings":  "Aufz. löschen",
     "tracker_person_color":  "Farbe",
     "tracker_person_enabled":  "Aktiv",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Name",
     "tracker_person_own_map":  "Eigene Karte",
     "tracker_places_color":  "Flaggenfarbe (Life360-Orte)",
+    "tracker_places_color_help":  "Farbe der Flaggen-Marker für Life360-Orte",
     "tracker_places_flag_opacity":  "Deckkraft Flagge (Life360-Orte)",
     "tracker_places_flag_opacity_help":  "Deckkraft der Flaggen-Marker für Life360-Orte (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_places_flag_size":  "Flaggengröße (Life360-Orte)",
+    "tracker_places_flag_size_help":  "Größenfaktor der Flaggen (0.5 = halb, 1.0 = Standard, 3.0 = dreifach)",
     "tracker_retention_days":  "Aufbewahrung (Tage)",
     "tracker_retention_days_help":  "Anzahl der Tage, die Routendaten aufbewahrt werden. Ältere Tage werden täglich und beim Adapterstart automatisch entfernt. 0 = unbegrenzt.",
     "tracker_route_opacity":  "Deckkraft Route",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Linienbreite (px)",
     "tracker_route_weight_help":  "Breite der Route in Pixel (1-10)",
     "tracker_show_myplaces":  "Eigene Orte als Flagge anzeigen",
-    "tracker_show_places":  "Life360-Orte als Flagge anzeigen"
+    "tracker_show_myplaces_help":  "Eigene Orte (Meine Orte) als Flaggen-Marker auf allen Tracker-Karten anzeigen",
+    "tracker_show_places":  "Life360-Orte als Flagge anzeigen",
+    "tracker_show_places_help":  "Life360-Cloud-Orte als Flaggen-Marker auf allen Tracker-Karten anzeigen"
 }

@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Мінімальна відстань (метри)",
     "tracker_min_distance_help":  "Нова точка зберігається тільки після перевищення цієї відстані (5-500 м)",
     "tracker_myplaces_color":  "Колір прапора (власні місця)",
+    "tracker_myplaces_color_help":  "Колір маркерів-прапорів для власних місць",
     "tracker_myplaces_flag_opacity":  "Прозорість прапора (власні місця)",
     "tracker_myplaces_flag_opacity_help":  "Прозорість маркерів-прапорів для власних місць (0,0 = прозорий, 1,0 = повністю видимий)",
     "tracker_myplaces_flag_size":  "Розмір прапора (власні місця)",
+    "tracker_myplaces_flag_size_help":  "Коефіцієнт розміру маркерів-прапорів (0.5 = половина, 1.0 = за замовчуванням, 3.0 = потрійний)",
     "tracker_person_clear_recordings":  "Очист. зап.",
     "tracker_person_color":  "Колір",
     "tracker_person_enabled":  "Активний",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Ім\u0027я",
     "tracker_person_own_map":  "Власна карта",
     "tracker_places_color":  "Колір прапора (місця Life360)",
+    "tracker_places_color_help":  "Колір маркерів-прапорів для місць Life360",
     "tracker_places_flag_opacity":  "Прозорість прапора (місця Life360)",
     "tracker_places_flag_opacity_help":  "Прозорість маркерів-прапорів для місць Life360 (0,0 = прозорий, 1,0 = повністю видимий)",
     "tracker_places_flag_size":  "Розмір прапора (місця Life360)",
+    "tracker_places_flag_size_help":  "Коефіцієнт розміру маркерів-прапорів (0.5 = половина, 1.0 = за замовчуванням, 3.0 = потрійний)",
     "tracker_retention_days":  "Зберігання (днів)",
     "tracker_retention_days_help":  "Кількість днів для зберігання даних маршруту. Старіші дні видаляються автоматично щодня та після запуску адаптера. 0 = зберігати назавжди.",
     "tracker_route_opacity":  "Непрозорість маршруту",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Ширина лінії (px)",
     "tracker_route_weight_help":  "Ширина лінії маршруту в пікселях (1-10)",
     "tracker_show_myplaces":  "Показувати власні місця як прапори",
-    "tracker_show_places":  "Показувати місця Life360 як прапори"
+    "tracker_show_myplaces_help":  "Показувати власні місця (Мої місця) як маркери-прапори на всіх картах",
+    "tracker_show_places":  "Показувати місця Life360 як прапори",
+    "tracker_show_places_help":  "Показувати місця хмари Life360 як маркери-прапори на всіх картах"
 }

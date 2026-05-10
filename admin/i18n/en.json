@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Minimum distance (meters)",
     "tracker_min_distance_help":  "A new point is saved only after this distance has been exceeded (5-500m)",
     "tracker_myplaces_color":  "Flag color (own places)",
+    "tracker_myplaces_color_help":  "Color of the flag markers for own places",
     "tracker_myplaces_flag_opacity":  "Flag opacity (own places)",
     "tracker_myplaces_flag_opacity_help":  "Opacity of the flag markers for own places (0.0 = transparent, 1.0 = fully visible)",
     "tracker_myplaces_flag_size":  "Flag size (own places)",
+    "tracker_myplaces_flag_size_help":  "Size factor for the flag markers (0.5 = half, 1.0 = default, 3.0 = triple)",
     "tracker_person_clear_recordings":  "Clear rec.",
     "tracker_person_color":  "Color",
     "tracker_person_enabled":  "Active",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Name",
     "tracker_person_own_map":  "Own map",
     "tracker_places_color":  "Flag color (Life360 places)",
+    "tracker_places_color_help":  "Color of the flag markers for Life360 places",
     "tracker_places_flag_opacity":  "Flag opacity (Life360 places)",
     "tracker_places_flag_opacity_help":  "Opacity of the flag markers for Life360 places (0.0 = transparent, 1.0 = fully visible)",
     "tracker_places_flag_size":  "Flag size (Life360 places)",
+    "tracker_places_flag_size_help":  "Size factor for the flag markers (0.5 = half, 1.0 = default, 3.0 = triple)",
     "tracker_retention_days":  "Retention (days)",
     "tracker_retention_days_help":  "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
     "tracker_route_opacity":  "Route opacity",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Line width (px)",
     "tracker_route_weight_help":  "Width of the route line in pixels (1-10)",
     "tracker_show_myplaces":  "Show own places as flags",
-    "tracker_show_places":  "Show Life360 places as flags"
+    "tracker_show_myplaces_help":  "Show custom places (My Places) as flag markers on all tracker maps",
+    "tracker_show_places":  "Show Life360 places as flags",
+    "tracker_show_places_help":  "Show Life360 cloud places as flag markers on all tracker maps"
 }

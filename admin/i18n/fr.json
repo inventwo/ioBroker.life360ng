@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Distance minimale (mètres)",
     "tracker_min_distance_help":  "Un nouveau point n\u0027est enregistré qu\u0027après avoir dépassé cette distance (5-500m)",
     "tracker_myplaces_color":  "Couleur des drapeaux (lieux personnels)",
+    "tracker_myplaces_color_help":  "Couleur des marqueurs de drapeau pour les lieux personnels",
     "tracker_myplaces_flag_opacity":  "Opacité des drapeaux (lieux personnels)",
     "tracker_myplaces_flag_opacity_help":  "Opacité des marqueurs de drapeau pour les lieux personnels (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_myplaces_flag_size":  "Taille des drapeaux (lieux personnels)",
+    "tracker_myplaces_flag_size_help":  "Facteur de taille pour les marqueurs de drapeau (0.5 = moitié, 1.0 = par défaut, 3.0 = triple)",
     "tracker_person_clear_recordings":  "Eff. enreg.",
     "tracker_person_color":  "Couleur",
     "tracker_person_enabled":  "Actif",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Nom",
     "tracker_person_own_map":  "Carte propre",
     "tracker_places_color":  "Couleur des drapeaux (lieux Life360)",
+    "tracker_places_color_help":  "Couleur des marqueurs de drapeau pour les lieux Life360",
     "tracker_places_flag_opacity":  "Opacité des drapeaux (lieux Life360)",
     "tracker_places_flag_opacity_help":  "Opacité des marqueurs de drapeau pour les lieux Life360 (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_places_flag_size":  "Taille des drapeaux (lieux Life360)",
+    "tracker_places_flag_size_help":  "Facteur de taille pour les marqueurs de drapeau (0.5 = moitié, 1.0 = par défaut, 3.0 = triple)",
     "tracker_retention_days":  "Rétention (jours)",
     "tracker_retention_days_help":  "Nombre de jours pendant lesquels conserver les données d\u0027itinéraire. Les jours les plus anciens sont automatiquement supprimés chaque jour et au démarrage de l\u0027adaptateur. 0 = conserver pour toujours.",
     "tracker_route_opacity":  "Opacité de l\u0027itinéraire",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Largeur de ligne (px)",
     "tracker_route_weight_help":  "Largeur de la ligne de route en pixels (1-10)",
     "tracker_show_myplaces":  "Afficher les lieux personnels comme drapeaux",
-    "tracker_show_places":  "Afficher les lieux Life360 comme drapeaux"
+    "tracker_show_myplaces_help":  "Afficher les lieux personnels (Mes Lieux) comme marqueurs de drapeau sur toutes les cartes",
+    "tracker_show_places":  "Afficher les lieux Life360 comme drapeaux",
+    "tracker_show_places_help":  "Afficher les lieux cloud Life360 comme marqueurs de drapeau sur toutes les cartes"
 }

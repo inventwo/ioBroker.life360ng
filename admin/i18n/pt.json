@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Distância mínima (metros)",
     "tracker_min_distance_help":  "Um novo ponto é salvo somente após esta distância ter sido ultrapassada (5-500m)",
     "tracker_myplaces_color":  "Cor da bandeira (lugares próprios)",
+    "tracker_myplaces_color_help":  "Cor dos marcadores de bandeira para lugares próprios",
     "tracker_myplaces_flag_opacity":  "Opacidade da bandeira (lugares próprios)",
     "tracker_myplaces_flag_opacity_help":  "Opacidade dos marcadores de bandeira para lugares próprios (0,0 = transparente, 1,0 = totalmente visível)",
     "tracker_myplaces_flag_size":  "Tamanho da bandeira (lugares próprios)",
+    "tracker_myplaces_flag_size_help":  "Fator de tamanho para os marcadores de bandeira (0.5 = metade, 1.0 = padrão, 3.0 = triplo)",
     "tracker_person_clear_recordings":  "Limpar grav.",
     "tracker_person_color":  "Cor",
     "tracker_person_enabled":  "Ativo",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Nome",
     "tracker_person_own_map":  "Mapa próprio",
     "tracker_places_color":  "Cor da bandeira (lugares Life360)",
+    "tracker_places_color_help":  "Cor dos marcadores de bandeira para lugares Life360",
     "tracker_places_flag_opacity":  "Opacidade da bandeira (lugares Life360)",
     "tracker_places_flag_opacity_help":  "Opacidade dos marcadores de bandeira para lugares Life360 (0,0 = transparente, 1,0 = totalmente visível)",
     "tracker_places_flag_size":  "Tamanho da bandeira (lugares Life360)",
+    "tracker_places_flag_size_help":  "Fator de tamanho para os marcadores de bandeira (0.5 = metade, 1.0 = padrão, 3.0 = triplo)",
     "tracker_retention_days":  "Retenção (dias)",
     "tracker_retention_days_help":  "Número de dias para manter os dados da rota. Os dias mais antigos são removidos automaticamente todos os dias e na inicialização do adaptador. 0 = manter para sempre.",
     "tracker_route_opacity":  "Opacidade da rota",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Largura da linha (px)",
     "tracker_route_weight_help":  "Largura da linha da rota em pixels (1-10)",
     "tracker_show_myplaces":  "Mostrar lugares próprios como bandeiras",
-    "tracker_show_places":  "Mostrar lugares Life360 como bandeiras"
+    "tracker_show_myplaces_help":  "Mostrar lugares próprios (Meus Lugares) como marcadores de bandeira em todos os mapas",
+    "tracker_show_places":  "Mostrar lugares Life360 como bandeiras",
+    "tracker_show_places_help":  "Mostrar lugares da nuvem Life360 como marcadores de bandeira em todos os mapas"
 }

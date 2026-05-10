@@ -61,9 +61,11 @@
     "tracker_min_distance":  "Distanza minima (metri)",
     "tracker_min_distance_help":  "Un nuovo punto viene salvato solo dopo aver superato questa distanza (5-500 m)",
     "tracker_myplaces_color":  "Colore bandiera (luoghi personali)",
+    "tracker_myplaces_color_help":  "Colore dei marcatori bandiera per i luoghi personali",
     "tracker_myplaces_flag_opacity":  "Opacità bandiera (luoghi personali)",
     "tracker_myplaces_flag_opacity_help":  "Opacità dei marcatori bandiera per i luoghi personali (0,0 = trasparente, 1,0 = completamente visibile)",
     "tracker_myplaces_flag_size":  "Dimensione bandiera (luoghi personali)",
+    "tracker_myplaces_flag_size_help":  "Fattore di dimensione per i marcatori bandiera (0.5 = metà, 1.0 = predefinito, 3.0 = triplo)",
     "tracker_person_clear_recordings":  "Canc. reg.",
     "tracker_person_color":  "Colore",
     "tracker_person_enabled":  "Attivo",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "Nome",
     "tracker_person_own_map":  "Mappa propria",
     "tracker_places_color":  "Colore bandiera (luoghi Life360)",
+    "tracker_places_color_help":  "Colore dei marcatori bandiera per i luoghi Life360",
     "tracker_places_flag_opacity":  "Opacità bandiera (luoghi Life360)",
     "tracker_places_flag_opacity_help":  "Opacità dei marcatori bandiera per i luoghi Life360 (0,0 = trasparente, 1,0 = completamente visibile)",
     "tracker_places_flag_size":  "Dimensione bandiera (luoghi Life360)",
+    "tracker_places_flag_size_help":  "Fattore di dimensione per i marcatori bandiera (0.5 = metà, 1.0 = predefinito, 3.0 = triplo)",
     "tracker_retention_days":  "Conservazione (giorni)",
     "tracker_retention_days_help":  "Numero di giorni per cui conservare i dati del percorso. I giorni precedenti vengono rimossi automaticamente ogni giorno e all\u0027avvio dell\u0027adattatore. 0 = conserva per sempre.",
     "tracker_route_opacity":  "Opacità del percorso",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "Larghezza della linea (px)",
     "tracker_route_weight_help":  "Larghezza della linea del percorso in pixel (1-10)",
     "tracker_show_myplaces":  "Mostra luoghi personali come bandiere",
-    "tracker_show_places":  "Mostra luoghi Life360 come bandiere"
+    "tracker_show_myplaces_help":  "Mostra i luoghi personali (I Miei Luoghi) come marcatori bandiera su tutte le mappe",
+    "tracker_show_places":  "Mostra luoghi Life360 come bandiere",
+    "tracker_show_places_help":  "Mostra i luoghi cloud Life360 come marcatori bandiera su tutte le mappe"
 }

@@ -61,9 +61,11 @@
     "tracker_min_distance":  "最小距离（米）",
     "tracker_min_distance_help":  "仅当超过此距离 (5-500m) 后才会保存新点",
     "tracker_myplaces_color":  "旗帜颜色（自定义地点）",
+    "tracker_myplaces_color_help":  "自定义地点旗帜标记的颜色",
     "tracker_myplaces_flag_opacity":  "旗帜不透明度（自定义地点）",
     "tracker_myplaces_flag_opacity_help":  "自定义地点旗帜标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_myplaces_flag_size":  "旗帜大小（自定义地点）",
+    "tracker_myplaces_flag_size_help":  "旗帜标记的大小系数（0.5 = 一半，1.0 = 默认，3.0 = 三倍）",
     "tracker_person_clear_recordings":  "清除记录",
     "tracker_person_color":  "颜色",
     "tracker_person_enabled":  "启用",
@@ -71,9 +73,11 @@
     "tracker_person_name":  "姓名",
     "tracker_person_own_map":  "个人地图",
     "tracker_places_color":  "旗帜颜色（Life360地点）",
+    "tracker_places_color_help":  "Life360地点旗帜标记的颜色",
     "tracker_places_flag_opacity":  "旗帜不透明度（Life360地点）",
     "tracker_places_flag_opacity_help":  "Life360地点旗帜标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_places_flag_size":  "旗帜大小（Life360地点）",
+    "tracker_places_flag_size_help":  "旗帜标记的大小系数（0.5 = 一半，1.0 = 默认，3.0 = 三倍）",
     "tracker_retention_days":  "保留（天）",
     "tracker_retention_days_help":  "保留路线数据的天数。每天以及在适配器启动时都会自动删除较早的日期。 0 = 永久保留。",
     "tracker_route_opacity":  "路线不透明度",
@@ -81,5 +85,7 @@
     "tracker_route_weight":  "线宽（像素）",
     "tracker_route_weight_help":  "路线的宽度（以像素为单位）(1-10)",
     "tracker_show_myplaces":  "将自定义地点显示为旗帜",
-    "tracker_show_places":  "将Life360地点显示为旗帜"
+    "tracker_show_myplaces_help":  "在所有地图上将自定义地点（我的地点）显示为旗帜标记",
+    "tracker_show_places":  "将Life360地点显示为旗帜",
+    "tracker_show_places_help":  "在所有地图上将Life360云端地点显示为旗帜标记"
 }
