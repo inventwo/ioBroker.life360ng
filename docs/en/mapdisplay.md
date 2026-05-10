@@ -35,6 +35,7 @@ Flag markers can be shown on the map for Life360 places and your own custom plac
 | Show Life360 places as flags | Enable/disable flag markers for Life360 cloud places |
 | Flag color (Life360 places) | Color of the flag markers |
 | Flag size (Life360 places) | Size factor for the flag markers (0.5–3.0) |
+| Flag opacity (Life360 places) | Transparency of the flag markers (0.0 = invisible, 1.0 = fully visible) |
 
 ### Own Places (My Places)
 
@@ -43,6 +44,7 @@ Flag markers can be shown on the map for Life360 places and your own custom plac
 | Show own places as flags | Enable/disable flag markers for custom My Places |
 | Flag color (own places) | Color of the flag markers |
 | Flag size (own places) | Size factor for the flag markers (0.5–3.0) |
+| Flag opacity (own places) | Transparency of the flag markers (0.0 = invisible, 1.0 = fully visible) |
 
 ---
 

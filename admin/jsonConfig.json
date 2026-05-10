@@ -512,6 +512,21 @@
                             "lg": 4,
                             "xl": 4
                         },
+                        "tracker_places_flag_opacity": {
+                            "type": "number",
+                            "label": "tracker_places_flag_opacity",
+                            "help": "tracker_places_flag_opacity_help",
+                            "default": 1,
+                            "placeholder": 1,
+                            "min": 0,
+                            "max": 1,
+                            "step": 0.05,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4
+                        },
                         "tracker_show_myplaces": {
                             "type": "checkbox",
                             "label": "tracker_show_myplaces",
@@ -539,6 +554,21 @@
                             "min": 0.5,
                             "max": 3,
                             "step": 0.1,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4
+                        },
+                        "tracker_myplaces_flag_opacity": {
+                            "type": "number",
+                            "label": "tracker_myplaces_flag_opacity",
+                            "help": "tracker_myplaces_flag_opacity_help",
+                            "default": 1,
+                            "placeholder": 1,
+                            "min": 0,
+                            "max": 1,
+                            "step": 0.05,
                             "xs": 12,
                             "sm": 6,
                             "md": 4,

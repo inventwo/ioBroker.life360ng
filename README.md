@@ -225,6 +225,7 @@ Open this URL in any browser. The map auto-refreshes at the configured polling i
 - **Start / end markers** — clearly marks the first and last position of the day
 - **Auto-refresh** — the page reloads automatically (polling interval + 10 s)
 - **Family map** — all enabled persons on one combined map with legend
+- **Flag markers** — Life360 places and own custom places (My Places) can be shown as flag markers on the map, each with configurable color, size, and opacity (0.0 = invisible, 1.0 = fully visible)
 
 #### Single Map Features
 
@@ -299,6 +300,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added configurable opacity for flag markers (Life360 places and own places)
+
 ### 1.5.1 (2026-05-10)
 - (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
 - (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)

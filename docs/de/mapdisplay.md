@@ -35,6 +35,7 @@ Für Life360-Orte und eigene Orte (Meine Orte) können Flaggen-Marker auf der Ka
 | Life360-Orte als Flagge anzeigen | Flaggen-Marker für Life360-Cloud-Orte ein-/ausschalten |
 | Flaggenfarbe (Life360-Orte) | Farbe der Flaggen-Marker |
 | Flaggengröße (Life360-Orte) | Größenfaktor der Flaggen (0.5–3.0) |
+| Deckkraft Flagge (Life360-Orte) | Transparenz der Flaggen (0.0 = unsichtbar, 1.0 = voll sichtbar) |
 
 ### Eigene Orte (Meine Orte)
 
@@ -43,6 +44,7 @@ Für Life360-Orte und eigene Orte (Meine Orte) können Flaggen-Marker auf der Ka
 | Eigene Orte als Flagge anzeigen | Flaggen-Marker für eigene Meine-Orte ein-/ausschalten |
 | Flaggenfarbe (Eigene Orte) | Farbe der Flaggen-Marker |
 | Flaggengröße (Eigene Orte) | Größenfaktor der Flaggen (0.5–3.0) |
+| Deckkraft Flagge (Eigene Orte) | Transparenz der Flaggen (0.0 = unsichtbar, 1.0 = voll sichtbar) |
 
 ---
 
