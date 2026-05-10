@@ -393,6 +393,7 @@
                         "tracker_color_page_bg": {
                             "type": "color",
                             "label": "tracker_color_page_bg",
+                            "help": "tracker_color_page_bg_help",
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
@@ -403,6 +404,7 @@
                         "tracker_color_header_bg": {
                             "type": "color",
                             "label": "tracker_color_header_bg",
+                            "help": "tracker_color_header_bg_help",
                             "xs": 12,
                             "sm": 6,
                             "md": 4,
@@ -412,6 +414,7 @@
                         "tracker_color_header_border": {
                             "type": "color",
                             "label": "tracker_color_header_border",
+                            "help": "tracker_color_header_border_help",
                             "xs": 12,
                             "sm": 6,
                             "md": 4,
@@ -482,6 +485,7 @@
                         "tracker_show_places": {
                             "type": "checkbox",
                             "label": "tracker_show_places",
+                            "help": "tracker_show_places_help",
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
@@ -492,6 +496,7 @@
                         "tracker_places_color": {
                             "type": "color",
                             "label": "tracker_places_color",
+                            "help": "tracker_places_color_help",
                             "default": "#db8158",
                             "xs": 12,
                             "sm": 6,
@@ -502,6 +507,7 @@
                         "tracker_places_flag_size": {
                             "type": "number",
                             "label": "tracker_places_flag_size",
+                            "help": "tracker_places_flag_size_help",
                             "default": 1,
                             "min": 0.5,
                             "max": 3,
@@ -530,6 +536,7 @@
                         "tracker_show_myplaces": {
                             "type": "checkbox",
                             "label": "tracker_show_myplaces",
+                            "help": "tracker_show_myplaces_help",
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
@@ -540,6 +547,7 @@
                         "tracker_myplaces_color": {
                             "type": "color",
                             "label": "tracker_myplaces_color",
+                            "help": "tracker_myplaces_color_help",
                             "default": "#996a53",
                             "xs": 12,
                             "sm": 6,
@@ -550,6 +558,7 @@
                         "tracker_myplaces_flag_size": {
                             "type": "number",
                             "label": "tracker_myplaces_flag_size",
+                            "help": "tracker_myplaces_flag_size_help",
                             "default": 1,
                             "min": 0.5,
                             "max": 3,
