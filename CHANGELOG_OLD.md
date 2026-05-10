@@ -1,4 +1,8 @@
 # Older changes
+## 1.3.0 (2026-05-04)
+- (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
+- (skvarel) Switched HTML maps to bilingual - english and german
+
 ## 1.2.3 (2026-05-03)
 - (skvarel) Fixed circle map header name
 

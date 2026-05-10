@@ -300,7 +300,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.5.2 (2026-05-10)
 - (skvarel) Added configurable opacity for flag markers (Life360 places and own places)
 
 ### 1.5.1 (2026-05-10)
@@ -326,10 +326,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.3.1 (2026-05-04)
 - (skvarel) Added option to deactivate/activate map size in the footer at config
-
-### 1.3.0 (2026-05-04)
-- (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
-- (skvarel) Switched HTML maps to bilingual - english and german
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

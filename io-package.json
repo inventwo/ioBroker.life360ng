@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "news": {
+      "1.5.2": {
+        "en": "Added configurable opacity for flag markers (Life360 places and own places)",
+        "de": "Konfigurierbare Opazität für Flaggenmarker hinzugefügt (Life360 Plätze und eigene Plätze)",
+        "ru": "Добавлена настраиваемая непрозрачность для маркеров флага (Life360 мест и собственных мест)",
+        "pt": "Opacidade configurável adicionada para marcadores de bandeira (Life360 lugares e lugares próprios)",
+        "nl": "Configureerbare dekking toegevoegd voor vlagmarkers (Life360 plaatsen en eigen plaatsen)",
+        "fr": "Ajout d'opacité configurable pour les marqueurs de drapeau (Life360 places et propres places)",
+        "it": "Aggiunto opacità configurabile per marcatori di bandiera (Life360 posti e posti propri)",
+        "es": "Añadido opacidad configurable para marcadores de bandera (Life360 lugares y lugares propios)",
+        "pl": "Dodano konfigurowalną nieprzezroczystość znaczników flag (miejsca Life360 i własne)",
+        "uk": "Додано налаштування для знаків прапорів (Life360 місць і власних місць)",
+        "zh-cn": "为旗标添加可配置的不透明(Life360位和自有位置)"
+      },
       "1.5.1": {
         "en": "Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly\nFixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)\nAdded documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)\nAdded separate docs page for the Map Display tab (colors, route style, place flags, layout) in English and German; moved map appearance content out of the Logbook docs page",
         "de": "Extrahierte geteilte Karte JS und CSS aus HTML-Tracker-Dateien in statische Dateien, die einmal vom Web-Adapter bedient werden, wodurch die Größe jeder GPS-Update-HTML-Datei deutlich reduziert wird\nBehobene JSDoc-Typ Warnungen durch aktualisierte ESLint config (jsdoc/reject-any-Typ, jsdoc/reject-function-type)\nDokumentation zum Speicherort für Trackerdatei (Admin → Dateien → life360ng.<instance>/tracker/)\nHinzugefügt separaten Docs-Seite für die Karte Anzeige Tab (Farben, Route Stil, Ort Fahnen, Layout) in Englisch und Deutsch; bewegte Kartenauftritt Inhalt aus der Logbook Docs Seite",
@@ -80,19 +93,6 @@
         "pl": "Poprawiona nazwa nagłówka mapy okręgu",
         "uk": "Фіксоване коло ім'я заголовка",
         "zh-cn": "固定圆形地图头名称"
-      },
-      "1.2.2": {
-        "en": "Modified map - Endpoint of the past days as a dot instead of a pin",
-        "de": "Geänderte Karte - Endpunkt der letzten Tage als Punkt anstelle eines Stiftes",
-        "ru": "Модифицированная карта - конечная точка прошлых дней как точка вместо булавки",
-        "pt": "Mapa modificado - Ponto final dos últimos dias como um ponto em vez de um pino",
-        "nl": "Gewijzigde kaart - Eindpunt van de afgelopen dagen als punt in plaats van een pin",
-        "fr": "Carte modifiée - Point d'arrivée des derniers jours comme point au lieu d'une broche",
-        "it": "Mappa modificata - Fine dei giorni passati come punto invece di un perno",
-        "es": "Mapa modificado - Endpoint of the past days as a dot instead of a pin",
-        "pl": "Zmodyfikowana mapa - Punkt końcowy ostatnich dni jako kropka zamiast szpilki",
-        "uk": "Модифікована карта - Кінцева точка минулих днів як точка замість шпильки",
-        "zh-cn": "修改地图 - 过去几天作为点而不是针的终点"
       }
     },
     "titleLang": {
