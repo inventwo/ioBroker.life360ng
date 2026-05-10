@@ -55,6 +55,8 @@ Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag 
 ---
 **Tipp:** Die Karten können direkt im Browser geöffnet oder in Visualisierungen (z.B. ioBroker VIS als iframe) eingebunden werden.
 
+> Die generierten HTML-, CSS- und JS-Dateien werden im ioBroker-Dateisystem gespeichert und können unter **Admin → Dateien → `life360ng.<instanz>/tracker/`** eingesehen oder verwaltet werden.
+
 ---
 
 ## Erklärungen zu dem Punkten und Pins auf den Karten

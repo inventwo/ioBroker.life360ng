@@ -213,6 +213,8 @@ The URL format is:
 Open this URL in any browser. The map auto-refreshes at the configured polling interval.
 
 > **Note:** The tracker maps are served by the [ioBroker web adapter](https://github.com/ioBroker/ioBroker.web). Make sure it is installed and running. The `urlLocal` state is automatically built from the server's IP address and the web adapter port (default: 8082).
+>
+> The generated HTML, CSS, and JS files are stored in the ioBroker file system and can be viewed under **Admin → Files → `life360ng.<instance>/tracker/`**.
 
 
 #### Map Features
@@ -300,6 +302,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 ### **WORK IN PROGRESS**
 - (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
+- (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
+- (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
 
 ### 1.5.0 (2026-05-10)
 - (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source

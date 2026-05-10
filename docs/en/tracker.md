@@ -55,6 +55,8 @@ The map HTML includes a datepicker. You can use it to select a specific day and 
 ---
 **Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).
 
+> The generated HTML, CSS, and JS files are stored in the ioBroker file system. You can view or manage them under **Admin → Files → `life360ng.<instance>/tracker/`**.
+
 ---
 
 ## Explanations of the points and pins on the maps
