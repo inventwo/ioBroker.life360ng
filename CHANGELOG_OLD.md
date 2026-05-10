@@ -1,4 +1,7 @@
 # Older changes
+## 1.2.2 (2026-05-03)
+- (skvarel) Modified map - Endpoint of the past days as a dot instead of a pin
+
 ## 1.2.1 (2026-05-02)
 - (skvarel) Modified map pin with opacity and size
 
