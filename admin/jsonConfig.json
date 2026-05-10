@@ -485,9 +485,9 @@
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_places_color": {
                             "type": "color",
@@ -495,9 +495,9 @@
                             "default": "#db8158",
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_places_flag_size": {
                             "type": "number",
@@ -508,9 +508,9 @@
                             "step": 0.1,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_places_flag_opacity": {
                             "type": "number",
@@ -523,9 +523,9 @@
                             "step": 0.05,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_show_myplaces": {
                             "type": "checkbox",
@@ -533,9 +533,9 @@
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_myplaces_color": {
                             "type": "color",
@@ -543,9 +543,9 @@
                             "default": "#996a53",
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_myplaces_flag_size": {
                             "type": "number",
@@ -556,9 +556,9 @@
                             "step": 0.1,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         },
                         "tracker_myplaces_flag_opacity": {
                             "type": "number",
@@ -571,9 +571,9 @@
                             "step": 0.05,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         }
                     }
                 },
