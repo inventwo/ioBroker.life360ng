@@ -299,7 +299,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.5.1 (2026-05-10)
 - (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
 - (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
 - (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
@@ -326,9 +326,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### 1.3.0 (2026-05-04)
 - (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
 - (skvarel) Switched HTML maps to bilingual - english and german
-
-### 1.2.3 (2026-05-03)
-- (skvarel) Fixed circle map header name
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
