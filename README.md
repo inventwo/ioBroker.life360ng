@@ -300,7 +300,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 ### **WORK IN PROGRESS**
 - (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source
-- (skvarel) Added footer visibility toggle per map type (person map / circle map) in admin config
 - (skvarel) Map legend now hides automatically when the route checkbox is unchecked, on both person and circle maps
 - (skvarel) Removed the separate "Show map legend" checkbox – legend visibility is now controlled via the route checkbox
 - (skvarel) Moved map appearance settings (colors, markers, flags, layout) to a dedicated "Map Display" tab in admin config
