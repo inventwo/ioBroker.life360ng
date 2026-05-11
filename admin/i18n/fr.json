@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Couleur de fond de la page de la carte",
     "tracker_enabled":  "Journal de bord actif - Contrôle global",
     "tracker_enabled_help":  "Peut également être contrôlé via state tracker.config.enabled (par exemple par CRON)",
-    "tracker_info_txt":  "Les modifications sont appliquées immédiatement sur le serveur après l\u0027enregistrement et les cartes sont régénérées. La mise à jour sera visible dans le navigateur lors du prochain rechargement automatique ou immédiatement en rechargeant la page manuellement (F5). L\u0027URL de la carte se trouve sous tracker.\u003cPerson\u003e.url dans l\u0027arborescence des objets.",
+    "tracker_info_txt":  "Les modifications sont appliquées immédiatement sur le serveur après l\u0027enregistrement et les cartes sont régénérées.\n\nLa mise à jour sera visible dans le navigateur lors du prochain rechargement automatique ou immédiatement en rechargeant la page manuellement (F5). L\u0027URL de la carte se trouve sous tracker.\u003cPerson\u003e.url dans l\u0027arborescence des objets.",
     "tracker_marker_opacity":  "Opacité du marqueur",
     "tracker_marker_opacity_help":  "Opacité du marqueur de position (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_marker_size":  "Taille du marqueur",

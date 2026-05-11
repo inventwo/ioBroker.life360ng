@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "地图页面的背景颜色",
     "tracker_enabled":  "日志激活 - 全局控制",
     "tracker_enabled_help":  "也可以通过状态 tracker.config.enabled 进行控制（例如通过 CRON）",
-    "tracker_info_txt":  "保存后更改立即在服务器上生效并重新生成地图。浏览器中的更新将在下次自动刷新时显示，或通过手动刷新页面（F5）立即显示。地图 URL 可以在对象树中的 tracker.\u003cPerson\u003e.url 下找到。",
+    "tracker_info_txt":  "保存后更改立即在服务器上生效并重新生成地图。\n\n浏览器中的更新将在下次自动刷新时显示，或通过手动刷新页面（F5）立即显示。地图 URL 可以在对象树中的 tracker.\u003cPerson\u003e.url 下找到。",
     "tracker_marker_opacity":  "标记不透明度",
     "tracker_marker_opacity_help":  "位置标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_marker_size":  "标记尺寸",
