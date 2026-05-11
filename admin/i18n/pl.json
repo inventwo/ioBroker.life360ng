@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Kolor tła strony mapy",
     "tracker_enabled":  "Dziennik pokładowy aktywny – Kontrola globalna",
     "tracker_enabled_help":  "Może być również kontrolowany poprzez state tracker.config.enabled (np. przez CRON)",
-    "tracker_info_txt":  "Zmiany kolorów zaczną obowiązywać automatycznie przy następnej aktualizacji GPS. Adres URL mapy można znaleźć pod tracker.\u003cPerson\u003e.url w drzewie obiektów.",
+    "tracker_info_txt":  "Zmiany są stosowane natychmiast na serwerze po zapisaniu, a mapy są ponownie generowane. Aktualizacja będzie widoczna w przeglądarce przy następnym automatycznym odświeżeniu lub natychmiast po ręcznym odświeżeniu strony (F5). Adres URL mapy można znaleźć pod tracker.\u003cPerson\u003e.url w drzewie obiektów.",
     "tracker_marker_opacity":  "Nieprzezroczystość znacznika",
     "tracker_marker_opacity_help":  "Nieprzezroczystość znacznika pozycji (0,0 = przezroczysty, 1,0 = całkowicie widoczny)",
     "tracker_marker_size":  "Rozmiar znacznika",

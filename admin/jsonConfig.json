@@ -404,6 +404,21 @@
             "label": "tab_tracker_display",
             "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTcuNSwxMkExLjUsMS41IDAgMCwxIDE2LDEwLjVBMS41LDEuNSAwIDAsMSAxNy41LDlBMS41LDEuNSAwIDAsMSAxOSwxMC41QTEuNSwxLjUgMCAwLDEgMTcuNSwxMk0xNC41LDhBMS41LDEuNSAwIDAsMSAxMyw2LjVBMS41LDEuNSAwIDAsMSAxNC41LDVBMS41LDEuNSAwIDAsMSAxNiw2LjVBMS41LDEuNSAwIDAsMSAxNC41LDhNOS41LDhBMS41LDEuNSAwIDAsMSA4LDYuNUExLjUsMS41IDAgMCwxIDkuNSw1QTEuNSwxLjUgMCAwLDEgMTEsNi41QTEuNSwxLjUgMCAwLDEgOS41LDhNNi41LDEyQTEuNSwxLjUgMCAwLDEgNSwxMC41QTEuNSwxLjUgMCAwLDEgNi41LDlBMS41LDEuNSAwIDAsMSA4LDEwLjVBMS41LDEuNSAwIDAsMSA2LjUsMTJNMTIsM0E5LDkgMCAwLDAgMywxMkE5LDkgMCAwLDAgMTIsMjFBMS41LDEuNSAwIDAsMCAxMy41LDE5LjVDMTMuNSwxOS4xMSAxMy4zNSwxOC43NiAxMy4xMSwxOC41QzEyLjg4LDE4LjIzIDEyLjczLDE3Ljg4IDEyLjczLDE3LjVBMS41LDEuNSAwIDAsMSAxNC4yMywxNkgxNkE1LDUgMCAwLDAgMjEsMTFDMjEsNi41OCAxNi45NywzIDEyLDNaIi8+PC9zdmc+",
             "items": {
+                "_trackerDisplayInfo": {
+                    "type": "staticText",
+                    "text": "tracker_info_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem",
+                        "whiteSpace": "pre-wrap",
+                        "marginTop": "8px"
+                    }
+                },
                 "_trackerColors": {
                     "type": "panel",
                     "label": "section_tracker_colors",

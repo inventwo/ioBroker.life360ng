@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Background color of the map page",
     "tracker_enabled":  "Logbook active - Global control",
     "tracker_enabled_help":  "Can also be controlled via state tracker.config.enabled (e.g. by CRON)",
-    "tracker_info_txt":  "Color changes take effect automatically on the next GPS update. The map URL can be found under tracker.\u003cPerson\u003e.url in the object tree.",
+    "tracker_info_txt":  "Changes are applied immediately on the server after saving and the maps are regenerated. The update becomes visible in the browser on the next automatic reload or immediately by manually reloading the page (F5). The map URL can be found under tracker.\u003cPerson\u003e.url in the object tree.",
     "tracker_marker_opacity":  "Marker opacity",
     "tracker_marker_opacity_help":  "Opacity of the position marker (0.0 = transparent, 1.0 = fully visible)",
     "tracker_marker_size":  "Marker size",

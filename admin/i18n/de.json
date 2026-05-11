@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Hintergrundfarbe der Kartenseite",
     "tracker_enabled":  "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help":  "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
-    "tracker_info_txt":  "Änderungen an der Konfiguration werden beim nächsten GPS-Update automatisch übernommen. Die Karten-URL ist unter tracker.\u003cPerson\u003e.url im Objektbaum zu finden.",
+    "tracker_info_txt":  "Änderungen werden nach dem Speichern sofort auf dem Server übernommen und die Karten neu generiert. Im Browser wird die Änderung beim nächsten automatischen Reload sichtbar oder sofort durch manuelles Neuladen der Seite (F5). Die Karten-URL ist unter tracker.\u003cPerson\u003e.url im Objektbaum zu finden.",
     "tracker_marker_opacity":  "Deckkraft Marker",
     "tracker_marker_opacity_help":  "Deckkraft des Positionsmarkers (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_marker_size":  "Marker Größe",
