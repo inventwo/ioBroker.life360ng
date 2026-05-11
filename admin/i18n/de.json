@@ -83,7 +83,7 @@
     "tracker_retention_days":  "Aufbewahrung (Tage)",
     "tracker_retention_days_help":  "Anzahl der Tage, die Routendaten aufbewahrt werden. Ältere Tage werden täglich und beim Adapterstart automatisch entfernt. 0 = unbegrenzt.",
     "tracker_default_days":  "Standardanzeige (Tage)",
-    "tracker_default_days_help":  "Anzahl der Tage, die beim Öffnen der Karte standardmäßig angezeigt werden. 1 = nur heute, 2 = heute + gestern, usw. Das zuletzt manuell gewählte Startdatum wird pro Karte gespeichert.",
+    "tracker_default_days_help":  "Anzahl der Tage, die beim Öffnen der Karte standardmäßig angezeigt werden. 1 = nur heute, 2 = heute + gestern, usw. Das Startdatum wird bei jedem Öffnen der Karte auf diesen Wert zurückgesetzt.",
     "tracker_route_opacity":  "Deckkraft Route",
     "tracker_route_opacity_help":  "Deckkraft der Route (0.0 - 1.0)",
     "tracker_route_weight":  "Linienbreite (px)",

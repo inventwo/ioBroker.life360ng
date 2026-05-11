@@ -51,7 +51,7 @@ Under **General → Default view (days)** you can configure how many days are sh
 | 2 | Today and yesterday |
 | N | Today and the N−1 previous days |
 
-The last manually selected start date is saved per map in the browser and persists across sessions. Manually changing the datepicker overrides the default until the browser data is cleared.
+Every time the map is opened, the start date is set to today minus (N−1) days based on the configured value. Manually adjusting the datepicker changes the view for the current session only.
 
 ---
 **Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).

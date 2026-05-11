@@ -83,7 +83,7 @@
     "tracker_retention_days":  "Retention (days)",
     "tracker_retention_days_help":  "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
     "tracker_default_days":  "Default view (days)",
-    "tracker_default_days_help":  "Number of days shown by default when opening the map. 1 = today only, 2 = today + yesterday, etc. The last manually set start date is remembered per map.",
+    "tracker_default_days_help":  "Number of days shown by default when opening the map. 1 = today only, 2 = today + yesterday, etc. The start date resets to this value every time the map is opened.",
     "tracker_route_opacity":  "Route opacity",
     "tracker_route_opacity_help":  "Opacity of the route line (0.0 - 1.0)",
     "tracker_route_weight":  "Line width (px)",
