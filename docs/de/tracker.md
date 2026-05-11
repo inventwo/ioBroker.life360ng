@@ -41,6 +41,18 @@ Im Karten-HTML ist ein Datepicker integriert. Damit kannst du gezielt einen Tag 
 
 **Hinweis:** Die Optik kann ja nach verwendeten Browser variieren.
 
+#### Standardanzeige (Zeitraum)
+
+Unter **Allgemein → Standardanzeige (Tage)** kannst du festlegen, wie viele Tage beim Öffnen der Karte standardmäßig angezeigt werden.
+
+| Wert | Effekt |
+|---|---|
+| 1 (Standard) | Nur die Route des aktuellen Tages |
+| 2 | Heute und gestern |
+| N | Heute und die N−1 vorherigen Tage |
+
+Das zuletzt manuell gewählte Startdatum wird pro Karte im Browser gespeichert und bleibt auch nach dem Schließen erhalten. Eine manuelle Änderung des Datepickers überschreibt den Standard, bis die Browserdaten geleert werden.
+
 ---
 **Tipp:** Die Karten können direkt im Browser geöffnet oder in Visualisierungen (z.B. ioBroker VIS als iframe) eingebunden werden.
 

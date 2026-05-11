@@ -41,6 +41,18 @@ The map HTML includes a datepicker. You can use it to select a specific day and 
 
 **Note:** The appearance may vary depending on the browser used.
 
+#### Default View Range
+
+Under **General → Default view (days)** you can configure how many days are shown by default when the map is opened.
+
+| Value | Effect |
+|---|---|
+| 1 (default) | Only today's route is shown |
+| 2 | Today and yesterday |
+| N | Today and the N−1 previous days |
+
+The last manually selected start date is saved per map in the browser and persists across sessions. Manually changing the datepicker overrides the default until the browser data is cleared.
+
 ---
 **Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).
 

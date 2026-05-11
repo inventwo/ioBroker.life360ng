@@ -8,6 +8,7 @@
 [![NPM Version](https://nodei.co/npm/iobroker.life360ng.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360ng)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
 
+
 [![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
 
 
@@ -307,6 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Reduced popup size (smaller font and padding) for a less dominant appearance
 - (skvarel) Added configurable popup opacity in the Map Display settings (default: 1.0)
 - (skvarel) Active day highlight and open popups are restored after auto-refresh
+- (skvarel) Added configurable default view range for the date picker; the map opens showing the last N days by default; the chosen start date persists per map across browser sessions
 
 ### 1.5.2 (2026-05-10)
 - (skvarel) Added configurable opacity for flag markers (Life360 places and own places)

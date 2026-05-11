@@ -283,6 +283,25 @@
                             "style": {
                                 "marginTop": "8px"
                             }
+                        },
+                        "tracker_default_days": {
+                            "type": "number",
+                            "label": "tracker_default_days",
+                            "help": "tracker_default_days_help",
+                            "default": 1,
+                            "placeholder": "1",
+                            "min": 1,
+                            "max": 365,
+                            "step": 1,
+                            "newLine": false,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4,
+                            "style": {
+                                "marginTop": "8px"
+                            }
                         }
                     }
                 },

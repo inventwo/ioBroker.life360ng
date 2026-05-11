@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "Przezroczystość popupów mapy (0.0 = przezroczysty, 1.0 = w pełni widoczny)",
     "tracker_retention_days":  "Przechowywanie (dni)",
     "tracker_retention_days_help":  "Liczba dni przechowywania danych trasy. Starsze dni są usuwane automatycznie każdego dnia i przy uruchomieniu adaptera. 0 = zachowaj na zawsze.",
+    "tracker_default_days":  "Widok domyślny (dni)",
+    "tracker_default_days_help":  "Liczba dni wyświetlanych domyślnie po otwarciu mapy. 1 = tylko dziś, 2 = dziś + wczoraj, itp. Ostatnio ręcznie ustawiona data początkowa jest pamiętana per mapa.",
     "tracker_route_opacity":  "Nieprzezroczystość trasy",
     "tracker_route_opacity_help":  "Nieprzezroczystość linii trasy (0,0 - 1,0)",
     "tracker_route_weight":  "Szerokość linii (px)",

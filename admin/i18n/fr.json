@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "Opacité des fenêtres contextuelles de la carte (0.0 = transparent, 1.0 = totalement visible)",
     "tracker_retention_days":  "Rétention (jours)",
     "tracker_retention_days_help":  "Nombre de jours pendant lesquels conserver les données d\u0027itinéraire. Les jours les plus anciens sont automatiquement supprimés chaque jour et au démarrage de l\u0027adaptateur. 0 = conserver pour toujours.",
+    "tracker_default_days":  "Vue par défaut (jours)",
+    "tracker_default_days_help":  "Nombre de jours affichés par défaut à l\u0027ouverture de la carte. 1 = aujourd\u0027hui seulement, 2 = aujourd\u0027hui + hier, etc. La dernière date de début sélectionnée manuellement est mémorisée par carte.",
     "tracker_route_opacity":  "Opacité de l\u0027itinéraire",
     "tracker_route_opacity_help":  "Opacité de la ligne de routage (0,0 - 1,0)",
     "tracker_route_weight":  "Largeur de ligne (px)",

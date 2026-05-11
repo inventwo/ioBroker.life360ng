@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "Opacità dei popup della mappa (0.0 = trasparente, 1.0 = completamente visibile)",
     "tracker_retention_days":  "Conservazione (giorni)",
     "tracker_retention_days_help":  "Numero di giorni per cui conservare i dati del percorso. I giorni precedenti vengono rimossi automaticamente ogni giorno e all\u0027avvio dell\u0027adattatore. 0 = conserva per sempre.",
+    "tracker_default_days":  "Vista predefinita (giorni)",
+    "tracker_default_days_help":  "Numero di giorni mostrati per impostazione predefinita all\u0027apertura della mappa. 1 = solo oggi, 2 = oggi + ieri, ecc. L\u0027ultima data di inizio impostata manualmente viene ricordata per mappa.",
     "tracker_route_opacity":  "Opacità del percorso",
     "tracker_route_opacity_help":  "Opacità della linea del percorso (0,0 - 1,0)",
     "tracker_route_weight":  "Larghezza della linea (px)",

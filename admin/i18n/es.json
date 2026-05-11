@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "Opacidad de las ventanas emergentes del mapa (0.0 = transparente, 1.0 = totalmente visible)",
     "tracker_retention_days":  "Retención (días)",
     "tracker_retention_days_help":  "Número de días para conservar los datos de la ruta. Los días más antiguos se eliminan automáticamente todos los días y al iniciar el adaptador. 0 = conservar para siempre.",
+    "tracker_default_days":  "Vista predeterminada (días)",
+    "tracker_default_days_help":  "Número de días mostrados por defecto al abrir el mapa. 1 = solo hoy, 2 = hoy + ayer, etc. La última fecha de inicio seleccionada manualmente se recuerda por mapa.",
     "tracker_route_opacity":  "Opacidad de ruta",
     "tracker_route_opacity_help":  "Opacidad de la línea de ruta (0,0 - 1,0)",
     "tracker_route_weight":  "Ancho de línea (px)",

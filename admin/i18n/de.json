@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "Deckkraft der Karten-Popups (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_retention_days":  "Aufbewahrung (Tage)",
     "tracker_retention_days_help":  "Anzahl der Tage, die Routendaten aufbewahrt werden. Ältere Tage werden täglich und beim Adapterstart automatisch entfernt. 0 = unbegrenzt.",
+    "tracker_default_days":  "Standardanzeige (Tage)",
+    "tracker_default_days_help":  "Anzahl der Tage, die beim Öffnen der Karte standardmäßig angezeigt werden. 1 = nur heute, 2 = heute + gestern, usw. Das zuletzt manuell gewählte Startdatum wird pro Karte gespeichert.",
     "tracker_route_opacity":  "Deckkraft Route",
     "tracker_route_opacity_help":  "Deckkraft der Route (0.0 - 1.0)",
     "tracker_route_weight":  "Linienbreite (px)",

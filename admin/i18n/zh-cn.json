@@ -82,6 +82,8 @@
     "tracker_popup_opacity_help":  "地图弹窗的透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_retention_days":  "保留（天）",
     "tracker_retention_days_help":  "保留路线数据的天数。每天以及在适配器启动时都会自动删除较早的日期。 0 = 永久保留。",
+    "tracker_default_days":  "默认显示（天数）",
+    "tracker_default_days_help":  "打开地图时默认显示的天数。1 = 仅今天，2 = 今天+昨天，以此类推。每张地图会记住最后手动设置的开始日期。",
     "tracker_route_opacity":  "路线不透明度",
     "tracker_route_opacity_help":  "路线的不透明度 (0.0 - 1.0)",
     "tracker_route_weight":  "线宽（像素）",
