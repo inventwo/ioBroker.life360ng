@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Life360地点旗帜标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_places_flag_size":  "旗帜大小（Life360地点）",
     "tracker_places_flag_size_help":  "旗帜标记的大小系数（0.5 = 一半，1.0 = 默认，3.0 = 三倍）",
+    "tracker_popup_opacity":  "弹窗透明度",
+    "tracker_popup_opacity_help":  "地图弹窗的透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_retention_days":  "保留（天）",
     "tracker_retention_days_help":  "保留路线数据的天数。每天以及在适配器启动时都会自动删除较早的日期。 0 = 永久保留。",
     "tracker_route_opacity":  "路线不透明度",

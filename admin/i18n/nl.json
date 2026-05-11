@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Dekking van de vlagmarkeringen voor Life360-plaatsen (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_places_flag_size":  "Vlaggrootte (Life360-plaatsen)",
     "tracker_places_flag_size_help":  "Groottefactor voor de vlagmarkeringen (0.5 = half, 1.0 = standaard, 3.0 = drievoudig)",
+    "tracker_popup_opacity":  "Popup-dekking",
+    "tracker_popup_opacity_help":  "Dekking van de kaartpopups (0.0 = transparant, 1.0 = volledig zichtbaar)",
     "tracker_retention_days":  "Retentie (dagen)",
     "tracker_retention_days_help":  "Aantal dagen dat routegegevens worden bewaard. Oudere dagen worden elke dag automatisch verwijderd en bij het starten van de adapter. 0 = voor altijd behouden.",
     "tracker_route_opacity":  "Route-ondoorzichtigheid",

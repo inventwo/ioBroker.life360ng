@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Deckkraft der Flaggen-Marker für Life360-Orte (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_places_flag_size":  "Flaggengröße (Life360-Orte)",
     "tracker_places_flag_size_help":  "Größenfaktor der Flaggen (0.5 = halb, 1.0 = Standard, 3.0 = dreifach)",
+    "tracker_popup_opacity":  "Deckkraft Popup",
+    "tracker_popup_opacity_help":  "Deckkraft der Karten-Popups (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_retention_days":  "Aufbewahrung (Tage)",
     "tracker_retention_days_help":  "Anzahl der Tage, die Routendaten aufbewahrt werden. Ältere Tage werden täglich und beim Adapterstart automatisch entfernt. 0 = unbegrenzt.",
     "tracker_route_opacity":  "Deckkraft Route",

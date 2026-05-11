@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Opacity of the flag markers for Life360 places (0.0 = transparent, 1.0 = fully visible)",
     "tracker_places_flag_size":  "Flag size (Life360 places)",
     "tracker_places_flag_size_help":  "Size factor for the flag markers (0.5 = half, 1.0 = default, 3.0 = triple)",
+    "tracker_popup_opacity":  "Popup opacity",
+    "tracker_popup_opacity_help":  "Opacity of map popups (0.0 = transparent, 1.0 = fully visible)",
     "tracker_retention_days":  "Retention (days)",
     "tracker_retention_days_help":  "Number of days to keep route data. Older days are removed automatically every day and on adapter start. 0 = keep forever.",
     "tracker_route_opacity":  "Route opacity",

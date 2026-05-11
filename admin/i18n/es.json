@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Opacidad de las banderas de lugares Life360 (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_places_flag_size":  "Tamaño de bandera (lugares Life360)",
     "tracker_places_flag_size_help":  "Factor de tamaño para las banderas (0.5 = mitad, 1.0 = predeterminado, 3.0 = triple)",
+    "tracker_popup_opacity":  "Opacidad del popup",
+    "tracker_popup_opacity_help":  "Opacidad de las ventanas emergentes del mapa (0.0 = transparente, 1.0 = totalmente visible)",
     "tracker_retention_days":  "Retención (días)",
     "tracker_retention_days_help":  "Número de días para conservar los datos de la ruta. Los días más antiguos se eliminan automáticamente todos los días y al iniciar el adaptador. 0 = conservar para siempre.",
     "tracker_route_opacity":  "Opacidad de ruta",

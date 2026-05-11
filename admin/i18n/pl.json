@@ -78,6 +78,8 @@
     "tracker_places_flag_opacity_help":  "Przezroczystość znaczników flagi dla miejsc Life360 (0,0 = przezroczysty, 1,0 = całkowicie widoczny)",
     "tracker_places_flag_size":  "Rozmiar flagi (miejsca Life360)",
     "tracker_places_flag_size_help":  "Współczynnik wielkości znaczników flagi (0.5 = połowa, 1.0 = domyślny, 3.0 = potrójny)",
+    "tracker_popup_opacity":  "Przezroczystość popupów",
+    "tracker_popup_opacity_help":  "Przezroczystość popupów mapy (0.0 = przezroczysty, 1.0 = w pełni widoczny)",
     "tracker_retention_days":  "Przechowywanie (dni)",
     "tracker_retention_days_help":  "Liczba dni przechowywania danych trasy. Starsze dni są usuwane automatycznie każdego dnia i przy uruchomieniu adaptera. 0 = zachowaj na zawsze.",
     "tracker_route_opacity":  "Nieprzezroczystość trasy",
