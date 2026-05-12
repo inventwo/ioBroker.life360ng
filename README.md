@@ -301,7 +301,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS** 
+### 1.6.0 (2026-05-12) 
 
 - (skvarel) Added refresh button to the hamburger menu
 - (skvarel) Clicking a route point in multi-day view now highlights the active day (thicker line, full opacity) while other days fade into the background; all timestamps for the selected day open simultaneously; clicking the map background or the same point again resets the view
@@ -334,9 +334,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Added `locationName` delay for persons at MyPlaces: after the arrival delay `people.<id>.locationName` is set to the MyPlace name; on departure it is reset immediately to the Life360 location name
 - (skvarel) Added option to prioritize My Places name for `locationName` over the Life360 location name (configurable checkbox in My Places tab)
 - (skvarel) Added language-dependent documentation link in the Help tab of the admin config
-
-### 1.3.1 (2026-05-04)
-- (skvarel) Added option to deactivate/activate map size in the footer at config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)

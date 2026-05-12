@@ -1,4 +1,7 @@
 # Older changes
+## 1.3.1 (2026-05-04)
+- (skvarel) Added option to deactivate/activate map size in the footer at config
+
 ## 1.3.0 (2026-05-04)
 - (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
 - (skvarel) Switched HTML maps to bilingual - english and german
