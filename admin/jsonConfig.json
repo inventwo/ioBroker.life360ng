@@ -251,7 +251,11 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginTop": "8px"
+                                "marginTop": "8px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #ffffff",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
                             }
                         }
                     }
@@ -416,7 +420,11 @@
                     "style": {
                         "fontSize": "0.875rem",
                         "whiteSpace": "pre-wrap",
-                        "marginTop": "8px"
+                        "marginTop": "8px",
+                        "padding": "10px 14px",
+                        "border": "1px solid #ffffff",
+                        "borderRadius": "6px",
+                        "backgroundColor": "rgba(0, 0, 0, 0.08)"
                     }
                 },
                 "_trackerColors": {
@@ -508,23 +516,11 @@
                             "md": 3,
                             "lg": 3,
                             "xl": 3
-                        },
-                        "tracker_popup_opacity": {
-                            "type": "number",
-                            "label": "tracker_popup_opacity",
-                            "help": "tracker_popup_opacity_help",
-                            "default": 1,
-                            "placeholder": "1",
-                            "min": 0,
-                            "max": 1,
-                            "step": 0.05,
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 3,
-                            "lg": 3,
-                            "xl": 3
                         }
                     }
+                },
+                "_trackerLine1": {
+                    "type": "divider"
                 },
                 "_trackerPlaces": {
                     "type": "panel",
@@ -635,6 +631,9 @@
                         }
                     }
                 },
+                "_trackerLine2": {
+                    "type": "divider"
+                },
                 "_trackerLayout": {
                     "type": "panel",
                     "label": "section_tracker_layout",
@@ -647,9 +646,24 @@
                             "newLine": true,
                             "xs": 12,
                             "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
+                        "tracker_popup_opacity": {
+                            "type": "number",
+                            "label": "tracker_popup_opacity",
+                            "help": "tracker_popup_opacity_help",
+                            "default": 1,
+                            "placeholder": "1",
+                            "min": 0,
+                            "max": 1,
+                            "step": 0.05,
+                            "xs": 12,
+                            "sm": 3,
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
                         }
                     }
                 }
@@ -704,6 +718,9 @@
                         "marginBottom": "16px",
                         "fontSize": "1rem"
                     }
+                },
+                "_helpLine1": {
+                    "type": "divider"
                 },
                 "txtOne": {
                     "type": "staticText",
