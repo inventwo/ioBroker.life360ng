@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "Włącz pełne rejestrowanie",
     "family_map_header_name":  "Nazwa nagłówka mapy okręgu (opcjonalnie)",
     "family_map_header_name_help":  "Jeśli jest ustawiona, ta nazwa będzie wyświetlana jako nagłówek na mapie okręgu. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Krąg”.",
@@ -54,6 +54,7 @@
     "tracker_enabled":  "Dziennik pokładowy aktywny – Kontrola globalna",
     "tracker_enabled_help":  "Może być również kontrolowany poprzez state tracker.config.enabled (np. przez CRON)",
     "tracker_info_txt":  "Zmiany są natychmiast stosowane na serwerze po zapisaniu, a mapy są regenerowane.\n\nAktualizacja staje się widoczna w przeglądarce przy następnym automatycznym przeładowaniu lub natychmiast po ręcznym przeładowaniu strony (F5). URL mapy można znaleźć pod tracker.circle.url i tracker.\u003cPerson\u003e.url w drzewie obiektów.",
+    "tracker_info2_txt":  "URL mapy można znaleźć pod tracker.circle.url i tracker.\u003cPerson\u003e.url w drzewie obiektów.",
     "tracker_marker_opacity":  "Nieprzezroczystość znacznika",
     "tracker_marker_opacity_help":  "Nieprzezroczystość znacznika pozycji (0,0 = przezroczysty, 1,0 = całkowicie widoczny)",
     "tracker_marker_size":  "Rozmiar znacznika",

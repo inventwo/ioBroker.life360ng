@@ -400,6 +400,32 @@
                         "borderRadius": "6px",
                         "backgroundColor": "rgba(198, 40, 40, 0.08)"
                     }
+                },
+                "_trackerInfo2": {
+                    "type": "panel",
+                    "label": "section_tracker_info",
+                    "xs": 12,
+                    "items": {
+                        "tracker_info2txt": {
+                            "type": "staticText",
+                            "text": "tracker_info2_txt",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginTop": "8px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #ffffff",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -664,6 +690,32 @@
                             "md": 3,
                             "lg": 3,
                             "xl": 3
+                        }
+                    }
+                },
+                "_trackerInfo2": {
+                    "type": "panel",
+                    "label": "section_tracker_info",
+                    "xs": 12,
+                    "items": {
+                        "tracker_info2txt": {
+                            "type": "staticText",
+                            "text": "tracker_info2_txt",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginTop": "8px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #ffffff",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                            }
                         }
                     }
                 }

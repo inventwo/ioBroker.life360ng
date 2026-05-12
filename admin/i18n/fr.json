@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "Activer la journalisation détaillée",
     "family_map_header_name":  "Nom de l\u0027en-tête de la carte circulaire (facultatif)",
     "family_map_header_name_help":  "S\u0027il est défini, ce nom sera affiché comme en-tête dans la carte du cercle. Laissez vide pour utiliser le nom du cercle ou « Cercle » par défaut.",
@@ -54,6 +54,7 @@
     "tracker_enabled":  "Journal de bord actif - Contrôle global",
     "tracker_enabled_help":  "Peut également être contrôlé via state tracker.config.enabled (par exemple par CRON)",
     "tracker_info_txt":  "Les modifications sont appliquées immédiatement sur le serveur après l\u0027enregistrement et les cartes sont régénérées.\n\nLa mise à jour devient visible dans le navigateur lors du prochain rechargement automatique ou immédiatement en rechargeant manuellement la page (F5). L\u0027URL de la carte peut être trouvée sous tracker.circle.url et tracker.\u003cPerson\u003e.url dans l\u0027arborescence des objets.",
+    "tracker_info2_txt":  "L\u0027URL de la carte peut être trouvée sous tracker.circle.url et tracker.\u003cPerson\u003e.url dans l\u0027arborescence des objets.",
     "tracker_marker_opacity":  "Opacité du marqueur",
     "tracker_marker_opacity_help":  "Opacité du marqueur de position (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_marker_size":  "Taille du marqueur",

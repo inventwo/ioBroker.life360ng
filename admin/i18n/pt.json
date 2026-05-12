@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "Habilitar registro detalhado",
     "family_map_header_name":  "Nome do cabeçalho do mapa circular (opcional)",
     "family_map_header_name_help":  "Se definido, esse nome será mostrado como cabeçalho no Mapa Circular. Deixe em branco para usar o nome do círculo ou \u0027Círculo\u0027 padrão.",
@@ -54,6 +54,7 @@
     "tracker_enabled":  "Logbook ativo - Controle global",
     "tracker_enabled_help":  "Também pode ser controlado via state tracker.config.enabled (por exemplo, por CRON)",
     "tracker_info_txt":  "As alterações são aplicadas imediatamente no servidor após salvar e os mapas são regenerados.\n\nA atualização se torna visível no navegador na próxima recarga automática ou imediatamente recarregando manualmente a página (F5). A URL do mapa pode ser encontrada em tracker.circle.url e tracker.\u003cPerson\u003e.url na árvore de objetos.",
+    "tracker_info2_txt":  "A URL do mapa pode ser encontrada em tracker.circle.url e tracker.\u003cPerson\u003e.url na árvore de objetos.",
     "tracker_marker_opacity":  "Opacidade do marcador",
     "tracker_marker_opacity_help":  "Opacidade do marcador de posição (0,0 = transparente, 1,0 = totalmente visível)",
     "tracker_marker_size":  "Tamanho do marcador",

@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "Schakel uitgebreide logboekregistratie in",
     "family_map_header_name":  "Naam cirkelkaartkop (optioneel)",
     "family_map_header_name_help":  "Indien ingesteld, wordt deze naam weergegeven als koptekst in de Circle Map. Laat leeg om de kringnaam of standaard \u0027Cirkel\u0027 te gebruiken.",
@@ -54,7 +54,7 @@
     "tracker_enabled":  "Logboek actief - Globale controle",
     "tracker_enabled_help":  "Kan ook worden bestuurd via state tracker.config.enabled (bijvoorbeeld door CRON)",
     "tracker_info_txt":  "Wijzigingen worden onmiddellijk op de server toegepast na het opslaan en de kaarten worden opnieuw gegenereerd.\n\nDe update wordt zichtbaar in de browser bij de volgende automatische herlaad of onmiddellijk door handmatig de pagina te herladen (F5). De URL van de kaart is te vinden onder tracker.circle.url en tracker.\u003cPerson\u003e.url in de objectenboom.",
-    "tracker_marker_opacity":  "Dekking van de markering",
+    "tracker_info2_txt":  "De URL van de kaart is te vinden onder tracker.circle.url en tracker.\u003cPerson\u003e.url in de objectenboom.",
     "tracker_marker_opacity_help":  "Dekking van de positiemarkering (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_marker_size":  "Markergrootte",
     "tracker_marker_size_help":  "Groottefactor voor de positiemarkering (0,5 = half, 1,0 = standaard, 2,0 = dubbel)",

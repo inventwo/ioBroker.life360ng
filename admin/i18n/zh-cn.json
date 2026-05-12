@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "启用详细日志记录",
     "family_map_header_name":  "圆形地图标题名称（可选）",
     "family_map_header_name_help":  "如果设置，该名称将显示为圆形地图中的标题。留空以使用圈子名称或默认“圈子”。",
@@ -54,6 +54,7 @@
     "tracker_enabled":  "日志激活 - 全局控制",
     "tracker_enabled_help":  "也可以通过状态 tracker.config.enabled 进行控制（例如通过 CRON）",
     "tracker_info_txt":  "更改在保存后立即在服务器上应用，并且地图会重新生成。\n\n更新在浏览器中可见，下一次自动重新加载时或立即手动重新加载页面（F5）后。地图的 URL 可以在对象树中的 tracker.circle.url 和 tracker.\u003cPerson\u003e.url 下找到。",
+    "tracker_info2_txt":  "地图的 URL 可以在对象树中的 tracker.circle.url 和 tracker.\u003cPerson\u003e.url 下找到。",
     "tracker_marker_opacity":  "标记不透明度",
     "tracker_marker_opacity_help":  "位置标记的不透明度（0.0 = 透明，1.0 = 完全可见）",
     "tracker_marker_size":  "标记尺寸",

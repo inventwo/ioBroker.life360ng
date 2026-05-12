@@ -1,4 +1,4 @@
-{
+﻿{
     "debugging_verbose":  "Aktiviere hier die ausführliche Protokollierung",
     "family_map_header_name":  "Name der Kreiskarten-Kopfzeile (optional)",
     "family_map_header_name_help":  "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Kreiskarte angezeigt. Lassen das Feld leer, um den Kreisnamen aus der App oder die Standardeinstellung \u0027Circle\u0027 zu verwenden.",
@@ -53,7 +53,8 @@
     "tracker_color_page_bg_help":  "Hintergrundfarbe der Kartenseite",
     "tracker_enabled":  "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help":  "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
-    "tracker_info_txt":  "Änderungen werden nach dem Speichern sofort auf dem Server übernommen und die Karten neu generiert.\n\nIm Browser wird die Änderung beim nächsten automatischen Reload sichtbar oder sofort durch manuelles Neuladen der Seite (F5). Die Karten-URL ist unter tracker.circle.url und tracker.\u003cPerson\u003e.url im Objektbaum zu finden.",
+    "tracker_info_txt":  "Änderungen werden nach dem Speichern sofort auf dem Server übernommen und die Karten neu generiert.\n\nIm Browser wird die Änderung beim nächsten automatischen Reload sichtbar oder sofort durch manuelles Neuladen der Seite (F5).\n\nÜber das Hamburger-Menü (\u2630) der Karte lässt sich die Seite sofort neu laden – auch wenn die Karte in einem Popup geöffnet ist.",
+    "tracker_info2_txt":  "Die Karten-URL ist unter tracker.circle.url und tracker.\u003cPerson\u003e.url im Objektbaum zu finden.",
     "tracker_marker_opacity":  "Deckkraft Marker",
     "tracker_marker_opacity_help":  "Deckkraft des Positionsmarkers (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_marker_size":  "Marker Größe",
