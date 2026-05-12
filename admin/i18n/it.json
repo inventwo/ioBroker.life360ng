@@ -1,4 +1,4 @@
-﻿{
+{
     "debugging_verbose":  "Abilita la registrazione dettagliata",
     "family_map_header_name":  "Nome dell\u0027intestazione della mappa circolare (facoltativo)",
     "family_map_header_name_help":  "Se impostato, questo nome verrà mostrato come intestazione nella mappa circolare. Lascia vuoto per utilizzare il nome della cerchia o la \"Cerchia\" predefinita.",

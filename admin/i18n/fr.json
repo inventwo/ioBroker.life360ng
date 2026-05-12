@@ -1,4 +1,4 @@
-﻿{
+{
     "debugging_verbose":  "Activer la journalisation détaillée",
     "family_map_header_name":  "Nom de l\u0027en-tête de la carte circulaire (facultatif)",
     "family_map_header_name_help":  "S\u0027il est défini, ce nom sera affiché comme en-tête dans la carte du cercle. Laissez vide pour utiliser le nom du cercle ou « Cercle » par défaut.",

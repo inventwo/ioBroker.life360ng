@@ -1,4 +1,4 @@
-﻿{
+{
     "debugging_verbose":  "Enable verbose logging",
     "family_map_header_name":  "Circle map header name (optional)",
     "family_map_header_name_help":  "If set, this name will be shown as the header in the Circle Map. Leave empty to use the circle name or default \u0027Circle\u0027.",

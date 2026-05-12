@@ -1,4 +1,4 @@
-﻿{
+{
     "debugging_verbose":  "Habilitar registro detalhado",
     "family_map_header_name":  "Nome do cabeçalho do mapa circular (opcional)",
     "family_map_header_name_help":  "Se definido, esse nome será mostrado como cabeçalho no Mapa Circular. Deixe em branco para usar o nome do círculo ou \u0027Círculo\u0027 padrão.",
