@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Achtergrondkleur van de kaartpagina",
     "tracker_enabled":  "Logboek actief - Globale controle",
     "tracker_enabled_help":  "Kan ook worden bestuurd via state tracker.config.enabled (bijvoorbeeld door CRON)",
-    "tracker_info_txt":  "Wijzigingen worden direct na het opslaan op de server toegepast en de kaarten worden opnieuw gegenereerd.\n\nDe update is zichtbaar in de browser bij de volgende automatische herlaad of onmiddellijk door de pagina handmatig te vernieuwen (F5). De kaart-URL kunt u vinden onder tracker.\u003cPersoon\u003e.url in de objectboom.",
+    "tracker_info_txt":  "Wijzigingen worden onmiddellijk op de server toegepast na het opslaan en de kaarten worden opnieuw gegenereerd.\n\nDe update wordt zichtbaar in de browser bij de volgende automatische herlaad of onmiddellijk door handmatig de pagina te herladen (F5). De URL van de kaart is te vinden onder tracker.circle.url en tracker.\u003cPerson\u003e.url in de objectenboom.",
     "tracker_marker_opacity":  "Dekking van de markering",
     "tracker_marker_opacity_help":  "Dekking van de positiemarkering (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_marker_size":  "Markergrootte",

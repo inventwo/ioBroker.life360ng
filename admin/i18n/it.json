@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Colore di sfondo della pagina della mappa",
     "tracker_enabled":  "Diario di bordo attivo - Controllo globale",
     "tracker_enabled_help":  "Può anche essere controllato tramite state tracker.config.enabled (ad esempio da CRON)",
-    "tracker_info_txt":  "Le modifiche vengono applicate immediatamente sul server dopo il salvataggio e le mappe vengono rigenerate.\n\nL\u0027aggiornamento sarà visibile nel browser al successivo ricaricamento automatico o immediatamente ricaricando la pagina manualmente (F5). L\u0027URL della mappa può essere trovato sotto tracker.\u003cPerson\u003e.url nell\u0027albero degli oggetti.",
+    "tracker_info_txt":  "Le modifiche vengono applicate immediatamente sul server dopo il salvataggio e le mappe vengono rigenerate.\n\nL'aggiornamento diventa visibile nel browser al prossimo ricaricamento automatico o immediatamente ricaricando manualmente la pagina (F5). L'URL della mappa può essere trovato sotto tracker.circle.url e tracker.\u003cPerson\u003e.url nell'albero degli oggetti.",
     "tracker_marker_opacity":  "Opacità del marcatore",
     "tracker_marker_opacity_help":  "Opacità dell\u0027indicatore di posizione (0.0 = trasparente, 1.0 = completamente visibile)",
     "tracker_marker_size":  "Dimensione del marcatore",

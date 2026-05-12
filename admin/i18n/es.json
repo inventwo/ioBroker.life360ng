@@ -53,7 +53,7 @@
     "tracker_color_page_bg_help":  "Color de fondo de la página del mapa",
     "tracker_enabled":  "Libro de registro activo - Control global",
     "tracker_enabled_help":  "También se puede controlar mediante state tracker.config.enabled (por ejemplo, mediante CRON)",
-    "tracker_info_txt":  "Los cambios se aplican inmediatamente en el servidor al guardar y los mapas se regeneran.\n\nLa actualización será visible en el navegador en la próxima recarga automática o inmediatamente recargando la página manualmente (F5). La URL del mapa se puede encontrar en tracker.\u003cPersona\u003e.url en el árbol de objetos.",
+    "tracker_info_txt":  "Los cambios se aplican inmediatamente en el servidor después de guardar y los mapas se regeneran.\n\nLa actualización se vuelve visible en el navegador en la próxima recarga automática o inmediatamente al recargar manualmente la página (F5). La URL del mapa se puede encontrar debajo de tracker.circle.url y tracker.\u003cPerson\u003e.url en el árbol de objetos.",
     "tracker_marker_opacity":  "Opacidad del marcador",
     "tracker_marker_opacity_help":  "Opacidad del marcador de posición (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_marker_size":  "Tamaño del marcador",
