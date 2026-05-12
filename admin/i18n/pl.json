@@ -56,7 +56,7 @@
     "tracker_enabled": "Dziennik pokładowy aktywny – Kontrola globalna",
     "tracker_enabled_help": "Może być również kontrolowany poprzez state tracker.config.enabled (np. przez CRON)",
     "tracker_info2_txt": "URL mapy można znaleźć pod tracker.circle.url i tracker.<Person>.url w drzewie obiektów.",
-    "tracker_info_txt": "Zmiany zostaną zastosowane na serwerze natychmiast po zapisaniu, a mapy zostaną zregenerowane.\nAktualizacja staje się widoczna w przeglądarce przy kolejnym automatycznym przeładowaniu strony lub od razu po ręcznym przeładowaniu strony (F5).\nMenu hamburgerowe mapy (☰) zawiera także przycisk ponownego ładowania umożliwiający natychmiastowe odświeżenie strony – nawet jeśli mapa jest otwarta w wyskakującym okienku.",
+    "tracker_info_txt": "Zmiany zostaną zastosowane na serwerze natychmiast po zapisaniu, a mapy zostaną zregenerowane.\nAktualizacja staje się widoczna w przeglądarce przy kolejnym automatycznym przeładowaniu strony lub od razu po ręcznym przeładowaniu strony (F5). Menu hamburgerowe mapy (☰) zawiera także przycisk ponownego ładowania umożliwiający natychmiastowe odświeżenie strony – nawet jeśli mapa jest otwarta w wyskakującym okienku.",
     "tracker_marker_opacity": "Nieprzezroczystość znacznika",
     "tracker_marker_opacity_help": "Nieprzezroczystość znacznika pozycji (0,0 = przezroczysty, 1,0 = całkowicie widoczny)",
     "tracker_marker_size": "Rozmiar znacznika",

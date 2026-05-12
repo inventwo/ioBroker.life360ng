@@ -56,7 +56,7 @@
     "tracker_enabled": "Fahrtenbuch aktiv - Globale Kontrolle",
     "tracker_enabled_help": "Kann auch per Datenpunkt tracker.config.enabled gesteuert werden",
     "tracker_info2_txt": "Die Karten-URL ist unter tracker.circle.url und tracker.<Person>.url im Objektbaum zu finden.",
-    "tracker_info_txt": "Änderungen werden nach dem Speichern sofort auf dem Server übernommen und die Karten neu generiert.\nIm Browser wird die Änderung beim nächsten automatischen Reload sichtbar oder sofort durch manuelles Neuladen der Seite (F5).\nÜber das Hamburger-Menü (☰) der Karte lässt sich die Seite sofort neu laden – auch wenn die Karte in einem Popup geöffnet ist.",
+    "tracker_info_txt": "Änderungen werden nach dem Speichern sofort auf dem Server übernommen und die Karten neu generiert.\nIm Browser wird die Änderung beim nächsten automatischen Reload sichtbar oder sofort durch manuelles Neuladen der Seite (F5). Über das Hamburger-Menü (☰) der Karte lässt sich die Seite sofort neu laden – auch wenn die Karte in einem Popup geöffnet ist.",
     "tracker_marker_opacity": "Deckkraft Marker",
     "tracker_marker_opacity_help": "Deckkraft des Positionsmarkers (0.0 = transparent, 1.0 = voll sichtbar)",
     "tracker_marker_size": "Marker Größe",

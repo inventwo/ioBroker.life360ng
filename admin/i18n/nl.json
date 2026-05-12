@@ -56,7 +56,7 @@
     "tracker_enabled": "Logboek actief - Globale controle",
     "tracker_enabled_help": "Kan ook worden bestuurd via state tracker.config.enabled (bijvoorbeeld door CRON)",
     "tracker_info2_txt": "De URL van de kaart is te vinden onder tracker.circle.url en tracker.<Person>.url in de objectenboom.",
-    "tracker_info_txt": "Wijzigingen worden na het opslaan onmiddellijk op de server toegepast en de kaarten worden opnieuw gegenereerd.\nDe update wordt zichtbaar in de browser bij de volgende automatische herlaadbeurt of onmiddellijk door de pagina handmatig opnieuw te laden (F5).\nHet hamburgermenu van de kaart (☰) biedt ook een herlaadknop waarmee de pagina onmiddellijk kan worden vernieuwd, zelfs als de kaart in een pop-up wordt geopend.",
+    "tracker_info_txt": "Wijzigingen worden na het opslaan onmiddellijk op de server toegepast en de kaarten worden opnieuw gegenereerd.\nDe update wordt zichtbaar in de browser bij de volgende automatische herlaadbeurt of onmiddellijk door de pagina handmatig opnieuw te laden (F5). Het hamburgermenu van de kaart (☰) biedt ook een herlaadknop waarmee de pagina onmiddellijk kan worden vernieuwd, zelfs als de kaart in een pop-up wordt geopend.",
     "tracker_marker_opacity": "Dekking van de markering",
     "tracker_marker_opacity_help": "Dekking van de positiemarkering (0,0 = transparant, 1,0 = volledig zichtbaar)",
     "tracker_marker_size": "Markergrootte",

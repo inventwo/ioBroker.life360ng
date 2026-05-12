@@ -56,7 +56,7 @@
     "tracker_enabled": "Libro de registro activo - Control global",
     "tracker_enabled_help": "También se puede controlar mediante state tracker.config.enabled (por ejemplo, mediante CRON)",
     "tracker_info2_txt": "La URL del mapa se puede encontrar debajo de tracker.circle.url y tracker.<Person>.url en el árbol de objetos.",
-    "tracker_info_txt": "Los cambios se aplican inmediatamente en el servidor después de guardarlos y los mapas se regeneran.\nLa actualización se vuelve visible en el navegador en la siguiente recarga automática o inmediatamente al recargar manualmente la página (F5).\nEl menú de hamburguesas del mapa (☰) también proporciona un botón de recarga para una actualización inmediata de la página, incluso cuando el mapa se abre en una ventana emergente.",
+    "tracker_info_txt": "Los cambios se aplican inmediatamente en el servidor después de guardarlos y los mapas se regeneran.\nLa actualización se vuelve visible en el navegador en la siguiente recarga automática o inmediatamente al recargar manualmente la página (F5). El menú de hamburguesas del mapa (☰) también proporciona un botón de recarga para una actualización inmediata de la página, incluso cuando el mapa se abre en una ventana emergente.",
     "tracker_marker_opacity": "Opacidad del marcador",
     "tracker_marker_opacity_help": "Opacidad del marcador de posición (0,0 = transparente, 1,0 = totalmente visible)",
     "tracker_marker_size": "Tamaño del marcador",

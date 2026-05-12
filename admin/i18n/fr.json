@@ -56,7 +56,7 @@
     "tracker_enabled": "Journal de bord actif - Contrôle global",
     "tracker_enabled_help": "Peut également être contrôlé via state tracker.config.enabled (par exemple par CRON)",
     "tracker_info2_txt": "L'URL de la carte peut être trouvée sous tracker.circle.url et tracker.<Person>.url dans l'arborescence des objets.",
-    "tracker_info_txt": "Les modifications sont appliquées immédiatement sur le serveur après la sauvegarde et les cartes sont régénérées.\nLa mise à jour devient visible dans le navigateur au prochain rechargement automatique ou immédiatement en rechargeant manuellement la page (F5).\nLe menu hamburger de la carte (☰) fournit également un bouton de rechargement pour un rafraîchissement immédiat de la page, même lorsque la carte est ouverte dans une fenêtre contextuelle.",
+    "tracker_info_txt": "Les modifications sont appliquées immédiatement sur le serveur après la sauvegarde et les cartes sont régénérées.\nLa mise à jour devient visible dans le navigateur au prochain rechargement automatique ou immédiatement en rechargeant manuellement la page (F5). Le menu hamburger de la carte (☰) fournit également un bouton de rechargement pour un rafraîchissement immédiat de la page, même lorsque la carte est ouverte dans une fenêtre contextuelle.",
     "tracker_marker_opacity": "Opacité du marqueur",
     "tracker_marker_opacity_help": "Opacité du marqueur de position (0,0 = transparent, 1,0 = entièrement visible)",
     "tracker_marker_size": "Taille du marqueur",

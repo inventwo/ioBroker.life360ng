@@ -56,7 +56,7 @@
     "tracker_enabled": "Logbook ativo - Controle global",
     "tracker_enabled_help": "Também pode ser controlado via state tracker.config.enabled (por exemplo, por CRON)",
     "tracker_info2_txt": "A URL do mapa pode ser encontrada em tracker.circle.url e tracker.<Person>.url na árvore de objetos.",
-    "tracker_info_txt": "As alterações são aplicadas imediatamente no servidor após salvar e os mapas são regenerados.\nA atualização fica visível no navegador na próxima recarga automática ou imediatamente ao recarregar manualmente a página (F5).\nO menu hambúrguer do mapa (☰) também fornece um botão de recarga para uma atualização imediata da página – mesmo quando o mapa é aberto em um pop-up.",
+    "tracker_info_txt": "As alterações são aplicadas imediatamente no servidor após salvar e os mapas são regenerados.\nA atualização fica visível no navegador na próxima recarga automática ou imediatamente ao recarregar manualmente a página (F5). O menu hambúrguer do mapa (☰) também fornece um botão de recarga para uma atualização imediata da página – mesmo quando o mapa é aberto em um pop-up.",
     "tracker_marker_opacity": "Opacidade do marcador",
     "tracker_marker_opacity_help": "Opacidade do marcador de posição (0,0 = transparente, 1,0 = totalmente visível)",
     "tracker_marker_size": "Tamanho do marcador",
