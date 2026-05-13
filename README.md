@@ -302,7 +302,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Added mouseover function
+- (skvarel) Hovering over a route point or line now temporarily highlights the active day (thicker line, full opacity, other days faded) when "Day highlight" is enabled; the tooltip on a line shows date (person map) or name and date (circle map)
+- (skvarel) Clicking a line now opens a single popup at the cursor position with date and name instead of opening all marker popups
 
 ### 1.6.0 (2026-05-12) 
 - (skvarel) Added refresh button to the hamburger menu
