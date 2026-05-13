@@ -301,8 +301,10 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### 1.6.0 (2026-05-12) 
+### **WORK IN PROGRESS**
+- (skvarel) Added mouseover function
 
+### 1.6.0 (2026-05-12) 
 - (skvarel) Added refresh button to the hamburger menu
 - (skvarel) Clicking a route point in multi-day view now highlights the active day (thicker line, full opacity) while other days fade into the background; all timestamps for the selected day open simultaneously; clicking the map background or the same point again resets the view
 - (skvarel) Added "Day highlight" toggle to the hamburger menu to switch between single-popup and day-highlight mode; state persists per map in the browser
