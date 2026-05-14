@@ -73,6 +73,7 @@
     "tracker_person_color": "Couleur",
     "tracker_person_enabled": "Actif",
     "tracker_person_family_map": "Carte cercle",
+    "tracker_person_min_distance": "Dist. min. (m)",
     "tracker_person_name": "Nom",
     "tracker_person_own_map": "Carte propre",
     "tracker_places_color": "Couleur des drapeaux (lieux Life360)",

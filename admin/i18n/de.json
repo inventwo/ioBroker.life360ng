@@ -73,6 +73,7 @@
     "tracker_person_color": "Farbe",
     "tracker_person_enabled": "Aktiv",
     "tracker_person_family_map": "Kreiskarte",
+    "tracker_person_min_distance": "Min. Abstand (m)",
     "tracker_person_name": "Name",
     "tracker_person_own_map": "Eigene Karte",
     "tracker_places_color": "Flaggenfarbe (Life360-Orte)",

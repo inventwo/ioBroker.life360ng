@@ -73,6 +73,7 @@
     "tracker_person_color": "Цвет",
     "tracker_person_enabled": "Активен",
     "tracker_person_family_map": "Карта круга",
+    "tracker_person_min_distance": "Мин. расст. (м)",
     "tracker_person_name": "Имя",
     "tracker_person_own_map": "Своя карта",
     "tracker_places_color": "Цвет флага (места Life360)",

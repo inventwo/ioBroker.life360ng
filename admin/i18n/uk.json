@@ -73,6 +73,7 @@
     "tracker_person_color": "Колір",
     "tracker_person_enabled": "Активний",
     "tracker_person_family_map": "Карта кола",
+    "tracker_person_min_distance": "Мін. відст. (м)",
     "tracker_person_name": "Ім'я",
     "tracker_person_own_map": "Власна карта",
     "tracker_places_color": "Колір прапора (місця Life360)",

@@ -73,6 +73,7 @@
     "tracker_person_color": "颜色",
     "tracker_person_enabled": "启用",
     "tracker_person_family_map": "圆圈地图",
+    "tracker_person_min_distance": "最小距离 (米)",
     "tracker_person_name": "姓名",
     "tracker_person_own_map": "个人地图",
     "tracker_places_color": "旗帜颜色（Life360地点）",

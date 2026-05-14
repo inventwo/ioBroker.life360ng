@@ -71,6 +71,7 @@
     "tracker_person_color":  "Color",
     "tracker_person_enabled":  "Active",
     "tracker_person_family_map":  "Circle map",
+    "tracker_person_min_distance":  "Min. dist (m)",
     "tracker_person_name":  "Name",
     "tracker_person_own_map":  "Own map",
     "tracker_places_color":  "Flag color (Life360 places)",

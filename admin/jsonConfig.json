@@ -352,13 +352,24 @@
                             "title": "tracker_person_enabled",
                             "attr": "enabled",
                             "type": "checkbox",
-                            "width": "15%"
+                            "width": "10%"
+                        },
+                        {
+                            "title": "tracker_person_min_distance",
+                            "attr": "minDistance",
+                            "type": "number",
+                            "min": 0,
+                            "max": 500,
+                            "step": 1,
+                            "default": 0,
+                            "placeholder": "0",
+                            "width": "13%"
                         },
                         {
                             "title": "tracker_person_color",
                             "attr": "color",
                             "type": "color",
-                            "width": "20%"
+                            "width": "18%"
                         },
                         {
                             "title": "tracker_person_own_map",

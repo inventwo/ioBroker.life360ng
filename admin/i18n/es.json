@@ -73,6 +73,7 @@
     "tracker_person_color": "Color",
     "tracker_person_enabled": "Activo",
     "tracker_person_family_map": "Mapa circular",
+    "tracker_person_min_distance": "Dist. mín. (m)",
     "tracker_person_name": "Nombre",
     "tracker_person_own_map": "Mapa propio",
     "tracker_places_color": "Color de bandera (lugares Life360)",

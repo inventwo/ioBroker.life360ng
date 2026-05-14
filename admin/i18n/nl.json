@@ -73,6 +73,7 @@
     "tracker_person_color": "Kleur",
     "tracker_person_enabled": "Actief",
     "tracker_person_family_map": "Cirkelkaart",
+    "tracker_person_min_distance": "Min. afstand (m)",
     "tracker_person_name": "Naam",
     "tracker_person_own_map": "Eigen kaart",
     "tracker_places_color": "Vlagkleur (Life360-plaatsen)",
