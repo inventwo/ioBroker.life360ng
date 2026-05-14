@@ -253,9 +253,9 @@
                                 "whiteSpace": "pre-wrap",
                                 "marginTop": "8px",
                                 "padding": "10px 14px",
-                                "border": "1px solid #ffffff",
+                                "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
-                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
                             }
                         }
                     }
@@ -430,12 +430,12 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "0.875rem",
-                                "whiteSpace": "pre-wrap",
                                 "marginTop": "8px",
-                                "padding": "10px 14px",
-                                "border": "1px solid #ffffff",
+                                "marginBottom": "4px",
+                                "padding": "8px 12px",
+                                "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
-                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
                             }
                         }
                     }
@@ -461,9 +461,9 @@
                         "whiteSpace": "pre-wrap",
                         "marginTop": "8px",
                         "padding": "10px 14px",
-                        "border": "1px solid #ffffff",
+                        "border": "1px solid #546e7a",
                         "borderRadius": "6px",
-                        "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                        "backgroundColor": "rgba(84, 110, 122, 0.12)"
                     }
                 },
                 "_trackerColors": {
@@ -722,12 +722,12 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "0.875rem",
-                                "whiteSpace": "pre-wrap",
                                 "marginTop": "8px",
-                                "padding": "10px 14px",
-                                "border": "1px solid #ffffff",
+                                "marginBottom": "4px",
+                                "padding": "8px 12px",
+                                "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
-                                "backgroundColor": "rgba(0, 0, 0, 0.08)"
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
                             }
                         }
                     }
