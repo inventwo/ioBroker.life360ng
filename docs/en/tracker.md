@@ -54,7 +54,33 @@ Under **General → Default view (days)** you can configure how many days are sh
 Every time the map is opened, the start date is set to today minus (N−1) days based on the configured value. Manually adjusting the datepicker changes the view for the current session only.
 
 ---
-**Tip:** Maps can be opened directly in your browser or integrated into visualizations (e.g., ioBroker VIS as an iframe).
+
+### 4. Hamburger Menu (☰)
+
+Click the ☰ icon in the top right corner to open the settings panel. Settings are saved per map in the browser's session storage and persist until the tab is closed.
+
+| Option | Description |
+|---|---|
+| **Route** | Shows the traveled route as a colored line on the map. When route is enabled, a date range picker is also shown. |
+| **Places** | Shows Life360 places as flag markers on the map. |
+| **Places radius** | Shows the configured radius circle around each Life360 place. |
+| **My Places** | Shows custom places (My Places) as flag markers on the map. |
+| **My Places radius** | Shows the radius circle around each custom place. |
+| **Day highlight** | Enables the interactive day highlight feature (see below). |
+| **Footer** | Shows or hides the legend below the map. |
+| **Map size** | Displays the current map dimensions in the header. |
+| **↻ Reload** | Reloads the map completely. |
+
+#### Day Highlight
+
+When **Day highlight** is enabled, routes on the map can be highlighted interactively:
+
+- **Hover (mouse over a line):** The route for that day is temporarily highlighted — the line becomes thicker and fades all other days. Moving the mouse away restores the normal state. A tooltip shows the date of the route.
+- **Click on a line:** The highlight is locked. The route stays active and a popup appears with the date (person map) or name and date (family map). Clicking the same line again or clicking the map background removes the lock.
+- **Click on a marker:** Opens the popup for that marker (start or end point of the day) without triggering the day highlight.
+
+> **Note:** Once a route is locked by a click, the hover tooltip on lines is suppressed — the locked view remains undisturbed.
+
 
 > The generated HTML, CSS, and JS files are stored in the ioBroker file system. You can view or manage them under **Admin → Files → `life360ng.<instance>/tracker/`**.
 

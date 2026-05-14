@@ -54,7 +54,33 @@ Unter **Allgemein → Standardanzeige (Tage)** kannst du festlegen, wie viele Ta
 Beim Öffnen der Karte wird das Startdatum immer auf den konfigurierten Wert zurückgesetzt (heute minus N−1 Tage). Eine manuelle Änderung des Datepickers gilt nur für die aktuelle Sitzung.
 
 ---
-**Tipp:** Die Karten können direkt im Browser geöffnet oder in Visualisierungen (z.B. ioBroker VIS als iframe) eingebunden werden.
+
+### 4. Hamburger-Menü (☰)
+
+Über das ☰-Symbol oben rechts öffnet sich ein Einstellungsmenü. Die Einstellungen werden pro Karte im Browser-Speicher (sessionStorage) gespeichert und bleiben bis zum Schließen des Tabs erhalten.
+
+| Option | Beschreibung |
+|---|---|
+| **Route** | Zeigt die gefahrene Route als farbige Linie auf der Karte an. Bei aktivierter Route wird zusätzlich ein Zeitraum-Picker eingeblendet. |
+| **Orte** | Zeigt die Life360-Orte als Fähnchen auf der Karte an. |
+| **Orte-Radius** | Zeigt den konfigurierten Radius-Kreis um jeden Life360-Ort an. |
+| **Eigene Orte** | Zeigt die selbst definierten Orte (Meine Orte) als Fähnchen auf der Karte an. |
+| **Eigene Orte-Radius** | Zeigt den Radius-Kreis um jeden eigenen Ort an. |
+| **Tageshervorhebung** | Aktiviert die interaktive Tageshervorhebung (siehe unten). |
+| **Footer** | Blendet die Legende unterhalb der Karte ein oder aus. |
+| **Kartengröße** | Zeigt die aktuelle Kartengröße in der Kopfzeile an. |
+| **↻ Neu laden** | Lädt die Karte komplett neu. |
+
+#### Tageshervorhebung
+
+Wenn **Tageshervorhebung** aktiviert ist, können Routen auf der Karte interaktiv hervorgehoben werden:
+
+- **Hover (Maus über eine Linie):** Die Route des Tages wird temporär hervorgehoben – die Linie wird dicker und deckt andere Tage ab. Beim Wegnehmen der Maus wird der normale Zustand wiederhergestellt. Ein Tooltip zeigt das Datum der Route an.
+- **Klick auf eine Linie:** Die Hervorhebung wird fixiert. Die Route bleibt aktiv und ein Popup erscheint mit dem Datum (Personenkarte) bzw. Name und Datum (Familienkarte). Ein weiterer Klick auf dieselbe Linie oder ein Klick auf die freie Kartenfläche hebt die Fixierung wieder auf.
+- **Klick auf einen Punkt:** Öffnet das Popup dieses Punktes (Start- oder Endpunkt des Tages), ohne die Tageshervorhebung auszulösen.
+
+> **Hinweis:** Sobald eine Route per Klick fixiert ist, wird der Hover-Tooltip auf Linien unterdrückt – die fixierte Ansicht bleibt ungestört.
+
 
 > Die generierten HTML-, CSS- und JS-Dateien werden im ioBroker-Dateisystem gespeichert und können unter **Admin → Dateien → `life360ng.<instanz>/tracker/`** eingesehen oder verwaltet werden.
 
