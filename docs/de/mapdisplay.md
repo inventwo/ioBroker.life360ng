@@ -2,6 +2,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
+(ab Version 1.4.0 - nur die Latest bietet den vollen Umfang)
 # Tab: Kartendarstellung
 
 Alle Einstellungen in diesem Tab steuern das visuelle Erscheinungsbild der Tracker-Karten. Änderungen werden beim nächsten GPS-Update automatisch übernommen — kein Neustart erforderlich.

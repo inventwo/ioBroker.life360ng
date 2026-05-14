@@ -2,6 +2,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
+(from version 1.4.0 – only the Latest version offers the full scope)
 # Tab: Map Display
 
 All settings in this tab control the visual appearance of the tracker maps. Changes take effect automatically on the next GPS update — no restart required.

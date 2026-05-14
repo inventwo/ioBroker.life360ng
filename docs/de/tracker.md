@@ -2,6 +2,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
+(ab Version 1.4.0 - nur die Latest bietet den vollen Umfang)
 # Tab: Fahrtenbuch
 
 

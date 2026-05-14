@@ -2,6 +2,7 @@
 ### The Next Generation
 [zurück zur Startseite](README.md)
 
+(from version 1.4.0 – only the Latest version offers the full scope)
 # Tab: Logbook
 
 
