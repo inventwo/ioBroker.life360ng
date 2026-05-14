@@ -276,23 +276,6 @@
                             "lg": 6,
                             "xl": 6
                         },
-                        "tracker_min_distance": {
-                            "type": "number",
-                            "label": "tracker_min_distance",
-                            "help": "tracker_min_distance_help",
-                            "min": 5,
-                            "max": 500,
-                            "step": 5,
-                            "newLine": true,
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 4,
-                            "lg": 4,
-                            "xl": 4,
-                            "style": {
-                                "marginTop": "8px"
-                            }
-                        },
                         "tracker_retention_days": {
                             "type": "number",
                             "label": "tracker_retention_days",
@@ -300,7 +283,7 @@
                             "min": 0,
                             "max": 3650,
                             "step": 1,
-                            "newLine": false,
+                            "newLine": true,
                             "xs": 12,
                             "sm": 6,
                             "md": 4,
@@ -331,6 +314,25 @@
                         }
                     }
                 },
+                "_trackerPeopleHint": {
+                    "type": "staticText",
+                    "text": "tracker_people_hint",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem",
+                        "marginTop": "8px",
+                        "marginBottom": "4px",
+                        "padding": "8px 12px",
+                        "border": "1px solid #546e7a",
+                        "borderRadius": "6px",
+                        "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                    }
+                },
                 "tracker_people": {
                     "type": "table",
                     "newLine": true,
@@ -352,7 +354,7 @@
                             "title": "tracker_person_enabled",
                             "attr": "enabled",
                             "type": "checkbox",
-                            "width": "10%"
+                            "width": "7%"
                         },
                         {
                             "title": "tracker_person_min_distance",
@@ -363,7 +365,7 @@
                             "step": 1,
                             "default": 0,
                             "placeholder": "0",
-                            "width": "13%"
+                            "width": "12%"
                         },
                         {
                             "title": "tracker_person_color",
