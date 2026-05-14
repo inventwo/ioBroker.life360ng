@@ -301,7 +301,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.7.0 (2026-05-14)
 - (skvarel) Fixed crash on fresh install caused by adapter writing tracker files before the namespace meta object was created
 - (skvarel) Improved error message when Life360 API requests are blocked by Cloudflare (IP rate-limited); no longer logs the full HTML response
 - (skvarel) Hovering over a route point or line now temporarily highlights the active day (thicker line, full opacity, other days faded) when "Day highlight" is enabled; the tooltip on a line shows date (person map) or name and date (circle map)
@@ -309,7 +309,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Added optional radius circles for Life360 places and own places (My Places) on the tracker map; toggleable via new "Place radius" and "My Place radius" checkboxes in the hamburger menu; circles use the same color as the flag markers
 - (skvarel) Updated documentation
 - (skvarel) Added per-person minimum distance setting to the tracker table; a value of 0 falls back to the global minimum distance
-
 
 ### 1.6.0 (2026-05-12) 
 - (skvarel) Added refresh button to the hamburger menu
@@ -336,13 +335,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Moved map appearance settings (colors, markers, flags, layout) to a dedicated "Map Display" tab in admin config
 - (skvarel) Replaced header checkboxes with a hamburger menu (☰) on all tracker maps; Route, Places, Footer and Map Size are now toggleable directly in the map; footer and map-size preferences are stored per map in the browser
 - (skvarel) Map no longer auto-zooms after a data refresh when the user has manually panned or zoomed; the chosen view is kept until the tab or window is closed
-
-### 1.4.0 (2026-05-07)
-- (skvarel) Added additional local map URL per person and circle map with the ioBroker server IP and web adapter port
-- (skvarel) Added configurable arrival delay (seconds) per MyPlace – `isPresent` is only set to `true` after the person has been inside the radius for the configured time; leaving sets it to `false` immediately
-- (skvarel) Added `locationName` delay for persons at MyPlaces: after the arrival delay `people.<id>.locationName` is set to the MyPlace name; on departure it is reset immediately to the Life360 location name
-- (skvarel) Added option to prioritize My Places name for `locationName` over the Life360 location name (configurable checkbox in My Places tab)
-- (skvarel) Added language-dependent documentation link in the Help tab of the admin config
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
