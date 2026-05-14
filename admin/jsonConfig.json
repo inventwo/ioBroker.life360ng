@@ -354,7 +354,8 @@
                             "title": "tracker_person_enabled",
                             "attr": "enabled",
                             "type": "checkbox",
-                            "width": "7%"
+                            "width": "7%",
+                            "textAlign": "center"
                         },
                         {
                             "title": "tracker_person_min_distance",
@@ -365,31 +366,36 @@
                             "step": 1,
                             "default": 0,
                             "placeholder": "0",
-                            "width": "12%"
+                            "width": "12%",
+                            "textAlign": "center"
                         },
                         {
                             "title": "tracker_person_color",
                             "attr": "color",
                             "type": "color",
-                            "width": "18%"
+                            "width": "18%",
+                            "textAlign": "center"
                         },
                         {
                             "title": "tracker_person_own_map",
                             "attr": "ownMap",
                             "type": "checkbox",
-                            "width": "17%"
+                            "width": "17%",
+                            "textAlign": "center"
                         },
                         {
                             "title": "tracker_person_family_map",
                             "attr": "familyMap",
                             "type": "checkbox",
-                            "width": "17%"
+                            "width": "17%",
+                            "textAlign": "center"
                         },
                         {
                             "title": "tracker_person_clear_recordings",
                             "attr": "clearRecordings",
                             "type": "checkbox",
-                            "width": "17%"
+                            "width": "17%",
+                            "textAlign": "center"
                         }
                     ]
                 },
