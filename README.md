@@ -302,6 +302,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+- (skvarel) Added Alexa announcements support: announce location arrivals via Amazon Echo devices using the ioBroker Alexa2 adapter; configurable device list with speak state ID and announcement volume (volume is automatically restored by the Alexa adapter after each announcement)
 - (skvarel) Fixed unhandled promise rejections ("DB closed") at adapter shutdown caused by async DB operations running after the Redis connection was already closed; adapter now sets an unloading flag to prevent new operations from starting and catches any remaining DB errors gracefully
 - (skvarel) Recipient filter in the Notifications tab now accepts both display names and Chat IDs; either can be used in the comma-separated recipients field of the people table
 - (skvarel) Life360 people in the Notifications tab are now automatically synced from the adapter; no manual name entry required

@@ -4,7 +4,7 @@
 
 # Tab: Benachrichtigungen
 
-Im Tab **Benachrichtigungen** konfigurierst du Telegram-Nachrichten, die automatisch gesendet werden, wenn eine Life360-Person einen bekannten Ort betritt.
+Im Tab **Benachrichtigungen** konfigurierst du Telegram-Nachrichten und Alexa-Ansagen, die automatisch gesendet werden, wenn eine Life360-Person einen bekannten Ort betritt.
 
 ---
 
@@ -30,6 +30,31 @@ Lege hier alle Telegram-Empfänger fest, die Benachrichtigungen erhalten können
 Öffne den Telegram-Adapter in der ioBroker-Admin-Oberfläche → Tab **Nachrichten**. Nachdem der Nutzer eine Nachricht an deinen Telegram-Bot gesendet hat, erscheint seine Chat-ID in der Liste der authentifizierten Nutzer.
 
 > **Hinweis:** Der Anzeigename ist optional und dient nur als lesbares Label für den Filter in der Personentabelle. Du kannst ihn leer lassen und stattdessen die Chat-ID direkt als Filterwert eintragen.
+
+---
+
+## Alexa
+
+Aktiviere oder deaktiviere Alexa-Ansagen mit dem Schalter **Alexa-Ansagen aktivieren**.
+
+> **Voraussetzung:** Der [ioBroker Alexa2-Adapter](https://github.com/Apollon77/ioBroker.alexa2) muss installiert und aktiv sein.
+
+---
+
+## Alexa-Gerätatabelle
+
+Lege hier alle Echo-Geräte fest, die Standortänderungen ansagen sollen.
+
+| Spalte | Beschreibung |
+|---|---|
+| **Anzeigename** | Optionale Bezeichnung für das Gerät (z. B. `Büro Echo`) |
+| **Speak-State-ID** | Vollständige ioBroker-State-ID des Speak-Datenpunkts (z. B. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
+| **Lautstärke (0–100)** | Ansage-Lautstärke. Der Alexa-Adapter stellt die vorherige Lautstärke danach automatisch wieder her. |
+
+**So findest du die Speak-State-ID:**  
+Öffne den ioBroker-Objektbaum → `alexa2.0` → `Echo-Devices` → suche deinen Geräteordner → `Commands` → `speak`. Kopiere die vollständige Objekt-ID.
+
+> **Hinweis:** Bei gesetzter Lautstärke stellt der Alexa2-Adapter die ursprüngliche Lautstärke nach der Ansage automatisch wieder her.
 
 ---
 

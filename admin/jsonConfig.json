@@ -91,7 +91,7 @@
                     "lg": 12,
                     "xl": 12,
                     "style": {
-                        "fontSize": "0.875rem"
+                        "fontSize": "1rem"
                     }
                 },
                 "prioritizeMyPlacesLocationName": {
@@ -822,11 +822,94 @@
                         }
                     }
                 },
+                "_alexaSection": {
+                    "type": "panel",
+                    "label": "section_alexa",
+                    "xs": 12,
+                    "items": {
+                        "notify_alexa_hint": {
+                            "type": "staticText",
+                            "text": "notify_alexa_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "1rem",
+                                "marginBottom": "8px"
+                            }
+                        },
+                        "notify_alexa_enabled": {
+                            "type": "checkbox",
+                            "label": "notify_alexa_enabled",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
+                        "notify_alexa_devices_label": {
+                            "type": "staticText",
+                            "text": "notify_alexa_devices_label",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "hidden": "!data.notify_alexa_enabled",
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginTop": "12px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #546e7a",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                            }
+                        },
+                        "notify_alexa_devices": {
+                            "type": "table",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "hidden": "!data.notify_alexa_enabled",
+                            "items": [
+                                {
+                                    "title": "notify_alexa_device_label",
+                                    "attr": "label",
+                                    "type": "text",
+                                    "width": "25%"
+                                },
+                                {
+                                    "title": "notify_alexa_device_speakstate",
+                                    "attr": "speakStateId",
+                                    "type": "text",
+                                    "width": "55%"
+                                },
+                                {
+                                    "title": "notify_alexa_device_volume",
+                                    "attr": "volume",
+                                    "type": "number",
+                                    "default": 50,
+                                    "placeholder": "50",
+                                    "width": "20%"
+                                }
+                            ]
+                        }
+                    }
+                },
                 "_notifyPeopleSection": {
                     "type": "panel",
                     "label": "section_notify_people",
                     "xs": 12,
-                    "hidden": "!data.notify_telegram_enabled",
+                    "hidden": "!data.notify_telegram_enabled && !data.notify_alexa_enabled",
                     "items": {
                         "notify_people_label": {
                             "type": "staticText",

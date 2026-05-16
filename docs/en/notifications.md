@@ -4,7 +4,7 @@
 
 # Tab: Notifications
 
-In the **Notifications** tab, you configure Telegram messages that are sent automatically when a Life360 person arrives at a known place.
+In the **Notifications** tab, you configure Telegram messages and Alexa announcements that are sent automatically when a Life360 person arrives at a known place.
 
 ---
 
@@ -30,6 +30,31 @@ Define all Telegram recipients who can receive notifications.
 Open the Telegram adapter in ioBroker Admin → **Messages** tab. After the user has sent a message to your Telegram bot, their Chat ID appears in the list of authenticated users.
 
 > **Note:** The display name is optional and only used as a convenient label for the filter in the people table. You can leave it empty and use the Chat ID directly as the filter value instead.
+
+---
+
+## Alexa
+
+Enable or disable Alexa announcements with the **Enable Alexa announcements** toggle.
+
+> **Requirement:** The [ioBroker Alexa2 adapter](https://github.com/Apollon77/ioBroker.alexa2) must be installed and running.
+
+---
+
+## Alexa Devices Table
+
+Define the Echo devices that should announce location changes.
+
+| Column | Description |
+|---|---|
+| **Display name** | Optional label to identify this device (e.g. `Office Echo`) |
+| **Speak state ID** | Full ioBroker state ID of the speak datapoint (e.g. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
+| **Volume (0–100)** | Announcement volume. The Alexa adapter automatically restores the previous volume afterwards. |
+
+**How to find the speak state ID:**  
+Open the ioBroker object tree → `alexa2.0` → `Echo-Devices` → find your device folder → `Commands` → `speak`. Copy the full object ID.
+
+> **Note:** When the volume is set, the Alexa2 adapter automatically restores the original volume after the announcement.
 
 ---
 
