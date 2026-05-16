@@ -835,6 +835,9 @@
                         }
                     }
                 },
+                "_notificationLine1": {
+                    "type": "divider"
+                },
                 "_alexaSection": {
                     "type": "panel",
                     "label": "section_alexa",
@@ -851,7 +854,8 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "1rem",
-                                "marginBottom": "20px"
+                                "marginBottom": "20px",
+                                "marginTop": "10px"
                             }
                         },
                         "notify_alexa_enabled": {
@@ -931,6 +935,9 @@
                         }
                     }
                 },
+                "_notificationLine2": {
+                    "type": "divider"
+                },
                 "_notifyPeopleSection": {
                     "type": "panel",
                     "label": "section_notify_people",
@@ -948,7 +955,8 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "1rem",
-                                "marginBottom": "8px"
+                                "marginBottom": "8px",
+                                "marginTop": "10px"
                             }
                         },
                         "notify_people_label": {
