@@ -301,6 +301,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places and/or own places); configurable per person with prefix text and per recipient with instance number and Chat ID
+
 ### 1.7.0 (2026-05-14)
 - (skvarel) Fixed crash on fresh install caused by adapter writing tracker files before the namespace meta object was created
 - (skvarel) Improved error message when Life360 API requests are blocked by Cloudflare (IP rate-limited); no longer logs the full HTML response

@@ -1,69 +1,68 @@
-# ioBroker Adapter Development with GitHub Copilot
+﻿# ioBroker Adapter-Entwicklung mit GitHub Copilot
 
-**Version:** 0.5.7  
-**Template Source:** https://github.com/DrozmotiX/ioBroker-Copilot-Instructions
-
-This file contains instructions and best practices for GitHub Copilot when working on ioBroker adapter development.
+Diese Datei enthält Anweisungen und Best Practices für GitHub Copilot bei der Entwicklung von ioBroker-Adaptern.
 
 ---
 
-## 📑 Table of Contents
+## 📑 Inhaltsverzeichnis
 
-1. [Project Context](#project-context)
-2. [Code Quality & Standards](#code-quality--standards)
-   - [Code Style Guidelines](#code-style-guidelines)
-   - [ESLint Configuration](#eslint-configuration)
+1. [Projektkontext](#projektkontext)
+2. [Codequalität & Standards](#codequalität--standards)
+   - [Code-Style-Richtlinien](#code-style-richtlinien)
+   - [ESLint-Konfiguration](#eslint-konfiguration)
 3. [Testing](#testing)
-   - [Unit Testing](#unit-testing)
-   - [Integration Testing](#integration-testing)
-   - [API Testing with Credentials](#api-testing-with-credentials)
-4. [Development Best Practices](#development-best-practices)
-   - [Dependency Management](#dependency-management)
-   - [HTTP Client Libraries](#http-client-libraries)
-   - [Error Handling](#error-handling)
-5. [Admin UI Configuration](#admin-ui-configuration)
-   - [JSON-Config Setup](#json-config-setup)
-   - [Translation Management](#translation-management)
-6. [Documentation](#documentation)
-   - [README Updates](#readme-updates)
-   - [Changelog Management](#changelog-management)
+   - [Unit Tests](#unit-tests)
+   - [Integrationstests](#integrationstests)
+   - [API-Tests mit Zugangsdaten](#api-tests-mit-zugangsdaten)
+4. [Entwicklungs-Best-Practices](#entwicklungs-best-practices)
+   - [Abhängigkeiten verwalten](#abhängigkeiten-verwalten)
+   - [HTTP-Client-Bibliotheken](#http-client-bibliotheken)
+   - [Fehlerbehandlung](#fehlerbehandlung)
+5. [Admin-UI-Konfiguration](#admin-ui-konfiguration)
+   - [JSON-Config-Setup](#json-config-setup)
+   - [Übersetzungsverwaltung](#übersetzungsverwaltung)
+6. [Dokumentation](#dokumentation)
+   - [README-Aktualisierungen](#readme-aktualisierungen)
+   - [Changelog-Verwaltung](#changelog-verwaltung)
 7. [CI/CD & GitHub Actions](#cicd--github-actions)
-   - [Workflow Configuration](#workflow-configuration)
-   - [Testing Integration](#testing-integration)
+   - [Workflow-Konfiguration](#workflow-konfiguration)
+   - [Test-Integration](#test-integration)
+8. [Workflow-Regeln](#workflow-regeln)
+9. [life360ng-Spezifische Muster](#life360ng-spezifische-coding-muster)
 
 ---
 
-## Project Context
+## Projektkontext
 
-You are working on an ioBroker adapter. ioBroker is an integration platform for the Internet of Things, focused on building smart home and industrial IoT solutions. Adapters are plugins that connect ioBroker to external systems, devices, or services.
+Du arbeitest an einem ioBroker-Adapter. ioBroker ist eine Integrationsplattform für das Internet der Dinge, die auf Smart-Home- und industrielle IoT-Lösungen ausgerichtet ist. Adapter sind Plugins, die ioBroker mit externen Systemen, Geräten oder Diensten verbinden.
 
-This adapter connects ioBroker to the [Life360](https://www.life360.com) cloud service for family location tracking and geo-presence detection. It is a community fork of the original `ioBroker.life360` adapter, renamed to `life360ng` (next generation).
+Dieser Adapter verbindet ioBroker mit dem [Life360](https://www.life360.com)-Cloud-Dienst für Familien-Standortverfolgung und Geo-Präsenzerkennung. Er ist ein Community-Fork des ursprünglichen `ioBroker.life360`-Adapters, umbenannt in `life360ng` (next generation).
 
-**Key characteristics:**
-- Token-based authentication only (no password/phone login — Life360 disabled this for EU users)
-- Polls the Life360 REST API at a configurable interval using Node.js native `https`
-- Supports Life360 circles, members, places and geo-presence detection
-- Supports custom private places (not visible to Life360 cloud) defined in the adapter config
-- Optionally forwards location data to the ioBroker `places` adapter
-- Uses `jsonConfig` for the admin UI (no compiled React frontend)
-- Written in plain JavaScript (no TypeScript compilation step)
-- EU users require bearer token obtained manually from browser DevTools
-- Connection type: cloud / poll
-- Main files: `main.js` (adapter), `lib/life360CloudConnector.js` (API), `lib/life360DbConnector.js` (state management), `lib/iobHelpers.js` (utilities)
+**Hauptmerkmale:**
+- Nur Token-basierte Authentifizierung (kein Passwort-/Telefon-Login — Life360 hat dies für EU-Nutzer deaktiviert)
+- Abfrage der Life360-REST-API in einem konfigurierbaren Intervall mit nativem Node.js `https`
+- Unterstützt Life360-Circles, Mitglieder, Orte und Geo-Präsenzerkennung
+- Unterstützt benutzerdefinierte private Orte (für die Life360-Cloud nicht sichtbar), die in der Adapter-Konfiguration definiert werden
+- Leitet optional Standortdaten an den ioBroker-`places`-Adapter weiter
+- Verwendet `jsonConfig` für die Admin-UI (kein kompiliertes React-Frontend)
+- In reinem JavaScript geschrieben (kein TypeScript-Kompilierungsschritt)
+- EU-Nutzer benötigen einen Bearer-Token, der manuell über die Browser-DevTools ermittelt wird
+- Verbindungstyp: Cloud / Poll
+- Hauptdateien: `main.js` (Adapter), `lib/life360CloudConnector.js` (API), `lib/life360DbConnector.js` (State-Verwaltung), `lib/iobHelpers.js` (Hilfsfunktionen)
 
 ---
 
-## Code Quality & Standards
+## Codequalität & Standards
 
-### Code Style Guidelines
+### Code-Style-Richtlinien
 
-- Follow JavaScript/TypeScript best practices
-- Use async/await for asynchronous operations
-- Implement proper resource cleanup in `unload()` method
-- Use semantic versioning for adapter releases
-- Include proper JSDoc comments for public methods
+- JavaScript Best Practices befolgen
+- Für asynchrone Operationen `async/await` verwenden
+- In der `unload()`-Methode ordentlich aufräumen (Ressourcen freigeben)
+- Semantische Versionierung für Adapter-Releases verwenden
+- JSDoc-Kommentare für öffentliche Methoden einbinden
 
-**Timer and Resource Cleanup Example:**
+**Beispiel für Timer- und Ressourcen-Bereinigung:**
 ```javascript
 private connectionTimer?: NodeJS.Timeout;
 
@@ -84,26 +83,26 @@ onUnload(callback) {
 }
 ```
 
-### ESLint Configuration
+### ESLint-Konfiguration
 
-**CRITICAL:** ESLint validation must run FIRST in your CI/CD pipeline, before any other tests. This "lint-first" approach catches code quality issues early.
+**KRITISCH:** ESLint-Validierung muss in der CI/CD-Pipeline ZUERST laufen, vor allen anderen Tests. Dieser „Lint-First"-Ansatz erkennt Code-Qualitätsprobleme früh.
 
 #### Setup
 ```bash
 npm install --save-dev eslint @iobroker/eslint-config
 ```
 
-#### Configuration (.eslintrc.json)
+#### Konfiguration (.eslintrc.json)
 ```json
 {
   "extends": "@iobroker/eslint-config",
   "rules": {
-    // Add project-specific rule overrides here if needed
+    // Projektspezifische Regelüberschreibungen hier einfügen
   }
 }
 ```
 
-#### Package.json Scripts
+#### Package.json-Skripte
 ```json
 {
   "scripts": {
@@ -114,55 +113,55 @@ npm install --save-dev eslint @iobroker/eslint-config
 ```
 
 #### Best Practices
-1. ✅ Run ESLint before committing — fix ALL warnings, not just errors
-2. ✅ Use `lint:fix` for auto-fixable issues
-3. ✅ Don't disable rules without documentation
-4. ✅ Lint all relevant files (main code, tests, build scripts)
-5. ✅ Keep `@iobroker/eslint-config` up to date
-6. ✅ **ESLint warnings are treated as errors in CI** (`--max-warnings 0`). The `lint` script above already includes this flag — run `npm run lint` to match CI behavior locally
+1. ✅ ESLint nach jeder Änderung ausführen — ALLE Warnungen beheben, nicht nur Fehler
+2. ✅ `lint:fix` für automatisch behebbare Probleme verwenden
+3. ✅ Regeln nicht ohne Dokumentation deaktivieren
+4. ✅ Alle relevanten Dateien linten (Hauptcode, Tests, Build-Skripte)
+5. ✅ `@iobroker/eslint-config` aktuell halten
+6. ✅ **ESLint-Warnungen werden in CI als Fehler behandelt** (`--max-warnings 0`). Das `lint`-Skript enthält dieses Flag bereits — `npm run lint` lokal ausführen, um CI-Verhalten zu reproduzieren
 
-#### Common Issues
-- **Unused variables**: Remove or prefix with underscore (`_variable`)
-- **Missing semicolons**: Run `npm run lint:fix`
-- **Indentation**: Use 4 spaces (ioBroker standard)
-- **console.log**: Replace with `adapter.log.debug()` or remove
+#### Häufige Probleme
+- **Ungenutzte Variablen**: Entfernen oder mit Unterstrich prefixen (`_variable`)
+- **Fehlende Semikolons**: `npm run lint:fix` ausführen
+- **Einrückung**: 4 Leerzeichen (ioBroker-Standard)
+- **console.log**: Durch `adapter.log.debug()` ersetzen oder entfernen
 
 ---
 
 ## Testing
 
-### Unit Testing
+### Unit Tests
 
-- Use Jest as the primary testing framework
-- Create tests for all adapter main functions and helper methods
-- Test error handling scenarios and edge cases
-- Mock external API calls and hardware dependencies
-- For adapters connecting to APIs/devices not reachable by internet, provide example data files
+- Jest als primäres Test-Framework verwenden
+- Tests für alle Adapter-Hauptfunktionen und Hilfsmethoden erstellen
+- Fehlerbehandlungsszenarien und Grenzfälle testen
+- Externe API-Aufrufe und Hardware-Abhängigkeiten mocken
+- Für Adapter, die sich mit APIs/Geräten verbinden, die nicht über das Internet erreichbar sind, Beispieldatendateien bereitstellen
 
-**Example Structure:**
+**Beispielstruktur:**
 ```javascript
 describe('AdapterName', () => {
   let adapter;
   
   beforeEach(() => {
-    // Setup test adapter instance
+    // Test-Adapter-Instanz aufsetzen
   });
   
   test('should initialize correctly', () => {
-    // Test adapter initialization
+    // Adapter-Initialisierung testen
   });
 });
 ```
 
-### Integration Testing
+### Integrationstests
 
-**CRITICAL:** Use the official `@iobroker/testing` framework. This is the ONLY correct way to test ioBroker adapters.
+**KRITISCH:** Das offizielle `@iobroker/testing`-Framework verwenden. Dies ist der EINZIG korrekte Weg, ioBroker-Adapter zu testen.
 
-**Official Documentation:** https://github.com/ioBroker/testing
+**Offizielle Dokumentation:** https://github.com/ioBroker/testing
 
-#### Framework Structure
+#### Framework-Struktur
 
-**✅ Correct Pattern:**
+**✅ Korrektes Muster:**
 ```javascript
 const path = require('path');
 const { tests } = require('@iobroker/testing');
@@ -179,7 +178,6 @@ tests.integration(path.join(__dirname, '..'), {
             it('should configure and start adapter', function () {
                 return new Promise(async (resolve, reject) => {
                     try {
-                        // Get adapter object
                         const obj = await new Promise((res, rej) => {
                             harness.objects.getObject('system.adapter.your-adapter.0', (err, o) => {
                                 if (err) return rej(err);
@@ -189,7 +187,6 @@ tests.integration(path.join(__dirname, '..'), {
                         
                         if (!obj) return reject(new Error('Adapter object not found'));
 
-                        // Configure adapter
                         Object.assign(obj.native, {
                             position: '52.520008,13.404954',
                             createHourly: true,
@@ -197,11 +194,9 @@ tests.integration(path.join(__dirname, '..'), {
 
                         harness.objects.setObject(obj._id, obj);
                         
-                        // Start and wait
                         await harness.startAdapterAndWait();
                         await new Promise(resolve => setTimeout(resolve, 15000));
 
-                        // Verify states
                         const stateIds = await harness.dbConnection.getStateIDs('your-adapter.0.*');
                         
                         if (stateIds.length > 0) {
@@ -221,70 +216,19 @@ tests.integration(path.join(__dirname, '..'), {
 });
 ```
 
-#### Testing Success AND Failure Scenarios
+#### Wichtige Regeln
 
-**IMPORTANT:** For every "it works" test, implement corresponding "it fails gracefully" tests.
+1. ✅ `@iobroker/testing`-Framework verwenden
+2. ✅ Konfiguration über `harness.objects.setObject()` vornehmen
+3. ✅ Start über `harness.startAdapterAndWait()`
+4. ✅ States über `harness.states.getState()` verifizieren
+5. ✅ Ausreichende Timeouts für asynchrone Operationen einplanen
+6. ❌ API-URLs NIEMALS direkt testen
+7. ❌ Das Harness-System NIEMALS umgehen
 
-**Failure Scenario Example:**
-```javascript
-it('should NOT create daily states when daily is disabled', function () {
-    return new Promise(async (resolve, reject) => {
-        try {
-            harness = getHarness();
-            const obj = await new Promise((res, rej) => {
-                harness.objects.getObject('system.adapter.your-adapter.0', (err, o) => {
-                    if (err) return rej(err);
-                    res(o);
-                });
-            });
-            
-            if (!obj) return reject(new Error('Adapter object not found'));
+#### Workflow-Abhängigkeiten
 
-            Object.assign(obj.native, {
-                createDaily: false, // Daily disabled
-            });
-
-            await new Promise((res, rej) => {
-                harness.objects.setObject(obj._id, obj, (err) => {
-                    if (err) return rej(err);
-                    res(undefined);
-                });
-            });
-
-            await harness.startAdapterAndWait();
-            await new Promise((res) => setTimeout(res, 20000));
-
-            const stateIds = await harness.dbConnection.getStateIDs('your-adapter.0.*');
-            const dailyStates = stateIds.filter((key) => key.includes('daily'));
-            
-            if (dailyStates.length === 0) {
-                console.log('✅ No daily states found as expected');
-                resolve(true);
-            } else {
-                reject(new Error('Expected no daily states but found some'));
-            }
-
-            await harness.stopAdapter();
-        } catch (error) {
-            reject(error);
-        }
-    });
-}).timeout(40000);
-```
-
-#### Key Rules
-
-1. ✅ Use `@iobroker/testing` framework
-2. ✅ Configure via `harness.objects.setObject()`
-3. ✅ Start via `harness.startAdapterAndWait()`
-4. ✅ Verify states via `harness.states.getState()`
-5. ✅ Allow proper timeouts for async operations
-6. ❌ NEVER test API URLs directly
-7. ❌ NEVER bypass the harness system
-
-#### Workflow Dependencies
-
-Integration tests should run ONLY after lint and adapter tests pass:
+Integrationstests sollen NUR nach bestandenen Lint- und Adapter-Tests ausgeführt werden:
 
 ```yaml
 integration-tests:
@@ -292,11 +236,11 @@ integration-tests:
   runs-on: ubuntu-22.04
 ```
 
-### API Testing with Credentials
+### API-Tests mit Zugangsdaten
 
-For adapters connecting to external APIs requiring authentication:
+Für Adapter, die sich mit externen APIs mit Authentifizierung verbinden:
 
-#### Password Encryption for Integration Tests
+#### Passwort-Verschlüsselung für Integrationstests
 
 ```javascript
 async function encryptPassword(harness, password) {
@@ -304,7 +248,6 @@ async function encryptPassword(harness, password) {
     if (!systemConfig?.native?.secret) {
         throw new Error("Could not retrieve system secret for password encryption");
     }
-    
     const secret = systemConfig.native.secret;
     let result = '';
     for (let i = 0; i < password.length; ++i) {
@@ -314,114 +257,93 @@ async function encryptPassword(harness, password) {
 }
 ```
 
-#### Demo Credentials Testing Pattern
-
-- Use provider demo credentials when available (e.g., `demo@api-provider.com` / `demo`)
-- Create separate test file: `test/integration-demo.js`
-- Add npm script: `"test:integration-demo": "mocha test/integration-demo --exit"`
-- Implement clear success/failure criteria
-
-**Example Implementation:**
-```javascript
-it("Should connect to API with demo credentials", async () => {
-    const encryptedPassword = await encryptPassword(harness, "demo_password");
-    
-    await harness.changeAdapterConfig("your-adapter", {
-        native: {
-            username: "demo@provider.com",
-            password: encryptedPassword,
-        }
-    });
-
-    await harness.startAdapter();
-    await new Promise(resolve => setTimeout(resolve, 60000));
-    
-    const connectionState = await harness.states.getStateAsync("your-adapter.0.info.connection");
-    
-    if (connectionState?.val === true) {
-        console.log("✅ SUCCESS: API connection established");
-        return true;
-    } else {
-        throw new Error("API Test Failed: Expected API connection. Check logs for API errors.");
-    }
-}).timeout(120000);
-```
-
 ---
 
-## Development Best Practices
+## Entwicklungs-Best-Practices
 
-### Dependency Management
+### Abhängigkeiten verwalten
 
-- Always use `npm` for dependency management
-- Use `npm ci` for installing existing dependencies (respects package-lock.json)
-- Use `npm install` only when adding or updating dependencies
-- Keep dependencies minimal and focused
-- Only update dependencies in separate Pull Requests
+- Immer `npm` für die Paketverwaltung verwenden
+- `npm ci` für das Installieren bestehender Abhängigkeiten (respektiert package-lock.json)
+- `npm install` nur beim Hinzufügen oder Aktualisieren von Abhängigkeiten
+- Abhängigkeiten minimal und fokussiert halten
+- Abhängigkeiten nur in separaten Pull Requests aktualisieren
 
-**When modifying package.json:**
-1. Run `npm install` to sync package-lock.json
-2. Commit both package.json and package-lock.json together
+**Beim Ändern von package.json:**
+1. `npm install` ausführen, um package-lock.json zu synchronisieren
+2. package.json und package-lock.json zusammen committen
 
 **Best Practices:**
-- Prefer built-in Node.js modules when possible
-- Use `@iobroker/adapter-core` for adapter base functionality
-- Avoid deprecated packages
-- Document specific version requirements
+- Eingebaute Node.js-Module bevorzugen, wenn möglich
+- `@iobroker/adapter-core` für Adapter-Basisfunktionalität verwenden
+- Veraltete Pakete vermeiden
+- Spezifische Versionsanforderungen dokumentieren
 
-### HTTP Client Libraries
+### HTTP-Client-Bibliotheken
 
-- **Preferred:** Use native `fetch` API (Node.js 20+ required)
-- **Avoid:** `axios` unless specific features are required
+- **Bevorzugt:** Natives `node:https`-Modul (wie bereits im Adapter implementiert)
+- **Vermeiden:** `axios`, `request` oder andere HTTP-Bibliotheken
 
-**Example with fetch:**
+**Beispiel mit node:https:**
 ```javascript
-try {
-  const response = await fetch('https://api.example.com/data');
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-  }
-  const data = await response.json();
-} catch (error) {
-  this.log.error(`API request failed: ${error.message}`);
+const https = require('node:https');
+
+function apiRequest(options) {
+    return new Promise((resolve, reject) => {
+        const req = https.request(options, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                if (res.statusCode === 401) {
+                    reject(new Error('Token expired'));
+                    return;
+                }
+                try {
+                    resolve(JSON.parse(data));
+                } catch (e) {
+                    reject(e);
+                }
+            });
+        });
+        req.on('error', reject);
+        req.end();
+    });
 }
 ```
 
-**Other Recommendations:**
-- **Logging:** Use adapter built-in logging (`this.log.*`)
-- **Scheduling:** Use adapter built-in timers and intervals
-- **File operations:** Use Node.js `fs/promises`
-- **Configuration:** Use adapter config system
+**Weitere Empfehlungen:**
+- **Logging:** Adapter-eingebautes Logging verwenden (`this.log.*`)
+- **Scheduling:** Adapter-eingebaute Timer und Intervalle verwenden
+- **Dateioperationen:** Node.js `fs/promises` verwenden
+- **Konfiguration:** Adapter-Konfigurationssystem verwenden
 
-### Error Handling
+### Fehlerbehandlung
 
-- Always catch and log errors appropriately
-- Use adapter log levels (error, warn, info, debug)
-- Provide meaningful, user-friendly error messages
-- Handle network failures gracefully
-- Implement retry mechanisms where appropriate
-- Always clean up timers, intervals, and resources in `unload()` method
+- Fehler immer abfangen und angemessen protokollieren
+- Adapter-Log-Level verwenden (error, warn, info, debug)
+- Aussagekräftige, benutzerfreundliche Fehlermeldungen bereitstellen
+- Netzwerkausfälle sauber behandeln
+- Timer, Intervalle und Ressourcen immer in der `unload()`-Methode bereinigen
 
-**Example:**
+**Beispiel:**
 ```javascript
 try {
   await this.connectToDevice();
 } catch (error) {
   this.log.error(`Failed to connect to device: ${error.message}`);
   this.setState('info.connection', false, true);
-  // Implement retry logic if needed
 }
 ```
 
 ---
 
-## Admin UI Configuration
+## Admin-UI-Konfiguration
 
-### JSON-Config Setup
+### JSON-Config-Setup
 
-Use JSON-Config format for modern ioBroker admin interfaces.
+JSON-Config-Format für moderne ioBroker-Admin-Oberflächen verwenden.
 
-**Example Structure:**
+**Beispielstruktur:**
 ```json
 {
   "type": "panel",
@@ -435,155 +357,114 @@ Use JSON-Config format for modern ioBroker admin interfaces.
 }
 ```
 
-**Guidelines:**
-- ✅ Use consistent naming conventions
-- ✅ Provide sensible default values
-- ✅ Include validation for required fields
-- ✅ Add tooltips for complex options
-- ✅ Ensure translations for all supported languages (minimum English and German)
-- ✅ Write end-user friendly labels, avoid technical jargon
+**Richtlinien:**
+- ✅ Konsistente Namenskonventionen verwenden
+- ✅ Sinnvolle Standardwerte bereitstellen
+- ✅ Validierung für Pflichtfelder einbauen
+- ✅ Tooltips für komplexe Optionen hinzufügen
+- ✅ Übersetzungen mindestens für Englisch und Deutsch pflegen
+- ✅ Benutzerfreundliche Labels schreiben, technischen Jargon vermeiden
 
-### Translation Management
+### Übersetzungsverwaltung
 
-**CRITICAL:** Translation files must stay synchronized with `admin/jsonConfig.json`. Orphaned keys or missing translations cause UI issues and PR review delays.
+**KRITISCH:** Übersetzungsdateien müssen mit `admin/jsonConfig.json` synchron bleiben. Verwaiste Keys oder fehlende Übersetzungen verursachen UI-Probleme.
 
-#### Overview
-- **Location:** `admin/i18n/{lang}/translations.json` for 11 languages (de, en, es, fr, it, nl, pl, pt, ru, uk, zh-cn)
-- **Source of truth:** `admin/jsonConfig.json` - all `label` and `help` properties must have translations
-- **Command:** `npm run translate` - auto-generates translations but does NOT remove orphaned keys
-- **Formatting:** English uses tabs, other languages use 4 spaces
+#### Manuell zu pflegende Übersetzungen
 
-#### Critical Rules
-1. ✅ Keys must match exactly with jsonConfig.json
-2. ✅ No orphaned keys in translation files
-3. ✅ All translations must be in native language (no English fallbacks)
-4. ✅ Keys must be sorted alphabetically
+**WICHTIG:** Nur `de.json` und `en.json` werden manuell gepflegt!
 
-#### Workflow for Translation Updates
+- `admin/i18n/de.json` — Deutsch **(manuell pflegen)**
+- `admin/i18n/en.json` — Englisch **(manuell pflegen)**
+- Alle anderen Sprachen (`es`, `fr`, `it`, `nl`, `pl`, `pt`, `ru`, `uk`, `zh-cn`) werden automatisch per `npm run translate` (translate-adapter) generiert und sollen **nicht** manuell bearbeitet werden
+- `npm run translate` wird **vom Eigentümer manuell ausgeführt** — GitHub Copilot führt diesen Befehl nicht aus
 
-**When modifying admin/jsonConfig.json:**
+#### Workflow bei Änderungen an admin/jsonConfig.json
 
-1. Make your changes to labels/help texts
-2. Run automatic translation: `npm run translate`
-3. Create validation script (`scripts/validate-translations.js`):
+GitHub Copilot erledigt:
+1. Neue Keys in `admin/i18n/de.json` auf Deutsch hinzufügen
+2. Neue Keys in `admin/i18n/en.json` auf Englisch hinzufügen
+3. Verwaiste Keys aus `de.json` und `en.json` entfernen, wenn ein Key aus `jsonConfig.json` entfernt wird
 
-```javascript
-const fs = require('fs');
-const path = require('path');
-const jsonConfig = JSON.parse(fs.readFileSync('admin/jsonConfig.json', 'utf8'));
+Der Eigentümer führt anschließend manuell aus:
+4. `npm run translate` — generiert alle anderen Sprachen automatisch
+5. `npm run release` — veröffentlicht die neue Version
 
-function extractTexts(obj, texts = new Set()) {
-    if (typeof obj === 'object' && obj !== null) {
-        if (obj.label) texts.add(obj.label);
-        if (obj.help) texts.add(obj.help);
-        for (const key in obj) {
-            extractTexts(obj[key], texts);
-        }
-    }
-    return texts;
-}
+#### Wichtige Regeln
+1. ✅ Keys müssen exakt mit denen in `jsonConfig.json` übereinstimmen
+2. ✅ Keine verwaisten Keys in den manuell gepflegten Dateien
+3. ✅ Nur `de.json` und `en.json` manuell bearbeiten
+4. ✅ Alle anderen Sprachen per `npm run translate` generieren lassen (Eigentümer)
+5. ✅ Keys alphabetisch sortiert
 
-const requiredTexts = extractTexts(jsonConfig);
-const languages = ['de', 'en', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ru', 'uk', 'zh-cn'];
-let hasErrors = false;
+#### Übersetzungs-Checkliste
 
-languages.forEach(lang => {
-    const translationPath = path.join('admin', 'i18n', lang, 'translations.json');
-    const translations = JSON.parse(fs.readFileSync(translationPath, 'utf8'));
-    const translationKeys = new Set(Object.keys(translations));
-    
-    const missing = Array.from(requiredTexts).filter(text => !translationKeys.has(text));
-    const orphaned = Array.from(translationKeys).filter(key => !requiredTexts.has(key));
-    
-    console.log(`\n=== ${lang} ===`);
-    if (missing.length > 0) {
-        console.error('❌ Missing keys:', missing);
-        hasErrors = true;
-    }
-    if (orphaned.length > 0) {
-        console.error('❌ Orphaned keys (REMOVE THESE):', orphaned);
-        hasErrors = true;
-    }
-    if (missing.length === 0 && orphaned.length === 0) {
-        console.log('✅ All keys match!');
-    }
-});
+Vor dem Committen von Admin-UI- oder Übersetzungsänderungen (durch GitHub Copilot):
+1. ✅ Neue Keys in `de.json` auf Deutsch eingetragen
+2. ✅ Neue Keys in `en.json` auf Englisch eingetragen
+3. ✅ Keine verwaisten Keys in `de.json` oder `en.json`
+4. ✅ `npm run lint` bestanden
+5. ✅ Admin-UI wird korrekt angezeigt
 
-process.exit(hasErrors ? 1 : 0);
-```
-
-4. Run validation: `node scripts/validate-translations.js`
-5. Remove orphaned keys manually from all translation files
-6. Add missing translations in native languages
-7. Run: `npm run lint && npm run test`
-
-#### Add Validation to package.json
-
-```json
-{
-  "scripts": {
-    "translate": "translate-adapter",
-    "validate:translations": "node scripts/validate-translations.js",
-    "pretest": "npm run lint && npm run validate:translations"
-  }
-}
-```
-
-#### Translation Checklist
-
-Before committing changes to admin UI or translations:
-1. ✅ Validation script shows "All keys match!" for all 11 languages
-2. ✅ No orphaned keys in any translation file
-3. ✅ All translations in native language
-4. ✅ Keys alphabetically sorted
-5. ✅ `npm run lint` passes
-6. ✅ `npm run test` passes
-7. ✅ Admin UI displays correctly
+Anschließend vom Eigentümer:
+6. `npm run translate` ausführen
+7. `npm run release` ausführen
 
 ---
 
-## Documentation
+## Dokumentation
 
-### README Updates
+### README-Aktualisierungen
 
-#### Required Sections
-1. **Installation** - Clear npm/ioBroker admin installation steps
-2. **Configuration** - Detailed configuration options with examples
-3. **Usage** - Practical examples and use cases
-4. **Changelog** - Version history (use "## **WORK IN PROGRESS**" for ongoing changes)
-5. **License** - License information (typically MIT for ioBroker adapters)
-6. **Support** - Links to issues, discussions, community support
+**PFLICHT:** Die `README.md` muss vollständig auf **Englisch** verfasst sein — das ist eine verbindliche ioBroker-Vorgabe. Kein Inhalt in `README.md` darf auf Deutsch oder einer anderen Sprache geschrieben werden. Deutschsprachige Inhalte gehören ausschließlich in `docs/de/`.
 
-#### Documentation Standards
-- Use clear, concise language
-- Include code examples for configuration
-- Add screenshots for admin interface when applicable
-- Maintain multilingual support (minimum English and German)
-- Always reference issues in commits and PRs (e.g., "fixes #xx")
+#### Pflichtabschnitte
+1. **Installation** — Clear npm/ioBroker admin installation steps
+2. **Configuration** — Detailed configuration options with examples
+3. **Usage** — Practical examples and use cases
+4. **Changelog** — Version history (use `### **WORK IN PROGRESS**` for ongoing changes)
+5. **License** — License information (typically MIT for ioBroker adapters)
+6. **Support** — Links to issues, discussions, community support
 
-#### Mandatory README Updates for PRs
+#### Dokumentationsstandards
+- `README.md` ausschließlich auf Englisch schreiben (ioBroker-Pflicht)
+- Klare, prägnante Sprache verwenden
+- Code-Beispiele für die Konfiguration einbinden
+- Screenshots für die Admin-Oberfläche hinzufügen, wenn sinnvoll
+- Issues in Commits und PRs immer referenzieren (z. B. „fixes #xx")
 
-For **every PR or new feature**, always add a user-friendly entry to README.md:
+#### Pflicht: Dokumentation bei neuen Features und Konfigurationsänderungen
 
-- Add entries under `### **WORK IN PROGRESS**` section
-- Use format: `- (author) Plain description of change`
-- **NO bold type prefixes** like `**FIXED**`, `**NEW**` etc. — plain text only
-- Reason: the `io-package.json` news translation script breaks on markdown bold syntax in changelog entries
-- Focus on user impact, not technical details
+**Bei jedem neuen Feature oder jeder Änderung an der Admin-Konfiguration MÜSSEN folgende Dateien aktualisiert werden:**
 
-**Example:**
+1. `docs/en/` — Englische Dokumentation anpassen
+2. `docs/de/` — Deutsche Dokumentation anpassen
+3. `README.md` — Hauptdokumentation aktualisieren
+
+Ohne diese Aktualisierungen ist ein Feature nicht vollständig! Die Dokumentation muss den tatsächlichen Zustand der Konfigurationsoberfläche und Funktionalität widerspiegeln.
+
+#### Pflicht: Changelog-Eintrag bei jeder Codeänderung
+
+**Bei jedem Fix oder neuen Feature MUSS ein Eintrag unter `### **WORK IN PROGRESS**` in `README.md` hinzugefügt werden:**
+
+- Format: `- (author) Klare, benutzerfreundliche Beschreibung der Änderung`
+- **KEINE fettgedruckten Präfixe** wie `**FIXED**`, `**NEW**` usw. — nur einfacher Text
+- Grund: Das `io-package.json`-News-Übersetzungsskript bricht bei Markdown-Fettschrift in Changelog-Einträgen
+- Auf Auswirkung für den Benutzer fokussieren, nicht auf technische Details
+- Changelog-Einträge grundsätzlich in englisch
+
+**Beispiel:**
 ```markdown
 ### **WORK IN PROGRESS**
 
-- (skvarel) Fixed adapter turning green on invalid token
-- (skvarel) Migrated HTTP requests from deprecated request package to native node:https
+- (skvarel) Added optional map legend footer to tracker maps showing start, waypoint, current position markers and map size
+- (skvarel) Switched HTML maps to bilingual - english and german
 ```
 
-### Changelog Management
+### Changelog-Verwaltung
 
-Follow the [AlCalzone release-script](https://github.com/AlCalzone/release-script) standard.
+Folgt dem [AlCalzone release-script](https://github.com/AlCalzone/release-script)-Standard.
 
-#### Format Requirements
+#### Format-Anforderungen
 
 ```markdown
 # Changelog
@@ -595,153 +476,165 @@ Follow the [AlCalzone release-script](https://github.com/AlCalzone/release-scrip
 
 ### **WORK IN PROGRESS**
 
-- (author) Added new feature X
-- (author) Fixed bug Y (fixes #25)
+- (author) Neues Feature X hinzugefügt
+- (author) Bug Y behoben (fixes #25)
 
 ### 1.0.2 (2026-04-11)
-- (author) Migrated HTTP requests from deprecated package
-- (author) Removed unused dependencies
+- (author) HTTP-Anfragen von veraltetem Paket migriert
+- (author) Ungenutzte Abhängigkeiten entfernt
 ```
 
-#### Workflow Process
-- **During Development:** All changes go under `### **WORK IN PROGRESS**`
-- **For Every PR:** Add user-facing changes to WORK IN PROGRESS section
-- **Before Merge:** Version number and date added when merging to main
-- **Release Process:** Release-script automatically converts placeholder to actual version
+#### Workflow-Ablauf
+- **Während der Entwicklung:** Alle Änderungen kommen unter `### **WORK IN PROGRESS**`
+- **Bei jedem Fix oder Feature:** Changelog-Eintrag unter WORK IN PROGRESS hinzufügen — **immer, ohne Ausnahme**
+- **Release-Prozess:** Das Release-Script wandelt den Platzhalter automatisch in die tatsächliche Version um
+- Changelog-Einträge grundsätzlich in englisch
 
-#### Change Entry Format
-- Format: `- (author) Plain description without bold type prefixes`
-- **NEVER use bold type tags** like `**FIXED**`, `**NEW**`, `**ENHANCED**` in changelog entries
-- Reason: `io-package.json` news translation script breaks on markdown bold syntax
-- Focus on user impact, not technical implementation
-- Reference issues: "fixes #XX" or "solves #XX"
+#### Format für Änderungseinträge
+- Format: `- (author) Beschreibung ohne fettgedruckte Präfixe`
+- **NIEMALS fettgedruckte Tags** wie `**FIXED**`, `**NEW**`, `**ENHANCED**` in Changelog-Einträgen verwenden
+- Grund: `io-package.json`-News-Übersetzungsskript bricht bei Markdown-Fettschrift
+- Auf Auswirkung für den Benutzer fokussieren, nicht auf technische Implementierung
+- Issues referenzieren: „fixes #XX" oder „solves #XX"
+- Changelog-Einträge grundsätzlich in englisch
 
 ---
 
 ## CI/CD & GitHub Actions
 
-### Workflow Configuration
+### Workflow-Konfiguration
 
 #### GitHub Actions Best Practices
 
-**Must use ioBroker official testing actions:**
-- `ioBroker/testing-action-check@v1` for lint and package validation
-- `ioBroker/testing-action-adapter@v1` for adapter tests
-- `ioBroker/testing-action-deploy@v1` for automated releases with Trusted Publishing (OIDC)
+**Offizielle ioBroker-Test-Actions müssen verwendet werden:**
+- `ioBroker/testing-action-check@v1` für Lint und Paketvalidierung
+- `ioBroker/testing-action-adapter@v1` für Adapter-Tests
+- `ioBroker/testing-action-deploy@v1` für automatisierte Releases mit Trusted Publishing (OIDC)
 
-**Configuration:**
-- **Node.js versions:** Test on 20.x, 22.x, 24.x
-- **Platform:** Use ubuntu-22.04
-- **Automated releases:** Deploy to npm on version tags (requires NPM Trusted Publishing)
-- **Monitoring:** Include Sentry release tracking for error monitoring
+**Konfiguration:**
+- **Node.js-Versionen:** Auf 22.x, 24.x testen
+- **Plattform:** ubuntu-22.04 verwenden
+- **Automatische Releases:** Auf npm bei Version-Tags deployen (erfordert NPM Trusted Publishing)
 
-#### Critical: Lint-First Validation Workflow
+#### Kritisch: Lint-First-Validierungsworkflow
 
-**ALWAYS run ESLint checks BEFORE other tests.** Benefits:
-- Catches code quality issues immediately
-- Prevents wasting CI resources on tests that would fail due to linting errors
-- Provides faster feedback to developers
-- Enforces consistent code quality
+**ESLint-Checks immer VOR anderen Tests ausführen.** Vorteile:
+- Erkennt Code-Qualitätsprobleme sofort
+- Verhindert, dass CI-Ressourcen für Tests verschwendet werden, die wegen Lint-Fehlern scheitern würden
+- Schnelleres Feedback für Entwickler
 
-**Workflow Dependency Configuration:**
+**Workflow-Abhängigkeitskonfiguration:**
 ```yaml
 jobs:
   check-and-lint:
-    # Runs ESLint and package validation
-    # Uses: ioBroker/testing-action-check@v1
+    # Führt ESLint und Paketvalidierung durch
+    # Verwendet: ioBroker/testing-action-check@v1
     
   adapter-tests:
-    needs: [check-and-lint]  # Wait for linting to pass
-    # Run adapter unit tests
+    needs: [check-and-lint]
     
   integration-tests:
-    needs: [check-and-lint, adapter-tests]  # Wait for both
-    # Run integration tests
+    needs: [check-and-lint, adapter-tests]
 ```
 
-**Key Points:**
-- The `check-and-lint` job has NO dependencies - runs first
-- ALL other test jobs MUST list `check-and-lint` in their `needs` array
-- If linting fails, no other tests run, saving time
-- Fix all ESLint errors before proceeding
+**Wichtige Punkte:**
+- Der `check-and-lint`-Job hat KEINE Abhängigkeiten — läuft als erstes
+- ALLE anderen Test-Jobs MÜSSEN `check-and-lint` in ihrem `needs`-Array auflisten
+- Wenn Linting fehlschlägt, laufen keine anderen Tests, was Zeit spart
 
-### Testing Integration
-
-#### API Testing in CI/CD
-
-For adapters with external API dependencies:
-
-```yaml
-demo-api-tests:
-  if: contains(github.event.head_commit.message, '[skip ci]') == false
-  runs-on: ubuntu-22.04
-  
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Use Node.js 20.x
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20.x
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Run demo API tests
-      run: npm run test:integration-demo
-```
+### Test-Integration
 
 #### Testing Best Practices
-- Run credential tests separately from main test suite
-- Don't make credential tests required for deployment
-- Provide clear failure messages for API issues
-- Use appropriate timeouts for external calls (120+ seconds)
-
-#### Package.json Integration
-```json
-{
-  "scripts": {
-    "test:integration-demo": "mocha test/integration-demo --exit"
-  }
-}
-```
+- Zugangsdaten-Tests getrennt von der Haupt-Test-Suite ausführen
+- Zugangsdaten-Tests nicht als Pflicht für das Deployment machen
+- Klare Fehlermeldungen für API-Probleme bereitstellen
+- Angemessene Timeouts für externe Aufrufe verwenden (120+ Sekunden)
 
 ---
 
-### life360ng-Specific Coding Patterns
+## Workflow-Regeln
 
-#### Module Architecture
-- `lib/life360CloudConnector.js` — all Life360 API communication; uses `setInterval` for polling (handle with `clearInterval`, not `clearTimeout`)
-- `lib/life360DbConnector.js` — creates and updates ioBroker states/objects from Life360 data
-- `lib/iobHelpers.js` — shared utilities (logging, state helpers)
-- `main.js` — adapter entry point; wires the connectors together via callbacks
+Diese Regeln gelten absolut und dürfen nicht umgangen werden.
 
-#### API Communication
-- Use native `node:https` for all HTTP requests (no axios, no request package)
-- Life360 API base URL: `https://api.life360.com/v3/`
-- All requests require `Authorization: Bearer <token>` header
-- Treat HTTP 401 responses as token-expired — set `info.connection` to `false` and log a warning
-- Never retry failed requests in a tight loop; rely on the next poll interval
+### ❌ Kein Commit und kein Push
 
-#### Polling
-- Polling is managed by `setInterval` in `life360CloudConnector.js`
-- Always use `clearInterval` (not `clearTimeout`) to stop polling in `disablePolling()`
-- The poll interval is configurable in the adapter config (`pollInterval` in seconds)
+**NIEMALS `git commit`, `git push` oder `git add` mit anschließendem Commit ausführen!**
 
-#### Custom Places
-- Custom places are defined in `admin/jsonConfig.json` as a table in the `_myplaces` tab
-- Presence check for custom places uses the Haversine formula against the person's lat/lon
-- Custom places take priority over Life360 cloud places in `locationName`
+Das Committen und Pushen von Änderungen übernimmt ausschließlich der Eigentümer manuell über das Release Script. GitHub Copilot darf:
+- Dateien bearbeiten und erstellen ✅
+- Lint- und Test-Befehle ausführen ✅
+- Code-Änderungen vorschlagen und umsetzen ✅
 
-#### State Naming
-- People states: `life360ng.<instance>.people.<name>.<state>`
-- Place states: `life360ng.<instance>.places.<name>.<state>`
-- Connection state: `life360ng.<instance>.info.connection`
+GitHub Copilot darf **nicht**:
+- `git commit` ausführen ❌
+- `git push` ausführen ❌
+- `git add` mit anschließendem Commit ausführen ❌
+- Das Release-Script aufrufen ❌
+- `npm run translate` ausführen ❌ (macht der Eigentümer manuell vor dem Release)
 
-#### jsonConfig Admin UI
-- Config file: `admin/jsonConfig.json` (no compiled React)
-- Images: stored in `admin/img/` and referenced as `img/<filename>` in `staticImage` elements
-- Translations: `admin/i18n/<lang>.json` — run `npm run translate` after changing labels
-- 11 languages required: de, en, es, fr, it, nl, pl, pt, ru, uk, zh-cn
+### ✅ Lint nach jeder Änderung
+
+**Nach JEDER Codeänderung `npm run lint` ausführen und alle Warnungen sowie Fehler beheben.**
+
+```bash
+npm run lint
+```
+
+Wenn Fehler auftreten:
+1. Automatisch behebbare Fehler mit `npm run lint:fix` korrigieren
+2. Verbleibende Fehler manuell beheben
+3. Erneut `npm run lint` ausführen, bis keine Fehler mehr angezeigt werden
+
+**Lint-Fehler dürfen nicht ignoriert werden.** In CI gilt `--max-warnings 0`, d. h. auch Warnungen werden als Fehler behandelt.
+
+### ✅ Changelog bei jeder Codeänderung
+
+**Bei jedem Fix oder neuen Feature einen Eintrag unter `### **WORK IN PROGRESS**` in `README.md` anlegen.**
+
+- Format: `- (skvarel) Beschreibung der Änderung`
+- Keine fettgedruckten Präfixe (`**FIXED**` usw.)
+- Benutzerfreundlich formulieren, auf Auswirkung fokussieren
+
+### ✅ Dokumentation bei neuen Features und Konfigurationsänderungen
+
+**Bei neuen Features oder Änderungen an der Admin-Konfiguration immer aktualisieren:**
+- `docs/en/` — Englische Dokumentation
+- `docs/de/` — Deutsche Dokumentation
+- `README.md` — Hauptdokumentation
+
+---
+
+## life360ng-Spezifische Coding-Muster
+
+### Modul-Architektur
+- `lib/life360CloudConnector.js` — Gesamte Life360-API-Kommunikation; verwendet `setInterval` für Polling (mit `clearInterval`, nicht `clearTimeout` stoppen)
+- `lib/life360DbConnector.js` — Erstellt und aktualisiert ioBroker-States/Objekte aus Life360-Daten
+- `lib/iobHelpers.js` — Gemeinsame Hilfsfunktionen (Logging, State-Helfer)
+- `main.js` — Adapter-Einstiegspunkt; verbindet die Connectoren über Callbacks
+
+### API-Kommunikation
+- Natives `node:https` für alle HTTP-Anfragen verwenden (kein axios, kein request-Paket)
+- Life360-API-Basis-URL: `https://api.life360.com/v3/`
+- Alle Anfragen benötigen den `Authorization: Bearer <token>`-Header
+- HTTP-401-Antworten als Token-Ablauf behandeln — `info.connection` auf `false` setzen und eine Warnung loggen
+- Fehlgeschlagene Anfragen nicht in einer engen Schleife wiederholen; auf das nächste Poll-Intervall verlassen
+
+### Polling
+- Polling wird durch `setInterval` in `life360CloudConnector.js` verwaltet
+- Immer `clearInterval` (nicht `clearTimeout`) zum Stoppen des Pollings in `disablePolling()` verwenden
+- Das Poll-Intervall ist in der Adapter-Konfiguration einstellbar (`pollInterval` in Sekunden)
+
+### Benutzerdefinierte Orte (Custom Places)
+- Benutzerdefinierte Orte werden in `admin/jsonConfig.json` als Tabelle im `_myplaces`-Tab definiert
+- Präsenzprüfung für benutzerdefinierte Orte verwendet die Haversine-Formel gegen Lat/Lon der Person
+- Benutzerdefinierte Orte haben Priorität gegenüber Life360-Cloud-Orten in `locationName`
+
+### State-Benennung
+- Personen-States: `life360ng.<instance>.people.<name>.<state>`
+- Orts-States: `life360ng.<instance>.places.<name>.<state>`
+- Verbindungs-State: `life360ng.<instance>.info.connection`
+
+### jsonConfig Admin-UI
+- Config-Datei: `admin/jsonConfig.json` (kein kompiliertes React)
+- Bilder: In `admin/img/` gespeichert und als `img/<filename>` in `staticImage`-Elementen referenziert
+- Übersetzungen: Nur `admin/i18n/de.json` und `admin/i18n/en.json` manuell pflegen; alle anderen Sprachen generiert der Eigentümer per `npm run translate` vor dem Release

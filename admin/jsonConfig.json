@@ -734,6 +734,149 @@
                 }
             }
         },
+        "_notifications": {
+            "type": "panel",
+            "label": "tab_notifications",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjEsMTlWMjBIM1YxOUw1LDE3VjExQzUsMy45IDEwLjksMy4yIDE2LDRDMTYsMy42IDE2LjcsMy4zIDE3LDNDMTguMSwzIDE5LDMuOSAxOSw1QzE5LDUuNSAxOC44LDYgMTguNSw2LjNMMTksMTdMMjEsMTlaTTEzLDIxQzEzLDIxLjYgMTIuNiwyMiAxMiwyMkMxMS40LDIyIDExLDIxLjYgMTEsMjFIMTNaTTExLjMsNC4xQzEwLjEsNC41IDkuMiw1LjQgOC43LDYuN0M3LjYsNy4yIDYuNyw4LjEgNi4zLDlMNiwxMVY1LjVDNi41LDQuNiA3LjUsNCA4LjUsNEM5LjYsNCA4LjMsNC4xIDExLjMsNC4xWiIvPjwvc3ZnPg==",
+            "items": {
+                "_telegramSection": {
+                    "type": "panel",
+                    "label": "section_telegram",
+                    "xs": 12,
+                    "items": {
+                        "notify_telegram_hint": {
+                            "type": "staticText",
+                            "text": "notify_telegram_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "marginBottom": "8px"
+                            }
+                        },
+                        "notify_telegram_enabled": {
+                            "type": "checkbox",
+                            "label": "notify_telegram_enabled",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
+                        "notify_recipients_label": {
+                            "type": "staticText",
+                            "text": "notify_recipients_label",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "hidden": "!data.notify_telegram_enabled",
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "marginTop": "12px",
+                                "marginBottom": "4px"
+                            }
+                        },
+                        "notify_recipients": {
+                            "type": "table",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "hidden": "!data.notify_telegram_enabled",
+                            "items": [
+                                {
+                                    "title": "notify_recipient_instance",
+                                    "attr": "instance",
+                                    "type": "number",
+                                    "default": 0,
+                                    "placeholder": "0",
+                                    "width": "12%"
+                                },
+                                {
+                                    "title": "notify_recipient_chatid",
+                                    "attr": "chatId",
+                                    "type": "text",
+                                    "width": "35%"
+                                },
+                                {
+                                    "title": "notify_recipient_name",
+                                    "attr": "name",
+                                    "type": "text",
+                                    "width": "53%"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "_notifyPeopleSection": {
+                    "type": "panel",
+                    "label": "section_notify_people",
+                    "xs": 12,
+                    "hidden": "!data.notify_telegram_enabled",
+                    "items": {
+                        "notify_people_label": {
+                            "type": "staticText",
+                            "text": "notify_people_label",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "marginBottom": "4px"
+                            }
+                        },
+                        "notify_people": {
+                            "type": "table",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "items": [
+                                {
+                                    "title": "notify_person_name",
+                                    "attr": "personName",
+                                    "type": "text",
+                                    "width": "25%"
+                                },
+                                {
+                                    "title": "notify_person_prefix",
+                                    "attr": "prefixText",
+                                    "type": "text",
+                                    "width": "35%"
+                                },
+                                {
+                                    "title": "notify_person_myplaces",
+                                    "attr": "notifyMyPlaces",
+                                    "type": "checkbox",
+                                    "width": "20%"
+                                },
+                                {
+                                    "title": "notify_person_appplaces",
+                                    "attr": "notifyAppPlaces",
+                                    "type": "checkbox",
+                                    "width": "20%"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         "_advanced": {
             "type": "panel",
             "label": "tab_advanced",
