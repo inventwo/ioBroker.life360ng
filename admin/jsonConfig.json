@@ -993,35 +993,29 @@
                                     "width": "12%"
                                 },
                                 {
-                                    "title": "notify_person_prefix_myplaces",
-                                    "attr": "prefixTextMyPlaces",
+                                    "title": "notify_person_prefix",
+                                    "attr": "prefixText",
                                     "type": "text",
-                                    "width": "14%"
-                                },
-                                {
-                                    "title": "notify_person_prefix_appplaces",
-                                    "attr": "prefixTextAppPlaces",
-                                    "type": "text",
-                                    "width": "14%"
+                                    "width": "16%"
                                 },
                                 {
                                     "title": "notify_person_recipients",
                                     "attr": "recipients",
                                     "type": "text",
                                     "placeholder": "notify_person_recipients_placeholder",
-                                    "width": "18%"
+                                    "width": "20%"
                                 },
                                 {
                                     "title": "notify_person_myplaces",
                                     "attr": "notifyMyPlaces",
                                     "type": "checkbox",
-                                    "width": "9%"
+                                    "width": "10%"
                                 },
                                 {
                                     "title": "notify_person_appplaces",
                                     "attr": "notifyAppPlaces",
                                     "type": "checkbox",
-                                    "width": "9%"
+                                    "width": "10%"
                                 },
                                 {
                                     "title": "notify_person_unknownplaces",
@@ -1033,7 +1027,7 @@
                                     "title": "notify_person_unknown_message",
                                     "attr": "unknownPlacesMessage",
                                     "type": "text",
-                                    "width": "14%"
+                                    "width": "22%"
                                 }
                             ]
                         }
