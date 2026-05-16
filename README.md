@@ -305,6 +305,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Fixed unhandled promise rejections ("DB closed") at adapter shutdown caused by async DB operations running after the Redis connection was already closed; adapter now sets an unloading flag to prevent new operations from starting and catches any remaining DB errors gracefully
 - (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places, own places and/or unknown places); configurable per person with prefix text and per recipient with instance number and Chat ID
 - (skvarel) Added Alexa announcements support: announce location arrivals via Amazon Echo devices using the ioBroker Alexa2 adapter; configurable device list with speak state ID and announcement volume (volume is automatically restored by the Alexa adapter after each announcement)
+- (skvarel) Added per-person notification message for unknown locations in the Notifications tab; the message is a standalone configurable text independent from the Integration tab fallback name, so notifications work even when no fallback name is configured
 
 ### 1.7.0 (2026-05-14)
 - (skvarel) Fixed crash on fresh install caused by adapter writing tracker files before the namespace meta object was created

@@ -1005,12 +1005,6 @@
                                     "width": "14%"
                                 },
                                 {
-                                    "title": "notify_person_prefix_unknownplaces",
-                                    "attr": "prefixTextUnknownPlaces",
-                                    "type": "text",
-                                    "width": "14%"
-                                },
-                                {
                                     "title": "notify_person_recipients",
                                     "attr": "recipients",
                                     "type": "text",
@@ -1034,6 +1028,12 @@
                                     "attr": "notifyUnknownPlaces",
                                     "type": "checkbox",
                                     "width": "10%"
+                                },
+                                {
+                                    "title": "notify_person_unknown_message",
+                                    "attr": "unknownPlacesMessage",
+                                    "type": "text",
+                                    "width": "14%"
                                 }
                             ]
                         }
