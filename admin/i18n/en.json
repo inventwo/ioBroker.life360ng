@@ -1,6 +1,6 @@
 {
     "debugging_verbose":  "Enable verbose logging",
-    "notify_people_label":  "People are automatically synced from Life360. Recipients: comma-separated display names from the recipients table (empty = all). Unknown locations are never sent.",
+    "notify_people_label":  "People are automatically synced from Life360. Recipients: comma-separated display names or Chat IDs from the recipients table (empty = all). Unknown locations are never sent.",
     "notify_person_appplaces":  "App places",
     "notify_person_myplaces":  "Own places",
     "notify_person_name":  "Life360 name",
@@ -11,7 +11,7 @@
     "notify_recipient_chatid":  "Chat ID",
     "notify_recipient_instance":  "Instance",
     "notify_recipient_name":  "Display name (optional)",
-    "notify_recipients_label":  "Telegram recipients. The Chat ID is visible in the Telegram adapter under authenticated users.",
+    "notify_recipients_label":  "Telegram recipients. The Chat ID is visible in the Telegram adapter (MESSAGES TAB) under authenticated users.",
     "notify_telegram_enabled":  "Enable Telegram notifications",
     "notify_telegram_hint":  "Notify Telegram users when a person enters a known location. Requires the ioBroker Telegram adapter.",
     "section_notify_people":  "People & message format",
