@@ -20,7 +20,7 @@
     "notify_alexa_enabled": "Habilitar anuncios de Alexa",
     "notify_alexa_hint": "Anuncie cambios de ubicación a través de dispositivos Amazon Echo. Requiere el adaptador ioBroker Alexa2.",
     "notify_people_hint": "Configuración general para todas las notificaciones: se aplica tanto a Telegram como a Alexa.",
-    "notify_people_label": "Las personas se sincronizan automáticamente desde Life360. El texto de prefijo y los cambios de lugar se aplican tanto a Telegram como a Alexa. Destinatarios (solo Telegram): nombres para mostrar separados por comas o ID de chat de la tabla de destinatarios (vacío = todos). Nunca se envían ubicaciones desconocidas.",
+    "notify_people_label": "Las personas se sincronizan automáticamente desde Life360. El texto de prefijo y los cambios de lugar se aplican tanto a Telegram como a Alexa. Destinatarios (solo Telegram): nombres para mostrar separados por comas o ID de chat de la tabla de destinatarios (vacío = todos).",
     "notify_person_appplaces": "Lugares de aplicaciones",
     "notify_person_myplaces": "Lugares propios",
     "notify_person_name": "nombre de vida360",

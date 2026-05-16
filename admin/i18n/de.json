@@ -20,7 +20,7 @@
     "notify_alexa_enabled": "Alexa-Ansagen aktivieren",
     "notify_alexa_hint": "Standortänderungen über Amazon Echo-Geräte ansagen. Erfordert den ioBroker Alexa2-Adapter.",
     "notify_people_hint": "Generelle Einstellungen für alle Benachrichtigungen – gilt für Telegram und Alexa.",
-    "notify_people_label": "Personen werden automatisch aus Life360 übernommen. Vorangestellter Text und Ort-Schalter gelten für Telegram und Alexa. Empfänger (nur Telegram): Anzeigenamen oder Chat-IDs aus der Empfängertabelle, kommasepariert (leer = alle). Unbekannte Orte werden nie übermittelt.",
+    "notify_people_label": "Personen werden automatisch aus Life360 übernommen. Vorangestellter Text und Ort-Schalter gelten für Telegram und Alexa. Empfänger (nur Telegram): Anzeigenamen oder Chat-IDs aus der Empfängertabelle, kommasepariert (leer = alle).",
     "notify_person_appplaces": "App-Orte",
     "notify_person_myplaces": "Eigene Orte",
     "notify_person_name": "Life360-Name",

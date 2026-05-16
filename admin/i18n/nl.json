@@ -20,7 +20,7 @@
     "notify_alexa_enabled": "Schakel Alexa-aankondigingen in",
     "notify_alexa_hint": "Kondig locatiewijzigingen aan via Amazon Echo-apparaten. Vereist de ioBroker Alexa2-adapter.",
     "notify_people_hint": "Algemene instellingen voor alle meldingen – geldt voor zowel Telegram als Alexa.",
-    "notify_people_label": "Mensen worden automatisch gesynchroniseerd vanuit Life360. Voorvoegseltekst en plaatsschakelaars zijn van toepassing op zowel Telegram als Alexa. Ontvangers (alleen Telegram): door komma's gescheiden weergavenamen of chat-ID's uit de tabel met ontvangers (leeg = alles). Onbekende locaties worden nooit verzonden.",
+    "notify_people_label": "Mensen worden automatisch gesynchroniseerd vanuit Life360. Voorvoegseltekst en plaatsschakelaars zijn van toepassing op zowel Telegram als Alexa. Ontvangers (alleen Telegram): door komma's gescheiden weergavenamen of chat-ID's uit de tabel met ontvangers (leeg = alles).",
     "notify_person_appplaces": "App-plaatsen",
     "notify_person_myplaces": "Eigen plaatsen",
     "notify_person_name": "Life360-naam",

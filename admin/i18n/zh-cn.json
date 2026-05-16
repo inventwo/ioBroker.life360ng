@@ -20,7 +20,7 @@
     "notify_alexa_enabled": "启用 Alexa 公告",
     "notify_alexa_hint": "通过 Amazon Echo 设备宣布位置变化。需要 ioBroker Alexa2 适配器。",
     "notify_people_hint": "所有通知的常规设置 — 适用于 Telegram 和 Alexa。",
-    "notify_people_label": "人员会自动从 Life360 同步。前缀文本和位置切换适用于 Telegram 和 Alexa。收件人（仅限 Telegram）：收件人表中以逗号分隔的显示名称或聊天 ID（空 = 全部）。永远不会发送未知位置。",
+    "notify_people_label": "人员会自动从 Life360 同步。前缀文本和位置切换适用于 Telegram 和 Alexa。收件人（仅限 Telegram）：收件人表中以逗号分隔的显示名称或聊天 ID（空 = 全部）。",
     "notify_person_appplaces": "应用地点",
     "notify_person_myplaces": "自己的地方",
     "notify_person_name": "Life360 名称",
