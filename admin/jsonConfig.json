@@ -754,8 +754,7 @@
                             "lg": 12,
                             "xl": 12,
                             "style": {
-                                "fontSize": "1rem",
-                                "marginBottom": "8px"
+                                "fontSize": "1rem"
                             }
                         },
                         "notify_telegram_enabled": {
@@ -854,7 +853,6 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "1rem",
-                                "marginBottom": "20px",
                                 "marginTop": "10px"
                             }
                         },
@@ -955,7 +953,6 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "1rem",
-                                "marginBottom": "8px",
                                 "marginTop": "10px"
                             }
                         },
