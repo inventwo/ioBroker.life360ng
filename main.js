@@ -25,6 +25,8 @@ class Life360 extends utils.Adapter {
 		this.tracker = new Life360Tracker(this);
 		await this.tracker.init();
 
+		await life360DbConnector.syncNotifyPeople();
+
 		life360Connector.setupPolling(function (err, cloud_data) {
 			if (!err) {
 				life360DbConnector.publishCloudData(err, cloud_data);

@@ -846,30 +846,38 @@
                             "md": 12,
                             "lg": 12,
                             "xl": 12,
+                            "noDelete": true,
                             "items": [
                                 {
                                     "title": "notify_person_name",
                                     "attr": "personName",
                                     "type": "text",
+                                    "readOnly": true,
+                                    "width": "20%"
+                                },
+                                {
+                                    "title": "notify_person_prefix_myplaces",
+                                    "attr": "prefixTextMyPlaces",
+                                    "type": "text",
                                     "width": "25%"
                                 },
                                 {
-                                    "title": "notify_person_prefix",
-                                    "attr": "prefixText",
+                                    "title": "notify_person_prefix_appplaces",
+                                    "attr": "prefixTextAppPlaces",
                                     "type": "text",
-                                    "width": "35%"
+                                    "width": "25%"
                                 },
                                 {
                                     "title": "notify_person_myplaces",
                                     "attr": "notifyMyPlaces",
                                     "type": "checkbox",
-                                    "width": "20%"
+                                    "width": "15%"
                                 },
                                 {
                                     "title": "notify_person_appplaces",
                                     "attr": "notifyAppPlaces",
                                     "type": "checkbox",
-                                    "width": "20%"
+                                    "width": "15%"
                                 }
                             ]
                         }

@@ -302,6 +302,8 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+- (skvarel) Life360 people in the Notifications tab are now automatically synced from the adapter; no manual name entry required
+- (skvarel) Split notification prefix text into separate fields for own places and app places
 - (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places and/or own places); configurable per person with prefix text and per recipient with instance number and Chat ID
 
 ### 1.7.0 (2026-05-14)
