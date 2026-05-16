@@ -302,8 +302,10 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+- (skvarel) Fixed unhandled promise rejections ("DB closed") at adapter shutdown caused by async DB operations running after the Redis connection was already closed; adapter now sets an unloading flag to prevent new operations from starting and catches any remaining DB errors gracefully
 - (skvarel) Life360 people in the Notifications tab are now automatically synced from the adapter; no manual name entry required
 - (skvarel) Split notification prefix text into separate fields for own places and app places
+- (skvarel) Added per-person recipient filter for Telegram notifications: enter comma-separated display names to restrict which recipients receive the message; empty means all recipients
 - (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places and/or own places); configurable per person with prefix text and per recipient with instance number and Chat ID
 
 ### 1.7.0 (2026-05-14)

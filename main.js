@@ -9,8 +9,9 @@ const Life360Tracker = require("./lib/life360Tracker"); // ← NEU
 class Life360 extends utils.Adapter {
 	constructor(options = {}) {
 		super(Object.assign({ name: "life360ng" }, options));
+		this._isUnloading = false;
 		this.on("ready", this.onReady.bind(this));
-		this.on("stateChange", this.onStateChange.bind(this)); // ← NEU
+		this.on("stateChange", this.onStateChange.bind(this));
 		this.on("unload", this.onUnload.bind(this));
 	}
 
@@ -27,7 +28,10 @@ class Life360 extends utils.Adapter {
 
 		await life360DbConnector.syncNotifyPeople();
 
-		life360Connector.setupPolling(function (err, cloud_data) {
+		life360Connector.setupPolling((err, cloud_data) => {
+			if (this._isUnloading) {
+				return;
+			}
 			if (!err) {
 				life360DbConnector.publishCloudData(err, cloud_data);
 			}
@@ -41,9 +45,15 @@ class Life360 extends utils.Adapter {
 	 * @param {ioBroker.State | null | undefined} state
 	 */
 	async onStateChange(id, state) {
-		// ← NEU
-		if (this.tracker) {
+		if (this._isUnloading || !this.tracker) {
+			return;
+		}
+		try {
 			await this.tracker.onStateChange(id, state);
+		} catch (e) {
+			if (!String(e?.message).includes("DB closed") && !String(e?.message).includes("Connection is closed")) {
+				this.log.error(`[Tracker] onStateChange error: ${e.message}`);
+			}
 		}
 	}
 
@@ -53,8 +63,9 @@ class Life360 extends utils.Adapter {
 	 * @param {() => void} callback
 	 */
 	onUnload(callback) {
+		this._isUnloading = true;
 		try {
-			this.tracker?.stop(); // ← NEU
+			this.tracker?.stop();
 			life360Connector.disablePolling();
 			life360Connector.disconnect();
 			life360DbConnector.clearTimers();

@@ -853,31 +853,38 @@
                                     "attr": "personName",
                                     "type": "text",
                                     "readOnly": true,
-                                    "width": "20%"
+                                    "width": "18%"
                                 },
                                 {
                                     "title": "notify_person_prefix_myplaces",
                                     "attr": "prefixTextMyPlaces",
                                     "type": "text",
-                                    "width": "25%"
+                                    "width": "20%"
                                 },
                                 {
                                     "title": "notify_person_prefix_appplaces",
                                     "attr": "prefixTextAppPlaces",
                                     "type": "text",
-                                    "width": "25%"
+                                    "width": "20%"
+                                },
+                                {
+                                    "title": "notify_person_recipients",
+                                    "attr": "recipients",
+                                    "type": "text",
+                                    "placeholder": "notify_person_recipients_placeholder",
+                                    "width": "22%"
                                 },
                                 {
                                     "title": "notify_person_myplaces",
                                     "attr": "notifyMyPlaces",
                                     "type": "checkbox",
-                                    "width": "15%"
+                                    "width": "10%"
                                 },
                                 {
                                     "title": "notify_person_appplaces",
                                     "attr": "notifyAppPlaces",
                                     "type": "checkbox",
-                                    "width": "15%"
+                                    "width": "10%"
                                 }
                             ]
                         }
