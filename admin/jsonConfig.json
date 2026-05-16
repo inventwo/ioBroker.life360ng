@@ -754,13 +754,8 @@
                             "lg": 12,
                             "xl": 12,
                             "style": {
-                                "fontSize": "0.875rem",
-                                "whiteSpace": "pre-wrap",
-                                "marginTop": "8px",
-                                "padding": "10px 14px",
-                                "border": "1px solid #546e7a",
-                                "borderRadius": "6px",
-                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                                "fontSize": "1rem",
+                                "marginBottom": "8px"
                             }
                         },
                         "notify_telegram_enabled": {
@@ -844,7 +839,12 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "0.875rem",
-                                "marginBottom": "4px"
+                                "whiteSpace": "pre-wrap",
+                                "marginTop": "12px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #546e7a",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
                             }
                         },
                         "notify_people": {
@@ -862,38 +862,31 @@
                                     "attr": "personName",
                                     "type": "text",
                                     "readOnly": true,
-                                    "width": "18%"
+                                    "width": "20%"
                                 },
                                 {
                                     "title": "notify_person_prefix_myplaces",
                                     "attr": "prefixTextMyPlaces",
                                     "type": "text",
-                                    "width": "20%"
+                                    "width": "25%"
                                 },
                                 {
                                     "title": "notify_person_prefix_appplaces",
                                     "attr": "prefixTextAppPlaces",
                                     "type": "text",
-                                    "width": "20%"
-                                },
-                                {
-                                    "title": "notify_person_recipients",
-                                    "attr": "recipients",
-                                    "type": "text",
-                                    "placeholder": "notify_person_recipients_placeholder",
-                                    "width": "22%"
+                                    "width": "25%"
                                 },
                                 {
                                     "title": "notify_person_myplaces",
                                     "attr": "notifyMyPlaces",
                                     "type": "checkbox",
-                                    "width": "10%"
+                                    "width": "15%"
                                 },
                                 {
                                     "title": "notify_person_appplaces",
                                     "attr": "notifyAppPlaces",
                                     "type": "checkbox",
-                                    "width": "10%"
+                                    "width": "15%"
                                 }
                             ]
                         }
