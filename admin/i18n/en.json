@@ -15,6 +15,7 @@
     "notify_person_prefix_myplaces":  "Prefix text (own places)",
     "notify_person_recipients":  "Recipients (applies only to Telegram)",
     "notify_person_recipients_placeholder":  "all",
+    "notify_person_unknownplaces":  "Unknown places",
     "notify_recipient_chatid":  "Chat ID",
     "notify_recipient_instance":  "Instance",
     "notify_recipient_name":  "Display name (optional)",

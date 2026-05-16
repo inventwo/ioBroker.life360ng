@@ -28,6 +28,7 @@
     "notify_person_prefix_myplaces": "Vorangestellter Text (Eigene Orte)",
     "notify_person_recipients": "Empfänger (bezieht sich nur auf Telegram)",
     "notify_person_recipients_placeholder": "alle",
+    "notify_person_unknownplaces": "Unbekannte Orte",
     "notify_recipient_chatid": "Chat-ID",
     "notify_recipient_instance": "Instanz",
     "notify_recipient_name": "Anzeigename (optional)",
