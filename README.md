@@ -302,14 +302,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Added test buttons to the Notifications tab: send a test Telegram message or Alexa announcement directly from the adapter configuration without waiting for a real location change
-- (skvarel) Added Alexa announcements support: announce location arrivals via Amazon Echo devices using the ioBroker Alexa2 adapter; configurable device list with speak state ID and announcement volume (volume is automatically restored by the Alexa adapter after each announcement)
 - (skvarel) Fixed unhandled promise rejections ("DB closed") at adapter shutdown caused by async DB operations running after the Redis connection was already closed; adapter now sets an unloading flag to prevent new operations from starting and catches any remaining DB errors gracefully
-- (skvarel) Recipient filter in the Notifications tab now accepts both display names and Chat IDs; either can be used in the comma-separated recipients field of the people table
-- (skvarel) Life360 people in the Notifications tab are now automatically synced from the adapter; no manual name entry required
-- (skvarel) Split notification prefix text into separate fields for own places and app places
-- (skvarel) Added per-person recipient filter for Telegram notifications: enter comma-separated display names to restrict which recipients receive the message; empty means all recipients
 - (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places and/or own places); configurable per person with prefix text and per recipient with instance number and Chat ID
+- (skvarel) Added Alexa announcements support: announce location arrivals via Amazon Echo devices using the ioBroker Alexa2 adapter; configurable device list with speak state ID and announcement volume (volume is automatically restored by the Alexa adapter after each announcement)
 
 ### 1.7.0 (2026-05-14)
 - (skvarel) Fixed crash on fresh install caused by adapter writing tracker files before the namespace meta object was created
