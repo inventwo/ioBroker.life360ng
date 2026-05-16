@@ -68,12 +68,12 @@ class Life360 extends utils.Adapter {
 			return;
 		}
 		if (obj.command === "testTelegram") {
-			const result = await life360DbConnector.sendTestTelegram(obj.message);
+			const result = await life360DbConnector.sendTestTelegram();
 			if (obj.callback) {
 				this.sendTo(obj.from, obj.command, result, obj.callback);
 			}
 		} else if (obj.command === "testAlexa") {
-			const result = await life360DbConnector.sendTestAlexa(obj.message);
+			const result = await life360DbConnector.sendTestAlexa();
 			if (obj.callback) {
 				this.sendTo(obj.from, obj.command, result, obj.callback);
 			}
