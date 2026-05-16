@@ -12,6 +12,7 @@ class Life360 extends utils.Adapter {
 		this._isUnloading = false;
 		this.on("ready", this.onReady.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
+		this.on("message", this.onMessage.bind(this));
 		this.on("unload", this.onUnload.bind(this));
 	}
 
@@ -53,6 +54,28 @@ class Life360 extends utils.Adapter {
 		} catch (e) {
 			if (!String(e?.message).includes("DB closed") && !String(e?.message).includes("Connection is closed")) {
 				this.log.error(`[Tracker] onStateChange error: ${e.message}`);
+			}
+		}
+	}
+
+	/**
+	 * Handles messages sent from the admin UI (e.g. test buttons).
+	 *
+	 * @param {ioBroker.Message} obj
+	 */
+	async onMessage(obj) {
+		if (!obj || !obj.command) {
+			return;
+		}
+		if (obj.command === "testTelegram") {
+			const result = await life360DbConnector.sendTestTelegram(obj.message);
+			if (obj.callback) {
+				this.sendTo(obj.from, obj.command, result, obj.callback);
+			}
+		} else if (obj.command === "testAlexa") {
+			const result = await life360DbConnector.sendTestAlexa(obj.message);
+			if (obj.callback) {
+				this.sendTo(obj.from, obj.command, result, obj.callback);
 			}
 		}
 	}

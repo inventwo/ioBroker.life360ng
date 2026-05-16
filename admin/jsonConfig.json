@@ -819,6 +819,19 @@
                                     "width": "53%"
                                 }
                             ]
+                        },
+                        "test_telegram": {
+                            "type": "sendTo",
+                            "command": "testTelegram",
+                            "label": "test_button_telegram",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4,
+                            "hidden": "!data.notify_telegram_enabled",
+                            "variant": "contained"
                         }
                     }
                 },
@@ -902,6 +915,19 @@
                                     "width": "20%"
                                 }
                             ]
+                        },
+                        "test_alexa": {
+                            "type": "sendTo",
+                            "command": "testAlexa",
+                            "label": "test_button_alexa",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 4,
+                            "lg": 4,
+                            "xl": 4,
+                            "hidden": "!data.notify_alexa_enabled",
+                            "variant": "contained"
                         }
                     }
                 },

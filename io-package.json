@@ -149,6 +149,7 @@
       "config": "json"
     },
     "stopTimeout": 3000,
+    "messagebox": true,
     "dependencies": [
       {
         "js-controller": ">=6.0.11"
