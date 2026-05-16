@@ -67,13 +67,13 @@ This table is **automatically synced** from Life360 — persons appear here as s
 | **Life360 name** | Person's name from Life360 (read-only, auto-synced) |
 | **Prefix text (own places)** | Text prepended to the place name for own places notifications (e.g. `Nicole is at`) |
 | **Prefix text (app places)** | Text prepended to the place name for Life360 app places notifications |
-| **Recipients** | Comma-separated list of display names or Chat IDs from the recipients table. Empty = send to all recipients |
+| **Recipients (Telegram only)** | Comma-separated list of display names or Chat IDs from the recipients table. Empty = send to all Telegram recipients. Alexa notifications are always sent to all configured devices. |
 | **Own places** | Enable notifications when this person arrives at an own place (My Places) |
 | **App places** | Enable notifications when this person arrives at a Life360 app place |
 
-### Recipient Filter
+### Recipient Filter (Telegram only)
 
-The **Recipients** column lets you restrict which recipients get the message for a specific person.
+The **Recipients** column applies to Telegram notifications only — it has no effect on Alexa announcements. It lets you restrict which Telegram recipients get the message for a specific person. Alexa announcements are always sent to all configured devices.
 
 - **Empty:** The notification is sent to **all** recipients in the recipients table.
 - **Filled:** Only the listed recipients receive the message.
@@ -98,3 +98,16 @@ If the prefix text is empty, only the place name is sent.
 **Example:** Prefix = `Nicole is at`, Place = `Home` → Message: `Nicole is at Home`
 
 > **Note:** Notifications are only sent when a person arrives at a **known place** (own place or Life360 app place). If the location name is unknown or empty, no message is sent.
+
+---
+
+## Test Notifications
+
+Use the **Send test message** button (Telegram section) or the **Send test announcement** button (Alexa section) to verify your configuration without waiting for a real location change.
+
+> **Important:** The test uses the configuration currently loaded by the running adapter. If you have made changes, **save and restart** the adapter first, then use the test button.
+
+| Button | What it does |
+|---|---|
+| **Send test message** | Sends `[Life360ng] Test notification` to all configured Telegram recipients |
+| **Send test announcement** | Announces `Life360ng test notification` on all configured Alexa devices |

@@ -67,13 +67,13 @@ Diese Tabelle wird **automatisch mit Life360 synchronisiert** — Personen ersch
 | **Life360-Name** | Name der Person aus Life360 (schreibgeschützt, automatisch synchronisiert) |
 | **Vorangestellter Text (Eigene Orte)** | Text, der dem Ortsnamen bei Benachrichtigungen zu eigenen Orten vorangestellt wird (z. B. `Nicole ist bei`) |
 | **Vorangestellter Text (App-Orte)** | Text, der dem Ortsnamen bei Benachrichtigungen zu Life360-App-Orten vorangestellt wird |
-| **Empfänger** | Kommaseparierte Liste von Anzeigenamen oder Chat-IDs aus der Empfängertabelle. Leer = an alle Empfänger senden |
+| **Empfänger (nur Telegram)** | Kommaseparierte Liste von Anzeigenamen oder Chat-IDs aus der Empfängertabelle. Leer = an alle Telegram-Empfänger senden. Alexa-Ansagen werden immer an alle konfigurierten Geräte gesendet. |
 | **Eigene Orte** | Benachrichtigung aktivieren, wenn diese Person einen eigenen Ort betritt (Meine Orte) |
 | **App-Orte** | Benachrichtigung aktivieren, wenn diese Person einen Life360-App-Ort betritt |
 
-### Empfänger-Filter
+### Empfänger-Filter (nur Telegram)
 
-Die Spalte **Empfänger** ermöglicht es, festzulegen, welche Empfänger die Nachricht für eine bestimmte Person erhalten.
+Die Spalte **Empfänger** gilt ausschließlich für Telegram-Benachrichtigungen – auf Alexa-Ansagen hat sie keinen Einfluss. Damit lässt sich festlegen, welche Telegram-Empfänger die Nachricht für eine bestimmte Person erhalten. Alexa-Ansagen werden immer an alle konfigurierten Geräte gesendet.
 
 - **Leer:** Die Benachrichtigung wird an **alle** Empfänger in der Empfängertabelle gesendet.
 - **Gefüllt:** Nur die aufgelisteten Empfänger erhalten die Nachricht.
@@ -98,3 +98,16 @@ Wenn der vorangestellte Text leer ist, wird nur der Ortsname gesendet.
 **Beispiel:** Text = `Nicole ist bei`, Ort = `Zuhause` → Nachricht: `Nicole ist bei Zuhause`
 
 > **Hinweis:** Benachrichtigungen werden nur gesendet, wenn eine Person einen **bekannten Ort** betritt (eigener Ort oder Life360-App-Ort). Ist der Ortsname unbekannt oder leer, wird keine Nachricht gesendet.
+
+---
+
+## Test-Benachrichtigungen
+
+Mit dem Button **Testnachricht senden** (Telegram-Bereich) oder **Testansage senden** (Alexa-Bereich) kannst du deine Konfiguration prüfen, ohne auf eine echte Standortänderung zu warten.
+
+> **Wichtig:** Der Test verwendet die Konfiguration, die der aktuell laufende Adapter geladen hat. Wenn du Änderungen vorgenommen hast, **speichere und starte** den Adapter zuerst neu, bevor du den Test-Button verwendest.
+
+| Button | Was passiert |
+|---|---|
+| **Testnachricht senden** | Sendet `[Life360ng] Test notification` an alle konfigurierten Telegram-Empfänger |
+| **Testansage senden** | Kündigt `Life360ng test notification` auf allen konfigurierten Alexa-Geräten an |

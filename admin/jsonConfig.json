@@ -781,7 +781,7 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginTop": "12px",
+                                "marginTop": "4px",
                                 "padding": "10px 14px",
                                 "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
@@ -851,7 +851,7 @@
                             "xl": 12,
                             "style": {
                                 "fontSize": "1rem",
-                                "marginBottom": "8px"
+                                "marginBottom": "20px"
                             }
                         },
                         "notify_alexa_enabled": {
@@ -877,7 +877,7 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginTop": "12px",
+                                "marginTop": "4px",
                                 "padding": "10px 14px",
                                 "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
@@ -937,6 +937,20 @@
                     "xs": 12,
                     "hidden": "!data.notify_telegram_enabled && !data.notify_alexa_enabled",
                     "items": {
+                        "notify_people_hint": {
+                            "type": "staticText",
+                            "text": "notify_people_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "1rem",
+                                "marginBottom": "8px"
+                            }
+                        },
                         "notify_people_label": {
                             "type": "staticText",
                             "text": "notify_people_label",
@@ -949,7 +963,7 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginTop": "12px",
+                                "marginTop": "4px",
                                 "padding": "10px 14px",
                                 "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
