@@ -996,40 +996,55 @@
                                     "title": "notify_person_prefix_myplaces",
                                     "attr": "prefixTextMyPlaces",
                                     "type": "text",
-                                    "width": "18%"
+                                    "width": "20%"
                                 },
                                 {
                                     "title": "notify_person_prefix_appplaces",
                                     "attr": "prefixTextAppPlaces",
                                     "type": "text",
-                                    "width": "18%"
+                                    "width": "20%"
                                 },
                                 {
                                     "title": "notify_person_recipients",
                                     "attr": "recipients",
                                     "type": "text",
                                     "placeholder": "notify_person_recipients_placeholder",
-                                    "width": "21%"
+                                    "width": "25%"
                                 },
                                 {
                                     "title": "notify_person_myplaces",
                                     "attr": "notifyMyPlaces",
                                     "type": "checkbox",
-                                    "width": "9%"
+                                    "width": "10%"
                                 },
                                 {
                                     "title": "notify_person_appplaces",
                                     "attr": "notifyAppPlaces",
                                     "type": "checkbox",
-                                    "width": "9%"
-                                },
-                                {
-                                    "title": "notify_person_unknownplaces",
-                                    "attr": "notifyUnknownPlaces",
-                                    "type": "checkbox",
                                     "width": "10%"
                                 }
                             ]
+                        },
+                        "notify_unknown_enabled": {
+                            "type": "checkbox",
+                            "label": "notify_unknown_enabled",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 4,
+                            "md": 4,
+                            "lg": 3,
+                            "xl": 3
+                        },
+                        "notify_unknown_prefix": {
+                            "type": "text",
+                            "label": "notify_unknown_prefix",
+                            "help": "notify_unknown_prefix_help",
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6,
+                            "hidden": "!data.notify_unknown_enabled"
                         }
                     }
                 }
