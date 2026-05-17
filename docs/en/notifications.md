@@ -49,12 +49,12 @@ Define the Echo devices that should announce location changes.
 |---|---|
 | **Display name** | Optional label to identify this device (e.g. `Office Echo`) |
 | **Speak state ID** | Full ioBroker state ID of the speak datapoint (e.g. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
-| **Volume (0–100)** | Temporary announcement volume. life360ng uses the Alexa2 `Commands.speakvolume` state so the Alexa adapter can restore the previous volume after the announcement. |
+| **Volume (0–100)** | Temporary announcement volume. For each announcement, life360ng briefly sets the target device's Alexa2 `Player.volume` state to the configured value and then restores the previous volume afterwards. |
 
 **How to find the speak state ID:**  
 Open the ioBroker object tree → `alexa2.0` → `Echo-Devices` → find your device folder → `Commands` → `speak`. Copy the full object ID.
 
-> **Note:** When a volume is configured, life360ng deliberately uses `Commands.speakvolume` instead of embedding the volume into the spoken text. This makes restoring the original volume more reliable when multiple announcements are sent in sequence.
+> **Note:** When a volume is configured, life360ng stores the device's current volume, temporarily sets the configured level for the announcement, and restores the original level afterwards. Only if that path fails does it fall back to the inline `volume;text` format.
 
 ---
 

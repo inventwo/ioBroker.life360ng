@@ -49,12 +49,12 @@ Lege hier alle Echo-Geräte fest, die Standortänderungen ansagen sollen.
 |---|---|
 | **Anzeigename** | Optionale Bezeichnung für das Gerät (z. B. `Büro Echo`) |
 | **Speak-State-ID** | Vollständige ioBroker-State-ID des Speak-Datenpunkts (z. B. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
-| **Lautstärke (0–100)** | Temporäre Ansage-Lautstärke. life360ng setzt dafür den Alexa2-State `Commands.speakvolume`, damit der Alexa-Adapter die vorherige Lautstärke nach der Ansage wiederherstellen kann. |
+| **Lautstärke (0–100)** | Temporäre Ansage-Lautstärke. life360ng setzt dafür vor der Ansage kurz den Alexa2-State `Player.volume` des Zielgeräts auf den konfigurierten Wert und stellt ihn danach wieder auf den vorherigen Pegel zurück. |
 
 **So findest du die Speak-State-ID:**  
 Öffne den ioBroker-Objektbaum → `alexa2.0` → `Echo-Devices` → suche deinen Geräteordner → `Commands` → `speak`. Kopiere die vollständige Objekt-ID.
 
-> **Hinweis:** Bei gesetzter Lautstärke verwendet life360ng gezielt `Commands.speakvolume` statt eines Lautstärke-Präfixes im Sprechtext. Dadurch wird die ursprüngliche Lautstärke auch bei mehreren Ansagen nacheinander zuverlässiger wiederhergestellt.
+> **Hinweis:** Bei gesetzter Lautstärke speichert life360ng den aktuellen Gerätepegel, setzt für die Ansage kurz den konfigurierten Wert und stellt anschließend den ursprünglichen Pegel wieder her. Nur wenn dieser Weg fehlschlägt, wird auf das Inline-Format `volume;text` zurückgefallen.
 
 ---
 

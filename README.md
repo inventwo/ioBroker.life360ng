@@ -309,6 +309,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Fixed Alexa announcement volume handling by using the Alexa2 `speakvolume` state for temporary per-announcement volume changes instead of embedding the volume into the speak text, improving reliable restoration of the original device volume
 - (skvarel) Extended the Alexa test button to send two back-to-back announcements so sequential playback and restoration of the original volume can be verified directly from the adapter UI
 - (skvarel) Added a longer pause between Alexa announcements when the adapter must fall back to inline `volume;text` commands, giving the device more time to restore the previous volume before the next message
+- (skvarel) Reworked Alexa volume handling again: life360ng now saves the current `Player.volume`, sets the configured announcement volume explicitly for the speech, and restores the original device volume afterwards so the test button and real notifications follow the configured volume reliably
 
 
 ### 1.8.0 (2026-05-17)
