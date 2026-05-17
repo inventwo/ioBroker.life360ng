@@ -170,6 +170,7 @@
     "life360_token"
   ],
   "native": {
+    "notify_place_overrides": [],
     "life360_username": "",
     "life360_token": "",
     "life360_polling_interval": "60",

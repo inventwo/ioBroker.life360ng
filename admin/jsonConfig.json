@@ -1030,6 +1030,84 @@
                                     "width": "22%"
                                 }
                             ]
+                        },
+                        "_notifyPlaceOverridesLine": {
+                            "type": "divider"
+                        },
+                        "notify_place_overrides_hint": {
+                            "type": "staticText",
+                            "text": "notify_place_overrides_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginTop": "4px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #546e7a",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                            }
+                        },
+                        "notify_place_overrides": {
+                            "type": "table",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "items": [
+                                {
+                                    "title": "notify_override_place",
+                                    "attr": "placeName",
+                                    "type": "selectSendTo",
+                                    "command": "getPlacesList",
+                                    "manual": true,
+                                    "width": "14%"
+                                },
+                                {
+                                    "title": "notify_override_person",
+                                    "attr": "personName",
+                                    "type": "text",
+                                    "placeholder": "notify_override_person_placeholder",
+                                    "width": "14%"
+                                },
+                                {
+                                    "title": "notify_override_priority",
+                                    "attr": "prioritize",
+                                    "type": "checkbox",
+                                    "width": "12%"
+                                },
+                                {
+                                    "title": "notify_override_arrival",
+                                    "attr": "notifyArrival",
+                                    "type": "checkbox",
+                                    "width": "10%"
+                                },
+                                {
+                                    "title": "notify_override_arr_text",
+                                    "attr": "arrivalText",
+                                    "type": "text",
+                                    "width": "20%"
+                                },
+                                {
+                                    "title": "notify_override_leave",
+                                    "attr": "notifyLeave",
+                                    "type": "checkbox",
+                                    "width": "10%"
+                                },
+                                {
+                                    "title": "notify_override_leave_text",
+                                    "attr": "leaveText",
+                                    "type": "text",
+                                    "width": "20%"
+                                }
+                            ]
                         }
                     }
                 }
