@@ -76,7 +76,7 @@
     "tab_tracker_display":  "Map Display",
     "test_button_alexa":  "Send test announcement",
     "test_button_telegram":  "Send test message",
-    "token_hint":  "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Open the browser DevTools (F12) → Network tab\n3. Enter your email address → click Continue\n4. Enter the one-time code sent to your email\n5. Find the POST request named \u0027token\u0027 and/or \u0027bearer\u0027 (not OPTIONS)\n6. Open Preview / Response tab → copy the value of \u0027access_token\u0027 and paste it below\n\nEnter the token WITHOUT the word \u0027Bearer\u0027, WITHOUT spaces, and WITHOUT quotation marks!\n\nThe token is valid for several months.",
+    "token_hint":  "EU users – how to get your Bearer token:\n1. Open https://life360.com/login\n2. Open the browser DevTools (F12) → Network tab\n3. Enter your email address → click Continue\n4. Enter the one-time code sent to your email\n5. Find the POST request named \u0027token\u0027 and/or \u0027bearer\u0027 (not OPTIONS)\n6. Open Preview / Response tab → copy the value of \u0027access_token\u0027 and paste it below\n\nEnter the token WITHOUT the word \u0027Bearer\u0027, WITHOUT spaces and WITHOUT quotation marks!\n\nThe token is valid for several months.",
     "token1_txt":  "Second variant:",
     "token2_txt":  "Third variant:",
     "track_location_people":  "Enable location-tracking for people",
