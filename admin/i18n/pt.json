@@ -47,7 +47,7 @@
     "place_circle": "Atribuição a um círculo Life360\n(opcional)",
     "place_isPresent_delay": "Atraso de presença\n(s, 0 = imediatamente)",
     "place_latitude": "Latitude do local",
-    "place_longitude": "Longitude do lugar",
+    "place_longitude": "Longitude do local",
     "place_name": "Nome do lugar",
     "place_radius": "Raio (metros) em que uma pessoa é considerada ‘presente’",
     "places_txt": "Aqui você pode adicionar suas próprias localizações (independentes do app Life360) para, por exemplo, calcular distâncias ou receber notificações quando pessoas chegam ou saem de um local.\n (Use um ponto final em vez de uma vírgula para latitude e longitude)",

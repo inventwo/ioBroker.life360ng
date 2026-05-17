@@ -304,13 +304,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### **WORK IN PROGRESS**
 
 - (skvarel) Added place-specific notification overrides table in the Notifications tab: configure custom arrival and leave messages per place and person, with optional suppression of the default standard message; place and person columns use dropdowns populated from known places and Life360 persons
-- (skvarel) Fixed custom place name (My Places) not being restored in locationName after adapter restart when the place had an arrival delay configured; the override is now correctly re-established on the first poll after restart
-- (skvarel) Fixed place-specific notification priority handling: prioritized overrides now suppress the standard message as intended, non-prioritized overrides append their custom text after the standard message, and multiple Alexa announcements from one event are queued instead of overwriting each other
-- (skvarel) Fixed Alexa announcement volume handling by using the Alexa2 `speakvolume` state for temporary per-announcement volume changes instead of embedding the volume into the speak text, improving reliable restoration of the original device volume
 - (skvarel) Extended the Alexa test button to send two back-to-back announcements so sequential playback and restoration of the original volume can be verified directly from the adapter UI
 - (skvarel) Added a longer pause between Alexa announcements when the adapter must fall back to inline `volume;text` commands, giving the device more time to restore the previous volume before the next message
 - (skvarel) Reworked Alexa volume handling again: life360ng now saves the current `Player.volume`, sets the configured announcement volume explicitly for the speech, and restores the original device volume afterwards so the test button and real notifications follow the configured volume reliably
-- (skvarel) Adjusted Alexa volume handling to always use the configured inline speech volume (`volume;text`) and explicitly restore the previously read `Player.volume` value after each announcement to avoid mismatches with adapter-internal speak-volume states
 
 
 ### 1.8.0 (2026-05-17)

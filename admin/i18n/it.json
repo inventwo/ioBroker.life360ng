@@ -45,7 +45,7 @@
     "notify_telegram_hint": "Avvisa gli utenti di Telegram quando una persona entra in una posizione conosciuta. Richiede l'adattatore ioBroker Telegram.",
     "paypal_donate": "Dona con PayPal",
     "place_circle": "Assegnazione a una cerchia Life360\n(facoltativo)",
-    "place_isPresent_delay": "Presence delay\n(s, 0 = immediatamente)",
+    "place_isPresent_delay": "Ritardo di presenza\n(s, 0 = immediatamente)",
     "place_latitude": "Latitudine del luogo",
     "place_longitude": "Longitudine del luogo",
     "place_name": "Nome del luogo",
