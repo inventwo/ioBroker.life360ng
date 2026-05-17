@@ -1031,9 +1031,6 @@
                                 }
                             ]
                         },
-                        "_notifyPlaceOverridesLine": {
-                            "type": "divider"
-                        },
                         "notify_place_overrides_hint": {
                             "type": "staticText",
                             "text": "notify_place_overrides_hint",
@@ -1076,7 +1073,6 @@
                                     "type": "selectSendTo",
                                     "command": "getPersonsList",
                                     "manual": true,
-                                    "placeholder": "notify_override_person_placeholder",
                                     "width": "14%"
                                 },
                                 {
