@@ -49,12 +49,12 @@ Lege hier alle Echo-Geräte fest, die Standortänderungen ansagen sollen.
 |---|---|
 | **Anzeigename** | Optionale Bezeichnung für das Gerät (z. B. `Büro Echo`) |
 | **Speak-State-ID** | Vollständige ioBroker-State-ID des Speak-Datenpunkts (z. B. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
-| **Lautstärke (0–100)** | Ansage-Lautstärke. Der Alexa-Adapter stellt die vorherige Lautstärke danach automatisch wieder her. |
+| **Lautstärke (0–100)** | Temporäre Ansage-Lautstärke. life360ng setzt dafür den Alexa2-State `Commands.speakvolume`, damit der Alexa-Adapter die vorherige Lautstärke nach der Ansage wiederherstellen kann. |
 
 **So findest du die Speak-State-ID:**  
 Öffne den ioBroker-Objektbaum → `alexa2.0` → `Echo-Devices` → suche deinen Geräteordner → `Commands` → `speak`. Kopiere die vollständige Objekt-ID.
 
-> **Hinweis:** Bei gesetzter Lautstärke stellt der Alexa2-Adapter die ursprüngliche Lautstärke nach der Ansage automatisch wieder her.
+> **Hinweis:** Bei gesetzter Lautstärke verwendet life360ng gezielt `Commands.speakvolume` statt eines Lautstärke-Präfixes im Sprechtext. Dadurch wird die ursprüngliche Lautstärke auch bei mehreren Ansagen nacheinander zuverlässiger wiederhergestellt.
 
 ---
 
@@ -146,4 +146,4 @@ Mit dem Button **Testnachricht senden** (Telegram-Bereich) oder **Testansage sen
 | Button | Was passiert |
 |---|---|
 | **Testnachricht senden** | Sendet `[Life360ng] Test notification` an alle konfigurierten Telegram-Empfänger |
-| **Testansage senden** | Kündigt `Life360ng test notification` auf allen konfigurierten Alexa-Geräten an |
+| **Testansage senden** | Kündigt `Life360ng test notification one` und danach `Life360ng test notification two` auf allen konfigurierten Alexa-Geräten an, um serielle Wiedergabe und Lautstärke-Rücksetzung zu prüfen |

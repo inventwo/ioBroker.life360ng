@@ -49,12 +49,12 @@ Define the Echo devices that should announce location changes.
 |---|---|
 | **Display name** | Optional label to identify this device (e.g. `Office Echo`) |
 | **Speak state ID** | Full ioBroker state ID of the speak datapoint (e.g. `alexa2.0.Echo-Devices.G090LF11806218AC.Commands.speak`) |
-| **Volume (0–100)** | Announcement volume. The Alexa adapter automatically restores the previous volume afterwards. |
+| **Volume (0–100)** | Temporary announcement volume. life360ng uses the Alexa2 `Commands.speakvolume` state so the Alexa adapter can restore the previous volume after the announcement. |
 
 **How to find the speak state ID:**  
 Open the ioBroker object tree → `alexa2.0` → `Echo-Devices` → find your device folder → `Commands` → `speak`. Copy the full object ID.
 
-> **Note:** When the volume is set, the Alexa2 adapter automatically restores the original volume after the announcement.
+> **Note:** When a volume is configured, life360ng deliberately uses `Commands.speakvolume` instead of embedding the volume into the spoken text. This makes restoring the original volume more reliable when multiple announcements are sent in sequence.
 
 ---
 
@@ -146,4 +146,4 @@ Use the **Send test message** button (Telegram section) or the **Send test annou
 | Button | What it does |
 |---|---|
 | **Send test message** | Sends `[Life360ng] Test notification` to all configured Telegram recipients |
-| **Send test announcement** | Announces `Life360ng test notification` on all configured Alexa devices |
+| **Send test announcement** | Announces `Life360ng test notification one` and then `Life360ng test notification two` on all configured Alexa devices to verify sequential playback and volume restoration |
