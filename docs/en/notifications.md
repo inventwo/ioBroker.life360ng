@@ -89,7 +89,7 @@ Below the people table you can configure place- and person-specific notification
 | Column | Description |
 |---|---|
 | **+ Place** | Place name — selected from a dropdown populated with own places (⚑) and Life360 app places (📍). Manual entry is also possible. |
-| **Person** | Life360 person name — selected from a dropdown of known persons. Leave empty to match **all persons** at this place. |
+| **Person** | Life360 person name — selected from a dropdown of known persons. |
 | **Prioritize on notification** | When enabled, the default message (`prefix text + place name`) is suppressed. The custom arrival or leave text is used instead. |
 | **Notify on arrival** | Send a notification when the person arrives at this place. |
 | **Text on arrival** | Custom message text sent on arrival (e.g. `Nicole arrived home`). |

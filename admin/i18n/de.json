@@ -27,7 +27,7 @@
     "notify_override_person_placeholder": "(alle)",
     "notify_override_place": "Ort",
     "notify_override_priority": "Bei Meldung priorisieren",
-    "notify_place_overrides_hint": "Orts- und personenspezifische Nachrichten. Ist 'Bei Meldung priorisieren' aktiviert, wird die Standard-Meldung (Vorangestellter Text + Ort) unterdrückt und stattdessen immer der Text aus 'Text bei Ankunft' bzw. 'Text bei Entfernen' verwendet. Die Tabelle gilt für Telegram und Alexa.\n\nDer Name unter 'Person' muss exakt dem Life360-Namen entsprechen – dieser kann aus der Tabelle 'Personen & Nachrichtenformat' weiter oben kopiert werden. Person leer lassen = gilt für alle Personen an diesem Ort.",
+    "notify_place_overrides_hint": "Orts- und personenspezifische Nachrichten. Ist 'Bei Meldung priorisieren' aktiviert, wird die Standard-Meldung (Vorangestellter Text + Ort) unterdrückt und stattdessen immer der Text aus 'Text bei Ankunft' bzw. 'Text bei Entfernen' verwendet. Die Tabelle gilt für Telegram und Alexa.",
     "notify_people_hint": "Generelle Einstellungen für alle Benachrichtigungen – gilt für Telegram und Alexa.",
     "notify_people_label": "Personen werden automatisch aus Life360 übernommen. Vorangestellter Text und Ort-Schalter gelten für Telegram und Alexa. Empfänger (nur Telegram): Anzeigenamen oder Chat-IDs aus der Empfängertabelle, kommasepariert (leer = alle).",
     "notify_person_appplaces": "App-Orte",

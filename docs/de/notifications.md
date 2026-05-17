@@ -89,7 +89,7 @@ Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichte
 | Spalte | Beschreibung |
 |---|---|
 | **+ Ort** | Ortsname – aus einem Dropdown mit eigenen Orten (⚑) und Life360-App-Orten (📍) auswählbar. Manuelle Eingabe ist ebenfalls möglich. |
-| **Person** | Life360-Name der Person – aus einem Dropdown der bekannten Personen auswählbar. Leer lassen = gilt für **alle Personen** an diesem Ort. |
+| **Person** | Life360-Name der Person – aus einem Dropdown der bekannten Personen auswählbar. |
 | **Bei Meldung priorisieren** | Wenn aktiviert, wird die Standard-Nachricht (`Vorangestellter Text + Ortsname`) unterdrückt und stattdessen der eigene Ankunfts- oder Entfernen-Text verwendet. |
 | **Ankunft melden** | Benachrichtigung senden, wenn die Person diesen Ort betritt. |
 | **Text bei Ankunft** | Benutzerdefinierter Text bei Ankunft (z. B. `Nicole ist zuhause angekommen`). |

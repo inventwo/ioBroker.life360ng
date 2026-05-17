@@ -14,7 +14,7 @@
     "notify_override_person_placeholder":  "(all)",
     "notify_override_place":  "Place",
     "notify_override_priority":  "Prioritize on notification",
-    "notify_place_overrides_hint":  "Place- and person-specific messages. When 'Prioritize on notification' is enabled, the default message (prefix text + place) is suppressed and the text from 'Text on arrival' or 'Text on leave' is used instead. The table applies to both Telegram and Alexa.\n\nThe name under 'Person' must exactly match the Life360 name — it can be copied from the 'People & message format' table above. Leave person empty to match all persons at that place.",
+    "notify_place_overrides_hint":  "Place- and person-specific messages. When 'Prioritize on notification' is enabled, the default message (prefix text + place) is suppressed and the text from 'Text on arrival' or 'Text on leave' is used instead. The table applies to both Telegram and Alexa.",
     "notify_people_hint":  "General settings for all notifications — applies to both Telegram and Alexa.",
     "notify_people_label":  "People are automatically synced from Life360. Prefix text and place toggles apply to both Telegram and Alexa. Recipients (Telegram only): comma-separated display names or Chat IDs from the recipients table (empty = all).",
     "notify_person_appplaces":  "App places",
