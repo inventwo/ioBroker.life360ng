@@ -308,6 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Fixed place-specific notification priority handling: prioritized overrides now suppress the standard message as intended, non-prioritized overrides append their custom text after the standard message, and multiple Alexa announcements from one event are queued instead of overwriting each other
 - (skvarel) Fixed Alexa announcement volume handling by using the Alexa2 `speakvolume` state for temporary per-announcement volume changes instead of embedding the volume into the speak text, improving reliable restoration of the original device volume
 - (skvarel) Extended the Alexa test button to send two back-to-back announcements so sequential playback and restoration of the original volume can be verified directly from the adapter UI
+- (skvarel) Added a longer pause between Alexa announcements when the adapter must fall back to inline `volume;text` commands, giving the device more time to restore the previous volume before the next message
 
 
 ### 1.8.0 (2026-05-17)
