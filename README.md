@@ -301,7 +301,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.8.0 (2026-05-17)
 - (skvarel) Fixed unhandled promise rejections ("DB closed") at adapter shutdown caused by async DB operations running after the Redis connection was already closed; adapter now sets an unloading flag to prevent new operations from starting and catches any remaining DB errors gracefully
 - (skvarel) Added Notifications tab with Telegram support: send a message when a person arrives at a known place (Life360 app places, own places and/or unknown places); configurable per person with prefix text and per recipient with instance number and Chat ID
 - (skvarel) Added Alexa announcements support: announce location arrivals via Amazon Echo devices using the ioBroker Alexa2 adapter; configurable device list with speak state ID and announcement volume (volume is automatically restored by the Alexa adapter after each announcement)
@@ -332,14 +332,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
 - (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
 - (skvarel) Added separate docs page for the Map Display tab (colors, route style, place flags, layout) in English and German; moved map appearance content out of the Logbook docs page
-
-### 1.5.0 (2026-05-10)
-- (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source
-- (skvarel) Map legend now hides automatically when the route checkbox is unchecked, on both person and circle maps
-- (skvarel) Removed the separate "Show map legend" checkbox – legend visibility is now controlled via the route checkbox
-- (skvarel) Moved map appearance settings (colors, markers, flags, layout) to a dedicated "Map Display" tab in admin config
-- (skvarel) Replaced header checkboxes with a hamburger menu (☰) on all tracker maps; Route, Places, Footer and Map Size are now toggleable directly in the map; footer and map-size preferences are stored per map in the browser
-- (skvarel) Map no longer auto-zooms after a data refresh when the user has manually panned or zoomed; the chosen view is kept until the tab or window is closed
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
