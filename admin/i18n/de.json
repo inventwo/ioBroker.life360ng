@@ -78,7 +78,7 @@
     "test_button_telegram": "Testnachricht senden",
     "token1_txt": "Zeite Variante:",
     "token2_txt": "Dritte Variante:",
-    "token_hint": "EU-Benutzer – So erhältst du deinen Bearer-Token:\n\n1. Öffne https://life360.com/login\n2. Öffne die Browser-DevTools (F12) → Registerkarte „Netzwerk“.\n3. Gib deine E-Mail-Adresse ein → klicke auf Weiter\n4. Gib den an deine E-Mail-Adresse gesendeten Einmalcode ein\n5. Suche die POST-Anfrage mit dem Namen „token“ und/oder „bearer“ (nicht OPTIONS).\n6. Öffne die Registerkarte „Vorschau/Antwort“ → kopiere den Wert von „access_token“ und füge ihn unten ein\n\nAchtung: Gib den Token OHNE das Wort „Bearer“ und OHNE Leerzeichen ein!\n\nDer Token ist mehrere Monate gültig.",
+    "token_hint": "EU-Benutzer – So erhältst du deinen Bearer-Token:\n\n1. Öffne https://life360.com/login\n2. Öffne die Browser-DevTools (F12) → Registerkarte „Netzwerk“.\n3. Gib deine E-Mail-Adresse ein → klicke auf Weiter\n4. Gib den an deine E-Mail-Adresse gesendeten Einmalcode ein\n5. Suche die POST-Anfrage mit dem Namen „token“ und/oder „bearer“ (nicht OPTIONS).\n6. Öffne die Registerkarte „Vorschau/Antwort“ → kopiere den Wert von „access_token“ und füge ihn unten ein\n\nAchtung: Gib den Token OHNE das Wort „Bearer“, OHNE Leerzeichen ein und OHNE Anführungszeichen ein!\n\nDer Token ist mehrere Monate gültig.",
     "track_location_people": "Aktiviere die Standortverfolgung für Personen",
     "tracker_clear_recordings_info": "⚠ Hinweis: Beim Leeren der Aufzeichnungen einer Person wird auch die Kreiskarte aktualisiert, da sie aus den Personen-Daten aufgebaut wird. Die monatlichen GeoJSON-Dateien (currentYear) werden nicht verändert.",
     "tracker_color_header_bg": "Header-Hintergrund",

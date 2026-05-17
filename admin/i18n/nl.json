@@ -78,7 +78,7 @@
     "test_button_telegram": "Testbericht verzenden",
     "token1_txt": "Tweede variant:",
     "token2_txt": "Derde variant:",
-    "token_hint": "EU-gebruikers – hoe u uw Bearer-token kunt verkrijgen:\n1. Open https://life360.com/login\n2. Open de browser DevTools (F12) → tabblad Netwerk\n3. Voer uw e-mailadres in → klik op Doorgaan\n4. Voer de eenmalige code in die naar uw e-mail is verzonden\n5. Zoek het POST-verzoek met de naam 'token' en/of 'bearer' (niet OPTIONS)\n6. Open het tabblad Preview / Response → kopieer de waarde van 'access_token' en plak deze hieronder\n\nVoer het token in ZONDER het woord 'Bearer' en ZONDER spaties!\n\nHet token is meerdere maanden geldig.",
+    "token_hint": "EU-gebruikers – hoe u uw Bearer-token kunt verkrijgen:\n1. Open https://life360.com/login\n2. Open de browser DevTools (F12) → tabblad Netwerk\n3. Voer uw e-mailadres in → klik op Doorgaan\n4. Voer de eenmalige code in die naar uw e-mail is verzonden\n5. Zoek het POST-verzoek met de naam 'token' en/of 'bearer' (niet OPTIONS)\n6. Open het tabblad Preview / Response → kopieer de waarde van 'access_token' en plak deze hieronder\n\nVoer het token in ZONDER het woord 'Bearer', ZONDER spaties en ZONDER aanhalingstekens!\n\nHet token is meerdere maanden geldig.",
     "track_location_people": "Schakel locatietracking voor mensen in",
     "tracker_clear_recordings_info": "⚠ Opmerking: het wissen van de opnamen van een persoon heeft ook invloed op de cirkelkaart, omdat deze is opgebouwd uit de individuele persoonsgegevens. De maandelijkse GeoJSON-bestanden (currentYear) worden niet gewijzigd.",
     "tracker_color_header_bg": "Kopachtergrond",

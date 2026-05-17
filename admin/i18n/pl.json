@@ -78,7 +78,7 @@
     "test_button_telegram": "Wyślij wiadomość testową",
     "token1_txt": "Drugi wariant:",
     "token2_txt": "Trzeci wariant:",
-    "token_hint": "Użytkownicy z UE – jak zdobyć token okaziciela:\n1. Otwórz https://life360.com/login\n2. Otwórz przeglądarkę DevTools (F12) → zakładka Sieć\n3. Wpisz swój adres e-mail → kliknij Kontynuuj\n4. Wpisz jednorazowy kod przesłany na Twój adres e-mail\n5. Znajdź żądanie POST o nazwie „token” i/lub „nośnik” (nie OPCJE)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość „access_token” i wklej ją poniżej\n\nWprowadź token BEZ słowa „Nosiciel” i BEZ spacji!\n\nToken ważny jest kilka miesięcy.",
+    "token_hint": "Użytkownicy z UE – jak zdobyć token okaziciela:\n1. Otwórz https://life360.com/login\n2. Otwórz przeglądarkę DevTools (F12) → zakładka Sieć\n3. Wpisz swój adres e-mail → kliknij Kontynuuj\n4. Wpisz jednorazowy kod przesłany na Twój adres e-mail\n5. Znajdź żądanie POST o nazwie „token” i/lub „nośnik” (nie OPCJE)\n6. Otwórz zakładkę Podgląd / Odpowiedź → skopiuj wartość „access_token” i wklej ją poniżej\n\nWprowadź token BEZ słowa „Nosiciel”, BEZ spacji i BEZ cudzysłowów!\n\nToken ważny jest kilka miesięcy.",
     "track_location_people": "Włącz śledzenie lokalizacji dla ludzi",
     "tracker_clear_recordings_info": "⚠ Uwaga: czyszczenie nagrań danej osoby wpływa również na mapę okręgu, ponieważ jest ona zbudowana na podstawie danych poszczególnych osób. Miesięczne pliki GeoJSON (bieżący rok) nie ulegają zmianie.",
     "tracker_color_header_bg": "Tło nagłówka",
