@@ -84,7 +84,7 @@ Die Spalte **Empfänger** gilt ausschließlich für Telegram-Benachrichtigungen 
 
 ## Orts-spezifische Nachrichten-Overrides
 
-Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichten-Overrides konfigurieren. Damit lässt sich die Standard-Nachricht (`Vorangestellter Text + Ortsname`) durch einen eigenen Text ersetzen und optional auch eine Nachricht senden, wenn eine Person einen Ort **verlässt**.
+Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichten-Overrides konfigurieren. Damit lässt sich die Standard-Nachricht (`Vorangestellter Text + Ortsname`) um einen eigenen Text ergänzen oder, bei aktivierter Priorisierung, durch diesen ersetzen. Optional kann auch eine Nachricht gesendet werden, wenn eine Person einen Ort **verlässt**.
 
 | Spalte | Beschreibung |
 |---|---|
@@ -99,10 +99,11 @@ Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichte
 ### Funktionsweise
 
 - **Exakter Personen-Match** hat Vorrang vor einem Eintrag ohne Person (Wildcard).
-- Ist **Bei Meldung priorisieren** aktiv und ein Text konfiguriert, wird die Standard-Nachricht unterdrückt und der eigene Text verwendet.
-- Ist **Bei Meldung priorisieren** aktiv, aber das Textfeld leer, wird trotzdem die Standard-Nachricht gesendet.
-- Entfernen-Benachrichtigungen sind rein override-gesteuert – es gibt keine Standard-Entfernen-Nachricht.
-- Ankunfts- und Entfernen-Overrides gelten für Telegram und Alexa.
+- Ist **Bei Meldung priorisieren** aktiv und ein eigener Text konfiguriert, wird die Standard-Nachricht aus der Personentabelle unterdrückt und nur der Text aus dieser Override-Tabelle gesendet.
+- Ist **Bei Meldung priorisieren** inaktiv, werden Standard-Nachricht und Override-Text hintereinander gesendet.
+- Ist **Bei Meldung priorisieren** aktiv, aber das Textfeld leer, bleibt die Standard-Nachricht als Fallback aktiv.
+- Beim Verlassen eines priorisierten Ortes wird auch die nachfolgende Standard-Meldung für den neuen Ort bzw. „unterwegs“ unterdrückt; ohne Priorisierung werden beide Meldungen hintereinander gesendet.
+- Telegram und Alexa verwenden dieselbe Logik. Mehrere Alexa-Texte aus einem Ereignis werden nacheinander mit kurzem Abstand gesprochen.
 
 ### Beispiel
 
@@ -111,7 +112,7 @@ Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichte
 | Home | Nicole Mustermann | ✅ | ✅ | Nicole ist zuhause angekommen | ✅ | Nicole hat das Haus verlassen |
 | Home | *(leer)* | ✅ | ✅ | Jemand ist zuhause angekommen | ☐ | |
 
-In diesem Beispiel: Wenn Nicole zu Hause ankommt, wird `Nicole ist zuhause angekommen` gesendet (Standard-Meldung unterdrückt). Wenn eine andere Person ankommt, wird `Jemand ist zuhause angekommen` gesendet.
+In diesem Beispiel: Wenn Nicole zu Hause ankommt, wird bei aktivierter Priorisierung nur `Nicole ist zuhause angekommen` gesendet. Ohne Priorisierung würde zuerst die Standard-Meldung und direkt danach `Nicole ist zuhause angekommen` gesendet.
 
 Als Filterwert kann entweder der **Anzeigename** oder die **Chat-ID** verwendet werden — beides wird akzeptiert und lässt sich beliebig kombinieren.
 

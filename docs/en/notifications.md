@@ -84,7 +84,7 @@ The **Recipients** column applies to Telegram notifications only — it has no e
 
 ## Place-Specific Notification Overrides
 
-Below the people table you can configure place- and person-specific notification overrides. These let you replace the default message (`prefix text + place name`) with a custom text for a specific place, and optionally also send a message when a person **leaves** a place.
+Below the people table you can configure place- and person-specific notification overrides. These let you add a custom text to the default message (`prefix text + place name`) or, when prioritization is enabled, replace the standard message with the custom text. You can also send a message when a person **leaves** a place.
 
 | Column | Description |
 |---|---|
@@ -99,10 +99,11 @@ Below the people table you can configure place- and person-specific notification
 ### How it works
 
 - **Exact person match** takes precedence over a wildcard entry (empty person field).
-- If **Prioritize on notification** is enabled and a text is configured, the standard message is suppressed and the custom text is used.
-- If **Prioritize on notification** is enabled but the text field is empty, the standard message is still sent.
-- Leave notifications are purely override-driven — there is no default leave message.
-- Both arrival and leave overrides apply to Telegram and Alexa.
+- If **Prioritize on notification** is enabled and a custom text is configured, the standard message from the people table is suppressed and only the override text is sent.
+- If **Prioritize on notification** is disabled, the standard message and the override text are both sent, one after the other.
+- If **Prioritize on notification** is enabled but the text field is empty, the standard message is still used as a fallback.
+- When leaving a prioritized place, the following standard message for the new place or the "unknown/on the way" state is also suppressed; without prioritization both messages are sent in sequence.
+- Telegram and Alexa use the same logic. If one event produces multiple Alexa texts, they are spoken sequentially with a short gap.
 
 ### Example
 
@@ -111,7 +112,7 @@ Below the people table you can configure place- and person-specific notification
 | Home | Nicole Mustermann | ✅ | ✅ | Nicole arrived home | ✅ | Nicole left home |
 | Home | *(empty)* | ✅ | ✅ | Someone arrived home | ☐ | |
 
-In this example: when Nicole arrives at Home, the message `Nicole arrived home` is sent (standard message suppressed). When any other person arrives, `Someone arrived home` is sent.
+In this example: when Nicole arrives at Home, enabling prioritization sends only `Nicole arrived home`. Without prioritization, the adapter first sends the standard message and then `Nicole arrived home`.
 
 You can use either the **display name** or the **Chat ID** as the filter value — both are accepted, and you can mix them freely.
 
