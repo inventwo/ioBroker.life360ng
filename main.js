@@ -82,6 +82,10 @@ class Life360 extends utils.Adapter {
 			if (obj.callback) {
 				this.sendTo(obj.from, obj.command, life360DbConnector.getPlacesList(), obj.callback);
 			}
+		} else if (obj.command === "getPersonsList") {
+			if (obj.callback) {
+				this.sendTo(obj.from, obj.command, life360DbConnector.getPersonsList(), obj.callback);
+			}
 		}
 	}
 

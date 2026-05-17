@@ -1073,7 +1073,9 @@
                                 {
                                     "title": "notify_override_person",
                                     "attr": "personName",
-                                    "type": "text",
+                                    "type": "selectSendTo",
+                                    "command": "getPersonsList",
+                                    "manual": true,
                                     "placeholder": "notify_override_person_placeholder",
                                     "width": "14%"
                                 },

@@ -303,7 +303,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 ### **WORK IN PROGRESS**
 
-- (skvarel) Added place-specific notification overrides table in the Notifications tab: configure custom arrival and leave messages per place and person, with optional suppression of the default standard message; place dropdown is populated from own places and Life360 app places
+- (skvarel) Added place-specific notification overrides table in the Notifications tab: configure custom arrival and leave messages per place and person, with optional suppression of the default standard message; place and person columns use dropdowns populated from known places and Life360 persons
 
 
 ### 1.8.0 (2026-05-17)

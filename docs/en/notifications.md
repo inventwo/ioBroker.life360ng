@@ -70,6 +70,8 @@ This table is **automatically synced** from Life360 — persons appear here as s
 | **Recipients (Telegram only)** | Comma-separated list of display names or Chat IDs from the recipients table. Empty = send to all Telegram recipients. Alexa notifications are always sent to all configured devices. |
 | **Own places** | Enable notifications when this person arrives at an own place (My Places) |
 | **App places** | Enable notifications when this person arrives at a Life360 app place |
+| **Unknown places** | Enable notifications when this person's location becomes unknown |
+| **Message for unknown location** | Custom message text sent when the person's location is unknown |
 
 ### Recipient Filter (Telegram only)
 
@@ -77,6 +79,39 @@ The **Recipients** column applies to Telegram notifications only — it has no e
 
 - **Empty:** The notification is sent to **all** recipients in the recipients table.
 - **Filled:** Only the listed recipients receive the message.
+
+---
+
+## Place-Specific Notification Overrides
+
+Below the people table you can configure place- and person-specific notification overrides. These let you replace the default message (`prefix text + place name`) with a custom text for a specific place, and optionally also send a message when a person **leaves** a place.
+
+| Column | Description |
+|---|---|
+| **+ Place** | Place name — selected from a dropdown populated with own places (⚑) and Life360 app places (📍). Manual entry is also possible. |
+| **Person** | Life360 person name — selected from a dropdown of known persons. Leave empty to match **all persons** at this place. |
+| **Prioritize on notification** | When enabled, the default message (`prefix text + place name`) is suppressed. The custom arrival or leave text is used instead. |
+| **Notify on arrival** | Send a notification when the person arrives at this place. |
+| **Text on arrival** | Custom message text sent on arrival (e.g. `Nicole arrived home`). |
+| **Notify on leave** | Send a notification when the person leaves this place. |
+| **Text on leave** | Custom message text sent on leave (e.g. `Nicole left home`). |
+
+### How it works
+
+- **Exact person match** takes precedence over a wildcard entry (empty person field).
+- If **Prioritize on notification** is enabled and a text is configured, the standard message is suppressed and the custom text is used.
+- If **Prioritize on notification** is enabled but the text field is empty, the standard message is still sent.
+- Leave notifications are purely override-driven — there is no default leave message.
+- Both arrival and leave overrides apply to Telegram and Alexa.
+
+### Example
+
+| Place | Person | Prioritize | Notify arrival | Text on arrival | Notify leave | Text on leave |
+|---|---|:---:|:---:|---|:---:|---|
+| Home | Nicole Mustermann | ✅ | ✅ | Nicole arrived home | ✅ | Nicole left home |
+| Home | *(empty)* | ✅ | ✅ | Someone arrived home | ☐ | |
+
+In this example: when Nicole arrives at Home, the message `Nicole arrived home` is sent (standard message suppressed). When any other person arrives, `Someone arrived home` is sent.
 
 You can use either the **display name** or the **Chat ID** as the filter value — both are accepted, and you can mix them freely.
 

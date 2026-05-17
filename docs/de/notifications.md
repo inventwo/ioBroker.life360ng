@@ -70,6 +70,8 @@ Diese Tabelle wird **automatisch mit Life360 synchronisiert** — Personen ersch
 | **Empfänger (nur Telegram)** | Kommaseparierte Liste von Anzeigenamen oder Chat-IDs aus der Empfängertabelle. Leer = an alle Telegram-Empfänger senden. Alexa-Ansagen werden immer an alle konfigurierten Geräte gesendet. |
 | **Eigene Orte** | Benachrichtigung aktivieren, wenn diese Person einen eigenen Ort betritt (Meine Orte) |
 | **App-Orte** | Benachrichtigung aktivieren, wenn diese Person einen Life360-App-Ort betritt |
+| **Unbekannte Orte** | Benachrichtigung aktivieren, wenn der Standort der Person unbekannt wird |
+| **Meldung bei unbekanntem Ort** | Benutzerdefinierter Text, der gesendet wird, wenn der Standort der Person unbekannt ist |
 
 ### Empfänger-Filter (nur Telegram)
 
@@ -77,6 +79,39 @@ Die Spalte **Empfänger** gilt ausschließlich für Telegram-Benachrichtigungen 
 
 - **Leer:** Die Benachrichtigung wird an **alle** Empfänger in der Empfängertabelle gesendet.
 - **Gefüllt:** Nur die aufgelisteten Empfänger erhalten die Nachricht.
+
+---
+
+## Orts-spezifische Nachrichten-Overrides
+
+Unterhalb der Personentabelle kannst du orts- und personenspezifische Nachrichten-Overrides konfigurieren. Damit lässt sich die Standard-Nachricht (`Vorangestellter Text + Ortsname`) durch einen eigenen Text ersetzen und optional auch eine Nachricht senden, wenn eine Person einen Ort **verlässt**.
+
+| Spalte | Beschreibung |
+|---|---|
+| **+ Ort** | Ortsname – aus einem Dropdown mit eigenen Orten (⚑) und Life360-App-Orten (📍) auswählbar. Manuelle Eingabe ist ebenfalls möglich. |
+| **Person** | Life360-Name der Person – aus einem Dropdown der bekannten Personen auswählbar. Leer lassen = gilt für **alle Personen** an diesem Ort. |
+| **Bei Meldung priorisieren** | Wenn aktiviert, wird die Standard-Nachricht (`Vorangestellter Text + Ortsname`) unterdrückt und stattdessen der eigene Ankunfts- oder Entfernen-Text verwendet. |
+| **Ankunft melden** | Benachrichtigung senden, wenn die Person diesen Ort betritt. |
+| **Text bei Ankunft** | Benutzerdefinierter Text bei Ankunft (z. B. `Nicole ist zuhause angekommen`). |
+| **Entfernen melden** | Benachrichtigung senden, wenn die Person diesen Ort verlässt. |
+| **Text bei Entfernen** | Benutzerdefinierter Text beim Verlassen (z. B. `Nicole hat das Haus verlassen`). |
+
+### Funktionsweise
+
+- **Exakter Personen-Match** hat Vorrang vor einem Eintrag ohne Person (Wildcard).
+- Ist **Bei Meldung priorisieren** aktiv und ein Text konfiguriert, wird die Standard-Nachricht unterdrückt und der eigene Text verwendet.
+- Ist **Bei Meldung priorisieren** aktiv, aber das Textfeld leer, wird trotzdem die Standard-Nachricht gesendet.
+- Entfernen-Benachrichtigungen sind rein override-gesteuert – es gibt keine Standard-Entfernen-Nachricht.
+- Ankunfts- und Entfernen-Overrides gelten für Telegram und Alexa.
+
+### Beispiel
+
+| Ort | Person | Priorisieren | Ankunft melden | Text bei Ankunft | Entfernen melden | Text bei Entfernen |
+|---|---|:---:|:---:|---|:---:|---|
+| Home | Nicole Mustermann | ✅ | ✅ | Nicole ist zuhause angekommen | ✅ | Nicole hat das Haus verlassen |
+| Home | *(leer)* | ✅ | ✅ | Jemand ist zuhause angekommen | ☐ | |
+
+In diesem Beispiel: Wenn Nicole zu Hause ankommt, wird `Nicole ist zuhause angekommen` gesendet (Standard-Meldung unterdrückt). Wenn eine andere Person ankommt, wird `Jemand ist zuhause angekommen` gesendet.
 
 Als Filterwert kann entweder der **Anzeigename** oder die **Chat-ID** verwendet werden — beides wird akzeptiert und lässt sich beliebig kombinieren.
 
