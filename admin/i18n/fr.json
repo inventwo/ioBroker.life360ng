@@ -78,7 +78,7 @@
     "test_button_telegram": "Envoyer un message test",
     "token1_txt": "Première variante :",
     "token2_txt": "Deuxième variante :",
-    "token_hint": "Utilisateurs de l'UE – comment obtenir votre jeton Bearer :\n1. Ouvrez https://life360.com/login\n2. Entrez votre adresse e-mail → cliquez sur Continuer\n3. Entrez le code à usage unique envoyé à votre email\n4. Ouvrez le navigateur DevTools (F12) → onglet Réseau\n5. Recherchez la requête POST nommée 'token' et/ou 'bearer' (pas OPTIONS)\n6. Ouvrez l'onglet Aperçu / Réponse → copiez la valeur de 'access_token' et collez-la ci-dessous\n\nEntrez le jeton SANS le mot 'Porteur' et SANS espaces !\n\nLe token est valable plusieurs mois.",
+    "token_hint": "Utilisateurs de l'UE – comment obtenir votre jeton Bearer :\n1. Ouvrez https://life360.com/login\n2. Ouvrez le navigateur DevTools (F12) → onglet Réseau\n3. Entrez votre adresse e-mail → cliquez sur Continuer\n4. Entrez le code à usage unique envoyé à votre email\n5. Recherchez la requête POST nommée 'token' et/ou 'bearer' (pas OPTIONS)\n6. Ouvrez l'onglet Aperçu / Réponse → copiez la valeur de 'access_token' et collez-la ci-dessous\n\nEntrez le jeton SANS le mot 'Porteur' et SANS espaces !\n\nLe token est valable plusieurs mois.",
     "track_location_people": "Activer le suivi de localisation des personnes",
     "tracker_clear_recordings_info": "⚠ Remarque : La suppression des enregistrements d'une personne affecte également la carte du cercle, car elle est construite à partir des données individuelles de la personne. Les fichiers GeoJSON mensuels (currentYear) ne sont pas modifiés.",
     "tracker_color_header_bg": "Arrière-plan de l'en-tête",

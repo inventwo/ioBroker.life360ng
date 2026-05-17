@@ -78,7 +78,7 @@
     "test_button_telegram": "发送测试消息",
     "token1_txt": "第一个变体：",
     "token2_txt": "第二种变体：",
-    "token_hint": "欧盟用户 – 如何获取您的不记名代币：\n1.打开https://life360.com/login\n2. 输入您的电子邮件地址 → 单击继续\n3. 输入发送到您的电子邮件的一次性代码\n4. 打开浏览器 DevTools (F12) → Network 选项卡\n5. 找到名为“token”和/或“bearer”的 POST 请求（不是 OPTIONS）\n6. 打开预览/响应选项卡 → 复制“access_token”的值并将其粘贴到下面\n\n输入令牌时不要包含“Bearer”一词，也不要包含空格！\n\n该令牌的有效期为几个月。",
+    "token_hint": "欧盟用户 – 如何获取您的不记名代币：\n1.打开https://life360.com/login\n2. 打开浏览器 DevTools (F12) → Network 选项卡\n3. 输入您的电子邮件地址 → 单击继续\n4. 输入发送到您的电子邮件的一次性代码\n5. 找到名为“token”和/或“bearer”的 POST 请求（不是 OPTIONS）\n6. 打开预览/响应选项卡 → 复制“access_token”的值并将其粘贴到下面\n\n输入令牌时不要包含“Bearer”一词，也不要包含空格！\n\n该令牌的有效期为几个月。",
     "track_location_people": "启用人员位置跟踪",
     "tracker_clear_recordings_info": "⚠ 注意：清除某人的记录也会影响圆圈图，因为它是根据个人数据构建的。每月的 GeoJSON 文件 (currentYear) 不会更改。",
     "tracker_color_header_bg": "标题背景",

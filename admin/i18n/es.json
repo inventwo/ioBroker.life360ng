@@ -78,7 +78,7 @@
     "test_button_telegram": "Enviar mensaje de prueba",
     "token1_txt": "Primera variante:",
     "token2_txt": "Segunda variante:",
-    "token_hint": "Usuarios de la UE: cómo obtener su token de portador:\n1. Abra https://life360.com/login\n2. Ingrese su dirección de correo electrónico → haga clic en Continuar\n3. Ingrese el código de un solo uso enviado a su correo electrónico\n4. Abra el navegador DevTools (F12) → pestaña Red\n5. Busque la solicitud POST denominada 'token' y/o 'portador' (no OPCIONES)\n6. Abra la pestaña Vista previa/Respuesta → copie el valor de 'access_token' y péguelo debajo\n\n¡Ingrese el token SIN la palabra 'Portador' y SIN espacios!\n\nEl token es válido por varios meses.",
+    "token_hint": "Usuarios de la UE: cómo obtener su token de portador:\n1. Abra https://life360.com/login\n2. Abra el navegador DevTools (F12) → pestaña Red\n3. Ingrese su dirección de correo electrónico → haga clic en Continuar\n4. Ingrese el código de un solo uso enviado a su correo electrónico\n5. Busque la solicitud POST denominada 'token' y/o 'portador' (no OPCIONES)\n6. Abra la pestaña Vista previa/Respuesta → copie el valor de 'access_token' y péguelo debajo\n\n¡Ingrese el token SIN la palabra 'Portador' y SIN espacios!\n\nEl token es válido por varios meses.",
     "track_location_people": "Habilitar el seguimiento de ubicación de personas",
     "tracker_clear_recordings_info": "⚠ Nota: Borrar las grabaciones de una persona también afecta el mapa circular, ya que se construye a partir de los datos de la persona individual. Los archivos GeoJSON mensuales (año actual) no se modifican.",
     "tracker_color_header_bg": "Fondo del encabezado",

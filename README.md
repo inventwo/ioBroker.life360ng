@@ -36,9 +36,9 @@ This adapter connects to the [Life360](https://www.life360.com) cloud services t
 Life360 has disabled password-based login for EU users. Obtain a Bearer token manually:
 
 1. Open [https://life360.com/login](https://life360.com/login) in your browser.
-2. Enter your email address and click **Continue**.
-3. Enter the one-time code sent to your email.
-4. Open browser DevTools (**F12**) and switch to the **Network** tab.
+2. Open browser DevTools (**F12**) and switch to the **Network** tab.
+3. Enter your email address and click **Continue**.
+4. Enter the one-time code sent to your email.
 5. Find the **POST** request named `token` (ignore OPTIONS).
 6. In **Preview** / **Response**, copy the value of `access_token`.
 7. Paste it into the **Bearer token** field in the adapter configuration.
