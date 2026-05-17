@@ -47,6 +47,8 @@ Life360 has disabled password-based login for EU users. Obtain a Bearer token ma
 
 **Note:** Tokens are long-lived (typically months). When expired, the adapter log will show a connection error — repeat the steps above to get a new token.
 
+![Token](img/readme_anonym.png)
+
 ### My Places
 
 Add private places not visible to Life360 cloud services. The adapter checks presence at your custom places on every poll.

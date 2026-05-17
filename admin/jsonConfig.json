@@ -1192,6 +1192,19 @@
                         "fontSize": "0.875rem"
                     }
                 },
+                "token1_screen0": {
+                    "type": "staticImage",
+                    "src": "img/readme_anonym.png",
+                    "newLine": true,
+                    "sm": 9,
+                    "xs": 9,
+                    "md": 9,
+                    "lg": 9,
+                    "xl": 9,
+                    "style": {
+                        "marginTop": "2px"
+                    }
+                },
                 "txtToken1": {
                     "type": "staticText",
                     "text": "token1_txt",
