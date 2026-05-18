@@ -8,7 +8,7 @@
 [![NPM Version](https://nodei.co/npm/iobroker.life360ng.svg?style=shields&data=v,u,d&color=orange)](https://www.npmjs.com/package/iobroker.life360ng)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.life360ng.svg)](https://www.npmjs.com/package/iobroker.life360ng)
 
-[![COMMUNITY](https://img.shields.io/badge/community%20-ioBroker%20|%20forum%20|%20FAQ-blue.svg)](https://forum.iobroker.net/topic/84376/life360-nextgeneration-latest)
+[![COMMUNITY](https://img.shields.io/badge/community%20-ioBroker%20|%20forum-blue.svg)](https://forum.iobroker.net/topic/84376/life360-nextgeneration-latest)
 [![MAINTAINER](https://img.shields.io/badge/maintainer-skvarel%20@%20inventwo-yellowgreen.svg)](https://github.com/inventwo)
 [![AI](https://img.shields.io/badge/ai%20assisted-copilot-blue.svg)](https://github.com/inventwo/ioBroker.life360ng/blob/main/.github/copilot-instructions.md)
 
