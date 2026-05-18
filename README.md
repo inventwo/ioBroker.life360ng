@@ -305,7 +305,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.9.0 (2026-05-18)
 
 - (skvarel) Added place-specific notification overrides table in the Notifications tab: configure custom arrival and leave messages per place and person, with optional suppression of the default standard message; place and person columns use dropdowns populated from known places and Life360 persons
 
@@ -334,12 +334,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.5.2 (2026-05-10)
 - (skvarel) Added configurable opacity for flag markers (Life360 places and own places)
-
-### 1.5.1 (2026-05-10)
-- (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
-- (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
-- (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
-- (skvarel) Added separate docs page for the Map Display tab (colors, route style, place flags, layout) in English and German; moved map appearance content out of the Logbook docs page
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)

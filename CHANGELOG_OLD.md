@@ -1,4 +1,10 @@
 # Older changes
+## 1.5.1 (2026-05-10)
+- (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
+- (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
+- (skvarel) Added documentation for tracker file storage location (Admin → Files → life360ng.<instance>/tracker/)
+- (skvarel) Added separate docs page for the Map Display tab (colors, route style, place flags, layout) in English and German; moved map appearance content out of the Logbook docs page
+
 ## 1.5.0 (2026-05-10)
 - (skvarel) Added flag markers for Life360 places and own places (MyPlaces) to all tracker maps, configurable color, size and visibility per source
 - (skvarel) Map legend now hides automatically when the route checkbox is unchecked, on both person and circle maps
