@@ -308,7 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.9.1 (2026-05-20)
 - (skvarel) Fixed tracker map showing wrong day (yesterday's route) for users in timezones ahead of UTC: date calculations now use local time instead of UTC, preventing GPS points and the default date range from being assigned to the previous day between midnight and the UTC offset hour
 - (skvarel) Reduced risk of Cloudflare rate-limiting: API retry loops now abort immediately on a 403/503 block instead of hammering the API with further requests; added a short delay between consecutive API calls within each poll cycle
 
@@ -337,9 +337,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Added configurable popup opacity in the Map Display settings (default: 1.0)
 - (skvarel) Active day highlight and open popups are restored after auto-refresh
 - (skvarel) Added configurable default view range for the date picker; the map opens showing the last N days by default on every load
-
-### 1.5.2 (2026-05-10)
-- (skvarel) Added configurable opacity for flag markers (Life360 places and own places)
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)

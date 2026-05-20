@@ -1,4 +1,7 @@
 # Older changes
+## 1.5.2 (2026-05-10)
+- (skvarel) Added configurable opacity for flag markers (Life360 places and own places)
+
 ## 1.5.1 (2026-05-10)
 - (skvarel) Extracted shared map JS and CSS from HTML tracker files into static files served once by the web adapter, reducing the size of each GPS-update HTML file significantly
 - (skvarel) Fixed JSDoc type warnings introduced by updated ESLint config (jsdoc/reject-any-type, jsdoc/reject-function-type)
