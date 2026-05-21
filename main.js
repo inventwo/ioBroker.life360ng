@@ -29,6 +29,7 @@ class Life360 extends utils.Adapter {
 
 		await life360DbConnector.syncNotifyPeople();
 		await life360DbConnector.initNotificationBaselines();
+		await life360DbConnector.initNotificationStates();
 
 		life360Connector.setupPolling((err, cloud_data) => {
 			if (this._isUnloading) {

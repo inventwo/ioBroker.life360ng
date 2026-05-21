@@ -147,3 +147,18 @@ Use the **Send test message** button (Telegram section) or the **Send test annou
 |---|---|
 | **Send test message** | Sends `[Life360ng] Test notification` to all configured Telegram recipients |
 | **Send test announcement** | Announces `Life360ng test notification one` and then `Life360ng test notification two` on all configured Alexa devices to verify sequential playback and volume restoration |
+
+---
+
+## Notification State
+
+life360ng always writes the notification text to a dedicated ioBroker state, regardless of whether Telegram or Alexa is enabled. This allows you to react to notifications in Blockly scripts or other automations — for example, to trigger a Sonos announcement when a person arrives at a place.
+
+| State | Type | Description |
+|---|---|---|
+| `life360ng.<instance>.notifications.lastSpokenText` | `string` | The last notification text that was built and dispatched |
+
+The state is created at adapter startup and updated on every notification event. It reflects the exact text that was (or would have been) spoken or sent via Telegram/Alexa.
+
+**Example Blockly use case:**  
+Subscribe to `notifications.lastSpokenText`. When the state changes and the value is not empty, use the Sonos adapter to play the text via text-to-speech.

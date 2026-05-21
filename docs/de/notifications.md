@@ -147,3 +147,18 @@ Mit dem Button **Testnachricht senden** (Telegram-Bereich) oder **Testansage sen
 |---|---|
 | **Testnachricht senden** | Sendet `[Life360ng] Test notification` an alle konfigurierten Telegram-Empfänger |
 | **Testansage senden** | Kündigt `Life360ng test notification one` und danach `Life360ng test notification two` auf allen konfigurierten Alexa-Geräten an, um serielle Wiedergabe und Lautstärke-Rücksetzung zu prüfen |
+
+---
+
+## Benachrichtigungs-Datenpunkt
+
+life360ng schreibt den Benachrichtigungstext immer in einen eigenen ioBroker-Datenpunkt, unabhängig davon, ob Telegram oder Alexa aktiviert ist. So kannst du in Blockly-Skripten oder anderen Automatisierungen auf Benachrichtigungen reagieren – zum Beispiel, um eine Sonos-Ansage auszulösen, wenn eine Person einen Ort betritt.
+
+| Datenpunkt | Typ | Beschreibung |
+|---|---|---|
+| `life360ng.<Instanz>.notifications.lastSpokenText` | `string` | Der zuletzt erzeugte Benachrichtigungstext |
+
+Der Datenpunkt wird beim Adapterstart angelegt und bei jedem Benachrichtigungsereignis aktualisiert. Er enthält genau den Text, der per Telegram oder Alexa gesendet wurde bzw. werden würde.
+
+**Beispiel für Blockly:**  
+Abonniere `notifications.lastSpokenText`. Wenn der Wert sich ändert und nicht leer ist, verwende den Sonos-Adapter, um den Text per Text-to-Speech wiederzugeben.
