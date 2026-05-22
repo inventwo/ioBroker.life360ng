@@ -37,7 +37,7 @@
     "notify_person_recipients_placeholder": "Wszystko",
     "notify_person_unknown_message": "Wiadomość o nieznanej lokalizacji",
     "notify_person_unknownplaces": "Nieznane miejsca",
-    "notify_place_overrides_hint": "Wiadomości specyficzne dla miejsca i osoby.\nGdy włączona jest opcja „Nadaj priorytet powiadomieniu”, domyślna wiadomość (tekst przedrostka + miejsce) jest pomijana i zamiast niej używany jest tekst z „SMS po przybyciu” lub „SMS po urlopie”. Tabela dotyczy zarówno Telegramu, jak i Alexy.",
+    "notify_place_overrides_hint": "Wiadomości specyficzne dla miejsca i osoby.\nGdy włączona jest opcja „Nadaj priorytet przy powiadomieniu”, wiadomość domyślna (tekst przedrostka + miejsce) jest pomijana i zamiast niej używany jest tekst z „SMS po przybyciu” lub „SMS po urlopie”. Tabela dotyczy zarówno Telegramu, jak i Alexy.",
     "notify_recipient_chatid": "Identyfikator czatu",
     "notify_recipient_instance": "Przykład",
     "notify_recipient_name": "Nazwa wyświetlana (opcjonalnie)",

@@ -204,7 +204,7 @@
                             "lg": 6,
                             "xl": 6,
                             "style": {
-                                "marginTop": "20px"
+                                "marginTop": "10px"
                             }
                         },
                         "_integrationLine1": {
@@ -226,7 +226,8 @@
                                 "padding": "10px 14px",
                                 "border": "1px solid #546e7a",
                                 "borderRadius": "6px",
-                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)",
+                                "marginBottom": "10px"
                             }
                         },
                         "location_unknown_name": {
