@@ -310,7 +310,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 -->
 ### **WORK IN PROGRESS**
 - (skvarel) Added a one-time info log after the first successful poll summarizing the fetched data: number of circles, Life360 places, own places, and persons
-- (skvarel) Expanded verbose logging (adapter config option) to log circle names with member/place counts, all Life360 place names with radius, and each person's name, battery, connection state, and current location per poll cycle
+- (skvarel) Expanded verbose logging (adapter config option) to log circle names with member/place counts, all Life360 place names with radius, and each person's name, battery, connection state, and current location per poll cycle at info level (no log level change required)
 - (skvarel) Fixed `people.<id>.disconnected` and `people.<id>.isConnected` states always showing wrong values because the Life360 API returns the `disconnected` field as a string (`"0"`/`"1"`) instead of a boolean, causing `Boolean("0")` to evaluate as `true`
 - (skvarel) Added `notifications.lastSpokenText` state that stores every notification text, allowing Blockly scripts or other automations (e.g. Sonos) to react to location events without requiring Telegram or Alexa
 
