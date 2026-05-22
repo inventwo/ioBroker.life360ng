@@ -210,6 +210,22 @@
                         "_integrationLine1": {
                             "type": "divider"
                         },
+                        "aliases_hint": {
+                            "type": "staticText",
+                            "text": "aliases_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginBottom": "8px",
+                                "marginTop": "20px"
+                            }
+                        },
                         "location_unknown_name": {
                             "type": "text",
                             "label": "location_unknown_name",
@@ -228,6 +244,17 @@
                     "label": "section_people_aliases",
                     "xs": 12,
                     "items": {
+                        "family_map_header_name": {
+                            "type": "text",
+                            "label": "family_map_header_name",
+                            "help": "family_map_header_name_help",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
                         "people_aliases_hint": {
                             "type": "staticText",
                             "text": "people_aliases_hint",
@@ -240,19 +267,9 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginBottom": "8px"
+                                "marginBottom": "8px",
+                                "marginTop": "20px"
                             }
-                        },
-                        "family_map_header_name": {
-                            "type": "text",
-                            "label": "family_map_header_name",
-                            "help": "family_map_header_name_help",
-                            "newLine": true,
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
                         },
                         "people_aliases": {
                             "type": "table",

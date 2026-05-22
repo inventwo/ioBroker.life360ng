@@ -1,4 +1,5 @@
 {
+    "aliases_hint": "Here you can set aliases (alternative names) for unknown locations, the circle, and people. The alias replaces the names displayed in the Life360 app.",
     "debugging_verbose":  "Enable verbose logging",
     "notify_alexa_device_label":  "Display name (optional)",
     "notify_alexa_device_speakstate":  "Speak state ID (e.g. alexa2.0.Echo-Devices.XXXXXX.Commands.speak)",
