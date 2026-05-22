@@ -222,8 +222,11 @@
                             "style": {
                                 "fontSize": "0.875rem",
                                 "whiteSpace": "pre-wrap",
-                                "marginBottom": "8px",
-                                "marginTop": "20px"
+                                "marginTop": "8px",
+                                "padding": "10px 14px",
+                                "border": "1px solid #546e7a",
+                                "borderRadius": "6px",
+                                "backgroundColor": "rgba(84, 110, 122, 0.12)"
                             }
                         },
                         "location_unknown_name": {
