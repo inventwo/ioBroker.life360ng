@@ -70,7 +70,18 @@ Beim Öffnen der Karte wird das Startdatum immer auf den konfigurierten Wert zur
 | **Tageshervorhebung** | Aktiviert die interaktive Tageshervorhebung (siehe unten). |
 | **Footer** | Blendet die Legende unterhalb der Karte ein oder aus. |
 | **Kartengröße** | Zeigt die aktuelle Kartengröße in der Kopfzeile an. |
+| **Auto-Refresh** | Lädt die Seite automatisch im konfigurierten Poll-Intervall neu. Standardmäßig aktiviert. Deaktivieren friert die aktuelle Ansicht ein. |
+| **Live Follow** | Schwenkt die Karte nach jedem Seitenaufruf auf die letzte GPS-Position der verfolgten Person. Das Aktivieren von Live Follow aktiviert Auto-Refresh automatisch. |
 | **↻ Neu laden** | Lädt die Karte komplett neu. |
+
+#### Live Follow
+
+Wenn **Live Follow** aktiviert ist, schwenkt die Karte nach jeder Seitenaktualisierung automatisch auf die aktuellste GPS-Position der verfolgten Person. So kannst du eine Person in Echtzeit verfolgen, ohne die Karte manuell zu bedienen.
+
+- Wird Live Follow aktiviert, wird **Auto-Refresh automatisch aktiviert**, damit die Seite regelmäßig neu geladen wird und neue Positionen abruft.
+- Das Deaktivieren von Live Follow schaltet Auto-Refresh **nicht** aus – danach werden beide Optionen unabhängig voneinander gesteuert.
+- In der **Kreiskarte (Familie)** richtet sich der Fokus nach der zuletzt im Legende angeklickten Person. Ist noch keine Person fokussiert, folgt die Karte der Person, deren Route aktuell angezeigt wird.
+- Die verfolgte Position ist der letzte aufgezeichnete GPS-Punkt im gewählten Datumsbereich.
 
 #### Tageshervorhebung
 

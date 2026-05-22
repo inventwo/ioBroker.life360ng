@@ -226,6 +226,58 @@
                             "xl": 6
                         }
                     }
+                },
+                "_integrationLine1": {
+                    "type": "divider"
+                },
+                "_peopleAliases": {
+                    "type": "panel",
+                    "label": "section_people_aliases",
+                    "xs": 12,
+                    "items": {
+                        "family_map_header_name": {
+                            "type": "text",
+                            "label": "family_map_header_name",
+                            "help": "family_map_header_name_help",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
+                        "people_aliases": {
+                            "type": "table",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "items": [
+                                {
+                                    "title": "people_alias_name",
+                                    "attr": "personName",
+                                    "type": "selectSendTo",
+                                    "command": "getPersonsList",
+                                    "manual": true,
+                                    "width": "40%"
+                                },
+                                {
+                                    "title": "people_alias",
+                                    "attr": "alias",
+                                    "type": "text",
+                                    "width": "40%"
+                                },
+                                {
+                                    "title": "people_alias_enabled",
+                                    "attr": "enabled",
+                                    "type": "checkbox",
+                                    "width": "20%"
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -678,17 +730,6 @@
                     "label": "section_tracker_layout",
                     "xs": 12,
                     "items": {
-                        "family_map_header_name": {
-                            "type": "text",
-                            "label": "family_map_header_name",
-                            "help": "family_map_header_name_help",
-                            "newLine": true,
-                            "xs": 12,
-                            "sm": 6,
-                            "md": 6,
-                            "lg": 6,
-                            "xl": 6
-                        },
                         "tracker_popup_opacity": {
                             "type": "number",
                             "label": "tracker_popup_opacity",

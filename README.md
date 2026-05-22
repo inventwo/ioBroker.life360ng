@@ -309,6 +309,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+- (skvarel) Added person display name aliases in the Integration tab: assign a custom alias per person that replaces the Life360 name in tracker map headers, legend labels, and ioBroker object display names; the circle map header name setting was moved to the same tab for a unified overview
 - (skvarel) Added a one-time info log after the first successful poll summarizing the fetched data: number of circles, Life360 places, own places, and persons
 - (skvarel) Expanded verbose logging (adapter config option) to log circle names with member/place counts, all Life360 place names with radius, and each person's name, battery, connection state, and current location per poll cycle at info level (no log level change required)
 - (skvarel) Fixed `people.<id>.disconnected` and `people.<id>.isConnected` states always showing wrong values because the Life360 API returns the `disconnected` field as a string (`"0"`/`"1"`) instead of a boolean, causing `Boolean("0")` to evaluate as `true`

@@ -70,7 +70,18 @@ Click the ☰ icon in the top right corner to open the settings panel. Settings 
 | **Day highlight** | Enables the interactive day highlight feature (see below). |
 | **Footer** | Shows or hides the legend below the map. |
 | **Map size** | Displays the current map dimensions in the header. |
+| **Auto-Refresh** | Automatically reloads the page at the configured polling interval. Enabled by default. Disable to freeze the current view. |
+| **Live Follow** | Pans the map to the latest GPS position of the selected person on every page load. Enabling Live Follow automatically enables Auto-Refresh. |
 | **↻ Reload** | Reloads the map completely. |
+
+#### Live Follow
+
+When **Live Follow** is enabled, the map automatically pans to the most recent GPS position of the tracked person after every page refresh. This allows you to follow a person in real time without touching the map.
+
+- Enabling Live Follow **automatically enables Auto-Refresh** so the page reloads periodically to pick up new positions.
+- Disabling Live Follow does **not** disable Auto-Refresh — they are controlled independently after that.
+- In the **circle map**, the person to follow is determined by the currently focused person (the last one clicked in the legend). If no focus has been set, the map follows the person whose route is displayed.
+- The followed position is the last recorded GPS point of the selected day range.
 
 #### Day Highlight
 
