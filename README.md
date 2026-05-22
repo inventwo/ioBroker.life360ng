@@ -313,6 +313,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Expanded verbose logging (adapter config option) to log circle names with member/place counts, all Life360 place names with radius, and each person's name, battery, connection state, and current location per poll cycle at info level (no log level change required)
 - (skvarel) Fixed `people.<id>.disconnected` and `people.<id>.isConnected` states always showing wrong values because the Life360 API returns the `disconnected` field as a string (`"0"`/`"1"`) instead of a boolean, causing `Boolean("0")` to evaluate as `true`
 - (skvarel) Added `notifications.lastSpokenText` state that stores every notification text, allowing Blockly scripts or other automations (e.g. Sonos) to react to location events without requiring Telegram or Alexa
+- (skvarel) Added Auto-Refresh checkbox (default on) and Live Follow checkbox to tracker map hamburger menus: Auto-Refresh replaces the unconditional meta-refresh with a user-controllable JS-based page reload; Live Follow pans the map to the person's latest GPS position on every data update; in the circle map clicking a person's name in the legend focuses the map on that person's route
 
 ### 1.9.1 (2026-05-20)
 - (skvarel) Fixed tracker map showing wrong day (yesterday's route) for users in timezones ahead of UTC: date calculations now use local time instead of UTC, preventing GPS points and the default date range from being assigned to the previous day between midnight and the UTC offset hour
