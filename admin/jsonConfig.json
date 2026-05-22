@@ -207,6 +207,9 @@
                                 "marginTop": "20px"
                             }
                         },
+                        "_integrationLine1": {
+                            "type": "divider"
+                        },
                         "location_unknown_name": {
                             "type": "text",
                             "label": "location_unknown_name",
