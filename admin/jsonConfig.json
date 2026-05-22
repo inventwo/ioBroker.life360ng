@@ -223,9 +223,6 @@
                         }
                     }
                 },
-                "_integrationLine1": {
-                    "type": "divider"
-                },
                 "_peopleAliases": {
                     "type": "panel",
                     "label": "section_people_aliases",
