@@ -197,9 +197,6 @@
                         }
                     }
                 },
-                "_integrationLine1": {
-                    "type": "divider"
-                },
                 "_locationTracking": {
                     "type": "panel",
                     "label": "section_location_tracking",
@@ -229,6 +226,9 @@
                             "xl": 6
                         }
                     }
+                },
+                "_integrationLine1": {
+                    "type": "divider"
                 },
                 "_peopleAliases": {
                     "type": "panel",
