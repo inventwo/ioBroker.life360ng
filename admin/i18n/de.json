@@ -47,6 +47,7 @@
     "people_alias": "Alias",
     "people_alias_enabled": "Aktiv",
     "people_alias_name": "Person (App-Name)",
+    "people_aliases_hint": "Lege hier für jede Person einen Anzeigenamen (Alias) fest. Der Alias ersetzt den Life360-Namen in Kartenbeschriftungen, der Legende der Kreiskarte sowie im ioBroker-Objektnamen. State-IDs und interne Bezeichner bleiben unverändert.",
     "place_circle": "Zuordnung zu einem Life360-Kreis\n(optional)",
     "place_isPresent_delay": "Anwesenheitsverzögerung\n(s, 0 = sofort)",
     "place_latitude": "Breitengrad des Ortes",

@@ -51,6 +51,7 @@
     "people_alias":  "Alias",
     "people_alias_enabled":  "Active",
     "people_alias_name":  "Person (app name)",
+    "people_aliases_hint":  "Assign a display name (alias) for each person. The alias replaces the Life360 name in map labels, the circle map legend, and the ioBroker object name. State IDs and internal identifiers remain unchanged.",
     "place_circle":  "Assignment to a Life360 circle\n(optional)",
     "place_isPresent_delay":  "Presence delay\n(s, 0 = immediately)",
     "place_latitude":  "Place latitude",

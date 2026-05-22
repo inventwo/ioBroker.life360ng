@@ -165,7 +165,6 @@
             "items": {
                 "_life360Data": {
                     "type": "panel",
-                    "label": "section_life360_data",
                     "xs": 12,
                     "items": {
                         "process_life360_circles": {
@@ -194,17 +193,11 @@
                             "md": 4,
                             "lg": 4,
                             "xl": 4
-                        }
-                    }
-                },
-                "_locationTracking": {
-                    "type": "panel",
-                    "label": "section_location_tracking",
-                    "xs": 12,
-                    "items": {
+                        },
                         "track_location_people": {
                             "type": "checkbox",
                             "label": "track_location_people",
+                            "newLine": true,
                             "xs": 12,
                             "sm": 6,
                             "md": 6,
@@ -235,6 +228,21 @@
                     "label": "section_people_aliases",
                     "xs": 12,
                     "items": {
+                        "people_aliases_hint": {
+                            "type": "staticText",
+                            "text": "people_aliases_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "0.875rem",
+                                "whiteSpace": "pre-wrap",
+                                "marginBottom": "8px"
+                            }
+                        },
                         "family_map_header_name": {
                             "type": "text",
                             "label": "family_map_header_name",
