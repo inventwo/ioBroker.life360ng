@@ -309,6 +309,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+- (skvarel) Added an additional fallback for Life360 places: when the v3 places endpoint and embedded v4 circles data both return 0 places, the adapter now also tries the direct v4/circles/{id}/places API endpoint; also checks for the singular "place" key in the v4 circles response; logs a one-time info message when all sources return 0 places
 - (skvarel) Fixed Life360 places not being created for some accounts: the v4/circles API response already embeds places in each circle object, but they were silently overwritten by the separate v3 places endpoint which returns an empty list for some accounts/regions; the adapter now falls back to the v4 embedded places when the v3 endpoint returns 0 results
 - (skvarel) Added person display name aliases in the Integration tab: assign a custom alias per person that replaces the Life360 name in tracker map headers, legend labels, and ioBroker object display names; the circle map header name setting was moved to the same tab for a unified overview
 - (skvarel) Added a one-time info log after the first successful poll summarizing the fetched data: number of circles, Life360 places, own places, and persons
