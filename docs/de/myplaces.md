@@ -20,3 +20,7 @@ Im Tab **Meine Orte** kannst du eigene, private Orte definieren, die unabhängig
 
 **Hinweis:**
 Eigene Orte sind nur lokal im ioBroker sichtbar und werden nicht an Life360 übertragen.
+
+> **Life360-Orte nicht verfügbar?**
+> Life360 hat den Zugriff auf Cloud-Orte über die API für bestimmte Accounts eingeschränkt — insbesondere EU-Accounts im Free-Tier. Wenn im Adapter-Log `All place sources returned 0 places` erscheint, liefert Life360 die Orte über keinen API-Endpunkt mehr aus.
+> **Lösung:** Lege deine wichtigen Orte als **Meine Orte** in diesem Tab an. Sie funktionieren unabhängig von Life360 und bieten dieselbe Anwesenheitserkennung.

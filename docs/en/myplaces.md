@@ -20,3 +20,7 @@ In the **My Places** tab, you can define your own private places, independent of
 
 **Note:**
 Your own places are only visible locally in ioBroker and are not sent to Life360.
+
+> **Life360 Places not available?**
+> Life360 has restricted access to cloud places via the API for some accounts — particularly EU accounts on the free tier. If the adapter log shows `All place sources returned 0 places`, Life360 is no longer exposing your places through any API endpoint.
+> **Workaround:** Define your important places as **My Places** in this tab. They work independently of Life360 and provide the same presence detection functionality.

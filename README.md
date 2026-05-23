@@ -184,6 +184,8 @@ These are **read-only** and cannot be configured in the adapter.
 
 > **Note:** For custom places with presence detection, see [myplaces](#myplaces).
 
+> **Life360 Places not available?** Life360 has restricted API access to cloud places for some accounts (particularly EU free-tier accounts). If the adapter log shows `All place sources returned 0 places`, the Life360 API is no longer returning place data for your account. **Workaround:** Define your places in the [My Places](#my-places) tab — they work independently of the Life360 cloud and provide the same presence detection.
+
 ### tracker
 
 The adapter includes an optional GPS route logger that records the movements of each Life360 member and generates interactive Leaflet maps — accessible directly via URL in any browser, ioBroker Vis, or Jarvis dashboard.
