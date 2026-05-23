@@ -311,14 +311,11 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
     ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- (skvarel) Added an additional fallback for Life360 places: when the v3 places endpoint and embedded v4 circles data both return 0 places, the adapter now also tries the direct v4/circles/{id}/places API endpoint; also checks for the singular "place" key in the v4 circles response; logs a one-time info message when all sources return 0 places
-- (skvarel) Fixed Life360 places not being created for some accounts: the v4/circles API response already embeds places in each circle object, but they were silently overwritten by the separate v3 places endpoint which returns an empty list for some accounts/regions; the adapter now falls back to the v4 embedded places when the v3 endpoint returns 0 results
-- (skvarel) Added person display name aliases in the Integration tab: assign a custom alias per person that replaces the Life360 name in tracker map headers, legend labels, and ioBroker object display names; the circle map header name setting was moved to the same tab for a unified overview
-- (skvarel) Added a one-time info log after the first successful poll summarizing the fetched data: number of circles, Life360 places, own places, and persons
-- (skvarel) Expanded verbose logging (adapter config option) to log circle names with member/place counts, all Life360 place names with radius, and each person's name, battery, connection state, and current location per poll cycle at info level (no log level change required)
-- (skvarel) Fixed `people.<id>.disconnected` and `people.<id>.isConnected` states always showing wrong values because the Life360 API returns the `disconnected` field as a string (`"0"`/`"1"`) instead of a boolean, causing `Boolean("0")` to evaluate as `true`
-- (skvarel) Added `notifications.lastSpokenText` state that stores every notification text, allowing Blockly scripts or other automations (e.g. Sonos) to react to location events without requiring Telegram or Alexa
-- (skvarel) Added Auto-Refresh checkbox (default on) and Live Follow checkbox to tracker map hamburger menus: Auto-Refresh replaces the unconditional meta-refresh with a user-controllable JS-based page reload; Live Follow pans the map to the person's latest GPS position on every data update; in the circle map clicking a person's name in the legend focuses the map on that person's route
+- (skvarel) Improved Life360 places discovery with multiple API fallbacks: v3 endpoint, embedded v4 circle data (including singular "place" key), and direct v4 places endpoint; logs a one-time info message when no places are available via any source (affects some EU free-tier accounts); added documentation note about this API restriction
+- (skvarel) Added person display name aliases in the Integration tab: assign a custom alias per person used in tracker map headers, legend labels, and ioBroker object display names; circle map header name setting moved to the same tab
+- (skvarel) Fixed `people.<id>.disconnected` and `people.<id>.isConnected` states always showing wrong values because the Life360 API returns the `disconnected` field as a string instead of a boolean
+- (skvarel) Added `notifications.lastSpokenText` state that stores every notification text for use in Blockly, Sonos, or other automations without requiring Telegram or Alexa
+- (skvarel) Added Auto-Refresh checkbox (default on) and Live Follow checkbox to tracker map hamburger menus; in the circle map, clicking a person's name in the legend focuses the map on that person's route
 
 ### 1.9.1 (2026-05-20)
 - (skvarel) Fixed tracker map showing wrong day (yesterday's route) for users in timezones ahead of UTC: date calculations now use local time instead of UTC, preventing GPS points and the default date range from being assigned to the previous day between midnight and the UTC offset hour
