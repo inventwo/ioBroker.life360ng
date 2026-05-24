@@ -1,7 +1,6 @@
-# ioBroker.life360ng
-
 ![Logo](admin/Life360ng.svg)
 
+# Life360 adapter for ioBroker (next generation)
 
 ![Number of Installations](https://iobroker.live/badges/life360ng-installed.svg)
 ![Current version in stable repository](https://iobroker.live/badges/life360ng-stable.svg)
@@ -15,9 +14,7 @@
 [![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
 
 
-## Life360 adapter for ioBroker (next generation)
-
-ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
+## ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
 
 > **Disclaimer:** This is an unofficial, community-developed adapter. It is not affiliated with or endorsed by Life360, Inc. Provided free of charge for personal, non-commercial home automation use. Use at your own risk. Life360 may disable or change their API at any time without notice.
 
