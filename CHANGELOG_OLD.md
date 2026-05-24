@@ -1,4 +1,13 @@
 # Older changes
+## 1.7.0 (2026-05-14)
+- (skvarel) Fixed crash on fresh install caused by adapter writing tracker files before the namespace meta object was created
+- (skvarel) Improved error message when Life360 API requests are blocked by Cloudflare (IP rate-limited); no longer logs the full HTML response
+- (skvarel) Hovering over a route point or line now temporarily highlights the active day (thicker line, full opacity, other days faded) when "Day highlight" is enabled; the tooltip on a line shows date (person map) or name and date (circle map)
+- (skvarel) Clicking a line now opens a single popup at the cursor position with date and name instead of opening all marker popups
+- (skvarel) Added optional radius circles for Life360 places and own places (My Places) on the tracker map; toggleable via new "Place radius" and "My Place radius" checkboxes in the hamburger menu; circles use the same color as the flag markers
+- (skvarel) Updated documentation
+- (skvarel) Added per-person minimum distance setting to the tracker table; a value of 0 falls back to the global minimum distance
+
 ## 1.6.0 (2026-05-12) 
 - (skvarel) Added refresh button to the hamburger menu
 - (skvarel) Clicking a route point in multi-day view now highlights the active day (thicker line, full opacity) while other days fade into the background; all timestamps for the selected day open simultaneously; clicking the map background or the same point again resets the view
