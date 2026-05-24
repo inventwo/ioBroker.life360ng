@@ -13,6 +13,7 @@
 
 [![Paypal Donation](https://img.shields.io/badge/paypal-donate%20|%20spenden-green.svg)](https://www.paypal.com/donate/?hosted_button_id=7W6M3TFZ4W9LW)
 
+---
 
 ## ioBroker adapter for [Life360](https://www.life360.com) — updated for EU users with modern token-based authentication.
 
