@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Hier kannst du für die unbekannten Orte, den Kreis und die Personen Aliase (Ersatznamen) festlegen. Der Alias ersetzt die in der Life360-App angegeben Namen",
     "debugging_verbose": "Aktiviere hier die ausführliche Protokollierung",
+    "debugging_verbose_hint": "Wenn aktiviert, protokolliert der Adapter deutlich mehr Details in den ioBroker-Protokollen:\n• Vollständige API-Antworten der Life360-Cloud\n• Alle eingehenden Datenpakete (Personen, Orte, Kreise)\n• Interne Verarbeitungsschritte und Zustandsänderungen\n\nNützlich zur Fehleranalyse oder beim Melden von Problemen.\nIm Normalbetrieb nicht empfohlen – die Protokolldateien können dadurch sehr groß werden.",
+    "enable_myplaces": "Eigene Orte aktivieren",
+    "enable_myplaces_help": "Wenn deaktiviert, wird der Tab 'Meine Orte' ausgeblendet und eigene Orte werden weder auf Karten noch im Hamburger-Menü angezeigt.",
     "family_map_header_name": "Name der Kreiskarten-Kopfzeile (optional)",
     "family_map_header_name_help": "Wenn dieser Name festgelegt ist, wird er als Kopfzeile in der Kreiskarte angezeigt. Lassen das Feld leer, um den Kreisnamen aus der App oder die Standardeinstellung 'Circle' zu verwenden.",
     "help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/de/README.md\" target=\"_blank\">Ausführliche Dokumentation öffnen</a>",

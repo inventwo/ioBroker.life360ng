@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Aquí puede establecer alias (nombres alternativos) para ubicaciones desconocidas, el círculo y personas. El alias reemplaza los nombres que se muestran en la aplicación Life360.",
     "debugging_verbose": "Habilitar el registro detallado",
+    "debugging_verbose_hint": "Cuando está habilitado, el adaptador registra muchos más detalles en el registro de ioBroker:\n• Respuestas API completas desde la nube Life360\n• Todos los paquetes de datos entrantes (personas, lugares, círculos)\n• Pasos de procesamiento interno y cambios de estado.\n\nÚtil para solucionar problemas o informar problemas.\nNo se recomienda durante el funcionamiento normal: los registros pueden llegar a ser muy grandes.",
+    "enable_myplaces": "Habilitar lugares propios",
+    "enable_myplaces_help": "Cuando está deshabilitada, la pestaña 'Mis lugares' está oculta y los lugares propios no se muestran en los mapas ni en el menú de hamburguesas.",
     "family_map_header_name": "Nombre del encabezado del mapa circular (opcional)",
     "family_map_header_name_help": "Si se establece, este nombre se mostrará como encabezado en el Mapa circular. Déjelo vacío para usar el nombre del círculo o el 'Círculo' predeterminado.",
     "help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Abrir documentación completa</a>",

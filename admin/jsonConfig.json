@@ -79,6 +79,7 @@
         "_myplaces": {
             "type": "panel",
             "label": "tab_myplaces",
+            "hidden": "!data.enable_myplaces",
             "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTEuNUEyLjUsMi41IDAgMCwxIDkuNSw5QTIuNSwyLjUgMCAwLDEgMTIsNi41QTIuNSwyLjUgMCAwLDEgMTQuNSw5QTIuNSwyLjUgMCAwLDEgMTIsMTEuNU0xMiwyQTcsNyAwIDAsMCA1LDlDNSwxNC4yNSAxMiwyMiAxMiwyMkMxMiwyMiAxOSwxNC4yNSAxOSw5QTcsNyAwIDAsMCAxMiwyWiIvPjwvc3ZnPg==",
             "items": {
                 "txtPlaces": {
@@ -198,6 +199,19 @@
                             "type": "checkbox",
                             "label": "track_location_people",
                             "newLine": true,
+                            "xs": 12,
+                            "sm": 6,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6,
+                            "style": {
+                                "marginTop": "10px"
+                            }
+                        },
+                        "enable_myplaces": {
+                            "type": "checkbox",
+                            "label": "enable_myplaces",
+                            "help": "enable_myplaces_help",
                             "xs": 12,
                             "sm": 6,
                             "md": 6,
@@ -652,6 +666,7 @@
                             "label": "tracker_show_places",
                             "help": "tracker_show_places_help",
                             "newLine": true,
+                            "hidden": "!data.process_life360_places",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -663,6 +678,7 @@
                             "label": "tracker_places_color",
                             "help": "tracker_places_color_help",
                             "default": "#db8158",
+                            "hidden": "!data.process_life360_places",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -677,6 +693,7 @@
                             "min": 0.5,
                             "max": 3,
                             "step": 0.1,
+                            "hidden": "!data.process_life360_places",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -692,6 +709,7 @@
                             "min": 0,
                             "max": 1,
                             "step": 0.05,
+                            "hidden": "!data.process_life360_places",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -703,6 +721,7 @@
                             "label": "tracker_show_myplaces",
                             "help": "tracker_show_myplaces_help",
                             "newLine": true,
+                            "hidden": "!data.enable_myplaces",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -714,6 +733,7 @@
                             "label": "tracker_myplaces_color",
                             "help": "tracker_myplaces_color_help",
                             "default": "#996a53",
+                            "hidden": "!data.enable_myplaces",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -728,6 +748,7 @@
                             "min": 0.5,
                             "max": 3,
                             "step": 0.1,
+                            "hidden": "!data.enable_myplaces",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -743,6 +764,7 @@
                             "min": 0,
                             "max": 1,
                             "step": 0.05,
+                            "hidden": "!data.enable_myplaces",
                             "xs": 12,
                             "sm": 6,
                             "md": 3,
@@ -1186,6 +1208,25 @@
             "label": "tab_advanced",
             "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjAsOEgxNy4xOUMxNi43NCw3LjIyIDE2LjEyLDYuNTUgMTUuMzcsNi4wNEwxNyw0LjQxTDE1LjU5LDNMMTMuNDIsNS4xN0MxMi45Niw1LjA2IDEyLjQ5LDUgMTIsNUMxMS41MSw1IDExLjA0LDUuMDYgMTAuNTksNS4xN0w4LjQxLDNMNyw0LjQxTDguNjIsNi4wNEM3Ljg4LDYuNTUgNy4yNiw3LjIyIDYuODEsOEg0VjEwSDYuMDlDNi4wNCwxMC4zMyA2LDEwLjY2IDYsMTFWMTJINFYxNEg2VjE1QzYsMTUuMzQgNi4wNCwxNS42NyA2LjA5LDE2SDRWMThINi44MUM3Ljg1LDE5Ljc5IDkuNzgsMjEgMTIsMjFDMTQuMjIsMjEgMTYuMTUsMTkuNzkgMTcuMTksMThIMjBWMTZIMTcuOTFDMTcuOTYsMTUuNjcgMTgsMTUuMzQgMTgsMTVWMTRIMjBWMTJIMThWMTFDMTgsMTAuNjYgMTcuOTYsMTAuMzMgMTcuOTEsMTBIMjBWOE0xNiwxNUE0LDQgMCAwLDEgMTIsMTlBNCw0IDAgMCwxIDgsMTVWMTFBNCw0IDAgMCwxIDEyLDdBNCw0IDAgMCwxIDE2LDExVjE1WiIvPjwvc3ZnPg==",
             "items": {
+                "debugging_verbose_hint": {
+                    "type": "staticText",
+                    "text": "debugging_verbose_hint",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "0.875rem",
+                        "whiteSpace": "pre-wrap",
+                        "marginBottom": "8px",
+                        "padding": "10px 14px",
+                        "border": "1px solid #546e7a",
+                        "borderRadius": "6px",
+                        "backgroundColor": "rgba(84, 110, 122, 0.12)"
+                    }
+                },
                 "debugging_verbose": {
                     "type": "checkbox",
                     "label": "debugging_verbose",

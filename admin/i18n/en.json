@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Here you can set aliases (alternative names) for unknown locations, the circle, and people. The alias replaces the names displayed in the Life360 app.",
     "debugging_verbose":  "Enable verbose logging",
+    "debugging_verbose_hint": "When enabled, the adapter logs significantly more detail in the ioBroker log:\n• Full API responses from the Life360 cloud\n• All incoming data packets (people, places, circles)\n• Internal processing steps and state changes\n\nUseful for troubleshooting or when reporting issues.\nNot recommended during normal operation — logs can become very large.",
+    "enable_myplaces": "Enable own places",
+    "enable_myplaces_help": "When disabled, the 'My Places' tab is hidden and own places are not shown on maps or in the hamburger menu.",
     "notify_alexa_device_label":  "Display name (optional)",
     "notify_alexa_device_speakstate":  "Speak state ID (e.g. alexa2.0.Echo-Devices.XXXXXX.Commands.speak)",
     "notify_alexa_device_volume":  "Volume (0–100)",

@@ -1,6 +1,9 @@
 {
     "aliases_hint": "您可以在此处为未知地点、圈子和人物设置别名（替代名称）。该别名会替换 Life360 应用程序中显示的名称。",
     "debugging_verbose": "启用详细日志记录",
+    "debugging_verbose_hint": "启用后，适配器会在 ioBroker 日志中记录更多详细信息：\n• 来自 Life360 云的完整 API 响应\n• 所有传入数据包（人物、地点、圈子）\n• 内部处理步骤和状态变化\n\n对于故障排除或报告问题很有用。\n在正常操作期间不建议这样做——日志可能会变得非常大。",
+    "enable_myplaces": "启用自己的地点",
+    "enable_myplaces_help": "禁用后，“我的地点”选项卡将隐藏，并且自己的地点不会显示在地图或汉堡菜单中。",
     "family_map_header_name": "圆形地图标题名称（可选）",
     "family_map_header_name_help": "如果设置，该名称将显示为圆形地图中的标题。留空以使用圈子名称或默认“圈子”。",
     "help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">打开完整文档</a>",

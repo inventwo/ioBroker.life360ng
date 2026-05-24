@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Ici, vous pouvez définir des alias (noms alternatifs) pour des lieux inconnus, le cercle et des personnes. L'alias remplace les noms affichés dans l'application Life360.",
     "debugging_verbose": "Activer la journalisation détaillée",
+    "debugging_verbose_hint": "Lorsqu'il est activé, l'adaptateur enregistre beaucoup plus de détails dans le journal ioBroker :\n• Réponses API complètes du cloud Life360\n• Tous les paquets de données entrants (personnes, lieux, cercles)\n• Étapes de traitement internes et changements d'état\n\nUtile pour le dépannage ou lors du signalement de problèmes.\nNon recommandé en fonctionnement normal : les journaux peuvent devenir très volumineux.",
+    "enable_myplaces": "Activer ses propres lieux",
+    "enable_myplaces_help": "Lorsqu'il est désactivé, l'onglet « Mes lieux » est masqué et vos propres lieux ne sont pas affichés sur les cartes ou dans le menu hamburger.",
     "family_map_header_name": "Nom de l'en-tête de la carte circulaire (facultatif)",
     "family_map_header_name_help": "S'il est défini, ce nom sera affiché comme en-tête dans la carte du cercle. Laissez vide pour utiliser le nom du cercle ou « Cercle » par défaut.",
     "help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Ouvrir la documentation complète</a>",

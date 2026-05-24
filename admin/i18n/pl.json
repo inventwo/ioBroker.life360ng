@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Tutaj możesz ustawić aliasy (alternatywne nazwy) dla nieznanych lokalizacji, kręgu i osób. Alias ​​zastępuje nazwy wyświetlane w aplikacji Life360.",
     "debugging_verbose": "Włącz pełne rejestrowanie",
+    "debugging_verbose_hint": "Po włączeniu adapter rejestruje znacznie więcej szczegółów w dzienniku ioBroker:\n• Pełne odpowiedzi API z chmury Life360\n• Wszystkie przychodzące pakiety danych (ludzie, miejsca, kręgi)\n• Wewnętrzne etapy przetwarzania i zmiany stanu\n\nPrzydatne przy rozwiązywaniu problemów lub zgłaszaniu problemów.\nNiezalecane podczas normalnej pracy — kłody mogą być bardzo duże.",
+    "enable_myplaces": "Włącz własne miejsca",
+    "enable_myplaces_help": "Po wyłączeniu zakładka „Moje miejsca” jest ukryta, a własne miejsca nie są wyświetlane na mapach ani w menu hamburgera.",
     "family_map_header_name": "Nazwa nagłówka mapy okręgu (opcjonalnie)",
     "family_map_header_name_help": "Jeśli jest ustawiona, ta nazwa będzie wyświetlana jako nagłówek na mapie okręgu. Pozostaw puste, aby użyć nazwy kręgu lub domyślnej nazwy „Krąg”.",
     "help_doc_link": "📖 <a href=\"https://github.com/inventwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Otwórz pełną dokumentację</a>",

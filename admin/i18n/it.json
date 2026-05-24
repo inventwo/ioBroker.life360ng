@@ -1,6 +1,9 @@
 {
     "aliases_hint": "Qui puoi impostare alias (nomi alternativi) per luoghi sconosciuti, cerchia e persone. L'alias sostituisce i nomi visualizzati nell'app Life360.",
     "debugging_verbose": "Abilita la registrazione dettagliata",
+    "debugging_verbose_hint": "Quando abilitato, l'adattatore registra molti più dettagli nel registro ioBroker:\n• Risposte API complete dal cloud Life360\n• Tutti i pacchetti di dati in entrata (persone, luoghi, cerchie)\n• Fasi di elaborazione interna e cambiamenti di stato\n\nUtile per la risoluzione dei problemi o per la segnalazione di problemi.\nNon consigliato durante il normale funzionamento: i registri possono diventare molto grandi.",
+    "enable_myplaces": "Abilita i propri luoghi",
+    "enable_myplaces_help": "Quando disabilitata, la scheda \"I miei luoghi\" è nascosta e i propri luoghi non vengono visualizzati sulle mappe o nel menu hamburger.",
     "family_map_header_name": "Nome dell'intestazione della mappa circolare (facoltativo)",
     "family_map_header_name_help": "Se impostato, questo nome verrà mostrato come intestazione nella mappa circolare. Lascia vuoto per utilizzare il nome della cerchia o la \"Cerchia\" predefinita.",
     "help_doc_link": "📖 <a href=\"https://github.com/inventtwo/ioBroker.life360ng/blob/main/docs/en/README.md\" target=\"_blank\">Apri la documentazione completa</a>",
