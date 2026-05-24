@@ -76,89 +76,6 @@
                 }
             }
         },
-        "_myplaces": {
-            "type": "panel",
-            "label": "tab_myplaces",
-            "hidden": "!data.enable_myplaces",
-            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTEuNUEyLjUsMi41IDAgMCwxIDkuNSw5QTIuNSwyLjUgMCAwLDEgMTIsNi41QTIuNSwyLjUgMCAwLDEgMTQuNSw5QTIuNSwyLjUgMCAwLDEgMTIsMTEuNU0xMiwyQTcsNyAwIDAsMCA1LDlDNSwxNC4yNSAxMiwyMiAxMiwyMkMxMiwyMiAxOSwxNC4yNSAxOSw5QTcsNyAwIDAsMCAxMiwyWiIvPjwvc3ZnPg==",
-            "items": {
-                "txtPlaces": {
-                    "type": "staticText",
-                    "label": "places_txt",
-                    "newLine": true,
-                    "xs": 12,
-                    "sm": 12,
-                    "md": 12,
-                    "lg": 12,
-                    "xl": 12,
-                    "style": {
-                        "fontSize": "1rem"
-                    }
-                },
-                "prioritizeMyPlacesLocationName": {
-                    "type": "checkbox",
-                    "label": "prioritize_myplaces_locationname",
-                    "help": "prioritize_myplaces_locationname_help",
-                    "newLine": true,
-                    "xs": 12,
-                    "sm": 12,
-                    "md": 12,
-                    "lg": 12,
-                    "xl": 12
-                },
-                "places": {
-                    "type": "table",
-                    "newLine": true,
-                    "xs": 12,
-                    "sm": 12,
-                    "md": 12,
-                    "lg": 12,
-                    "xl": 12,
-                    "items": [
-                        {
-                            "title": "place_name",
-                            "attr": "name",
-                            "type": "text",
-                            "width": "20%"
-                        },
-                        {
-                            "title": "place_latitude",
-                            "attr": "latitude",
-                            "type": "text",
-                            "width": "15%"
-                        },
-                        {
-                            "title": "place_longitude",
-                            "attr": "longitude",
-                            "type": "text",
-                            "width": "15%"
-                        },
-                        {
-                            "title": "place_radius",
-                            "attr": "radius",
-                            "type": "number",
-                            "width": "15%",
-                            "default": 100,
-                            "placeholder": "100"
-                        },
-                        {
-                            "title": "place_circle",
-                            "attr": "circle",
-                            "type": "text",
-                            "width": "20%"
-                        },
-                        {
-                            "title": "place_isPresent_delay",
-                            "attr": "isPresentDelay",
-                            "type": "number",
-                            "width": "15%",
-                            "default": 0,
-                            "placeholder": "0"
-                        }
-                    ]
-                }
-            }
-        },
         "_integration": {
             "type": "panel",
             "label": "tab_integration",
@@ -321,6 +238,89 @@
                             ]
                         }
                     }
+                }
+            }
+        },
+        "_myplaces": {
+            "type": "panel",
+            "label": "tab_myplaces",
+            "hidden": "!data.enable_myplaces",
+            "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMTIsMTEuNUEyLjUsMi41IDAgMCwxIDkuNSw5QTIuNSwyLjUgMCAwLDEgMTIsNi41QTIuNSwyLjUgMCAwLDEgMTQuNSw5QTIuNSwyLjUgMCAwLDEgMTIsMTEuNU0xMiwyQTcsNyAwIDAsMCA1LDlDNSwxNC4yNSAxMiwyMiAxMiwyMkMxMiwyMiAxOSwxNC4yNSAxOSw5QTcsNyAwIDAsMCAxMiwyWiIvPjwvc3ZnPg==",
+            "items": {
+                "txtPlaces": {
+                    "type": "staticText",
+                    "label": "places_txt",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "style": {
+                        "fontSize": "1rem"
+                    }
+                },
+                "prioritizeMyPlacesLocationName": {
+                    "type": "checkbox",
+                    "label": "prioritize_myplaces_locationname",
+                    "help": "prioritize_myplaces_locationname_help",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12
+                },
+                "places": {
+                    "type": "table",
+                    "newLine": true,
+                    "xs": 12,
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "xl": 12,
+                    "items": [
+                        {
+                            "title": "place_name",
+                            "attr": "name",
+                            "type": "text",
+                            "width": "20%"
+                        },
+                        {
+                            "title": "place_latitude",
+                            "attr": "latitude",
+                            "type": "text",
+                            "width": "15%"
+                        },
+                        {
+                            "title": "place_longitude",
+                            "attr": "longitude",
+                            "type": "text",
+                            "width": "15%"
+                        },
+                        {
+                            "title": "place_radius",
+                            "attr": "radius",
+                            "type": "number",
+                            "width": "15%",
+                            "default": 100,
+                            "placeholder": "100"
+                        },
+                        {
+                            "title": "place_circle",
+                            "attr": "circle",
+                            "type": "text",
+                            "width": "20%"
+                        },
+                        {
+                            "title": "place_isPresent_delay",
+                            "attr": "isPresentDelay",
+                            "type": "number",
+                            "width": "15%",
+                            "default": 0,
+                            "placeholder": "0"
+                        }
+                    ]
                 }
             }
         },
@@ -654,11 +654,13 @@
                     }
                 },
                 "_trackerLine1": {
-                    "type": "divider"
+                    "type": "divider",
+                    "hidden": "!data.process_life360_places && !data.enable_myplaces"
                 },
                 "_trackerPlaces": {
                     "type": "panel",
                     "label": "section_tracker_places",
+                    "hidden": "!data.process_life360_places && !data.enable_myplaces",
                     "xs": 12,
                     "items": {
                         "tracker_show_places": {
