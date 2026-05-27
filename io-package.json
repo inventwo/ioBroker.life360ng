@@ -132,8 +132,7 @@
     ],
     "licenseInformation": {
       "type": "free",
-      "license": "MIT",
-      "link": "https://raw.githubusercontent.com/inventwo/ioBroker.life360ng/main/LICENSE"
+      "license": "MIT"
     },
     "tier": 3,
     "platform": "Javascript/Node.js",
