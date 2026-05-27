@@ -57,7 +57,8 @@
     "lint": "eslint -c eslint.config.mjs . --max-warnings 0",
     "lint-fix": "eslint -c eslint.config.mjs . --fix",
     "translate": "translate-adapter",
-    "dev-server": "dev-server"
+    "dev-server:start": "dev-server watch",
+    "dev-server:stop": "powershell -NonInteractive -Command \"Get-NetTCPConnection -LocalPort 8091,26436,24436,20436 -EA SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique | ForEach-Object { Stop-Process -Id $_ -Force -EA SilentlyContinue }; Write-Host 'dev-server stopped'\""
   },
   "bugs": {
     "url": "https://github.com/inventwo/ioBroker.life360ng/issues"

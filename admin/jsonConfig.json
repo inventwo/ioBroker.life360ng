@@ -1030,11 +1030,45 @@
                 "_notificationLine2": {
                     "type": "divider"
                 },
+                "_datapointSection": {
+                    "type": "panel",
+                    "label": "section_datapoint",
+                    "xs": 12,
+                    "items": {
+                        "notify_datapoint_hint": {
+                            "type": "staticText",
+                            "text": "notify_datapoint_hint",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 12,
+                            "lg": 12,
+                            "xl": 12,
+                            "style": {
+                                "fontSize": "1rem",
+                                "marginTop": "10px"
+                            }
+                        },
+                        "notify_datapoint_enabled": {
+                            "type": "checkbox",
+                            "label": "notify_datapoint_enabled",
+                            "newLine": true,
+                            "xs": 12,
+                            "sm": 12,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        }
+                    }
+                },
+                "_notificationLine3": {
+                    "type": "divider"
+                },
                 "_notifyPeopleSection": {
                     "type": "panel",
                     "label": "section_notify_people",
                     "xs": 12,
-                    "hidden": "!data.notify_telegram_enabled && !data.notify_alexa_enabled",
+                    "hidden": "!data.notify_telegram_enabled && !data.notify_alexa_enabled && !data.notify_datapoint_enabled",
                     "items": {
                         "notify_people_hint": {
                             "type": "staticText",
