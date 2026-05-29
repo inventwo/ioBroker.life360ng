@@ -1,4 +1,0 @@
-chore: release v1.11.0
-
-- (skvarel) Added "Enable datapoint notifications" checkbox in the Notifications tab; when enabled, the general notification settings panel is shown even without Telegram or Alexa configured
-- (skvarel) Updated geolocation-utils dependency from 1.2.5 to 1.2.6
