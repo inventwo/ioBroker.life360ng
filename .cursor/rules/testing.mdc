@@ -1,0 +1,72 @@
+---
+description: Testing with @iobroker/testing and Mocha
+globs: test/**,*.test.js
+alwaysApply: false
+---
+
+# Testing
+
+Use **only** `@iobroker/testing` for integration tests — https://github.com/ioBroker/testing
+
+Unit tests use **Mocha** (not Jest).
+
+## Scripts
+
+- `npm run test` — unit (`test:js`) + package validation (CI default)
+- `npm run test:js` — Mocha unit tests (`*.test.js`, `test/**`)
+- `npm run test:package` — validates package.json, io-package.json, admin JSON
+- `npm run test:integration` — integration tests via dev-server
+
+## Integration test pattern
+
+```javascript
+const path = require("node:path");
+const { tests } = require("@iobroker/testing");
+
+tests.integration(path.join(__dirname, ".."), {
+  defineAdditionalTests({ suite }) {
+    suite("Test adapter with specific configuration", (getHarness) => {
+      let harness;
+      before(() => { harness = getHarness(); });
+
+      it("should configure and start adapter", function () {
+        return new Promise(async (resolve, reject) => {
+          // configure via harness.objects.setObject()
+          // start via harness.startAdapterAndWait()
+          // verify via harness.states.getState() / getStateIDs()
+        });
+      }).timeout(40000);
+    });
+  }
+});
+```
+
+## Rules
+
+- Configure via `harness.objects.setObject()` before start
+- Start via `harness.startAdapterAndWait()`
+- Verify via `harness.states.getState()` / `getStateIDs()`
+- Plan sufficient timeouts for async operations
+- Mock external APIs in unit tests; never bypass the harness
+- **Never** test Life360 API URLs directly in integration tests
+
+## API credential tests
+
+For adapters with external API auth, encrypt secrets for harness config:
+
+```javascript
+async function encryptPassword(harness, password) {
+  const systemConfig = await harness.objects.getObjectAsync("system.config");
+  const secret = systemConfig?.native?.secret;
+  if (!secret) throw new Error("Could not retrieve system secret");
+  let result = "";
+  for (let i = 0; i < password.length; ++i) {
+    result += String.fromCharCode(secret[i % secret.length].charCodeAt(0) ^ password.charCodeAt(i));
+  }
+  return result;
+}
+```
+
+## CI order
+
+Lint first (`check-and-lint`), then `adapter-tests` — adapter tests do not run if lint fails.

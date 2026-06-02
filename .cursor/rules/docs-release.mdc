@@ -1,0 +1,67 @@
+---
+description: README, changelog, docs, and release workflow
+globs: README.md,io-package.json,CHANGELOG_OLD.md,docs/**
+alwaysApply: false
+---
+
+# Documentation & Releases
+
+## README (English only — ioBroker requirement)
+
+Required sections: Installation, Configuration, Usage, Changelog, License, Support.
+
+- **All content in English** — no German or other languages in `README.md`
+- User-facing language; reference issues as `fixes #XX`
+- Update Configuration/Usage/Data Points when admin options or behavior change
+
+## Extended documentation (mandatory for features & config changes)
+
+When adding features or changing admin configuration, update **all** of:
+
+1. `docs/en/` — English documentation
+2. `docs/de/` — German documentation
+3. `README.md` — main documentation
+
+Documentation must reflect the actual admin UI and runtime behavior.
+
+## Changelog format
+
+```markdown
+<!--
+  ### **WORK IN PROGRESS**
+-->
+
+### **WORK IN PROGRESS**
+
+- (skvarel) Plain user-facing description in English
+
+### 1.11.0 (2026-05-28)
+- (skvarel) Released change
+```
+
+## Workflow
+
+- **During development:** all entries under `### **WORK IN PROGRESS**`
+- **Every fix or feature:** add a changelog entry — no exceptions
+- **Release:** `npm run release-patch|minor|major` — script sets version, moves WIP to version block
+- **Never** edit `CHANGELOG_OLD.md` manually
+- **Never** use bold type tags in changelog lines (breaks io-package news translation)
+
+## io-package.json
+
+- Keep `common.version` in sync with `package.json`
+- New config options: add to `native` with defaults
+
+## CI/CD
+
+Official ioBroker test actions (see `.github/workflows/test-and-release.yml`):
+
+- `ioBroker/testing-action-check@v1` — lint + package check (**lint-first**)
+- `ioBroker/testing-action-adapter@v1` — adapter tests (Node 22.x, 24.x; ubuntu/windows/macos)
+- `ioBroker/testing-action-deploy@v1` — npm deploy on version tags (OIDC, when enabled)
+
+Job order: `check-and-lint` (no deps) → `adapter-tests`.
+
+CI runs `lint: true` only — no `type-checking` unless the workflow is changed.
+
+Credential/API tests: separate from main suite; not required for deployment; use 120+ s timeouts for external calls.

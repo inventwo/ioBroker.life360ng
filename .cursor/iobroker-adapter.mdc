@@ -1,0 +1,45 @@
+---
+description: ioBroker.life360ng — project context, git, changelog (always apply)
+alwaysApply: true
+---
+
+# ioBroker.life360ng
+
+Connects ioBroker to the [Life360](https://www.life360.com) cloud for family location tracking and geo-presence. Community fork of `ioBroker.life360` (next generation).
+
+## Stack
+
+- Plain **JavaScript** in `main.js` and `lib/` — no TypeScript build step; optional `npm run check` (JSDoc/types via `tsconfig.check.json`)
+- Admin UI via **jsonConfig** (`admin/jsonConfig.json`), not a compiled React frontend
+- HTTP: native `node:https` (no axios/request)
+- Connection: Life360 Cloud REST API, token auth, polling
+- Extended docs: `docs/en/`, `docs/de/` (README is English only)
+
+## Git (mandatory)
+
+- **Never** run `git commit`, `git push`, or releases unless the user explicitly asks
+- User commits and pushes; releases via `npm run release-*` (AlCalzone release-script)
+- **Never** run `npm run translate` — owner runs it manually before release
+
+## Changelog & README (mandatory for every change)
+
+For **every code or config change**, update `README.md` before finishing:
+
+1. Add a user-facing entry under `### **WORK IN PROGRESS**` (English)
+2. Format: `- (skvarel) Plain description` — no bold prefixes (`**FIXED**`, `**NEW**`, etc.; breaks news translation)
+3. Update README and **both** `docs/en/` and `docs/de/` when options, behavior, or data points change
+4. Do **not** edit `CHANGELOG_OLD.md` manually — release-script moves older entries there
+
+## Scope
+
+- Minimal, focused diffs; match patterns in `main.js`, `lib/`, and `admin/`
+- After every code change: run `npm run lint` and fix all warnings (CI uses `--max-warnings 0`)
+
+## Local checks (optional, matches CI)
+
+- `npm run lint`
+- `npm run test` (`test:js` + `test:package`)
+
+## Further rules
+
+Detailed conventions live in `.cursor/rules/` (code, admin UI, testing, docs/CI, Life360 patterns).

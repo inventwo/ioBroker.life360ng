@@ -1,0 +1,57 @@
+---
+description: Life360 Cloud API and adapter-specific patterns
+globs: main.js,lib/**,docs/**
+alwaysApply: false
+---
+
+# Life360ng Patterns
+
+## Architecture
+
+- `main.js` — adapter entry (`Life360 extends utils.Adapter`); wires connectors and `Life360Tracker`
+- `lib/life360CloudConnector.js` — Life360 REST API, polling, HTTP
+- `lib/life360DbConnector.js` — ioBroker states/objects, notifications, places integration
+- `lib/life360Tracker.js` — location tracking and HTML map generation
+- `lib/iobHelpers.js` — shared helpers
+
+## API communication
+
+- Base URL: `https://api.life360.com/v3/`
+- Auth: `Authorization: Bearer <token>` header (`adapter.config.life360_token`)
+- Token-only auth (no password/phone login — required for EU users)
+- Use native `node:https` only
+- HTTP 401 → expired/invalid token; set `info.connection` false, log warning
+- Cloudflare/rate-limit responses: log clearly; do not tight-loop retries
+
+## Polling
+
+- Managed in `life360CloudConnector.js` via chained `adapter.setTimeout` (not `setInterval`)
+- Stop with `disablePolling()` → `adapter.clearTimeout(objIntervalPoll)`
+- Interval: `adapter.config.life360_polling_interval` (seconds, minimum 15)
+- `setupPolling(callback)` called from `main.js` `onReady()`
+
+## Custom places (My Places)
+
+- Defined in `admin/jsonConfig.json` table on `_myplaces` tab → `config.places`
+- Presence via Haversine formula against member lat/lon
+- Custom places take priority over Life360 cloud places in `locationName`
+
+## State naming
+
+- People: `life360ng.<instance>.people.<name>.<state>`
+- Places: `life360ng.<instance>.places.<name>.<state>`
+- My places: `life360ng.<instance>.myplaces.<name>.<state>`
+- Connection: `life360ng.<instance>.info.connection`
+
+## Optional integrations
+
+- Forward location data to ioBroker `places` adapter when configured
+- Notifications: Telegram, Alexa, per-datapoint overrides (`notify_place_overrides`)
+- Admin messages: `testTelegram`, `testAlexa`, `getPlacesList`, `getPersonsList` in `main.js` `onMessage()`
+
+## Pitfalls
+
+- Do not add axios or other HTTP libraries
+- Do not use `clearInterval` for polling — use `clearTimeout` on `objIntervalPoll`
+- Bearer token in config without the word `Bearer`, spaces, or quotes
+- On unload: stop tracker, disable polling, clear DB connector timers, set `info.connection` false

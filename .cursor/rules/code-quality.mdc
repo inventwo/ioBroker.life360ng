@@ -1,0 +1,52 @@
+---
+description: ioBroker adapter code quality and JavaScript conventions
+globs: main.js,lib/**,eslint.config.mjs,prettier.config.mjs
+alwaysApply: false
+---
+
+# Code Quality
+
+## Style
+
+- async/await for asynchronous operations
+- JSDoc on public methods
+- Use `this.log.*` / adapter logging — never `console.log` in production code
+- Tabs, double quotes (see `prettier.config.mjs`)
+- ESLint via `@iobroker/eslint-config` (`eslint.config.mjs`) — run `npm run lint` after every change; CI treats warnings as errors (`--max-warnings 0`)
+
+## Resource cleanup
+
+Stop polling, timers, and tracker in `onUnload()`; always call `callback()`:
+
+```javascript
+onUnload(callback) {
+  try {
+    life360Connector.disablePolling();
+    life360DbConnector.clearTimers();
+    this.tracker?.stop();
+    callback();
+  } catch {
+    callback();
+  }
+}
+```
+
+## Error handling
+
+- Wrap async/API work in try/catch; log errors, do not crash the adapter
+- Use adapter log levels: error, warn, info, debug
+- Handle network failures gracefully; set `info.connection` accordingly
+- HTTP 401 from Life360 → treat as expired token; set `info.connection` false, log warning
+- Do not retry failed API calls in a tight loop — wait for the next poll cycle
+
+## HTTP
+
+- **Preferred:** native `node:https` (used in `lib/life360CloudConnector.js`)
+- **Avoid:** axios, request, or other HTTP libraries
+
+## Dependencies
+
+- Use `npm ci` in CI; commit `package-lock.json` with `package.json`
+- Use `@iobroker/adapter-core`; avoid deprecated packages
+- Update dependencies in separate PRs only
+- Prefer built-in Node.js modules where possible
