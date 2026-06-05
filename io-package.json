@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.1",
+    "version": "1.11.2",
     "news": {
+      "1.11.2": {
+        "en": "Updated @alcalzone/release-script to minimum required version 5.2.1\nReplaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector",
+        "de": "Aktualisiertes @alcalzone/Release-script auf minimal erforderliche Version 5.2.1\nErsetzte einfache EinstellungTimeout/clearTimeout mit adapter.setTimeout/clearTimeout in life360DbConnector",
+        "ru": "Обновленный @alcalzone/release-script до минимально необходимой версии 5.2.1\nЗаменить простой setTimeout/clearTimeout на adapter.setTimeout/clearTimeout в life360DbConnector",
+        "pt": "Atualizado @alcalzone/release-script para versão mínima necessária 5.2.1\nConjunto simples substituídoTimeout/clearTimeout com adaptador.setTimeout/clearTimeout in life360DbConnector",
+        "nl": "Bijgewerkt @alcalzone/release-script naar minimaal vereiste versie 5.2.1\nVervangen platte setTimeout/clearTimeout met adapter.setTimeout/clearTimeout in life360DbConnector",
+        "fr": "Mise à jour @alcalzone/release-script à la version minimale requise 5.2.1\nRemplacé Set simpleTimeout/clearTimeout avec adaptateur.setTimeout/clearTimeout dans life360DbConnector",
+        "it": "Aggiornato @alcalzone/release-script alla versione minima richiesta 5.2.1\nSostituito set normaleTimeout/clearTimeout con adattatore.setTimeout/clearTimeout nella vita360DbConnector",
+        "es": "Actualizado @alcalzone/release-script a la versión mínima requerida 5.2.1\nReemplazado setTimeout/clearTimeout con adaptador.setTimeout/clearTimeout en life360DbConnector",
+        "pl": "Aktualizacja @ alcalzone / release- script do minimalnej wymaganej wersji 5.2.1\nZastąpiony prosty setTimeout / clearTimeout z adapter.setTimeout / clearTimeout w life360DbConnector",
+        "uk": "Оновлено @alcalzone/видання до мінімальної необхідної версії 5.2.1\nЗамінний plainTimeout/clearTimeout з адаптером.setTimeout/clearTimeout в life360DbConnector",
+        "zh-cn": "更新了 @alcalzone/释放-script到最低要求的5.2.1版本\n用适配器替换纯版设置 Timeout/ clearTimeout. set Timeout/ clearTimeout in life360Db 连接器"
+      },
       "1.11.1": {
         "en": "Migrated project rules from GitHub Copilot to Cursor rules",
         "de": "Geförderte Projektregeln von GitHub Copilot zu Cursor-Regeln",
@@ -80,19 +93,6 @@
         "pl": "Poprawiona mapa trackera pokazująca zły dzień (wczorajsza trasa) dla użytkowników w strefach czasowych przed UTC: obliczenia daty wykorzystują teraz czas lokalny zamiast UTC, zapobiegając punktom GPS i domyślnemu zakresowi daty od dnia poprzedniego od północy do godziny offsetowej UTC\nZmniejszone ryzyko ograniczenia skali Cloudflare: Pętla ponownego próby API natychmiast przerwana na bloku 403 / 503 zamiast wbijać API kolejnymi żądaniami; dodano krótkie opóźnienie pomiędzy kolejnymi wezwaniami API w ramach każdego cyklu ankiety",
         "uk": "Виправлена карта трекера, що показує неправильний день (попередній маршрут) для користувачів у часових поясах перед UTC: розрахунки дати тепер використовують локальний час замість UTC, запобігаючи GPS точки та діапазону дати за замовчуванням, від призначених до попереднього дня між нічим і годину окупації UTC\nЗнизений ризик переходу на частоту Cloudflare: API трейдингові петлі тепер абортують відразу на 403/503 блок замість забивання API з подальшими запитами; додано коротку затримку між послідовними дзвінками API в кожному циклі опитування",
         "zh-cn": "固定跟踪器地图显示用户在协调世界时之前的时区错误的一天(Yesterday的路由):日期计算现在使用本地时间而不是协调世界时,防止GPS点和默认日期从午夜到协调世界时抵消小时之间的指定到前一日\n降低Cloudflare 速率限制风险:API 现在在403/503块上立即中止循环, 而不是在API中再提出进一步请求; 在每个民意调查周期内, API连续调用之间增加了短暂的延迟"
-      },
-      "1.9.0": {
-        "en": "Added place-specific notification overrides table in the Notifications tab: configure custom arrival and leave messages per place and person, with optional suppression of the default standard message; place and person columns use dropdowns populated from known places and Life360 persons",
-        "de": "Hinzufügen von platzspezifischen Benachrichtigungsüberschreitungen Tabelle in der Registerkarte Benachrichtigungen: Konfigurieren Sie benutzerdefinierte Ankunft und hinterlassen Sie Nachrichten pro Ort und Person, mit optionaler Unterdrückung der Standard-Nachricht; Ort und Person Spalten verwenden Dropdowns von bekannten Orten und Life360 Personen",
-        "ru": "Добавленное уведомление о конкретном месте перекрывает таблицу во вкладке Уведомления: настройте пользовательские сообщения о прибытии и отпуске на место и человека с дополнительным подавлением стандартного сообщения по умолчанию; столбцы места и человека используют выпадающие выпады, заполненные из известных мест и Life360 людей",
-        "pt": "A notificação específica de lugar adicionada substitui a tabela na aba Notificações: configure a chegada personalizada e deixe mensagens por local e pessoa, com supressão opcional da mensagem padrão padrão padrão; as colunas de lugar e pessoa usam dropdowns povoados de lugares conhecidos e Life360 pessoas",
-        "nl": "Toegevoegd plaatsspecifieke melding overschrijft tabel in de Notificaties tab: configureren aangepaste aankomst en laat berichten per plaats en persoon, met optionele onderdrukking van de standaard bericht; plaats en persoon kolommen gebruik dropdowns bevolkt van bekende plaatsen en Life360 personen",
-        "fr": "Ajout d'une notification spécifique au lieu dans l'onglet Notifications : configurer l'arrivée personnalisée et laisser des messages par lieu et par personne, avec suppression optionnelle du message standard par défaut ; les colonnes de lieu et de personne utilisent des menus déroulants peuplés de lieux connus et Life360 personnes",
-        "it": "Nella scheda Notifiche viene aggiunta la tabella delle notifiche specifica del luogo: configurare l'arrivo personalizzato e lasciare i messaggi per posto e persona, con la soppressione facoltativa del messaggio standard predefinito; posizionare e le colonne della persona utilizzano i dropdown popolati da luoghi noti e Life360 persone",
-        "es": "La notificación agregada de lugar específico anula la tabla en la pestaña Notificaciones: configure la llegada personalizada y deje mensajes por lugar y persona, con la supresión opcional del mensaje estándar predeterminado; las columnas de lugar y persona utilizan desplegaciones pobladas de lugares conocidos y personas Life360",
-        "pl": "Dodano tabelę przeglądów powiadomień dla poszczególnych miejsc w zakładce Powiadomienia: skonfigurować niestandardowe przylot i zostawić wiadomości na miejsce i osobę, z opcjonalnym tłumieniem domyślnej standardowej wiadomości; kolumny miejsca i osoby używają zrzutów zaludnionych ze znanych miejsc i Life360 osób",
-        "uk": "Додано таблицю формального повідомлення про перевизначення місця в вкладці Повідомлення: налаштовувати користувацьке прибуття та залишити повідомлення на місце та особу, з додатковою пригніченням стандартного повідомлення за замовчуванням; місце та стовпці особи, які використовують випадки, що заселені з відомих місць та Life360 осіб",
-        "zh-cn": "添加特定地点通知覆盖通知标签中的表格 : 配置自定义到达和每个地点及个人留下信件, 并可选地压制默认的标准信件; 地点及个人列使用来自已知地点和生命360人的滴水"
       }
     },
     "titleLang": {
