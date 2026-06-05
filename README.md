@@ -308,6 +308,11 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+- (skvarel) Updated @alcalzone/release-script to minimum required version 5.2.1
+- (skvarel) Replaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector
+
 ### 1.11.1 (2026-06-03)
 - (skvarel) Migrated project rules from GitHub Copilot to Cursor rules
 
