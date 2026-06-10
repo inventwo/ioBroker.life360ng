@@ -308,7 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.11.3 (2026-06-10)
 - (skvarel) Added meta object types for adapter and instance namespace
 
 ### 1.11.2 (2026-06-05)
@@ -326,11 +326,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 - (skvarel) Updated @alcalzone/release-script and related plugins to minimum required version 5.2.0
 - (skvarel) Updated minimum required Node.js engine from 20 to 22 in package.json
 - (skvarel) Replaced custom wait/sleep helper with the built-in adapter.delay() method
-
-### 1.10.1 (2026-05-24)
-- (skvarel) Life360 places display settings in Map Display tab are now hidden when "Process Life360 places" is disabled in the Integration tab
-- (skvarel) Added "Enable own places" checkbox in the Integration tab; disabling it hides the My Places tab, related Map Display settings and own place markers in the map hamburger menus
-- (skvarel) Added descriptive info text to the Logging tab explaining what verbose logging records and when to use it
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
