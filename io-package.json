@@ -196,6 +196,18 @@
   "objects": [],
   "instanceObjects": [
     {
+      "_id": "",
+      "type": "meta",
+      "common": {
+        "name": {
+          "en": "Life360 Integration instance namespace",
+          "de": "Life360 Integration Instanz-Namespace"
+        },
+        "type": "meta.folder"
+      },
+      "native": {}
+    },
+    {
       "_id": "info",
       "type": "channel",
       "common": {

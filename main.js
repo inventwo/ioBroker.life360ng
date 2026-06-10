@@ -19,7 +19,36 @@ class Life360 extends utils.Adapter {
 	/**
 	 * Is called when databases are connected and adapter received configuration.
 	 */
+	/**
+	 * Ensures the adapter root object (`life360ng`) exists as a meta.folder.
+	 * Must be done at runtime because `objects[{_id:""}]` in io-package.json
+	 * triggers "Invalid ID:" errors on adapter updates.
+	 */
+	async ensureAdapterRootMeta() {
+		const rootId = this.name;
+		const titleLang = this.ioPack?.common?.titleLang || {};
+		const metaObject = {
+			type: "meta",
+			common: {
+				name: titleLang[this.language] || titleLang.en || rootId,
+				type: "meta.folder",
+			},
+			native: {},
+		};
+		const existing = await this.getForeignObjectAsync(rootId);
+		if (!existing) {
+			await this.setForeignObjectAsync(rootId, metaObject);
+		} else if (existing.type !== "meta") {
+			await this.extendForeignObjectAsync(rootId, {
+				type: "meta",
+				common: metaObject.common,
+			});
+		}
+	}
+
 	async onReady() {
+		await this.ensureAdapterRootMeta();
+
 		life360Connector.setAdapter(this);
 		life360DbConnector.setAdapter(this);
 
