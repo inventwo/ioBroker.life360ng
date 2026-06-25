@@ -20,7 +20,7 @@
     "node": ">= 22"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^3.3.2",
+    "@iobroker/adapter-core": "^3.4.1",
     "geolocation-utils": "^1.2.6"
   },
   "devDependencies": {
