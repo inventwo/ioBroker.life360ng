@@ -308,6 +308,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Fixed issue detected by repository checker #31
+
 ### 1.11.3 (2026-06-10)
 - (skvarel) Added meta object types for adapter and instance namespace
 
