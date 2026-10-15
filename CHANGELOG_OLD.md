@@ -1,4 +1,8 @@
 # Older changes
+## 1.11.0 (2026-05-28)
+- (skvarel) Added "Enable datapoint notifications" checkbox in the Notifications tab; when enabled, the general notification settings panel is shown even without Telegram or Alexa configured
+- (skvarel) Updated geolocation-utils dependency from 1.2.5 to 1.2.6
+
 ## 1.10.2 (2026-05-25)
 - (skvarel) Updated @alcalzone/release-script and related plugins to minimum required version 5.2.0
 - (skvarel) Updated minimum required Node.js engine from 20 to 22 in package.json
