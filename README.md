@@ -308,6 +308,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Handle Cloudflare HTTP 429 / error 1015 rate limits: stop immediate retries, abort the current poll cycle, and delay the next poll by 10 minutes
+
 ### 1.11.4 (2026-07-02)
 - (skvarel) Fixed issue detected by repository checker #31
 
