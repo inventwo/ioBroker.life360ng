@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.6",
+    "version": "1.11.7",
     "news": {
+      "1.11.7": {
+        "en": "Ignore Cloudflare Retry-After values below 60 seconds (including 0) and use the default 10-minute backoff instead, to avoid rapid re-polls that extend the rate-limit block",
+        "de": "Ignoriere Cloudflare-Retry-After-Werte unter 60 Sekunden (einschließlich 0) und verwende stattdessen den 10-Minuten-Backoff, um schnelle Wiederholungen zu vermeiden",
+        "ru": "Игнорируйте значения Cloudflare Retry-After менее 60 секунд (включая 0) и вместо этого используйте 10-минутную паузу по умолчанию, чтобы избежать быстрых повторных опросов, которые продлевают блок ограничения скорости",
+        "pt": "Ignore valores de retry-after da Cloudflare abaixo de 60 s (incluindo 0) e use o recuo padrão de 10 minutos para evitar novas pesquisas que ampliem o limite de taxa",
+        "nl": "Negeer de Retry-Afterwaarden van Cloudflare onder de 60 seconden (inclusief 0) en gebruik in plaats daarvan de standaardbackoff van 10 minuten, om te voorkomen dat snelle herpeilingen waarbij de snelheidslimiet wordt verlengd",
+        "fr": "Ignorez les valeurs Retry-After de Cloudflare inférieures à 60 secondes (dont 0) et utilisez le backoff par défaut de 10 minutes, pour éviter de revoter rapidement le bloc de limite de débit",
+        "it": "Ignori i valori Retry-After di Cloudflare inferiori a 60 secondi (incluso 0) e usi invece il backoff predefinito di 10 minuti, per evitare ripetizioni rapide",
+        "es": "Ignore los valores de registro de Cloudflare por debajo de 60 segundos (incluido 0) y utilice el retraso predeterminado de 10 minutos para evitar volver a sondear rápidamente y ampliar el bloqueo",
+        "pl": "Zignoruj wartości Cloudflare Retry-After poniżej 60 sekund (w tym 0) i zamiast tego użyj domyślnego 10-minutowego backoff, aby uniknąć szybkich ponownych ankiet, które przedłużają blok limitu szybkości",
+        "uk": "Ігноруйте значення Cloudflare Retry-After нижче 60 секунд (включаючи 0) і замість цього використовуйте 10-хвилинну відставку за замовчуванням, щоб уникнути швидких повторних опитувань, які розширюють блок обмеження швидкості",
+        "zh-cn": "忽略低于 60 秒（包括 0）的 Cloudflare Retry-After 值，改用默认的 10 分钟退避值，以避免快速重新轮询会延长速率限制区块"
+      },
       "1.11.6": {
         "en": "Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes\nUpdated @iobroker/testing dependency from 6.2.2 to 6.3.0",
         "de": "Wählen Sie Retry-After (und logge RateLimit Header) aus Cloudflare 429 Responses statt fester 10 Minuten\n@iobroker /testing-Abhängigkeit von 6.2.2 auf 6.3.0 aktualisiert",
@@ -80,19 +93,6 @@
         "pl": "Migrowane zasady projektu z GitHub Copilot do zasad kursora",
         "uk": "Миттєві правила проекту від GitHub Copilot до правил Cursor",
         "zh-cn": "从 GitHub 副驾驶到光标规则"
-      },
-      "1.11.0": {
-        "en": "Added \"Enable datapoint notifications\" checkbox in the Notifications tab; when enabled, the general notification settings panel is shown even without Telegram or Alexa configured\nUpdated geolocation-utils dependency from 1.2.5 to 1.2.6",
-        "de": "Das Kontrollkästchen \"Datenpunkt-Benachrichtigungen aktivieren\" in der Registerkarte Benachrichtigungen hinzugefügt; wenn aktiviert, wird das allgemeine Benachrichtigungseinstellungen-Panel auch ohne Telegram oder Alexa konfiguriert angezeigt\nAktualisierte geolocation-utils Abhängigkeit von 1.2.5 bis 1.2.6",
-        "ru": "Добавлен флажок «Включить уведомления о точках данных» во вкладке «Уведомления»; при включении панель настроек общих уведомлений отображается даже без настройки Telegram или Alexa\nОбновленная зависимость геолокации от 1,2,5 до 1,2,6",
-        "pt": "Adicionado a opção \"Ativar notificações de pontos de dados\" na aba Notificações; quando habilitado, o painel geral de configurações de notificação é mostrado mesmo sem o Telegram ou o Alexa configurados\nDependência atualizada de 1.2.5 para 1.2.6",
-        "nl": "Toevoegen \"Aanmeldingen van datapunten inschakelen\" in het tabblad Meldingen; indien ingeschakeld wordt het paneel algemene meldingsinstellingen getoond, zelfs zonder Telegram of Alexa ingesteld\nBijgewerkte geolocatie-utils afhankelijkheid van 1.2.5 tot 1.2.6",
-        "fr": "Ajout de la case \"Activer les notifications de points de données\" dans l'onglet Notifications; une fois activé, le panneau de paramètres de notification générale est affiché même sans Télégramme ou Alexa configuré\nMise à jour de la dépendance géolocalisation-utilisations de 1.2.5 à 1.2.6",
-        "it": "Aggiunta la casella di controllo \"Abilita notifiche datapoint\" nella scheda Notifiche; quando abilitata, il pannello delle impostazioni di notifica generale viene visualizzato anche senza Telegram o Alexa configurato\nDipendenza da 1.2.5 a 1.2.6",
-        "es": "Añadido \"Invitar notificaciones de puntos de datos\" en la pestaña Notificaciones; cuando está habilitado, el panel de ajustes de notificación general se muestra incluso sin Telegram o Alexa configurado\nDependencia de geolocalización actualizada de 1.2.5 a 1.2.6",
-        "pl": "Dodano opcję \"Włącz powiadomienia o punktach danych\" w zakładce Powiadomienia; po włączeniu, panel ogólnych ustawień powiadomień jest wyświetlany nawet bez konfiguracji Telegram lub Alexa\nZaktualizowana zależność geolokacji od 1.2.5 do 1.2.6",
-        "uk": "Додано \"Включні сповіщення про дані\" в вкладці Notifications; при включенні панель налаштувань загального сповіщення відображається навіть без Telegram або Alexa налаштований\nОновлена залежність від 1,2,5 до 1.2.6",
-        "zh-cn": "在通知标签中添加了“ 允许的数据点通知” 复选框; 当启用时, 一般通知设置面板会被显示, 即使没有 Telegram 或 Alexa 配置\n地理功能依赖性从1.2.5更新为1.2.6"
       }
     },
     "titleLang": {

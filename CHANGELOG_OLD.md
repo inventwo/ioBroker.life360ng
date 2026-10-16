@@ -1,4 +1,8 @@
 # Older changes
+## 1.11.2 (2026-06-05)
+- (skvarel) Updated @alcalzone/release-script to minimum required version 5.2.1
+- (skvarel) Replaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector
+
 ## 1.11.1 (2026-06-03)
 - (skvarel) Migrated project rules from GitHub Copilot to Cursor rules
 

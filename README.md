@@ -308,8 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 1.11.7 (2026-10-16)
 - (skvarel) Ignore Cloudflare Retry-After values below 60 seconds (including 0) and use the default 10-minute backoff instead, to avoid rapid re-polls that extend the rate-limit block
 
 ### 1.11.6 (2026-10-16)
@@ -324,10 +323,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.11.3 (2026-06-10)
 - (skvarel) Added meta object types for adapter and instance namespace
-
-### 1.11.2 (2026-06-05)
-- (skvarel) Updated @alcalzone/release-script to minimum required version 5.2.1
-- (skvarel) Replaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
