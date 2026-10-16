@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.5",
+    "version": "1.11.6",
     "news": {
+      "1.11.6": {
+        "en": "Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes\nUpdated @iobroker/testing dependency from 6.2.2 to 6.3.0",
+        "de": "Wählen Sie Retry-After (und logge RateLimit Header) aus Cloudflare 429 Responses statt fester 10 Minuten\n@iobroker /testing-Abhängigkeit von 6.2.2 auf 6.3.0 aktualisiert",
+        "ru": "Используйте Retry-After (и заголовки log RateLimit) из ответов Cloudflare 429, чтобы выбрать задержку отключения вместо фиксированных 10 минут\nОбновлена зависимость @iobroker /testing с 6.2.2 до 6.3.0",
+        "pt": "Use os cabeçalhos Retry-After (e log RateLimit) das respostas da Cloudflare 429 para recuar em vez de 10 minutos fixos\nAtualizou a dependência @iobroker /testing de 6.2.2 a 6.3.0",
+        "nl": "Gebruik Retry-After (en log RateLimit-headers) van Cloudflare 429 responses om de backoff-vertraging te kiezen in plaats van een vaste 10 minuten\n@iobroker /testafhankelijkheid bijgewerkt van 6.2.2 naar 6.3.0",
+        "fr": "Utilisez les en-têtes Retry-After (et log RateLimit) des 429 réponses de Cloudflare pour choisir le délai de réponse au lieu de 10 minutes\nMise à jour de la dépendance @iobroker /testing de 6.2.2 à 6.3.0",
+        "it": "Usa Retry-After (e log RateLimit header) di Cloudflare 429 per scegliere il ritardo di backoff invece di 10 minuti\nDipendenza @iobroker /testing aggiornata da 6.2.2 a 6.3.0",
+        "es": "Utilice Retry-After (y los encabezados Log RateLimit) de Cloudflare 429 respuestas para elegir el retraso en lugar de 10 minutos fijo\nSe actualizó la dependencia @iobroker /testing de 6.2.2 a 6.3.0",
+        "pl": "Użyj nagłówków Retry-After (i log RateLimit) z odpowiedzi Cloudflare 429, aby wybrać opóźnienie cofania zamiast stałego 10 minut\nZaktualizowano zależność @iobroker /testing z 6.2.2 do 6.3.0",
+        "uk": "Використовуйте Retry-After (і заголовки RateLimit) із відповідей Cloudflare 429, щоб вибрати затримку зворотного відходу замість фіксованих 10 хвилин\nОновлено залежність @iobroker /тестування з 6.2.2 до 6.3.0",
+        "zh-cn": "使用 Cloudflare 429 响应中的 Retry-After（和日志 RateLimit 标头）来选择退避延迟，而不是固定的 10 分钟\n将 @iobroker /testing 依赖项从 6.2.2 更新到 6.3.0"
+      },
       "1.11.5": {
         "en": "Handle Cloudflare HTTP 429 / error 1015 rate limits: stop immediate retries, abort the current poll cycle, and delay the next poll by 10 minutes",
         "de": "Cloudflare HTTP 429/error 1015 Ratenlimits behandeln: Stoppt sofortige Wiederholungen, Abbruch und nächste Umfrage um 10 Minuten verzögert",
@@ -80,19 +93,6 @@
         "pl": "Dodano opcję \"Włącz powiadomienia o punktach danych\" w zakładce Powiadomienia; po włączeniu, panel ogólnych ustawień powiadomień jest wyświetlany nawet bez konfiguracji Telegram lub Alexa\nZaktualizowana zależność geolokacji od 1.2.5 do 1.2.6",
         "uk": "Додано \"Включні сповіщення про дані\" в вкладці Notifications; при включенні панель налаштувань загального сповіщення відображається навіть без Telegram або Alexa налаштований\nОновлена залежність від 1,2,5 до 1.2.6",
         "zh-cn": "在通知标签中添加了“ 允许的数据点通知” 复选框; 当启用时, 一般通知设置面板会被显示, 即使没有 Telegram 或 Alexa 配置\n地理功能依赖性从1.2.5更新为1.2.6"
-      },
-      "1.10.2": {
-        "en": "Updated @alcalzone/release-script and related plugins to minimum required version 5.2.0\nUpdated minimum required Node.js engine from 20 to 22 in package.json\nReplaced custom wait/sleep helper with the built-in adapter.delay() method",
-        "de": "Aktualisierte @alcalzone/Release-script und verwandte Plugins auf minimale erforderliche Version 5.2.0\nAktualisiertes Minimum erforderlich Node.js Motor von 20 bis 22 in Paket.json\nErsetzte kundenspezifische Warte-/Schlafhilfe mit der integrierten adapter.delay() Methode",
-        "ru": "Обновленный @alcalzone/releasescript и соответствующие плагины к минимально необходимой версии 5.2.0\nОбновленный минимальный требуемый двигатель Node.js от 20 до 22 в пакете.json\nЗаменить пользовательский помощник ожидания / сна встроенным адаптером.delay()",
-        "pt": "Atualizado @alcalzone/release-script e plugins relacionados para a versão mínima necessária 5.2.0\nMotor Node.js atualizado mínimo exigido de 20 a 22 em package.json\nSubstituido personalizado wait/sleep helper com o método built-in adaptator.delay()",
-        "nl": "Bijgewerkt @alcalzone/release-script en bijbehorende plugins naar minimaal vereiste versie 5.2.0\nBijgewerkt minimaal vereiste Node.js motor van 20 tot 22 in package.json\nAangepaste wacht/slaaphelper vervangen door de ingebouwde adapter.delay() methode",
-        "fr": "Mise à jour @alcalzone/release-script et plugins associés à la version 5.2.0 minimale requise\nMoteur Node.js mis à jour minimum requis de 20 à 22 en paquet.json\nRemplace l'aide personnalisée d'attente/sleep avec la méthode adaptateur.delay() intégrée",
-        "it": "Aggiornato @alcalzone/release-script e relativi plugin per la versione minima richiesta 5.2.0\nMotore Node.js minimo aggiornato da 20 a 22 in package.json\nSostituito came/sleep helper personalizzato con l'adattatore integrato.delay() metodo",
-        "es": "Actualizado @alcalzone/release-script y plugins relacionados a la versión mínima requerida 5.2.0\nMínimo actualizado motor Node.js de 20 a 22 en paquete.json\nAyudador de espera personalizada reemplazado con el método adaptador incorporado.delay()",
-        "pl": "Aktualizacja @ alcalzone / release- script i powiązanych wtyczek do minimalnej wymaganej wersji 5.2.0\nZaktualizowany minimalny wymagany silnik Node.js od 20 do 22 w pakiecie.json\nZastąpiono niestandardowy pomocnik do oczekiwania / snu metodą built- in adapter.delay ()",
-        "uk": "Оновлено @alcalzone / реліз-script і пов'язані плагіни до мінімальної необхідної версії 5.2.0\nОновлено мінімальний двигун Node.js від 20 до 22 в package.json\nЗамінний користувальницький офіціантний офіціантка з вбудованим адаптером.delay() метод",
-        "zh-cn": "将@alcalzone/release-script和相关插件更新到最小要求的5.2.0版本\n将最小要求的Node.js引擎从20个包更新到22个包.json\n用内置适配器替换自定义的等待/睡眠帮助器.delay () 方法"
       }
     },
     "titleLang": {

@@ -308,7 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.11.6 (2026-10-16)
 - (skvarel) Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes
 - (skvarel) Updated @iobroker/testing dependency from 6.2.2 to 6.3.0
 
@@ -324,9 +324,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### 1.11.2 (2026-06-05)
 - (skvarel) Updated @alcalzone/release-script to minimum required version 5.2.1
 - (skvarel) Replaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector
-
-### 1.11.1 (2026-06-03)
-- (skvarel) Migrated project rules from GitHub Copilot to Cursor rules
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
