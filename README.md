@@ -308,6 +308,10 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes
+- (skvarel) Updated @iobroker/testing dependency from 6.2.2 to 6.3.0
+
 ### 1.11.5 (2026-10-15)
 - (skvarel) Handle Cloudflare HTTP 429 / error 1015 rate limits: stop immediate retries, abort the current poll cycle, and delay the next poll by 10 minutes
 
