@@ -1,4 +1,7 @@
 # Older changes
+## 1.11.3 (2026-06-10)
+- (skvarel) Added meta object types for adapter and instance namespace
+
 ## 1.11.2 (2026-06-05)
 - (skvarel) Updated @alcalzone/release-script to minimum required version 5.2.1
 - (skvarel) Replaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector

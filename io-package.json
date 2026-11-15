@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.7",
+    "version": "1.11.8",
     "news": {
+      "1.11.8": {
+        "en": "Reduce Life360 API load: refresh circles/places at most every 15 minutes and fetch member locations every poll; after a Cloudflare 429 keep a 4× poll interval for 60 minutes instead of returning to full rate immediately (helps with frequent HTTP 429 / error 1015)\nUpdated @iobroker/testing dependency from 6.3.0 to 6.3.2",
+        "de": "Life360-API-Last reduzieren: Kreise/Orte höchstens alle 15 Minuten aktualisieren und Mitgliederorte bei jeder Umfrage abrufen; nach Cloudflare 429 60 Minuten lang viermal abfragen, statt sofort zur vollen Rate zurückzukehren (hilft bei häufigem HTTP 429/ Fehler 1015)\n@iobroker /testing-Abhängigkeit von 6.3.0 auf 6.3.2 aktualisiert",
+        "ru": "Уменьшите нагрузку на API Life360: обновляйте круги и места не чаще чем каждые 15 минут и выбирайте местоположение участников каждого опроса; после Cloudflare 429 сохраняйте 4-кратный интервал опроса в течение 60 минут вместо того, чтобы сразу возвращаться к полной частоте (помогает при частых HTTP 429 и ошибке 1015)\nОбновлена зависимость @iobroker /testing с 6.3.0 до 6.3.2",
+        "pt": "Reduza a carga da API Life360: atualize os círculos a cada 15 minutos e busque os locais dos membros a cada enquete; após uma votação Cloudflare 429, mantenha um intervalo de 4x por 60 minutos em vez de retornar imediatamente (ajuda com HTTP 429/erro 1015)\nAtualizou a dependência @iobroker /testing de 6.3.0 a 6.3.2",
+        "nl": "Verminder de belasting van de Life360 API: vernieuw de cirkels/plaatsen maximaal elke 15 minuten en haal elke peiling de locaties van de leden op; houd na een Cloudflare 429 een interval van 4× 60 minuten aan in plaats van onmiddellijk terug te keren naar het volledige tarief (helpt bij veelvuldige HTTP 429/fout 1015)\n@iobroker /testafhankelijkheid bijgewerkt van 6.3.0 naar 6.3.2",
+        "fr": "Réduisez la charge de l'API Life360 : actualisez les cercles/les places au plus toutes les 15 minutes et recherchez les coordonnées des membres à chaque sondage ; après un Cloudflare 429, multipliez les sondages pendant 60 minutes au lieu de revenir au plein tarif immédiatement (aide à résoudre les problèmes HTTP 429/erreur 1015)\nMise à jour de la dépendance @iobroker /testing de 6.3.0 à 6.3.2",
+        "it": "Riduci il carico dell'API Life360: aggiorna cerchi/luoghi al massimo ogni 15 minuti e recupera le sedi dei membri ogni sondaggio; dopo un Cloudflare 429 mantiene un intervallo di 4 volte per 60 minuti invece di tornare subito al massimo (aiuta con HTTP 429/errore 1015)\nDipendenza @iobroker /testing aggiornata da 6.3.0 a 6.3.2",
+        "es": "Reduzca la carga de la API de Life360: actualice los círculos o lugares como máximo cada 15 minutos y busque las ubicaciones de los miembros en cada encuesta; después de un Cloudflare 429, mantenga un intervalo de 4 veces durante 60 minutos en lugar de volver al ritmo completo de inmediato (ayuda con el frecuente HTTP 429 /error 1015)\nSe actualizó la dependencia @iobroker /testing de 6.3.0 a 6.3.2",
+        "pl": "Zmniejsz obciążenie interfejsu API Life360: odświeżaj okręgi/miejsca co najwyżej co 15 minut i pobieraj lokalizacje członków w każdej ankiecie; po Cloudflare 429 zachowaj 4-krotny interwał ankiety przez 60 minut zamiast natychmiast wracać do pełnej szybkości (pomaga w przypadku częstych błędów HTTP 429/1015)\nZaktualizowano zależność @iobroker /testing z 6.3.0 do 6.3.2",
+        "uk": "Зменшіть навантаження API Life360: оновлюйте кільки/місця щонайбільше кожні 15 хвилин та отримуйте місцезнаходження учасників кожного опитування; після Cloudflare 429 зберігайте 4× інтервал опитування протягом 60 хвилин замість того, щоб негайно повертатися до повного показника (допомагає при частому HTTP 429/ помилка 1015)\nОновлено залежність @iobroker /тестування з 6.3.0 до 6.3.2",
+        "zh-cn": "减少 Life360 API 负载：最多每 15 分钟刷新圈子/地点，每次投票都获取成员位置；在 Cloudflare 429 之后，保持 4 倍的轮询间隔 60 分钟，而不是立即恢复全速率（有助于解决频繁的 HTTP 429/错误 1015）\n将 @iobroker /testing 依赖项从 6.3.0 更新到 6.3.2"
+      },
       "1.11.7": {
         "en": "Ignore Cloudflare Retry-After values below 60 seconds (including 0) and use the default 10-minute backoff instead, to avoid rapid re-polls that extend the rate-limit block",
         "de": "Ignoriere Cloudflare-Retry-After-Werte unter 60 Sekunden (einschließlich 0) und verwende stattdessen den 10-Minuten-Backoff, um schnelle Wiederholungen zu vermeiden",
@@ -80,19 +93,6 @@
         "pl": "Aktualizacja @ alcalzone / release- script do minimalnej wymaganej wersji 5.2.1\nZastąpiony prosty setTimeout / clearTimeout z adapter.setTimeout / clearTimeout w life360DbConnector",
         "uk": "Оновлено @alcalzone/видання до мінімальної необхідної версії 5.2.1\nЗамінний plainTimeout/clearTimeout з адаптером.setTimeout/clearTimeout в life360DbConnector",
         "zh-cn": "更新了 @alcalzone/释放-script到最低要求的5.2.1版本\n用适配器替换纯版设置 Timeout/ clearTimeout. set Timeout/ clearTimeout in life360Db 连接器"
-      },
-      "1.11.1": {
-        "en": "Migrated project rules from GitHub Copilot to Cursor rules",
-        "de": "Geförderte Projektregeln von GitHub Copilot zu Cursor-Regeln",
-        "ru": "Миграционные правила проекта от GitHub Copilot до Cursor",
-        "pt": "Regras de projeto modificadas do Copiloto GitHub para as regras do Cursor",
-        "nl": "Migrated project regels van GitHub Copilot naar Cursor regels",
-        "fr": "Règles de projet modifiées du copilote GitHub aux règles Cursor",
-        "it": "Regole di progetto migrate da GitHub Copilot a regole Cursor",
-        "es": "Reglas de proyecto migradas de GitHub Copilot a reglas de Cursor",
-        "pl": "Migrowane zasady projektu z GitHub Copilot do zasad kursora",
-        "uk": "Миттєві правила проекту від GitHub Copilot до правил Cursor",
-        "zh-cn": "从 GitHub 副驾驶到光标规则"
       }
     },
     "titleLang": {

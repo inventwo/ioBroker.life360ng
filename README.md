@@ -308,7 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.11.8 (2026-11-15)
 
 - (skvarel) Reduce Life360 API load: refresh circles/places at most every 15 minutes and fetch member locations every poll; after a Cloudflare 429 keep a 4× poll interval for 60 minutes instead of returning to full rate immediately (helps with frequent HTTP 429 / error 1015)
 - (skvarel) Updated @iobroker/testing dependency from 6.3.0 to 6.3.2
@@ -325,9 +325,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.11.4 (2026-07-02)
 - (skvarel) Fixed issue detected by repository checker #31
-
-### 1.11.3 (2026-06-10)
-- (skvarel) Added meta object types for adapter and instance namespace
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
