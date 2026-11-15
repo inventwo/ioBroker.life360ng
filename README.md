@@ -308,6 +308,11 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+
+- (skvarel) Reduce Life360 API load: refresh circles/places at most every 15 minutes and fetch member locations every poll; after a Cloudflare 429 keep a 4× poll interval for 60 minutes instead of returning to full rate immediately (helps with frequent HTTP 429 / error 1015)
+- (skvarel) Updated @iobroker/testing dependency from 6.3.0 to 6.3.2
+
 ### 1.11.7 (2026-10-16)
 - (skvarel) Ignore Cloudflare Retry-After values below 60 seconds (including 0) and use the default 10-minute backoff instead, to avoid rapid re-polls that extend the rate-limit block
 
