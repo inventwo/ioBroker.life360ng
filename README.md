@@ -308,8 +308,10 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### 1.11.8 (2026-11-15)
+### **WORK IN PROGRESS**
+- (skvarel) Skip Life360 places API calls when places processing is disabled; refresh circles less often in that case (60 min); persist circle IDs across restarts and still fetch members if /circles is rate-limited (fixes #48 follow-ups)
 
+### 1.11.8 (2026-11-15)
 - (skvarel) Reduce Life360 API load: refresh circles/places at most every 15 minutes and fetch member locations every poll; after a Cloudflare 429 keep a 4× poll interval for 60 minutes instead of returning to full rate immediately (helps with frequent HTTP 429 / error 1015)
 - (skvarel) Updated @iobroker/testing dependency from 6.3.0 to 6.3.2
 

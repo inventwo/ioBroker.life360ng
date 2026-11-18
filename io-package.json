@@ -230,6 +230,20 @@
       "native": {}
     },
     {
+      "_id": "info.circleStructure",
+      "type": "state",
+      "common": {
+        "name": "Cached Life360 circle structure",
+        "desc": "Internal JSON cache of circle IDs/names/places for restart resilience",
+        "type": "string",
+        "role": "json",
+        "read": true,
+        "write": false,
+        "def": ""
+      },
+      "native": {}
+    },
+    {
       "_id": "circles",
       "type": "device",
       "common": {
