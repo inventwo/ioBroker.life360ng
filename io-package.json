@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.8",
+    "version": "1.11.9",
     "news": {
+      "1.11.9": {
+        "en": "Skip Life360 places API calls when places processing is disabled; refresh circles less often in that case (60 min); persist circle IDs across restarts and still fetch members if /circles is rate-limited (fixes #48 follow-ups)",
+        "de": "Überspringe Life360 API-Aufrufe bei deaktivierter Ortsverarbeitung; aktualisiere Kreise seltener (60 min); behalte Kreis-IDs bei Neustarts bei und rufe trotzdem Mitglieder ab, wenn /circles ratenbegrenzt ist (behebt #48)",
+        "ru": "Skip Life360 запускает вызовы API, когда обработка мест отключена; в этом случае обновляйте круги реже (60 минут); сохраняйте идентификаторы кругов при перезапуске и продолжайте извлекать элементы, если скорость /circles ограничена (исправлено #48 follow-ups)",
+        "pt": "Ignore as chamadas de API do Life360 quando o processamento de locais está desativado; atualize os círculos com menos frequência (60 min); mantenha os IDs do círculo nas reinicializações e ainda busque membros se /circles for limitado (corrige #48 follow-ups)",
+        "nl": "Skip Life360 plaatst API-aanroepen wanneer de verwerking van plaatsen is uitgeschakeld; ververs cirkels in dat geval minder vaak (60 min); blijf ID's omcirkelen bij herstarts en haal nog steeds leden op als /circles beperkt is (corrigeert #48 -follow-ups)",
+        "fr": "Skip Life360 passe des appels d'API lorsque le traitement est désactivé ; actualise les cercles moins souvent (60 min) ; conserve les identifiants des cercles aux redémarrages et récupère les membres si /circles est limité en débit (corrige les suivis #48)",
+        "it": "Skip Life360 effettua chiamate API quando l'elaborazione dei posti è disattivata; aggiorna le cerchie meno spesso (60 min); persiste gli ID delle cerchie tra i riavvii e recupera membri se /circles ha una frequenza limitata #48",
+        "es": "Skip Life360 hace llamadas a la API cuando el procesamiento de sitios está desactivado; actualiza los círculos con menos frecuencia (60 minutos); persiste en los ID de los círculos al reiniciarse y sigue buscando miembros si /circles tiene un límite de velocidad (corrige el seguimiento de #48)",
+        "pl": "Pomiń wywołania interfejsu API Life360, gdy przetwarzanie miejsc jest wyłączone; odświeżaj koła rzadziej w tym przypadku (60 min); utrzymuj identyfikatory okręgów podczas restartów i nadal pobieraj członków, jeśli /kółka jest ograniczona (naprawia kontynuacje #48)",
+        "uk": "Skip Life360 здійснює виклики API, коли обробка місць вимкнена; у цьому випадку оновлюйте кола рідше (60 хв); зберігайте ідентифікатори кола під час перезапуску та все ще отримуйте учасників, якщо /circle обмежено швидкістю (виправлено #48 -подальші дії)",
+        "zh-cn": "禁用地点处理时跳过 Life360 发出 API 调用；在这种情况下，减少刷新圈子的频率（60 分钟）；在重启后保留圈子 ID，如果 /circles 受速率限制，仍可获取成员（修复 #48 后续问题）"
+      },
       "1.11.8": {
         "en": "Reduce Life360 API load: refresh circles/places at most every 15 minutes and fetch member locations every poll; after a Cloudflare 429 keep a 4× poll interval for 60 minutes instead of returning to full rate immediately (helps with frequent HTTP 429 / error 1015)\nUpdated @iobroker/testing dependency from 6.3.0 to 6.3.2",
         "de": "Life360-API-Last reduzieren: Kreise/Orte höchstens alle 15 Minuten aktualisieren und Mitgliederorte bei jeder Umfrage abrufen; nach Cloudflare 429 60 Minuten lang viermal abfragen, statt sofort zur vollen Rate zurückzukehren (hilft bei häufigem HTTP 429/ Fehler 1015)\n@iobroker /testing-Abhängigkeit von 6.3.0 auf 6.3.2 aktualisiert",
@@ -80,19 +93,6 @@
         "pl": "Dodano typy metaobiektów dla adaptera i instancji przestrzeni nazw",
         "uk": "Додано типи об'єктів метаданих для перетворення та простору імен",
         "zh-cn": "添加适配器和实例命名空间的元对象类型"
-      },
-      "1.11.2": {
-        "en": "Updated @alcalzone/release-script to minimum required version 5.2.1\nReplaced plain setTimeout/clearTimeout with adapter.setTimeout/clearTimeout in life360DbConnector",
-        "de": "Aktualisiertes @alcalzone/Release-script auf minimal erforderliche Version 5.2.1\nErsetzte einfache EinstellungTimeout/clearTimeout mit adapter.setTimeout/clearTimeout in life360DbConnector",
-        "ru": "Обновленный @alcalzone/release-script до минимально необходимой версии 5.2.1\nЗаменить простой setTimeout/clearTimeout на adapter.setTimeout/clearTimeout в life360DbConnector",
-        "pt": "Atualizado @alcalzone/release-script para versão mínima necessária 5.2.1\nConjunto simples substituídoTimeout/clearTimeout com adaptador.setTimeout/clearTimeout in life360DbConnector",
-        "nl": "Bijgewerkt @alcalzone/release-script naar minimaal vereiste versie 5.2.1\nVervangen platte setTimeout/clearTimeout met adapter.setTimeout/clearTimeout in life360DbConnector",
-        "fr": "Mise à jour @alcalzone/release-script à la version minimale requise 5.2.1\nRemplacé Set simpleTimeout/clearTimeout avec adaptateur.setTimeout/clearTimeout dans life360DbConnector",
-        "it": "Aggiornato @alcalzone/release-script alla versione minima richiesta 5.2.1\nSostituito set normaleTimeout/clearTimeout con adattatore.setTimeout/clearTimeout nella vita360DbConnector",
-        "es": "Actualizado @alcalzone/release-script a la versión mínima requerida 5.2.1\nReemplazado setTimeout/clearTimeout con adaptador.setTimeout/clearTimeout en life360DbConnector",
-        "pl": "Aktualizacja @ alcalzone / release- script do minimalnej wymaganej wersji 5.2.1\nZastąpiony prosty setTimeout / clearTimeout z adapter.setTimeout / clearTimeout w life360DbConnector",
-        "uk": "Оновлено @alcalzone/видання до мінімальної необхідної версії 5.2.1\nЗамінний plainTimeout/clearTimeout з адаптером.setTimeout/clearTimeout в life360DbConnector",
-        "zh-cn": "更新了 @alcalzone/释放-script到最低要求的5.2.1版本\n用适配器替换纯版设置 Timeout/ clearTimeout. set Timeout/ clearTimeout in life360Db 连接器"
       }
     },
     "titleLang": {

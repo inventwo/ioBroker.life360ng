@@ -308,7 +308,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.11.9 (2026-11-18)
 - (skvarel) Skip Life360 places API calls when places processing is disabled; refresh circles less often in that case (60 min); persist circle IDs across restarts and still fetch members if /circles is rate-limited (fixes #48 follow-ups)
 
 ### 1.11.8 (2026-11-15)
@@ -324,9 +324,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.11.5 (2026-10-15)
 - (skvarel) Handle Cloudflare HTTP 429 / error 1015 rate limits: stop immediate retries, abort the current poll cycle, and delay the next poll by 10 minutes
-
-### 1.11.4 (2026-07-02)
-- (skvarel) Fixed issue detected by repository checker #31
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)

@@ -1,4 +1,7 @@
 # Older changes
+## 1.11.4 (2026-07-02)
+- (skvarel) Fixed issue detected by repository checker #31
+
 ## 1.11.3 (2026-06-10)
 - (skvarel) Added meta object types for adapter and instance namespace
 
