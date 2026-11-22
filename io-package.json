@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.11.9",
+    "version": "1.12.0",
     "news": {
+      "1.12.0": {
+        "en": "Configurable refresh for Life360 circles/app places in Integration tab: only on restart (default), every X hours, or once a day (person locations still every poll; reduces Cloudflare 429 on /circles)\nTracker maps: writable `dateFrom`/`dateTo` states and `?from=&to=` URL params to control the visible day range from scripts/Vis (#11)",
+        "de": "Konfigurierbarer Refresh für Life360-Kreise/App-Orte im Tab Integration: nur bei Neustart (Standard), alle X Stunden oder einmal am Tag (Nutzer orten trotzdem jede Umfrage; reduziert Cloudflare 429 auf /circles)\nTracker-Karten: beschreibbare `DateFrom`/`DateTo`-Staaten und `? from=&to=` URL-Parameter für den Tagesabstand von Scripts/VIS (#11)",
+        "ru": "Настраиваемое обновление для окружностей/приложений Life360 на вкладке «Интеграция»: только при перезапуске (по умолчанию), каждые X часов или один раз в день (каждый опрос по-прежнему определяет местоположение пользователей; снижает Cloudflare 429 на /circles)\nКарты трекеров: доступные для записи состояния `DateFrom`/`DateTo` и `? URL-параметры from=&to=` для управления диапазоном видимых дней с помощью скриптов/VIS (#11)",
+        "pt": "Atualização configurável para círculos Life360 na guia Integração: somente ao reiniciar (padrão), a cada X horas ou uma vez por dia (a pessoa ainda está em cada enquete; reduz Cloudflare 429 em /circles)\nTracker maps: estados graváveis `dateFrom`/`DateTo` e `? from=&to=` Parâmetros de URL de scripts/VIS (#11)",
+        "nl": "Configureerbare vernieuwing voor Life360 circles/apps op het tabblad Integratie: alleen bij herstart (standaard), elke X uur, of eenmaal per dag (bij elke peiling worden nog steeds personen geplaatst; verlaagt Cloudflare 429 aan/cirkels)\nTrackerkaarten: beschrijfbare `Datefrom`/`Datumto` staten en `? from=&to=` URL-parameters om het zichtbare dagbereik te bepalen op basis van scripts/VIS (#11)",
+        "fr": "Actualisation configurable pour Life360 Circles/App Places dans l'onglet Intégration : uniquement au redémarrage (par défaut), toutes les X heures ou une fois par jour (localisation des personnes par sondage ; Cloudflare 429 réduit sur /circles)\nCartes de suivi : états « DateFrom`/`DateTo` en écriture et `? from=&to=` URL pour contrôler la plage de jours visibles depuis Scripts/VIS (#11)",
+        "it": "Aggiornamento configurabile per Life360 Circles/app nella scheda Integrazione: solo al riavvio (predefinito), ogni X ore o una volta al giorno\nMappe tracker: stati `DataFrom`/DateTo` scrivibili e `? from=&to=` Parametri URL per i giorni visibili da scripts/VIS (#11)",
+        "es": "Actualización configurable para los círculos o aplicaciones de Life360 en la pestaña Integración: solo al reiniciar (por defecto), cada X horas o una vez al día (las personas siguen en cada encuesta; reduce Cloudflare 429 en /circles)\nMapas de rastreo: estados escribibles de `DateFrom`/`DateTo` y `? from=&to=` Parámetros de URL para controlar el rango de días visibles de Scripts/vis (#11)",
+        "pl": "Konfigurowalne odświeżanie kółek/miejsc aplikacji Life360 w zakładce Integracja: tylko przy ponownym uruchomieniu (domyślnie), co X godzin lub raz dziennie (lokalizacje osób nadal w każdej ankiecie; zmniejsza liczbę Cloudflare 429 na /kółkach)\nMapy śledzenia: zapisalne stany `DateFrom`/`Dateto` i `? from=&to=` Paramy URL, aby kontrolować widoczny zakres dni z skryptów/VIS (#11)",
+        "uk": "Налаштовується оновлення для кіл Life360/місць додатків на вкладці Інтеграція: лише при перезапуску (за замовчуванням), кожні X годин або раз на день (розташування людей все ще кожне опитування; зменшує Cloudflare 429 в/circle)\nКарти трекера: записуються стани `dateFrom`/`Dateto` та `? from=&to=` Параметри URL-адреси для керування видимим діапазоном днів із скриптів/VIS (#11)",
+        "zh-cn": "在 “集成” 选项卡中对 Life360 圈子/应用程序位置进行可配置的刷新：仅在重启时（默认）、每 X 小时或每天一次（每轮投票仍有人员位置；在 /circles 上减少 Cloudflare 429 个位置）\n追踪器地图：可写的 `dateFrom`/`dateTo` 状态和 `？from=&to=` 用于控制 Scripts/VI 中可见天数范围的 URL 参数 (#11)"
+      },
       "1.11.9": {
         "en": "Skip Life360 places API calls when places processing is disabled; refresh circles less often in that case (60 min); persist circle IDs across restarts and still fetch members if /circles is rate-limited (fixes #48 follow-ups)",
         "de": "Überspringe Life360 API-Aufrufe bei deaktivierter Ortsverarbeitung; aktualisiere Kreise seltener (60 min); behalte Kreis-IDs bei Neustarts bei und rufe trotzdem Mitglieder ab, wenn /circles ratenbegrenzt ist (behebt #48)",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono problem wykryty przez moduł sprawdzający repozytorium nr 31",
         "uk": "Виправлено проблему, виявлену перевірником репозиторію №31",
         "zh-cn": "修复了仓库检查器检测到的问题 #31"
-      },
-      "1.11.3": {
-        "en": "Added meta object types for adapter and instance namespace",
-        "de": "Meta-Objekttypen für Adapter und Instanz-Namespace hinzugefügt",
-        "ru": "Добавлены типы метаобъектов для адаптера и пространства имен экземпляров",
-        "pt": "Tipos de meta- objecto adicionados para o espaço de nomes do adaptador e da instância",
-        "nl": "Toegevoegd meta-objecttypes voor adapter en instance namespace",
-        "fr": "Ajout de types d'objets méta pour l'adaptateur et l'espace de noms d'instance",
-        "it": "Aggiunti i tipi di meta oggetto per adattatore e namespace di istanza",
-        "es": "Se agregaron tipos de objetos meta para el adaptador y el espacio de nombres de instancia",
-        "pl": "Dodano typy metaobiektów dla adaptera i instancji przestrzeni nazw",
-        "uk": "Додано типи об'єктів метаданих для перетворення та простору імен",
-        "zh-cn": "添加适配器和实例命名空间的元对象类型"
       }
     },
     "titleLang": {

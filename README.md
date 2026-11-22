@@ -325,7 +325,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.12.0 (2026-11-22)
 - (skvarel) Configurable refresh for Life360 circles/app places in Integration tab: only on restart (default), every X hours, or once a day (person locations still every poll; reduces Cloudflare 429 on /circles)
 - (skvarel) Tracker maps: writable `dateFrom`/`dateTo` states and `?from=&to=` URL params to control the visible day range from scripts/Vis (#11)
 
@@ -342,9 +342,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 ### 1.11.6 (2026-10-16)
 - (skvarel) Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes
 - (skvarel) Updated @iobroker/testing dependency from 6.2.2 to 6.3.0
-
-### 1.11.5 (2026-10-15)
-- (skvarel) Handle Cloudflare HTTP 429 / error 1015 rate limits: stop immediate retries, abort the current poll cycle, and delay the next poll by 10 minutes
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)
