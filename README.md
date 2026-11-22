@@ -64,6 +64,14 @@ Add private places not visible to Life360 cloud services. The adapter checks pre
 
 Choose which Life360 data to process: circles, places, people.
 
+Under **Refresh circles & app places** you can choose when the adapter reloads circle/place definitions from Life360:
+
+- **Only on instance restart** (default)
+- **Every X hours** (configurable)
+- **Once a day**
+
+Person locations still update on every poll. After changing circles or places in the Life360 app, restart the instance (startup mode) or wait for the next automatic refresh.
+
 ### Location-Tracking
 
 Enable location-tracking to add geo-positioning details (latitude, longitude, `locationName`) to the people data points.
@@ -308,6 +316,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Configurable refresh for Life360 circles/app places in Integration tab: only on restart (default), every X hours, or once a day (person locations still every poll; reduces Cloudflare 429 on /circles)
+
 ### 1.11.9 (2026-11-18)
 - (skvarel) Skip Life360 places API calls when places processing is disabled; refresh circles less often in that case (60 min); persist circle IDs across restarts and still fetch members if /circles is rate-limited (fixes #48 follow-ups)
 

@@ -112,6 +112,46 @@
                             "lg": 4,
                             "xl": 4
                         },
+                        "life360_structure_refresh": {
+                            "type": "select",
+                            "label": "life360_structure_refresh",
+                            "help": "life360_structure_refresh_help",
+                            "newLine": true,
+                            "default": "startup",
+                            "options": [
+                                {
+                                    "label": "life360_structure_refresh_startup",
+                                    "value": "startup"
+                                },
+                                {
+                                    "label": "life360_structure_refresh_interval",
+                                    "value": "interval"
+                                },
+                                {
+                                    "label": "life360_structure_refresh_daily",
+                                    "value": "daily"
+                                }
+                            ],
+                            "xs": 12,
+                            "sm": 8,
+                            "md": 6,
+                            "lg": 6,
+                            "xl": 6
+                        },
+                        "life360_structure_refresh_hours": {
+                            "type": "number",
+                            "label": "life360_structure_refresh_hours",
+                            "help": "life360_structure_refresh_hours_help",
+                            "default": 6,
+                            "min": 1,
+                            "max": 168,
+                            "hidden": "data.life360_structure_refresh !== 'interval'",
+                            "xs": 12,
+                            "sm": 4,
+                            "md": 3,
+                            "lg": 3,
+                            "xl": 3
+                        },
                         "track_location_people": {
                             "type": "checkbox",
                             "label": "track_location_people",

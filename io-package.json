@@ -179,6 +179,8 @@
     "process_life360_circles": true,
     "process_life360_places": true,
     "process_life360_people": true,
+    "life360_structure_refresh": "startup",
+    "life360_structure_refresh_hours": 6,
     "debugging_verbose": false,
     "tracker_enabled": false,
     "tracker_min_distance": 50,
