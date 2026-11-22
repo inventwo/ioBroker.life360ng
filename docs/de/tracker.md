@@ -54,6 +54,22 @@ Unter **Allgemein → Standardanzeige (Tage)** kannst du festlegen, wie viele Ta
 
 Beim Öffnen der Karte wird das Startdatum immer auf den konfigurierten Wert zurückgesetzt (heute minus N−1 Tage). Eine manuelle Änderung des Datepickers gilt nur für die aktuelle Sitzung.
 
+#### Zeitraum per ioBroker steuern
+
+Schreibbare States aktualisieren die Karten-URL, damit Vis/Scripts den sichtbaren Tageszeitraum setzen können:
+
+| State | Beschreibung |
+|---|---|
+| `tracker.<person>.dateFrom` | Von-Datum (`YYYY-MM-DD`) → als `?from=` angehängt |
+| `tracker.<person>.dateTo` | Bis-Datum (`YYYY-MM-DD`) → als `?to=` angehängt |
+| `tracker.circle.dateFrom` / `dateTo` | Entsprechend für die Kreiskarte |
+
+Bei Änderung werden `url` und `urlLocal` neu gesetzt. Binde das Vis-iFrame an `urlLocal`, damit der neue Zeitraum übernommen wird. Leere Werte entfernen die Query-Parameter; die Karte fällt auf die Standardanzeige zurück.
+
+Beispiel: Zu Beginn einer Wanderung `dateFrom` (und optional `dateTo`) auf das heutige Datum setzen — das iFrame zeigt dann die Route ab heute.
+
+> Die Filterung ist tagesgenau (nicht stundenweise). Für „letzte 5 Stunden“ per Script `dateFrom` auf heute setzen; echte Stundenfilterung gibt es noch nicht.
+
 ---
 
 ### 4. Hamburger-Menü (☰)
