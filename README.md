@@ -325,7 +325,7 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.12.1 (2026-11-26)
 - (skvarel) Add HTTPS request timeouts and recover from hung polls after network interruptions; set info.connection false after repeated poll failures (#51)
 
 ### 1.12.0 (2026-11-22)
@@ -341,10 +341,6 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 
 ### 1.11.7 (2026-10-16)
 - (skvarel) Ignore Cloudflare Retry-After values below 60 seconds (including 0) and use the default 10-minute backoff instead, to avoid rapid re-polls that extend the rate-limit block
-
-### 1.11.6 (2026-10-16)
-- (skvarel) Use Retry-After (and log RateLimit headers) from Cloudflare 429 responses to choose the backoff delay instead of a fixed 10 minutes
-- (skvarel) Updated @iobroker/testing dependency from 6.2.2 to 6.3.0
 
 ## Older changes
 - [CHANGELOG_OLD.md](https://github.com/inventwo/ioBroker.life360ng/blob/main/CHANGELOG_OLD.md)

@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "life360ng",
-    "version": "1.12.0",
+    "version": "1.12.1",
     "news": {
+      "1.12.1": {
+        "en": "Add HTTPS request timeouts and recover from hung polls after network interruptions; set info.connection false after repeated poll failures (#51)",
+        "de": "HTTPS-Abfrage-Timeouts hinzufügen und nach Netzausfällen hängen; info.connection nach wiederholten Abfragefehlern auf falsch setzen (#51)",
+        "ru": "Добавьте тайм-ауты HTTPS-запросов и восстановите результаты зависших опросов после перебоев в сети; установите info.connection false после повторных сбоев опроса (#51)",
+        "pt": "Adicione tempos limite de solicitações HTTPS e recupere enquetes após interrupções na rede; defina info.connection false após repetidas falhas (#51)",
+        "nl": "Voeg time-outs voor HTTPS-aanvragen toe en herstel van vastgelopen peilingen na netwerkonderbrekingen; stel info.connection false in na herhaalde mislukte peilingen (#51)",
+        "fr": "Ajoutez des délais d'attente pour les requêtes HTTPS et récupérez les sondages bloqués en cas d'interruption du réseau ; définissez info.connection false (#51)",
+        "it": "Aggiungi timeout per le richieste HTTPS e recupera dai sondaggi interrotti; imposta info.connection false dopo ripetuti sondaggi (#51)",
+        "es": "Añada los tiempos de espera de las solicitudes HTTPS y recupérese de las encuestas sin éxito tras interrupciones de la red; establezca info.connection en falso tras repetidos errores en las encuestas (#51)",
+        "pl": "Dodawanie limitów czasu żądania HTTPS i odzyskiwanie z zawieszonych ankiet po przerwach w sieci; ustaw info.connection false po powtarzających się błędach ankiety (#51)",
+        "uk": "Додайте тайм-аути запитів HTTPS та відновіть після зависання опитувань після перебоїв у мережі; встановіть info.connection false після повторних помилок опитування (#51)",
+        "zh-cn": "添加 HTTPS 请求超时并在网络中断后从挂起的民意调查中恢复；在反复轮询失败后将 info.connection 设置为 false (#51)"
+      },
       "1.12.0": {
         "en": "Configurable refresh for Life360 circles/app places in Integration tab: only on restart (default), every X hours, or once a day (person locations still every poll; reduces Cloudflare 429 on /circles)\nTracker maps: writable `dateFrom`/`dateTo` states and `?from=&to=` URL params to control the visible day range from scripts/Vis (#11)",
         "de": "Konfigurierbarer Refresh für Life360-Kreise/App-Orte im Tab Integration: nur bei Neustart (Standard), alle X Stunden oder einmal am Tag (Nutzer orten trotzdem jede Umfrage; reduziert Cloudflare 429 auf /circles)\nTracker-Karten: beschreibbare `DateFrom`/`DateTo`-Staaten und `? from=&to=` URL-Parameter für den Tagesabstand von Scripts/VIS (#11)",
@@ -80,19 +93,6 @@
         "pl": "Obsługa limitów szybkości Cloudflare HTTP 429/błąd 1015: zatrzymaj natychmiastowe ponowne próby, przerwaj bieżący cykl ankiety i opóźnij następną ankietę o 10 minut",
         "uk": "Обробка обмежень швидкості Cloudflare HTTP 429/ помилка 1015: зупиніть негайні повторні спроби, перервіть поточний цикл опитування та затримайте наступне опитування на 10 хвилин",
         "zh-cn": "处理 Cloudflare HTTP 429/error 1015 速率限制：停止立即重试，中止当前轮询周期，并将下一次轮询延迟 10 分钟"
-      },
-      "1.11.4": {
-        "en": "Fixed issue detected by repository checker #31",
-        "de": "Problem behoben, das vom Repository-Prüfer erkannt wurde #31",
-        "ru": "Исправлена ошибка, обнаруженная средством проверки репозитория #31",
-        "pt": "Problema corrigido detectado pelo verificador de repositório #31",
-        "nl": "Opgelost probleem gedetecteerd door repository checker #31",
-        "fr": "Problème résolu détecté par le vérificateur de dépôt #31",
-        "it": "Risolto il problema rilevato dal controllore del repository #31",
-        "es": "Se solucionó el problema detectado por el verificador del repositorio #31.",
-        "pl": "Naprawiono problem wykryty przez moduł sprawdzający repozytorium nr 31",
-        "uk": "Виправлено проблему, виявлену перевірником репозиторію №31",
-        "zh-cn": "修复了仓库检查器检测到的问题 #31"
       }
     },
     "titleLang": {
