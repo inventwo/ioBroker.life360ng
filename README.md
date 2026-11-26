@@ -325,6 +325,9 @@ Note: The original [repository](https://github.com/MiGoller/ioBroker.life360) is
 <!--
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Add HTTPS request timeouts and recover from hung polls after network interruptions; set info.connection false after repeated poll failures (#51)
+
 ### 1.12.0 (2026-11-22)
 - (skvarel) Configurable refresh for Life360 circles/app places in Integration tab: only on restart (default), every X hours, or once a day (person locations still every poll; reduces Cloudflare 429 on /circles)
 - (skvarel) Tracker maps: writable `dateFrom`/`dateTo` states and `?from=&to=` URL params to control the visible day range from scripts/Vis (#11)
